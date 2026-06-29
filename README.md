@@ -1,29 +1,29 @@
-# NDF Foundation 0.2 Planning Package
+# NDF CastCore First Integration Baseline
 
-Dieses Paket startet die nächste Entwicklungsphase nach **NDF Foundation 0.1**.
-
-## Phase
-
-```text
-Foundation 0.2
-```
+Dieses Paket dokumentiert CastCore als erste echte Projektintegration des Nova Development Frameworks.
 
 ## Ziel
 
-Foundation 0.2 beweist, dass NDF nicht nur strukturell aufgebaut ist, sondern praktisch nutzbar wird.
+CastCore wird als reales Referenzprojekt genutzt, um NDF praktisch zu validieren.
 
-Der Fokus liegt auf:
+Dieses Paket wird in das **NDF-Repository** importiert, nicht direkt in das CastCore-Repository.
 
-- Repository-Konsolidierung
-- Basic Automation Checks
-- erster echter Projektintegration mit CastCore
-- Academy Band 1 Ausbau
-- Website-Prototyp
-- Export-Prototyp
-- Vorbereitung auf Foundation 0.2 Release
+## Enthalten
+
+- CastCore Integration Baseline
+- Project Manifest Draft
+- Project Profile Draft
+- Capability Matrix Draft
+- Compliance Check Draft
+- Health Score Draft
+- Work Package Queue Draft
+- Risks & Lessons Learned
+- Claude Prompts für CastCore
+- ADR-0026
+- Project Brain Notes
 
 ## Commit
 
 ```text
-docs(roadmap): add Foundation 0.2 planning package
+docs(integrations): add CastCore first integration baseline
 ```
