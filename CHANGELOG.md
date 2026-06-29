@@ -1,16 +1,17 @@
 # Changelog
 
-## 0.1.0-foundation-sprint-1
+## [0.1.0-foundation-release] - Foundation Release
 
 ### Added
-- NDF README
-- Vision und Mission
-- Manifest
-- ADR-0001 Human-Governed Git
-- ADR-0002 VS Code + GitHub Desktop Standard
-- Project Brain
-- Git Standard
-- Workflow Standard
-- Claude Task Template
-- GitHub Desktop Schnellstart
-- Erste Academy-Lektion
+
+- NDF Constitution
+- Core Architecture
+- Governance
+- Quality Gates
+- Project Brain 2.0
+- ADR-0005
+- ADR-0006
+- Template Library foundation
+- Prompt Library foundation
+- Academy skeleton
+- Branding Bible skeleton
