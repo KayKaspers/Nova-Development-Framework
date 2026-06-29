@@ -1,30 +1,32 @@
-# NDF Minimal Example Project
+# NDF Foundation 0.1 Release Package
 
-Dieses Paket ergänzt das Nova Development Framework um ein vollständiges kleines Beispielprojekt.
+Dieses Paket bereitet den ersten stabilen Foundation-Meilenstein des Nova Development Frameworks vor.
 
-## Ziel
+## Release
 
-Das Beispiel zeigt praktisch, wie ein Projekt nach NDF aussieht, ohne direkt komplex zu werden.
+```text
+NDF Foundation 0.1
+```
+
+## Zweck
+
+Foundation 0.1 markiert den Punkt, an dem das NDF-Fundament stabil genug ist, um darauf weitere Inhalte, Beispiele, Academy-Kapitel, Projektadapter und spätere Automatisierung aufzubauen.
 
 ## Enthalten
 
-- Beispielprojekt unter `examples/minimal-ndf-project/`
-- Project Manifest
-- Project Profile
-- Capability Matrix
-- Compliance Check
-- Health Score
-- Work Package Queue
-- Project Brain
-- Roadmap
-- Quality Gates
-- Claude Work Package Prompt
-- Beispiel-Rückmeldung an Nova
-- ADR-0022
+- Foundation 0.1 Release Notes
+- Release Checklist
+- Release Decision Record
+- Version Manifest
+- GitHub Release Draft
+- Release Quality Gate Record
+- Release Tagging Guide
+- Post-Release Roadmap
+- ADR-0023
 - Project Brain Notes
 
 ## Commit
 
 ```text
-docs(examples): add minimal NDF example project
+chore(release): prepare Foundation 0.1 release package
 ```

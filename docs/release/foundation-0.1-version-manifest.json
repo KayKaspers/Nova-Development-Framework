@@ -1,0 +1,34 @@
+{
+  "release": "NDF Foundation 0.1",
+  "tag": "v0.1.0-foundation",
+  "type": "foundation-release",
+  "status": "prepared",
+  "date_prepared": "2026-06-29",
+  "source_of_truth": "Git repository",
+  "major_components": [
+    "Constitution",
+    "Governance",
+    "Master Plan",
+    "Blueprint",
+    "Domain Model",
+    "Practical Workflow",
+    "Prompt Library v0.1",
+    "Template Library v0.1",
+    "Project System v0.1",
+    "Toolkit v0.1",
+    "Project Starter Manual Flow v0.1",
+    "Academy Band 1 Skeleton v0.1",
+    "Export Concept v0.1",
+    "Website Concept v0.1",
+    "Branding Bible v0.1",
+    "Minimal Example Project"
+  ],
+  "known_limitations": [
+    "Academy content is not fully written",
+    "Website is not yet built",
+    "Export pipeline is not yet automated",
+    "Toolkit is not yet a CLI",
+    "Automation checks are not yet implemented"
+  ],
+  "next_phase": "Foundation 0.2"
+}
