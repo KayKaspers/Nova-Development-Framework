@@ -1,20 +1,20 @@
-# NDF Project System v0.1
+# NDF Template Library v0.1
 
-Das NDF Project System definiert, wie konkrete Projekte an das Nova Development Framework angebunden, beschrieben, bewertet und weiterentwickelt werden.
+Die NDF Template Library ist die wiederverwendbare Vorlagenbibliothek des Nova Development Frameworks.
 
-Es ersetzt den einfachen Begriff "Project Adapter" durch ein vollständiges System aus:
+Sie stellt standardisierte Dokument-, Projekt-, Review-, Release-, Security-, Project-Brain- und Work-Package-Vorlagen bereit.
 
-- Project Manifest
-- Project Profile
-- Capability Matrix
-- Quality Gates
-- Health Score
-- Compliance Check
-- Work Package Queue
-- Project Brain Link
+## Ziel
+
+- neue Projekte schneller starten
+- einheitliche Dokumentation
+- bessere Reviews
+- klare Release-Prozesse
+- konsistente Project-Brain-Struktur
+- wiederverwendbare Vorlagen für Claude/Nova-Workflows
 
 ## Commit
 
 ```text
-feat(project-system): add NDF Project System v0.1
+feat(templates): add NDF Template Library v0.1
 ```
