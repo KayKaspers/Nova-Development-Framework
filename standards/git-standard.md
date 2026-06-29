@@ -1,26 +1,21 @@
 # Git Standard
 
-## Grundregel
+## Empfohlener Einsteigerweg
+GitHub Desktop verwenden.
 
-Git wird durch den Menschen bedient. KI darf Vorschläge machen, aber nicht eigenständig veröffentlichen.
+## Commit-Format
+Conventional Commits:
 
-## Einsteigerweg mit GitHub Desktop
+```text
+feat(scope): kurze Beschreibung
+fix(scope): kurze Beschreibung
+docs(scope): kurze Beschreibung
+chore(scope): kurze Beschreibung
+```
 
-1. Repository klonen
-2. Dateien ändern
-3. Änderungen in GitHub Desktop prüfen
-4. Commit-Nachricht schreiben
-5. Commit ausführen
-6. Push ausführen
-
-## Commit-Stil
-
-NDF nutzt Conventional Commits:
-
-- feat: neue Funktion
-- fix: Fehlerbehebung
-- docs: Dokumentation
-- chore: Wartung
-- ci: CI/CD
-- build: Build-System
-- refactor: Umstrukturierung
+## Verbot ohne ausdrückliche Freigabe
+- force push
+- reset --hard
+- clean -fd
+- rebase
+- branch delete
