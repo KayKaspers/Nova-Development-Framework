@@ -1,0 +1,32 @@
+name: "Minimal NDF Project"
+slug: "minimal-ndf-project"
+owner: "Kay"
+architecture_lead: "Nova"
+implementation_assistant: "Claude"
+repository: "Nova-Development-Framework/examples/minimal-ndf-project"
+status: "example"
+ndf_level: 2
+
+project_type: "documentation-example"
+primary_language: "markdown"
+secondary_languages:
+  - "yaml"
+
+deployment:
+  docker: false
+  self_hosted: false
+  cloud: false
+
+quality_targets:
+  documentation: "required"
+  tests: "optional"
+  security: "basic"
+  ci: "not_required"
+  release_process: "example"
+
+ndf:
+  project_brain: true
+  prompt_workflow: true
+  quality_gates: true
+  health_score: true
+  compliance_check: true

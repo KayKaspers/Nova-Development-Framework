@@ -1,29 +1,30 @@
-# NDF Branding Bible v0.1
+# NDF Minimal Example Project
 
-Die NDF Branding Bible definiert die visuelle und sprachliche Identität des Nova Development Frameworks.
+Dieses Paket ergänzt das Nova Development Framework um ein vollständiges kleines Beispielprojekt.
 
 ## Ziel
 
-NDF soll professionell, ruhig, technisch, vertrauenswürdig und einsteigerfreundlich wirken.
+Das Beispiel zeigt praktisch, wie ein Projekt nach NDF aussieht, ohne direkt komplex zu werden.
 
 ## Enthalten
 
-- Brand Strategy
-- Voice & Tone
-- Color System
-- Typography Rules
-- Logo Guidelines
-- Diagram Style
-- Document Style
-- Website Style
-- Accessibility Rules
-- erste SVG-Assets
-- Branding Templates
-- Branding Prompts
-- ADR-0021
+- Beispielprojekt unter `examples/minimal-ndf-project/`
+- Project Manifest
+- Project Profile
+- Capability Matrix
+- Compliance Check
+- Health Score
+- Work Package Queue
+- Project Brain
+- Roadmap
+- Quality Gates
+- Claude Work Package Prompt
+- Beispiel-Rückmeldung an Nova
+- ADR-0022
+- Project Brain Notes
 
 ## Commit
 
 ```text
-docs(branding): add NDF Branding Bible v0.1
+docs(examples): add minimal NDF example project
 ```
