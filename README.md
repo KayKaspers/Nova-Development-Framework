@@ -1,20 +1,22 @@
-# NDF Template Library v0.1
+# NDF Toolkit v0.1
 
-Die NDF Template Library ist die wiederverwendbare Vorlagenbibliothek des Nova Development Frameworks.
+Das NDF Toolkit ist der praktische Werkzeugkasten des Nova Development Frameworks.
 
-Sie stellt standardisierte Dokument-, Projekt-, Review-, Release-, Security-, Project-Brain- und Work-Package-Vorlagen bereit.
+Es verbindet:
+
+- Project System
+- Prompt Library
+- Template Library
+- Quality Gates
+- Project Brain
+- spätere Generatoren
 
 ## Ziel
 
-- neue Projekte schneller starten
-- einheitliche Dokumentation
-- bessere Reviews
-- klare Release-Prozesse
-- konsistente Project-Brain-Struktur
-- wiederverwendbare Vorlagen für Claude/Nova-Workflows
+Das Toolkit soll NDF von einer Dokumentations- und Standardbasis zu einem praktisch nutzbaren Arbeitswerkzeug machen.
 
 ## Commit
 
 ```text
-feat(templates): add NDF Template Library v0.1
+feat(toolkit): add NDF Toolkit v0.1
 ```
