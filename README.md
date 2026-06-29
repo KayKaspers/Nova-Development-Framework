@@ -1,24 +1,20 @@
-# NDF Practical Workflow Pack v0.1
+# NDF Blueprint Package
 
-Dieses Paket macht das Nova Development Framework sofort praktisch nutzbar.
+Der NDF Blueprint ist das strategische Architekturpaket für das Nova Development Framework.
 
-Ziel: Projekte wie CastCore, SpeakCore, AirCore und SC-OrgaSuite können nach NDF weitergeführt werden, ohne auf das vollständige Handbuch zu warten.
+Er legt fest, wie das NDF langfristig aufgebaut wird:
 
-## Enthalten
-
-- praktischer Standardworkflow
-- Rollenmodell
-- Arbeitsregeln für Nova, Claude, Kay
-- VS Code + GitHub Desktop Standard
-- Git-Safety-Regeln
-- Arbeitspaket-Definition
-- Review- und Commit-Ablauf
-- Quality Gates
-- Rückmeldung-an-Nova Standard
-- Projektadapter-Entwurf
+- Säulenmodell
+- Repository-Strategie
+- Modularchitektur
+- Lebenszyklus
+- Qualitätsmodell
+- Roadmap
+- Governance-Erweiterung
+- nächste Meilensteine
 
 ## Commit
 
 ```text
-feat(workflow): add NDF Practical Workflow Pack v0.1
+docs(blueprint): add NDF strategic blueprint
 ```
