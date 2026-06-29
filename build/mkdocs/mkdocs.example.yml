@@ -1,0 +1,38 @@
+site_name: Nova Development Framework
+site_description: Plan. Build. Review. Improve.
+repo_name: Nova-Development-Framework
+repo_url: https://github.com/OWNER/Nova-Development-Framework
+
+theme:
+  name: material
+  language: de
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+  - fenced_code
+
+nav:
+  - Home: README.md
+  - Foundation:
+      - Constitution: docs/constitution/NDF_CONSTITUTION.md
+      - Blueprint: docs/blueprint/NDF_BLUEPRINT.md
+      - Domain Model: docs/domain/NDF_DOMAIN_MODEL.md
+  - Academy:
+      - Band 1: academy/band-1-foundation/README.md
+  - Toolkit:
+      - Overview: docs/toolkit/NDF_TOOLKIT_OVERVIEW.md
+  - Prompt Library:
+      - Overview: docs/prompts/PROMPT_LIBRARY_OVERVIEW.md
+  - Template Library:
+      - Overview: docs/templates/TEMPLATE_LIBRARY_OVERVIEW.md
+  - Project System:
+      - Overview: docs/project-system/NDF_PROJECT_SYSTEM.md

@@ -1,27 +1,15 @@
-# NDF Export Concept v0.1
+# NDF Website Concept v0.1
 
-Das NDF Export Concept definiert, wie Inhalte des Nova Development Frameworks künftig aus einer gemeinsamen Quelle in verschiedene Ausgabeformate exportiert werden.
+Das NDF Website Concept definiert die spätere Dokumentations-Website des Nova Development Frameworks.
 
 ## Ziel
 
-Eine Quelle, mehrere Ausgabeformate:
+Die Website soll die zentrale, gut lesbare und durchsuchbare Oberfläche für das Framework werden.
 
-```text
-Markdown Source
-   ↓
-Website
-PDF
-Word
-EPUB
-GitHub Documentation
-```
-
-## Wichtig
-
-Dieses Paket implementiert noch keinen vollständigen Exporter. Es legt die Architektur, Standards und zukünftige Pipeline fest.
+Sie ergänzt GitHub und macht NDF für Einsteiger, Projektleiter und Entwickler verständlicher.
 
 ## Commit
 
 ```text
-docs(export): add NDF Export Concept v0.1
+docs(website): add NDF Website Concept v0.1
 ```
