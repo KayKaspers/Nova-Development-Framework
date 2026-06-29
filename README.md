@@ -1,19 +1,26 @@
-# NDF Project Starter Manual Flow v0.1
+# NDF Academy Band 1 Skeleton v0.1
 
-Der NDF Project Starter Manual Flow ist der manuelle Projektstarter des Nova Development Frameworks.
+Die NDF Academy ist der Lern- und Handbuchbereich des Nova Development Frameworks.
 
-Er ermöglicht es, neue oder bestehende Projekte nach NDF zu starten, bevor ein automatischer Generator oder eine CLI existiert.
+Band 1 richtet sich an absolute Einsteiger und führt Schritt für Schritt zum ersten professionell geführten Projekt nach NDF.
+
+## Band 1 Titel
+
+**Vom absoluten Anfänger zum ersten professionellen Projekt**
 
 ## Ziel
 
-- Projekte strukturiert starten
-- bestehende Projekte sauber anbinden
-- alle nötigen NDF-Artefakte manuell erzeugen
-- späteren Generator vorbereiten
-- sofort praktische Nutzung ermöglichen
+Band 1 soll Nutzern ohne Vorkenntnisse erklären:
+
+- was Softwareentwicklung ist
+- was Git und GitHub sind
+- wie man mit VS Code arbeitet
+- wie GitHub Desktop funktioniert
+- wie Nova und Claude zusammenarbeiten
+- wie ein erstes Projekt nach NDF gestartet wird
 
 ## Commit
 
 ```text
-feat(project-starter): add manual project starter flow v0.1
+docs(academy): add Academy Band 1 skeleton v0.1
 ```
