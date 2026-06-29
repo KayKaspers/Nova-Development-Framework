@@ -1,0 +1,9 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">NDF Mark</title>
+  <desc id="desc">Nova Development Framework mark with star and structured grid</desc>
+  <rect width="512" height="512" rx="96" fill="#0B1220"/>
+  <path d="M256 72 L279 202 L410 256 L279 310 L256 440 L233 310 L102 256 L233 202 Z" fill="#38BDF8" opacity="0.95"/>
+  <circle cx="256" cy="256" r="78" fill="#172033"/>
+  <path d="M174 257h164M256 175v164M198 198l116 116M314 198L198 314" stroke="#E0F2FE" stroke-width="18" stroke-linecap="round" opacity="0.9"/>
+  <circle cx="256" cy="256" r="28" fill="#38BDF8"/>
+</svg>

@@ -1,0 +1,15 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Nova Development Framework Logo</title>
+  <desc id="desc">NDF logo with mark and text</desc>
+  <rect width="1200" height="320" rx="40" fill="#0B1220"/>
+  <g transform="translate(64,48)">
+    <rect width="224" height="224" rx="48" fill="#172033"/>
+    <path d="M112 24 L124 86 L188 112 L124 138 L112 200 L100 138 L36 112 L100 86 Z" fill="#38BDF8"/>
+    <circle cx="112" cy="112" r="38" fill="#0B1220"/>
+    <path d="M72 112h80M112 72v80M84 84l56 56M140 84l-56 56" stroke="#E0F2FE" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="112" cy="112" r="13" fill="#38BDF8"/>
+  </g>
+  <text x="340" y="132" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="56" font-weight="700">Nova Development Framework</text>
+  <text x="342" y="194" fill="#94A3B8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="30">Plan. Build. Review. Improve.</text>
+  <text x="342" y="244" fill="#38BDF8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24">AI creates. Humans approve.</text>
+</svg>

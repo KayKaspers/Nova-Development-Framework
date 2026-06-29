@@ -1,13 +1,29 @@
-# NDF Repository Structure Cleanup Plan
+# NDF Branding Bible v0.1
 
-Dieses Paket definiert die Zielstruktur des Nova Development Framework Repositories.
+Die NDF Branding Bible definiert die visuelle und sprachliche Identität des Nova Development Frameworks.
 
 ## Ziel
 
-Das NDF ist in kurzer Zeit stark gewachsen. Damit es langfristig wartbar bleibt, braucht es eine klare Repository-Ordnung.
+NDF soll professionell, ruhig, technisch, vertrauenswürdig und einsteigerfreundlich wirken.
+
+## Enthalten
+
+- Brand Strategy
+- Voice & Tone
+- Color System
+- Typography Rules
+- Logo Guidelines
+- Diagram Style
+- Document Style
+- Website Style
+- Accessibility Rules
+- erste SVG-Assets
+- Branding Templates
+- Branding Prompts
+- ADR-0021
 
 ## Commit
 
 ```text
-docs(repo): add repository structure cleanup plan
+docs(branding): add NDF Branding Bible v0.1
 ```

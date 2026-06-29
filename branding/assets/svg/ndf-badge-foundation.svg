@@ -1,0 +1,10 @@
+<svg width="900" height="260" viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">NDF Foundation Badge</title>
+  <desc id="desc">Foundation phase badge for NDF</desc>
+  <rect width="900" height="260" rx="36" fill="#0B1220"/>
+  <rect x="24" y="24" width="852" height="212" rx="28" fill="#172033" stroke="#38BDF8" stroke-width="3"/>
+  <text x="64" y="105" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="50" font-weight="800">NDF Foundation</text>
+  <text x="66" y="158" fill="#38BDF8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="30" font-weight="600">Version 0.1 Readiness</text>
+  <text x="66" y="202" fill="#94A3B8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22">AI creates. Humans approve.</text>
+  <path d="M742 58 L760 116 L820 130 L760 144 L742 202 L724 144 L664 130 L724 116 Z" fill="#38BDF8"/>
+</svg>
