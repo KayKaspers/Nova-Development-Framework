@@ -1,20 +1,20 @@
-# NDF Blueprint Package
+# NDF Domain Model Package
 
-Der NDF Blueprint ist das strategische Architekturpaket für das Nova Development Framework.
+Dieses Paket definiert das logische Fachmodell des Nova Development Frameworks.
 
-Er legt fest, wie das NDF langfristig aufgebaut wird:
+Es ist die Grundlage für:
 
-- Säulenmodell
-- Repository-Strategie
-- Modularchitektur
-- Lebenszyklus
-- Qualitätsmodell
-- Roadmap
-- Governance-Erweiterung
-- nächste Meilensteine
+- Prompt Library
+- Template Library
+- Project Adapter
+- Compliance Engine
+- Health Score
+- Academy
+- Toolkit
+- Generator
 
 ## Commit
 
 ```text
-docs(blueprint): add NDF strategic blueprint
+docs(domain): add NDF Domain Model
 ```
