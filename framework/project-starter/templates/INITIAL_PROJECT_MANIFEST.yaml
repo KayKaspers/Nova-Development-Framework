@@ -1,0 +1,31 @@
+name: ""
+slug: ""
+owner: "Kay"
+architecture_lead: "Nova"
+implementation_assistant: "Claude"
+repository: ""
+status: "active"
+ndf_level: 2
+
+project_type: ""
+primary_language: ""
+secondary_languages: []
+
+deployment:
+  docker: false
+  self_hosted: false
+  cloud: false
+
+quality_targets:
+  documentation: "required"
+  tests: "recommended"
+  security: "required"
+  ci: "recommended"
+  release_process: "recommended"
+
+ndf:
+  project_brain: true
+  prompt_workflow: true
+  quality_gates: false
+  health_score: false
+  compliance_check: true

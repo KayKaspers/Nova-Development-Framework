@@ -1,22 +1,19 @@
-# NDF Toolkit v0.1
+# NDF Project Starter Manual Flow v0.1
 
-Das NDF Toolkit ist der praktische Werkzeugkasten des Nova Development Frameworks.
+Der NDF Project Starter Manual Flow ist der manuelle Projektstarter des Nova Development Frameworks.
 
-Es verbindet:
-
-- Project System
-- Prompt Library
-- Template Library
-- Quality Gates
-- Project Brain
-- spätere Generatoren
+Er ermöglicht es, neue oder bestehende Projekte nach NDF zu starten, bevor ein automatischer Generator oder eine CLI existiert.
 
 ## Ziel
 
-Das Toolkit soll NDF von einer Dokumentations- und Standardbasis zu einem praktisch nutzbaren Arbeitswerkzeug machen.
+- Projekte strukturiert starten
+- bestehende Projekte sauber anbinden
+- alle nötigen NDF-Artefakte manuell erzeugen
+- späteren Generator vorbereiten
+- sofort praktische Nutzung ermöglichen
 
 ## Commit
 
 ```text
-feat(toolkit): add NDF Toolkit v0.1
+feat(project-starter): add manual project starter flow v0.1
 ```
