@@ -1,15 +1,19 @@
-# NDF Website Concept v0.1
+# NDF Foundation 0.1 Readiness Review
 
-Das NDF Website Concept definiert die spätere Dokumentations-Website des Nova Development Frameworks.
+Dieses Paket prüft, ob das Nova Development Framework bereit für den ersten stabilen Foundation-Meilenstein ist.
 
 ## Ziel
 
-Die Website soll die zentrale, gut lesbare und durchsuchbare Oberfläche für das Framework werden.
+Vor einem Foundation-Release soll klar sein:
 
-Sie ergänzt GitHub und macht NDF für Einsteiger, Projektleiter und Entwickler verständlicher.
+- was bereits vorhanden ist
+- was noch fehlt
+- welche Risiken bestehen
+- welche Nacharbeiten nötig sind
+- wann Foundation 0.1 als abgeschlossen gelten kann
 
 ## Commit
 
 ```text
-docs(website): add NDF Website Concept v0.1
+docs(review): add Foundation 0.1 readiness review
 ```
