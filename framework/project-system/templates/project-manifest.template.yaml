@@ -1,0 +1,22 @@
+name: ""
+slug: ""
+owner: "Kay"
+architecture_lead: "Nova"
+implementation_assistant: "Claude"
+repository: ""
+status: "active"
+ndf_level: 1
+
+primary_language: ""
+secondary_languages: []
+
+deployment: []
+
+quality_targets:
+  documentation: "required"
+  tests: "required"
+  security: "required"
+  ci: "recommended"
+
+project_brain: "project-brain/PROJECT_BRAIN.md"
+roadmap: "ROADMAP.md"
