@@ -1,0 +1,20 @@
+id: ndf-academy-band-1
+title: NDF Academy Band 1
+subtitle: Vom absoluten Anfänger zum ersten professionellen Projekt
+version: 0.1
+language: de
+author: Nova Development Framework
+output:
+  pdf: true
+  docx: true
+  website: true
+  epub: false
+chapters:
+  - path: academy/band-1-foundation/README.md
+    title: Einführung
+  - path: academy/band-1-foundation/00-learning-path.md
+    title: Lernpfad
+  - path: academy/band-1-foundation/chapters/01-willkommen-in-der-softwareentwicklung.md
+    title: Willkommen in der Softwareentwicklung
+  - path: academy/band-1-foundation/chapters/02-was-ist-ndf.md
+    title: Was ist das NDF?

@@ -1,26 +1,27 @@
-# NDF Academy Band 1 Skeleton v0.1
+# NDF Export Concept v0.1
 
-Die NDF Academy ist der Lern- und Handbuchbereich des Nova Development Frameworks.
-
-Band 1 richtet sich an absolute Einsteiger und führt Schritt für Schritt zum ersten professionell geführten Projekt nach NDF.
-
-## Band 1 Titel
-
-**Vom absoluten Anfänger zum ersten professionellen Projekt**
+Das NDF Export Concept definiert, wie Inhalte des Nova Development Frameworks künftig aus einer gemeinsamen Quelle in verschiedene Ausgabeformate exportiert werden.
 
 ## Ziel
 
-Band 1 soll Nutzern ohne Vorkenntnisse erklären:
+Eine Quelle, mehrere Ausgabeformate:
 
-- was Softwareentwicklung ist
-- was Git und GitHub sind
-- wie man mit VS Code arbeitet
-- wie GitHub Desktop funktioniert
-- wie Nova und Claude zusammenarbeiten
-- wie ein erstes Projekt nach NDF gestartet wird
+```text
+Markdown Source
+   ↓
+Website
+PDF
+Word
+EPUB
+GitHub Documentation
+```
+
+## Wichtig
+
+Dieses Paket implementiert noch keinen vollständigen Exporter. Es legt die Architektur, Standards und zukünftige Pipeline fest.
 
 ## Commit
 
 ```text
-docs(academy): add Academy Band 1 skeleton v0.1
+docs(export): add NDF Export Concept v0.1
 ```

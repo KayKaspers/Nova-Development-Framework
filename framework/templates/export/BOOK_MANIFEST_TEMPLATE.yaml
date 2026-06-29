@@ -1,0 +1,14 @@
+id: ""
+title: ""
+subtitle: ""
+version: "0.1"
+language: "de"
+author: "Nova Development Framework"
+output:
+  pdf: true
+  docx: true
+  website: true
+  epub: false
+chapters:
+  - path: ""
+    title: ""
