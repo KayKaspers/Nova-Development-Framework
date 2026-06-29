@@ -1,0 +1,10 @@
+<svg width="1600" height="480" viewBox="0 0 1600 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="480" fill="#0B1020"/>
+  <circle cx="1280" cy="120" r="300" fill="#2563EB" opacity="0.16"/>
+  <circle cx="1440" cy="360" r="220" fill="#22D3EE" opacity="0.10"/>
+  <text x="90" y="160" font-family="Inter, Arial, sans-serif" font-size="78" font-weight="800" fill="#F8FAFC">Nova Development Framework</text>
+  <text x="96" y="235" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="600" fill="#22D3EE">One Framework. Every Project.</text>
+  <text x="96" y="300" font-family="Inter, Arial, sans-serif" font-size="30" fill="#CBD5E1">A documentation-first development framework for human-guided AI software projects.</text>
+  <rect x="96" y="350" width="350" height="56" rx="16" fill="#2563EB"/>
+  <text x="126" y="387" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#F8FAFC">Plan. Build. Review. Improve.</text>
+</svg>
