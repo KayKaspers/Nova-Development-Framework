@@ -1,0 +1,32 @@
+# NDF Work Package Standard
+
+## Definition
+
+Ein Arbeitspaket ist eine klar begrenzte Aufgabe mit Ziel, Kontext, Grenzen, Qualitätsregeln und Rückmeldung.
+
+## Ein gutes Arbeitspaket enthält
+
+- Ziel
+- Kontext
+- konkrete Aufgabe
+- betroffene Bereiche
+- Grenzen
+- Tests
+- Dokumentationspflicht
+- Rückmeldung an Nova
+
+## Ein schlechtes Arbeitspaket
+
+```text
+Mach das Projekt besser.
+```
+
+## Ein gutes Arbeitspaket
+
+```text
+Untersuche die Docker Compose Dokumentation und ergänze eine Anfängeranleitung für die lokale Installation. Keine Codeänderungen. Am Ende Rückmeldung an Nova.
+```
+
+## Maximale Größe
+
+Ein Arbeitspaket sollte so klein sein, dass Kay die Änderungen nachvollziehen kann.
