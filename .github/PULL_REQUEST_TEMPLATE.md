@@ -1,12 +1,24 @@
 # Pull Request
 
-## Was wurde geändert?
+## Summary
 
-## Warum?
+## Type of Change
 
-## Checkliste
-- [ ] Änderungen geprüft
-- [ ] Keine privaten Daten enthalten
-- [ ] Dokumentation aktualisiert
-- [ ] Project Brain geprüft
-- [ ] Commit-Format eingehalten
+- [ ] Documentation
+- [ ] Standard
+- [ ] Template
+- [ ] Prompt
+- [ ] ADR
+- [ ] Repository maintenance
+- [ ] Other
+
+## Checklist
+
+- [ ] I reviewed the changed files.
+- [ ] No secrets are included.
+- [ ] Documentation is updated.
+- [ ] ADR added or updated if required.
+- [ ] Project Brain updated if required.
+- [ ] Commit message follows NDF style.
+
+## Notes for Nova Review

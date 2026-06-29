@@ -1,15 +1,17 @@
-# NDF line ending standard
+# Normalize line endings
 * text=auto
+
+# Markdown files use LF in repository
 *.md text eol=lf
+
+# YAML files use LF
 *.yml text eol=lf
 *.yaml text eol=lf
-*.json text eol=lf
-*.svg text eol=lf
+
+# Scripts use LF
 *.sh text eol=lf
+
+# Windows scripts use CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
 *.ps1 text eol=crlf
-*.png binary
-*.jpg binary
-*.jpeg binary
-*.pdf binary
-*.docx binary
-*.zip binary
