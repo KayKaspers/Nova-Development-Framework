@@ -1,19 +1,13 @@
-# NDF Foundation 0.1 Readiness Review
+# NDF Repository Structure Cleanup Plan
 
-Dieses Paket prüft, ob das Nova Development Framework bereit für den ersten stabilen Foundation-Meilenstein ist.
+Dieses Paket definiert die Zielstruktur des Nova Development Framework Repositories.
 
 ## Ziel
 
-Vor einem Foundation-Release soll klar sein:
-
-- was bereits vorhanden ist
-- was noch fehlt
-- welche Risiken bestehen
-- welche Nacharbeiten nötig sind
-- wann Foundation 0.1 als abgeschlossen gelten kann
+Das NDF ist in kurzer Zeit stark gewachsen. Damit es langfristig wartbar bleibt, braucht es eine klare Repository-Ordnung.
 
 ## Commit
 
 ```text
-docs(review): add Foundation 0.1 readiness review
+docs(repo): add repository structure cleanup plan
 ```
