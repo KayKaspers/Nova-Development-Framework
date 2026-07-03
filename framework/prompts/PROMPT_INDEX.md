@@ -1,4 +1,6 @@
-# NDF Prompt Index v0.1
+# NDF Prompt Index v0.2
+
+Sprache / Language: Prompt-Titel sind englisch, Prompt-Inhalte teils DE, teils EN. DE/EN-Ausrichtung gemäß `docs/i18n/DE_EN_LANGUAGE_STANDARD.md`.
 
 ## Core
 
@@ -34,9 +36,11 @@
 
 - `review/NOVA_HANDOFF_REVIEW.md`
 
-## Project Adapters
+## Project Adapter
 
-- `project-adapters/CREATE_PROJECT_ADAPTER.md`
+- `project-adapter/PROJECT_ADAPTER_INTAKE_PROMPT.md` — read-only Intake & Review (v0.2)
+- `project-adapter/PROJECT_SYSTEM_BASELINE_PROMPT.md` — Project System Baseline nach Freigabe (v0.2)
+- `project-adapter/CREATE_PROJECT_ADAPTER.md` — Adapter-Kurzform (v0.1, legacy)
 
 ## Blocks
 

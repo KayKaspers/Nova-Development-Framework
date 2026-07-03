@@ -1,5 +1,7 @@
 # Project Adapter Helper
 
+> Sprachstatus / Language status: Foundation 0.2 document. DE/EN alignment pending according to `docs/i18n/DE_EN_LANGUAGE_STANDARD.md`.
+
 ## Zweck
 
 Schnelle Entscheidungshilfe: wie viel Project Adapter braucht ein bestehendes Projekt?

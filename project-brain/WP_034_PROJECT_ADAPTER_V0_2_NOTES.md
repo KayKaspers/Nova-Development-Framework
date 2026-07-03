@@ -17,11 +17,11 @@ NDF war nach der Neutralisierung öffentlich sauber, aber für Außenstehende fe
 - Phasen 0–1 sind strikt read-only; Baseline erst nach Nova-/Maintainer-Freigabe.
 - Beispiel-IDs `SP-WP-xxx` sind explizit als Beispiel markiert; echte Projekte wählen ein eigenes neutrales Präfix.
 - NDF-Artefakte sind im Zielprojekt additiv — keine Umbauten an Bestand.
-- Alter v0.1-Adapter (`framework/templates/NDF_PROJECT_ADAPTER_TEMPLATE.md`, `framework/prompts/project-adapters/CREATE_PROJECT_ADAPTER.md`) bleibt als Altbestand erhalten.
+- Alter v0.1-Adapter (`framework/templates/NDF_PROJECT_ADAPTER_TEMPLATE.md`, `framework/prompts/project-adapter/CREATE_PROJECT_ADAPTER.md`) bleibt als Altbestand erhalten.
 
 ## Offene Grenzen
 
-- Ordner-Dopplung `framework/prompts/project-adapter/` (neu, v0.2) neben `project-adapters/` (alt, v0.1) — Konsolidierung in einem späteren Cleanup-WP.
+- Ordner-Dopplung `project-adapter/` / `project-adapters/` — in WP-035 aufgelöst: v0.1-Prompt nach `project-adapter/` migriert.
 - Der Adapter ist noch nicht an einem externen (nicht-Referenz-)Projekt erprobt.
 
 ## Nächste empfohlene WPs

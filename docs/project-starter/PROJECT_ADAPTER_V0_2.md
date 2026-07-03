@@ -1,5 +1,7 @@
 # NDF Project Adapter v0.2
 
+> Sprachstatus / Language status: Foundation 0.2 document. DE/EN alignment pending according to `docs/i18n/DE_EN_LANGUAGE_STANDARD.md`.
+
 ## 1. Zweck
 
 Der Project Adapter überführt ein bestehendes Softwareprojekt strukturiert in das Nova Development Framework — ohne Neustart, ohne riskante Umbauten, ohne dass das Projekt instabil wird.

@@ -11,6 +11,7 @@ All notable changes to the Nova Development Framework will be documented in this
 - Security Prompt Library (WP-029)
 - Public Repository Quality Gate: script, CI workflow, denylist concept (WP-032)
 - Project Adapter v0.2: guide, templates, checklist and prompts (WP-034)
+- DE/EN language standard, translation status matrix, and updated prompt index (WP-035)
 
 ### Changed
 

@@ -17,7 +17,7 @@ framework/prompts/
 ├── devops/
 ├── security/
 ├── review/
-├── project-adapters/
+├── project-adapter/
 └── blocks/
 ```
 

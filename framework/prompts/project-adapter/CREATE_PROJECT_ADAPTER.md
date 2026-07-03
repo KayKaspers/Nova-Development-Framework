@@ -2,7 +2,7 @@
 id: ndf-adapter-create-project-adapter-001
 title: Create Project Adapter
 version: 0.1
-category: project-adapters
+category: project-adapter
 role: Claude Architect
 supported_models: [Claude, ChatGPT]
 risk_level: low

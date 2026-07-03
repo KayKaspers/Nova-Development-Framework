@@ -95,6 +95,12 @@ The validated findings are preserved in neutral form under [docs/validation/](do
 | `project-brain/` | framework working memory: notes, decisions, next steps |
 | `docs/import-history/` | archived import packages from earlier framework iterations |
 
+## Language / Sprache
+
+NDF is maintained bilingually (German/English) going forward. New central framework documents are either bilingual or clearly language-mirrored. / NDF wird künftig zweisprachig (Deutsch/Englisch) geführt; neue zentrale Framework-Dokumente sind bilingual oder klar sprachlich gespiegelt.
+
+Details: [docs/i18n/DE_EN_LANGUAGE_STANDARD.md](docs/i18n/DE_EN_LANGUAGE_STANDARD.md) · Status: [docs/i18n/TRANSLATION_STATUS.md](docs/i18n/TRANSLATION_STATUS.md)
+
 ## Status
 
 - **Foundation 0.2 – in development.** Current focus: work package type standard, destructive action toolkit, security prompt library, real project validation, and reference project integration.
