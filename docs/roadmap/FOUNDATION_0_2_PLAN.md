@@ -2,7 +2,7 @@
 
 ## Status
 
-In development
+Released as v0.2.0-foundation (pre-release)
 
 ## Prepared
 

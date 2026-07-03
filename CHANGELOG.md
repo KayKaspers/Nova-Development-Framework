@@ -4,7 +4,7 @@ All notable changes to the Nova Development Framework will be documented in this
 
 ## [0.2.0-foundation] - 2026-07-03
 
-Foundation Stabilization Pre-Release. Status: prepared for release — tag `v0.2.0-foundation` pending (created manually by the human maintainer). Release notes: `docs/release/FOUNDATION_0_2_RELEASE_NOTES.md`
+Foundation Stabilization Pre-Release. Status: **Released** as Foundation pre-release on 2026-07-03 (tag `v0.2.0-foundation`). Release notes: `docs/release/FOUNDATION_0_2_RELEASE_NOTES.md`
 
 ### Added
 

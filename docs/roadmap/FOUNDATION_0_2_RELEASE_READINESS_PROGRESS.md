@@ -9,9 +9,9 @@
 | Link-/Strukturprüfung | ohne Defekte |
 | DE/EN-Readiness | ausreichend für 0.2 |
 | Release-Empfehlung | **GO WITH NOTES** |
-| Release Notes 0.2 | open (Release-Prep) |
-| Kriterien-Datei aktualisieren | open (Release-Prep) |
-| GitHub Secret setzen | open (manuell) |
+| Release Notes 0.2 | done (WP-041) |
+| Kriterien-Datei aktualisieren | done (WP-041) |
+| GitHub Secret setzen | open (manuell verifizieren) |
 
 ## Nächste Schritte
 

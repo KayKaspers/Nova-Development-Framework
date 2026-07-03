@@ -1,5 +1,7 @@
 # Foundation 0.2 Go/No-Go Checklist
 
+> **Status: abgeschlossen / archived (post-release).** Der Release `v0.2.0-foundation` wurde am 2026-07-03 veröffentlicht. Diese Checkliste bleibt als Vorlage für künftige Releases erhalten.
+
 Finale Prüfung vor Tag und GitHub Release `v0.2.0-foundation`. Durchführung durch den Human Maintainer; der Implementation Agent erstellt weder Tag noch Release.
 
 ## 1. Public Quality Gate (strict)

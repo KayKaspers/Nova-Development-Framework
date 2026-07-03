@@ -1,5 +1,7 @@
 # Foundation 0.2 – Tagging & GitHub Release Guide
 
+> **Post-release note:** `v0.2.0-foundation` has been published (2026-07-03); do not recreate or move the tag. Diese Anleitung bleibt als Referenz für künftige Releases erhalten. / This guide remains as a reference for future releases.
+
 Anleitung für den **Human Maintainer**. Der Implementation Agent führt diese Schritte nicht aus — Tag und Release sind ausschließlich menschliche Aktionen.
 
 ## 1. Voraussetzungen

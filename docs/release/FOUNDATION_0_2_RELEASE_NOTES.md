@@ -1,6 +1,6 @@
 # Foundation 0.2 Release Notes
 
-Release: `v0.2.0-foundation` — Foundation/Stabilization **Pre-Release**. NDF ist damit bewusst noch kein v1.0.
+Release: `v0.2.0-foundation` — Foundation/Stabilization **Pre-Release**, veröffentlicht am / published on 2026-07-03. NDF ist damit bewusst noch kein v1.0.
 
 ## DE – Überblick
 

@@ -36,10 +36,10 @@ Foundation Stabilization Release (Pre-Release v0.2.0-foundation)
 ## Manuelle Pre-Release-Schritte / Manual pre-release tasks
 
 - [ ] GitHub Secret `NDF_PUBLIC_NEUTRALITY_DENYLIST` setzen (Maintainer; Inhalt kommagetrennt, Begriffe niemals ins Repo schreiben).
-- [ ] WP-041-Stand committen und pushen (Human Maintainer).
+- [x] WP-041-Stand committen und pushen (Human Maintainer).
 - [ ] Go/No-Go-Checkliste vollständig durchgehen.
-- [ ] Tag `v0.2.0-foundation` erstellen und pushen (nur Human Maintainer, siehe Tagging-Guide).
-- [ ] GitHub Release als **Pre-Release** anlegen.
+- [x] Tag `v0.2.0-foundation` erstellen und pushen (nur Human Maintainer, siehe Tagging-Guide).
+- [x] GitHub Release als **Pre-Release** anlegen (veröffentlicht 2026-07-03; Titel-Korrektur siehe WP-043-Notes).
 
 ## Finale Entscheidung / Final decision
 
