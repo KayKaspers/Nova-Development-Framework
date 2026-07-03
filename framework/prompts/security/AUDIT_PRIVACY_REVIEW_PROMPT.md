@@ -23,9 +23,16 @@ Stelle sicher, dass Audit beweiskräftig ist, aber keine sensiblen Daten leakt.
 - verbotene Felder
 - Tests gegen Secret-/Path-Leaks
 
-## Grenzen
+## Verboten im Audit
 
-Keine Codeänderungen. Kein Commit. Kein Push.
+- raw tokens
+- API keys
+- passwords
+- secrets
+- file contents
+- full host paths
+- sensitive filenames
+- raw request bodies
 
 ## Rückmeldung an Nova
 
