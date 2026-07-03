@@ -1,5 +1,9 @@
 # NDF Standard – Work Package Types
 
+> Sprachstatus / Language status: EN mit deutscher Einleitung. / English with German introduction.
+
+DE: Kein Work Package ohne deklarierten Typ. Die Tabelle unten definiert alle primären Typen mit Zweck, erlaubten Code-Änderungen und Testerwartung; die Regeln je Typ folgen englisch.
+
 ## Status
 
 Required.

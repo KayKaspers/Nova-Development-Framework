@@ -1,5 +1,9 @@
 # NDF Standard – Work Package Review Gate
 
+> Sprachstatus / Language status: EN mit deutscher Einleitung. / English with German introduction.
+
+DE: Das Review Gate stellt sicher, dass kein Work Package ohne Scope- und Sicherheitsprüfung committet wird. Die Review-Fragen und typ-spezifischen Gates unten sind englisch; die Entscheidungswerte sind GO / GO WITH NOTES / REWORK / SPLIT / STOP.
+
 ## Purpose
 
 The Review Gate ensures that no Work Package is committed without scope and safety checks.

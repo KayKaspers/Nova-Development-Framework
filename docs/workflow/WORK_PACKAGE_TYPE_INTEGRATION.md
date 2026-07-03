@@ -1,5 +1,17 @@
 # Work Package Type Integration
 
+> Sprachstatus / Language status: Kernaussagen DE/EN, Detailteil EN. / Core statements DE/EN, details in English.
+
+## DE – Kurzfassung
+
+Jedes Work Package braucht genau einen primären Typ, bevor es ausgeführt wird — der Typ bestimmt erlaubte Änderungen, Tests und Review-Tiefe ([WORK_PACKAGE_TYPES.md](../../framework/standards/WORK_PACKAGE_TYPES.md)).
+
+- `review-only` prüft und berichtet nur; `docs-only` ändert nur Dokumentation; `code-fix` behebt gezielt einen Fehler mit Tests; `security-code-fix` behebt genau einen freigegebenen Security-Befund.
+- Destruktive Funktionen laufen zweistufig: erst `destructive-blueprint` (Planung), nach Freigabe `destructive-implementation` (Umsetzung).
+- Health-Score-Änderungen sind ein eigener Typ (`health-score-update`) und werden nie mit Code-Fixes vermischt.
+
+## EN – Details
+
 ## Purpose
 
 NDF requires every planned work package to declare its type before execution.

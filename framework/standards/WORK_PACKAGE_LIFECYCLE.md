@@ -1,5 +1,9 @@
 # NDF Standard – Work Package Lifecycle
 
+> Sprachstatus / Language status: EN mit deutscher Einleitung. / English with German introduction.
+
+DE: Dieser Standard beschreibt den Lebenszyklus jedes Work Package — von der Aufnahme über Klassifizierung, Prompt, Umsetzung durch den Implementation Agent und Rückmeldung an Nova (ChatGPT-Review-Rolle, siehe [NOVA_CHATGPT_ROLE.md](../../docs/workflow/NOVA_CHATGPT_ROLE.md)) bis zu Review, Maintainer-Commit, CI-Prüfung und Follow-up.
+
 ## Lifecycle
 
 ```text
