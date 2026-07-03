@@ -25,3 +25,5 @@ Ein externer Nutzer kann NDF ohne interne Vorkenntnisse in einem echten Projekt 
 ## Entscheidung
 
 **Keine neuen großen Features vor dem Scope Lock.** Details: `docs/roadmap/FOUNDATION_0_3_PLAN.md` und `docs/roadmap/FOUNDATION_0_3_WORK_PACKAGES.md`
+
+**Update (WP-045):** Scope Lock ist beschlossen — Release-blocking sind nur 045–047, 052, 054, 055; 048–051 optional; 053 deferred candidate. Verbindlich: `docs/roadmap/FOUNDATION_0_3_SCOPE_LOCK.md`
