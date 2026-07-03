@@ -16,6 +16,7 @@ All notable changes to the Nova Development Framework will be documented in this
 - Clarified Nova as the ChatGPT-based planning and review role and improved workflow DE/EN guidance (WP-037)
 - Improved DE/EN alignment for core workflow documentation (WP-038)
 - Improved DE/EN alignment for core prompts and checklists (WP-039)
+- Added Foundation 0.2 release readiness review (WP-040)
 
 ### Changed
 
