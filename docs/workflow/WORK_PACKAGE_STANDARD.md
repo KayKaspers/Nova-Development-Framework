@@ -1,5 +1,7 @@
 # NDF Work Package Standard
 
+> Sprachstatus / Language status: DE. Nova = ChatGPT-basierte Planungs-/Review-Rolle, siehe / Nova = ChatGPT-based planning and review role, see docs/workflow/NOVA_CHATGPT_ROLE.md
+
 ## Definition
 
 Ein Arbeitspaket ist eine klar begrenzte Aufgabe mit Ziel, Kontext, Grenzen, Qualitätsregeln und Rückmeldung.
@@ -13,7 +15,7 @@ Ein Arbeitspaket ist eine klar begrenzte Aufgabe mit Ziel, Kontext, Grenzen, Qua
 - Grenzen
 - Tests
 - Dokumentationspflicht
-- Rückmeldung an Nova
+- Rückmeldung an Nova (die ChatGPT-basierte Review-Rolle)
 
 ## Ein schlechtes Arbeitspaket
 

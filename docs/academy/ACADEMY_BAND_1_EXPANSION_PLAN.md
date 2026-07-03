@@ -62,7 +62,7 @@ Kernaussagen:
 
 Ziel:
 
-Maintainer, Nova, Claude, VS Code, GitHub Desktop und GitHub verständlich erklären.
+Maintainer, Nova (ChatGPT), Claude, VS Code, GitHub Desktop und GitHub verständlich erklären.
 
 Kernaussagen:
 

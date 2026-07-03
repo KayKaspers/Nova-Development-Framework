@@ -61,6 +61,8 @@ docs/ndf/ADOPTION_NOTES.md
 
 ## Rückmeldung an Nova (zwingend)
 
+Nova ist die ChatGPT-basierte Planungs- und Review-Rolle des NDF (siehe `docs/workflow/NOVA_CHATGPT_ROLE.md`).
+
 1. Zusammenfassung: welche Dateien wurden angelegt
 2. Abweichungen von Templates/Specs mit Begründung
 3. Offene Felder, die der Maintainer ergänzen muss

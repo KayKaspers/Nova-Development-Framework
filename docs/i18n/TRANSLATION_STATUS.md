@@ -23,7 +23,7 @@ Grobe Übersicht, welche Bereiche des NDF bereits DE/EN-tauglich sind und wo Fol
 | `CHANGELOG.md` | en-only | Format beibehalten / keep format |
 | `docs/project-starter/` | mixed | v0.2-Guide DE, ältere Flows DE; EN-Fassungen offen |
 | `docs/toolkit/` | mixed | Toolkit-Kern EN (Destructive Action Toolkit), Helper DE |
-| `docs/workflow/` | de-only | Kern-Workflow-Doku; EN-Fassung mit Priorität / EN version is a priority |
+| `docs/workflow/` | mixed | seit WP-037: Rollen-Doku bilingual, NOVA_CHATGPT_ROLE bilingual, Rest DE mit Sprachstatus / roles doc + Nova role doc bilingual since WP-037, rest German with language notes |
 | `docs/repository/` | mixed | Quality-Gate-Doku DE, Policies DE/EN gemischt |
 | `docs/roadmap/` | mixed | Progress-Dateien DE/EN gemischt; niedrige Priorität / low priority |
 | `framework/prompts/` | mixed | Frontmatter EN, Inhalte teils DE; neue Prompts zuerst angleichen |
@@ -45,7 +45,7 @@ Grobe Übersicht, welche Bereiche des NDF bereits DE/EN-tauglich sind und wo Fol
 ## Empfohlene Reihenfolge / Recommended order
 
 1. ~~`README.md` DE-Spiegelung~~ — erledigt in WP-036 / done in WP-036
-2. `docs/workflow/` EN (Kernprozess)
+2. Workflow docs full DE/EN alignment (Kernprozess; teilweise erledigt in WP-037 / partially done in WP-037)
 3. `framework/prompts/` + `framework/checklists/` EN (öffentliche Nutzbarkeit)
 4. `docs/project-starter/` EN (Adapter/Onboarding)
 5. `docs/academy/` EN (eigenes größeres WP)

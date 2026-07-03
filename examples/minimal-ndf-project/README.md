@@ -36,7 +36,7 @@ Das bedeutet:
 ## Empfohlener Workflow
 
 ```text
-Nova plant
+Nova (ChatGPT) plant
 Claude setzt kleines Work Package um
 Maintainer prüft in VS Code/GitHub Desktop
 Maintainer committet und pusht

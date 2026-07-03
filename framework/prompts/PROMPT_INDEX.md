@@ -2,6 +2,8 @@
 
 Sprache / Language: Prompt-Titel sind englisch, Prompt-Inhalte teils DE, teils EN. DE/EN-Ausrichtung gemäß `docs/i18n/DE_EN_LANGUAGE_STANDARD.md`.
 
+Rollen / Roles: Nova = ChatGPT-basierte Planungs-/Review-Rolle; „Rückmeldung an Nova" = Bericht an diese Rolle. / Nova = ChatGPT-based planning and review role; "Rückmeldung an Nova" = report to this role. Details: `docs/workflow/NOVA_CHATGPT_ROLE.md`
+
 ## Core
 
 - `core/PROJECT_REVIEW.md`

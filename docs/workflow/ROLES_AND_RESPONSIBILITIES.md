@@ -1,6 +1,8 @@
-# Rollen und Verantwortlichkeiten
+# Rollen und Verantwortlichkeiten / Roles and Responsibilities
 
-## Maintainer – Project Owner
+## DE – Rollen
+
+### Human Maintainer – Project Owner
 
 Der Maintainer entscheidet, prüft, committet und pusht.
 
@@ -12,9 +14,9 @@ Aufgaben:
 - Releases freigeben
 - Rückmeldungen an Nova weitergeben
 
-## Nova – Architecture Lead
+### Nova (ChatGPT) – Architecture Lead
 
-Nova plant, strukturiert und prüft.
+Nova ist die ChatGPT-basierte Planungs-, Architektur- und Review-Rolle (Details: [NOVA_CHATGPT_ROLE.md](NOVA_CHATGPT_ROLE.md)). Nova plant, strukturiert und prüft.
 
 Aufgaben:
 
@@ -26,9 +28,9 @@ Aufgaben:
 - Dokumentationsstruktur
 - nächste Arbeitspakete
 
-## Claude – Implementation Assistant
+### Implementation Agent (z. B. Claude) – Umsetzung
 
-Claude setzt konkrete Arbeitspakete um.
+Der Implementation Agent setzt konkrete Arbeitspakete um.
 
 Aufgaben:
 
@@ -38,10 +40,28 @@ Aufgaben:
 - Fehler analysieren
 - Rückmeldung an Nova liefern
 
-## VS Code – Editor
+### Werkzeuge
 
-VS Code dient zum Ansehen, Vergleichen und Bearbeiten von Dateien.
+- **VS Code** — Dateien ansehen, vergleichen und bearbeiten.
+- **GitHub Desktop** — Prüfen, Committen, Pushen und Pullen ohne Terminal.
 
-## GitHub Desktop – Git-Oberfläche
+## EN – Roles
 
-GitHub Desktop dient zum Prüfen, Committen, Pushen und Pullen ohne Terminal.
+### Human Maintainer – Project Owner
+
+The maintainer decides, reviews, commits and pushes.
+
+Responsibilities: set priorities, review changes, trigger commits, approve releases, relay feedback to Nova.
+
+### Nova (ChatGPT) – Architecture Lead
+
+Nova is the ChatGPT-based planning, architecture and review role (details: [NOVA_CHATGPT_ROLE.md](NOVA_CHATGPT_ROLE.md)). Nova plans, structures and reviews: architecture, roadmap, prompts, reviews, quality rules, documentation structure, next work packages.
+
+### Implementation Agent (e.g. Claude) – Execution
+
+The Implementation Agent executes concrete work packages: writing code, extending documentation, adjusting tests, analyzing errors, delivering the feedback to Nova.
+
+### Tools
+
+- **VS Code** — view, compare and edit files.
+- **GitHub Desktop** — review, commit, push and pull without a terminal.

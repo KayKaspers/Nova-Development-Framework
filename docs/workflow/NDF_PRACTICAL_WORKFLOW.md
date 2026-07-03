@@ -1,5 +1,7 @@
 # NDF Practical Workflow v0.1
 
+> Sprachstatus / Language status: zentrale Abschnitte DE/EN, Rest DE. / Central sections DE/EN, rest German. Nova-Rolle / Nova role: docs/workflow/NOVA_CHATGPT_ROLE.md
+
 ## Ziel
 
 Dieser Workflow beschreibt, wie Softwareprojekte mit dem Nova Development Framework praktisch umgesetzt werden.
@@ -8,15 +10,17 @@ Der Fokus liegt auf einfacher Bedienung, klarer Verantwortung und hoher Qualitä
 
 ## Standard-Werkzeuge
 
-- ChatGPT / Nova: Planung, Architektur, Review, Prompts
-- Claude: Umsetzung konkreter Arbeitspakete
+- Nova (ChatGPT): Planung, Architektur, Review, Prompts / planning, architecture, review, prompts
+- Implementation Agent (z. B. Claude): Umsetzung konkreter Arbeitspakete / executes concrete work packages
 - VS Code: Dateien ansehen und bearbeiten
 - GitHub Desktop: Commit, Push, Pull
 - GitHub: Repository, Historie, Releases
 
 Cursor ist optional und nicht Teil des Einsteiger-Standards.
 
-## Grundablauf
+## Grundablauf / Basic Flow
+
+DE: Nova (ChatGPT) plant, der Implementation Agent setzt um, der Maintainer prüft und veröffentlicht. / EN: Nova (ChatGPT) plans, the Implementation Agent executes, the maintainer reviews and publishes.
 
 ```text
 Nova plant

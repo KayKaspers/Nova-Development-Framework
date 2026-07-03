@@ -46,6 +46,8 @@ Analysiere das Zielprojekt ausschließlich lesend und erstelle einen NDF-Adapter
 
 ## Rückmeldung an Nova (zwingend)
 
+Nova ist die ChatGPT-basierte Planungs- und Review-Rolle des NDF (siehe `docs/workflow/NOVA_CHATGPT_ROLE.md`).
+
 Struktur nach `framework/templates/RUECKMELDUNG_AN_NOVA_STANDARD.md`, mindestens:
 
 1. Zusammenfassung der Analyse

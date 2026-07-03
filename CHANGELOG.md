@@ -13,6 +13,7 @@ All notable changes to the Nova Development Framework will be documented in this
 - Project Adapter v0.2: guide, templates, checklist and prompts (WP-034)
 - DE/EN language standard, translation status matrix, and updated prompt index (WP-035)
 - Improved README as bilingual DE/EN public entry point (WP-036)
+- Clarified Nova as the ChatGPT-based planning and review role and improved workflow DE/EN guidance (WP-037)
 
 ### Changed
 

@@ -36,15 +36,27 @@ AI-assisted development is fast but easily becomes unstructured: reviews turn in
 
 ## DE – Rollenmodell
 
-- **Nova** (Planung) — spezifiziert Work Packages: Typ, Umfang, Akzeptanzkriterien.
+- **Nova (ChatGPT)** — die ChatGPT-basierte Planungs-, Architektur- und Review-Rolle; spezifiziert Work Packages: Typ, Umfang, Akzeptanzkriterien.
 - **Implementation Agent** (Umsetzung, z. B. Claude) — führt genau ein Work Package aus und berichtet strukturiert zurück.
 - **Menschlicher Maintainer** (Review & Freigabe) — prüft, entscheidet GO / REWORK / SPLIT / STOP, committet und pusht.
 
+```text
+Nova (ChatGPT) → Implementierungs-Agent → menschlicher Maintainer
+```
+
+Details zur Nova-Rolle: [NOVA_CHATGPT_ROLE.md](docs/workflow/NOVA_CHATGPT_ROLE.md)
+
 ## EN – Role Model
 
-- **Nova** (planning) — specifies work packages: type, scope, acceptance criteria.
+- **Nova (ChatGPT)** — the ChatGPT-based planning, architecture and review role; specifies work packages: type, scope, acceptance criteria.
 - **Implementation Agent** (execution, e.g. Claude) — executes exactly one work package and reports back in a structured format.
 - **Human Maintainer** (review & approval) — reviews, decides GO / REWORK / SPLIT / STOP, commits and pushes.
+
+```text
+Nova (ChatGPT) → Implementation Agent → Human Maintainer
+```
+
+Details on the Nova role: [NOVA_CHATGPT_ROLE.md](docs/workflow/NOVA_CHATGPT_ROLE.md)
 
 ## DE – Standard-Workflow
 

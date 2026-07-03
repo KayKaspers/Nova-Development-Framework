@@ -4,6 +4,8 @@
 
 Die Prompt Library stellt wiederverwendbare, geprüfte und strukturierte Prompts bereit.
 
+Rollenhinweis: Nova = ChatGPT-basierte Planungs-/Review-Rolle (siehe `docs/workflow/NOVA_CHATGPT_ROLE.md`); ausführende Prompts richten sich an den Implementation Agent (z. B. Claude).
+
 ## Kategorien
 
 ```text

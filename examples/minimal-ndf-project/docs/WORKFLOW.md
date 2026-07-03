@@ -3,7 +3,7 @@
 ## Standardablauf
 
 ```text
-1. Nova definiert Work Package
+1. Nova (ChatGPT) definiert Work Package
 2. Claude bearbeitet genau dieses Work Package
 3. Claude liefert Rückmeldung an Nova
 4. Der Maintainer prüft Dateien in VS Code/GitHub Desktop
