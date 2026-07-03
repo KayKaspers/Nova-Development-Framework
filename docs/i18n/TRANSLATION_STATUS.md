@@ -33,7 +33,8 @@ Grobe Übersicht, welche Bereiche des NDF bereits DE/EN-tauglich sind und wo Fol
 | `docs/adr/` | mixed | 0027–0030 EN, frühe thematische DE/EN gemischt |
 | `adr/` | frozen | Foundation 0.1, bleibt unverändert / stays unchanged |
 | `project-brain/` | mixed | internes Arbeitsgedächtnis; niedrigste Priorität / lowest priority |
-| `examples/minimal-ndf-project/` | de-only | Beispielprojekt; EN-Fassung sinnvoll für öffentliche Nutzer |
+| `examples/minimal-ndf-project/` | de-only | Post-Adoption-Beispiel; EN-Fassung sinnvoll für öffentliche Nutzer |
+| `examples/neutral-example-project/` | mixed | Adapter-Fixture (WP-046): README/Erwartungen bilingual, Fixture-Inhalte bewusst DE-lastig (simulieren reales Team) |
 | `docs/i18n/` | bilingual | dieser Bereich / this area |
 
 ## Regeln / Rules

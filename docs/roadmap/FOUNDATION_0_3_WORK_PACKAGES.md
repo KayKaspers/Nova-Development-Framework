@@ -5,7 +5,7 @@
 | ID | Titel | Typ | Priorität | Ziel | Abhängigkeiten | Scope Lock |
 |---|---|---|---|---|---|---|
 | NDF-WP-045 | Foundation 0.3 Scope Lock | docs-only / planning-gate | P1 | 0.3-Umfang final einfrieren, WP-Queue bestätigen, Nicht-Ziele fixieren | WP-044 | **release-blocking** (Gate — abgeschlossen mit diesem Dokument) |
-| NDF-WP-046 | Neutral Example Project v0.2 | docs-only / example | P1 | `examples/minimal-ndf-project` zu realistischem, neutralem Adapter-Zielprojekt ausbauen (DE/EN) | WP-045 | **release-blocking** |
+| NDF-WP-046 | Neutral Example Project v0.2 | docs-only / example | P1 | Neutrales Adapter-Fixture `examples/neutral-example-project/` (SampleProject, Pre-Adoption-Zustand) | WP-045 | **release-blocking** — angelegt in WP-046 |
 | NDF-WP-047 | Project Adapter Practical Validation | review-only + docs-only | P1 | Adapter v0.2 Phasen 0–10 vollständig am Beispielprojekt durchspielen; Lücken als Findings zurückführen | WP-046 | **release-blocking** (Kernbeweis) |
 | NDF-WP-052 | Public Quality Gate v0.2 | feature (Script) | P1 | Gate härten: u. a. Scan-Schutz gegen private Muster in Prüf-Doku, Prüfung neuer/untracked Dateien vor Commit, Denylist-Workflow-Doku | WP-045 | **release-blocking** |
 | NDF-WP-048 | Prompt Library Full DE/EN Pass | docs-only / i18n | P2 | Restliche ~30 Prompts DE/EN-Kern (Zweck/Grenzen/Rückmeldung) | WP-045 | optional (should-have; Reststand ehrlich dokumentieren) |

@@ -8,6 +8,7 @@ All notable changes to the Nova Development Framework will be documented in this
 
 - Foundation 0.3 planning documents and draft work package queue (WP-044)
 - Foundation 0.3 scope lock and release-blocking work package definition (WP-045)
+- Neutral example project v0.2 (SampleProject) as adapter validation fixture (WP-046)
 
 ## [0.2.0-foundation] - 2026-07-03
 

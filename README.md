@@ -128,14 +128,14 @@ Structure review: [REPOSITORY_STRUCTURE_REVIEW.md](docs/repository/REPOSITORY_ST
 
 1. Kernprinzipien und Rollenmodell oben lesen.
 2. Work-Package-Typen verstehen: [WORK_PACKAGE_TYPES.md](framework/standards/WORK_PACKAGE_TYPES.md)
-3. Bestehendes Projekt anbinden: [PROJECT_ADAPTER_V0_2.md](docs/project-starter/PROJECT_ADAPTER_V0_2.md)
+3. Bestehendes Projekt anbinden: [PROJECT_ADAPTER_V0_2.md](docs/project-starter/PROJECT_ADAPTER_V0_2.md) — Beispiel-Fixture: [examples/neutral-example-project/](examples/neutral-example-project/README.md)
 4. Vorlagen und Prompts: `framework/templates/` · `framework/prompts/`
 
 ## EN – Getting Started
 
 1. Read the core principles and role model above.
 2. Understand work package types: [WORK_PACKAGE_TYPES.md](framework/standards/WORK_PACKAGE_TYPES.md)
-3. Adapt an existing project: [PROJECT_ADAPTER_V0_2.md](docs/project-starter/PROJECT_ADAPTER_V0_2.md)
+3. Adapt an existing project: [PROJECT_ADAPTER_V0_2.md](docs/project-starter/PROJECT_ADAPTER_V0_2.md) — example fixture: [examples/neutral-example-project/](examples/neutral-example-project/README.md)
 4. Templates and prompts: `framework/templates/` · `framework/prompts/`
 
 ## DE – Sprache / Übersetzung
