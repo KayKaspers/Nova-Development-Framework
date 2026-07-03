@@ -4,26 +4,28 @@
 
 Der Root des Repositories soll übersichtlich bleiben.
 
+Diese Policy wird seit WP-032 automatisch durch den Public Quality Gate geprüft (siehe `PUBLIC_QUALITY_GATE.md`).
+
 ## Erlaubte Root-Dateien
 
 - README.md
 - CONTRIBUTING.md
 - CODE_OF_CONDUCT.md
 - SECURITY.md
-- LICENSE.md
+- LICENSE
 - CHANGELOG.md
-- ROADMAP.md
 - .gitignore
 - .gitattributes
 
-## Nur temporär erlaubt
+Roadmaps liegen unter `docs/roadmap/`, nicht im Root.
 
-- Import-Anleitungen
-- Sprint-READMEs
-- Paket-Changelogs
-- temporäre Notizen
+## Nicht mehr im Root erlaubt
 
-Diese sollen nach Import entweder entfernt oder in passende Unterordner verschoben werden.
+Import-Paket-Artefakte gehören direkt nach `docs/import-history/` und werden im Root vom Quality Gate als Fehler gemeldet:
+
+- Import-Anleitungen (`NDF_*IMPORT_ANLEITUNG.md`)
+- Pack-READMEs (`README_WP_*.md`, `README_*PACK.md`)
+- Paket-Changelogs (`CHANGELOG_WP_*.md`, `CHANGELOG_*_INTEGRATION.md`, …)
 
 ## Nicht erlaubt
 

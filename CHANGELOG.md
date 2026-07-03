@@ -2,7 +2,22 @@
 
 All notable changes to the Nova Development Framework will be documented in this file.
 
-## [0.1.0-foundation] - Prepared
+## [Unreleased] - Foundation 0.2 (in development)
+
+### Added
+
+- Work Package Type Standard (WP-027)
+- Destructive Action Toolkit (WP-028)
+- Security Prompt Library (WP-029)
+- Public Repository Quality Gate: script, CI workflow, denylist concept (WP-032)
+
+### Changed
+
+- Public neutralization: private project references replaced by neutral reference projects, root cleaned, import packages archived under `docs/import-history/` (WP-030)
+- Maintainer neutralization: personal references replaced by neutral roles, workflow generalized to Nova → Implementation Agent → Human Maintainer (WP-031)
+- Repository link and structure consistency review: ADR structure documented, root policy aligned with the quality gate (WP-033)
+
+## [0.1.0-foundation] - Released
 
 ### Added
 
