@@ -4,7 +4,7 @@
 
 ### Project Owner
 
-Kay entscheidet final über Richtung, Veröffentlichung und Prioritäten.
+Der Maintainer entscheidet final über Richtung, Veröffentlichung und Prioritäten.
 
 ### Architecture Lead
 

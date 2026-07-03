@@ -2,7 +2,7 @@
 
 Version: 0.1  
 Status: Draft / Foundation Phase  
-Owner: Kay  
+Owner: Maintainer  
 Architecture Lead: Nova
 
 ## 1. Zweck
@@ -44,9 +44,9 @@ Das NDF wird langfristig zu einer vollständigen Entwicklungsplattform mit:
 
 ## 5. Rollenmodell
 
-### Kay – Project Owner
+### Maintainer – Project Owner
 
-Kay trifft finale Entscheidungen, prüft Änderungen, veröffentlicht Commits und steuert Prioritäten.
+Der Maintainer trifft finale Entscheidungen, prüft Änderungen, veröffentlicht Commits und steuert Prioritäten.
 
 ### Nova – Architecture Lead
 
@@ -77,7 +77,7 @@ Jede größere Änderung folgt diesem Ablauf:
 3. Review durchführen
 4. Umsetzung vorbereiten
 5. Änderungen prüfen
-6. Commit durch Kay
+6. Commit durch den Maintainer
 7. Push nach GitHub
 8. Project Brain aktualisieren
 9. Lessons Learned dokumentieren

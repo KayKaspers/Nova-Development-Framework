@@ -48,4 +48,4 @@ Foundation 0.2 will focus on cleanup, automation, Academy expansion, real projec
 
 ## Publishing Note
 
-Only publish after final repository review by Kay.
+Only publish after final repository review by the maintainer.

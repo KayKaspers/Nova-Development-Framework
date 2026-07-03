@@ -3,7 +3,7 @@
 ## Lifecycle
 
 ```text
-Intake -> Classification -> Blueprint/Prompt -> Execution -> Rückmeldung -> Nova Review -> Kay Commit -> CI/Validation -> Follow-up
+Intake -> Classification -> Blueprint/Prompt -> Execution -> Rückmeldung -> Nova Review -> Maintainer Commit -> CI/Validation -> Follow-up
 ```
 
 ## 1. Intake
@@ -38,9 +38,9 @@ Claude reports summary, changed files, tests, risks and recommendation.
 
 Nova decides: GO, GO WITH NOTES, REWORK, SPLIT or STOP.
 
-## 7. Kay Commit
+## 7. Maintainer Commit
 
-Kay controls staging, commit, push and release.
+The human maintainer controls staging, commit, push and release.
 
 ## 8. CI / Validation
 

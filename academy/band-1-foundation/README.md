@@ -23,7 +23,7 @@ Am Ende von Band 1 kann der Leser:
 
 1. Willkommen in der Softwareentwicklung
 2. Was ist das Nova Development Framework?
-3. Die Rollen: Kay, Nova, Claude, VS Code, GitHub Desktop
+3. Die Rollen: Maintainer, Nova, Claude, VS Code, GitHub Desktop
 4. Grundbegriffe ohne Fachchinesisch
 5. GitHub verstehen
 6. GitHub Desktop verstehen

@@ -23,13 +23,13 @@ Nova plant
 ↓
 Claude setzt ein kleines Arbeitspaket um
 ↓
-Kay prüft in VS Code
+Maintainer prüft in VS Code
 ↓
 GitHub Desktop zeigt Änderungen
 ↓
-Kay committet
+Maintainer committet
 ↓
-Kay pusht
+Maintainer pusht
 ↓
 Claude liefert Rückmeldung an Nova
 ↓

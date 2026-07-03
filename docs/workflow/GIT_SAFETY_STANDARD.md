@@ -17,7 +17,7 @@ Repository-Verlauf ist wertvoll. Änderungen am Verlauf dürfen nicht automatisi
 
 ## Menschliche Kontrolle
 
-Kay führt Commits und Pushes über GitHub Desktop aus.
+Der Maintainer führt Commits und Pushes über GitHub Desktop aus.
 
 ## Stop-Regel
 

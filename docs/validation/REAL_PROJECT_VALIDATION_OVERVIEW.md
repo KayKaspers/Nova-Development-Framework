@@ -14,7 +14,7 @@ Dieses Paket dokumentiert die ersten zwei Referenzvalidierungen:
 NDF funktioniert am besten als kontrollierter Ausführungsrahmen:
 
 ```text
-Planung -> kleines Work Package -> Claude Umsetzung -> Rückmeldung an Nova -> Kay Review -> Commit/Push
+Planung -> kleines Work Package -> Claude Umsetzung -> Rückmeldung an Nova -> Maintainer Review -> Commit/Push
 ```
 
 ## Referenzprojekt A als Referenz

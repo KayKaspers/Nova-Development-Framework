@@ -12,7 +12,7 @@ Referenzprojekt B und andere Projekte sollen zeitnah vom NDF profitieren.
 
 Es gibt einen sofort nutzbaren Standardworkflow:
 
-Nova → Claude → VS Code → GitHub Desktop → Kay Commit/Push → Nova Review.
+Nova → Claude → VS Code → GitHub Desktop → Maintainer Commit/Push → Nova Review.
 
 ## Status
 

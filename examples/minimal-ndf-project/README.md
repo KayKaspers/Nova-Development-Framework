@@ -38,8 +38,8 @@ Das bedeutet:
 ```text
 Nova plant
 Claude setzt kleines Work Package um
-Kay prüft in VS Code/GitHub Desktop
-Kay committet und pusht
+Maintainer prüft in VS Code/GitHub Desktop
+Maintainer committet und pusht
 Nova reviewed
 ```
 

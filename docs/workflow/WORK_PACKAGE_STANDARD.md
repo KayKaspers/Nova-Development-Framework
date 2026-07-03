@@ -29,4 +29,4 @@ Untersuche die Docker Compose Dokumentation und ergänze eine Anfängeranleitung
 
 ## Maximale Größe
 
-Ein Arbeitspaket sollte so klein sein, dass Kay die Änderungen nachvollziehen kann.
+Ein Arbeitspaket sollte so klein sein, dass der Maintainer die Änderungen nachvollziehen kann.

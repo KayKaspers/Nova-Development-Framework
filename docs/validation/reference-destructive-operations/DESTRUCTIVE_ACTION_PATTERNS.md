@@ -7,7 +7,7 @@ Destructive Actions sind Aktionen, die Ressourcen unwiderruflich löschen, über
 ## Pflichtablauf
 
 ```text
-Blueprint -> Nova Review -> Read-only Preview -> Guarded Execution -> Audit -> Tests -> Kay Commit
+Blueprint -> Nova Review -> Read-only Preview -> Guarded Execution -> Audit -> Tests -> Maintainer Commit
 ```
 
 ## Pflichtinhalte im Blueprint

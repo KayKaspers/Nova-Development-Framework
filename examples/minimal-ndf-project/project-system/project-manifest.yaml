@@ -1,6 +1,6 @@
 name: "Minimal NDF Project"
 slug: "minimal-ndf-project"
-owner: "Kay"
+owner: "<project-owner>"
 architecture_lead: "Nova"
 implementation_assistant: "Claude"
 repository: "Nova-Development-Framework/examples/minimal-ndf-project"

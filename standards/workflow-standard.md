@@ -2,7 +2,7 @@
 
 ## Rollen
 
-### Kay / Mensch
+### Maintainer / Mensch
 Projektleitung, Freigabe, Tests, Commit und Push.
 
 ### Nova / ChatGPT

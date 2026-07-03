@@ -32,4 +32,4 @@ Die Work Package Queue enthält die nächsten sinnvollen Arbeitspakete eines Pro
 
 ## Regel
 
-Ein Work Package muss klein genug sein, dass Kay es prüfen kann.
+Ein Work Package muss klein genug sein, dass der Maintainer es prüfen kann.

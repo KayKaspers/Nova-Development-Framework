@@ -1,8 +1,8 @@
 # Rollen und Verantwortlichkeiten
 
-## Kay – Project Owner
+## Maintainer – Project Owner
 
-Kay entscheidet, prüft, committet und pusht.
+Der Maintainer entscheidet, prüft, committet und pusht.
 
 Aufgaben:
 

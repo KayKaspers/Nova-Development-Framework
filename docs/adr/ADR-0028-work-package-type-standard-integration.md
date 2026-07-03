@@ -34,7 +34,7 @@ NDF becomes stricter but safer.
 
 Claude prompts become clearer.
 
-Kay can review changes more easily.
+The maintainer can review changes more easily.
 
 Nova can decide follow-up steps more reliably.
 

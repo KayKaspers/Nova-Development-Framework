@@ -3,7 +3,7 @@
 ## Grundlagen
 
 - [ ] Ich weiß, was NDF ist.
-- [ ] Ich kenne die Rollen Kay, Nova und Claude.
+- [ ] Ich kenne die Rollen Maintainer, Nova und Claude.
 - [ ] Ich weiß, was ein Repository ist.
 - [ ] Ich weiß, was ein Commit ist.
 - [ ] Ich weiß, was ein Push ist.

@@ -21,4 +21,4 @@ Nach dem Push kann optional ein GitHub Release vorbereitet werden:
 v0.1.0-foundation
 ```
 
-Das Tagging bitte erst machen, wenn Kay den Stand final geprüft hat.
+Das Tagging bitte erst machen, wenn der Maintainer den Stand final geprüft hat.

@@ -6,7 +6,7 @@ Das NDF wird menschlich geführt und KI-unterstützt entwickelt.
 
 ## 2. Entscheidungsrechte
 
-Kay ist finaler Entscheider für:
+Der Maintainer ist finaler Entscheider für:
 
 - Veröffentlichung
 - Projektprioritäten
@@ -53,7 +53,7 @@ Jede größere Änderung benötigt:
 2. Begründung
 3. betroffene Dateien
 4. Qualitätsprüfung
-5. Commit durch Kay
+5. Commit durch den Maintainer
 
 ## 5. ADR-Pflicht
 

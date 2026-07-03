@@ -11,7 +11,7 @@ Es ist maschinenlesbar und menschenlesbar.
 ```yaml
 name: SampleProject
 slug: sample-project
-owner: Kay
+owner: <project-owner>
 architecture_lead: Nova
 implementation_assistant: Claude
 repository: ""

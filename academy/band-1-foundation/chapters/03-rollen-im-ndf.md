@@ -10,7 +10,7 @@ Nach diesem Kapitel verstehst du:
 
 ## Einfache Erklärung
 
-Kay entscheidet, Nova plant und reviewt, Claude setzt Arbeitspakete um, VS Code zeigt Dateien, GitHub Desktop verwaltet Git.
+Der Maintainer entscheidet, Nova plant und reviewt, Claude setzt Arbeitspakete um, VS Code zeigt Dateien, GitHub Desktop verwaltet Git.
 
 ## Warum ist das wichtig?
 

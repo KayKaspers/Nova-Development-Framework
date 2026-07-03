@@ -61,7 +61,7 @@
 
 ## Final Decision
 
-- [ ] Kay has reviewed the repository.
-- [ ] Kay approves Foundation 0.1.
+- [ ] The maintainer has reviewed the repository.
+- [ ] The maintainer approves Foundation 0.1.
 - [ ] Tag may be created.
 - [ ] GitHub Release may be published.

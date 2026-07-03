@@ -35,4 +35,4 @@ Bitte am Ende:
 2. Go/No-Go
 3. Fehlende oder riskante Punkte
 4. Empfohlene Nacharbeit
-5. Release-Empfehlung für Kay
+5. Release-Empfehlung für den Maintainer

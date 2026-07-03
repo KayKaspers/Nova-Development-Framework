@@ -25,7 +25,7 @@ Destructive Blueprint
 -> Nova Review
 -> Implementation Prompt
 -> Focused Tests
--> Kay Review
+-> Maintainer Review
 -> Commit
 -> CI
 -> Follow-up Health/Risk Update

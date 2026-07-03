@@ -36,12 +36,12 @@ Foundation 0.1 is acceptable if:
 Current recommendation:
 
 ```text
-GO after final repository review by Kay
+GO after final repository review by the maintainer
 ```
 
 ## Human Approval
 
-Final release approval remains with Kay.
+Final release approval remains with the human maintainer.
 
 ## Notes
 

@@ -26,7 +26,7 @@ Referenzprojekt B ist als erstes Referenzprojekt geeignet, weil es bereits echte
 - FFmpeg Docker Build-Gate
 - dokumentierte Risiken
 - reale Lessons Learned
-- bestehender Nova → Claude → Kay Workflow
+- bestehender Nova → Implementierungs-Agent → menschlicher Maintainer Workflow
 
 ## Integrationsziel
 

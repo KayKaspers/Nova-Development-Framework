@@ -14,7 +14,7 @@ Das Projekt soll zeigen, wie NDF-Artefakte praktisch zusammenhängen.
 
 ## Zielgruppe
 
-- Kay
+- Project Owner
 - NDF-Nutzer
 - Einsteiger
 - Projektverantwortliche

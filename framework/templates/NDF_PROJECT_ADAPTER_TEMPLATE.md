@@ -16,7 +16,7 @@ Dieses Template bindet ein bestehendes Projekt an das Nova Development Framework
 
 - Nova plant
 - Claude setzt um
-- Kay prüft
+- Maintainer prüft
 - GitHub Desktop committet/pusht
 
 ## Projekt-spezifische Quality Gates

@@ -62,11 +62,11 @@ Kernaussagen:
 
 Ziel:
 
-Kay, Nova, Claude, VS Code, GitHub Desktop und GitHub verständlich erklären.
+Maintainer, Nova, Claude, VS Code, GitHub Desktop und GitHub verständlich erklären.
 
 Kernaussagen:
 
-- Kay entscheidet.
+- Der Maintainer entscheidet.
 - Nova plant und reviewed.
 - Claude setzt kleine Arbeitspakete um.
 - VS Code zeigt Dateien.

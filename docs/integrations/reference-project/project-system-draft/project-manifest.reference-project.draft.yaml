@@ -1,6 +1,6 @@
 name: "Reference Project B"
 slug: "reference-project"
-owner: "Kay"
+owner: "<project-owner>"
 architecture_lead: "Nova"
 implementation_assistant: "Claude"
 repository: "Reference Project B"

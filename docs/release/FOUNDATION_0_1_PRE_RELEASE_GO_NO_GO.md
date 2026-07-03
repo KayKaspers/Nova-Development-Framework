@@ -15,7 +15,7 @@ Foundation 0.1 ist inhaltlich vorbereitet.
 - [ ] `docs/release/FOUNDATION_0_1_RELEASE_NOTES.md` ist vorhanden.
 - [ ] `CHANGELOG.md` ist vorhanden.
 - [ ] GitHub Desktop zeigt keine offenen lokalen Änderungen.
-- [ ] Kay hat den Stand geprüft.
+- [ ] Der Maintainer hat den Stand geprüft.
 
 ## Release-Empfehlung
 

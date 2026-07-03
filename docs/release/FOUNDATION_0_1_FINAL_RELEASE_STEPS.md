@@ -57,4 +57,4 @@ docs/release/FOUNDATION_0_1_GITHUB_RELEASE_DRAFT.md
 
 ## 6. Publish release
 
-Erst veröffentlichen, wenn Kay final geprüft hat.
+Erst veröffentlichen, wenn der Maintainer final geprüft hat.

@@ -11,7 +11,7 @@ Das NDF ist ein Entwicklungsstandard, eine Dokumentationsplattform und ein wiede
 2. Claude erstellt Inhalte oder Code nach klarem Auftrag.
 3. VS Code dient als Editor.
 4. GitHub Desktop verwaltet Commit, Pull und Push.
-5. Kay prüft und veröffentlicht.
+5. Der Maintainer prüft und veröffentlicht.
 
 ## Wichtige Entscheidungen
 - Cursor ist optional.

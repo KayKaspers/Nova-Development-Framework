@@ -19,7 +19,7 @@ Noch leer lassen, bis die NDF-Website oder GitHub Pages aktiv ist.
 Später möglich:
 
 ```text
-https://kaykaspers.github.io/Nova-Development-Framework/
+https://<github-owner>.github.io/Nova-Development-Framework/
 ```
 
 ## Topics

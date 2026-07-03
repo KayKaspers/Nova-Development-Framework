@@ -28,12 +28,12 @@ NDF solves this with a clear operating model:
 ## NDF Workflow
 
 ```text
-Nova (planning) -> Claude (execution) -> User (review & approval)
+Nova (planning) -> Implementation Agent (execution) -> Human Maintainer (review & approval)
 ```
 
 - **Nova** plans and specifies work packages, defines type, scope, and acceptance criteria.
-- **Claude** executes exactly one work package at a time and reports back in a structured format.
-- **The user** reviews the result, decides GO / REWORK / SPLIT / STOP, and performs commit and push.
+- **The implementation agent** (e.g. Claude) executes exactly one work package at a time and reports back in a structured format.
+- **The human maintainer** reviews the result, decides GO / REWORK / SPLIT / STOP, and performs commit and push.
 
 No step is skipped: classify → plan → execute → report → review → commit.
 

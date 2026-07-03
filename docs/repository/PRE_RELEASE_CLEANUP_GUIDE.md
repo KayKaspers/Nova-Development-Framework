@@ -68,8 +68,10 @@ CHANGELOG_*.md
 Ziel:
 
 ```text
-docs/release/history/
+docs/import-history/
 ```
+
+Hinweis: `docs/release/history/` ist echten Release-Changelogs vorbehalten. Paket-Changelogs aus der Foundation-0.1-Phase bleiben dort als eingefrorener Altbestand.
 
 ### Alte Übersichtsdokumente
 
