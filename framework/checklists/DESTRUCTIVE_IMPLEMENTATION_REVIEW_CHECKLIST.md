@@ -1,5 +1,13 @@
 # Checklist – Destructive Implementation Review
 
+## DE – Zweck
+
+Diese Checkliste prüft vor dem Commit, ob eine destruktive Implementierung dem freigegebenen Blueprint entspricht: Scope, serverseitige Autorisierung, Bestätigungen, Audit-Privacy und Tests. Entscheidung: GO / GO WITH NOTES / REWORK / STOP.
+
+## EN – Purpose
+
+This checklist verifies before commit that a destructive implementation matches the approved blueprint: scope, server-side authorization, confirmations, audit privacy and tests. Decision: GO / GO WITH NOTES / REWORK / STOP.
+
 ## Before Commit
 
 - [ ] Approved destructive blueprint exists

@@ -6,6 +6,8 @@ Die Prompt Library stellt wiederverwendbare, geprüfte und strukturierte Prompts
 
 Rollenhinweis: Nova = ChatGPT-basierte Planungs-/Review-Rolle (siehe `docs/workflow/NOVA_CHATGPT_ROLE.md`); ausführende Prompts richten sich an den Implementation Agent (z. B. Claude).
 
+Sprachstatus / Language status: Kern-Prompts (Adapter, Core, Review, priorisierte Security) tragen seit WP-039 DE/EN-Zweck- und Grenzen-Blöcke; Details siehe `docs/i18n/TRANSLATION_STATUS.md`. / Core prompts carry DE/EN purpose and boundary blocks since WP-039.
+
 ## Kategorien
 
 ```text

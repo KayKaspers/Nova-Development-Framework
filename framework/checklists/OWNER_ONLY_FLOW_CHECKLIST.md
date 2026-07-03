@@ -1,5 +1,13 @@
 # Checklist – Owner-only Flow
 
+## DE – Zweck
+
+Diese Checkliste gilt für Owner-only-Aktionen (irreversible Deletes, Resets, Token-Revokes): serverseitige Owner-Prüfung, sichere Bestätigungs-UX und sichere Audit-Events.
+
+## EN – Purpose
+
+This checklist applies to owner-only actions (irreversible deletes, resets, token revokes): server-side owner check, safe confirmation UX and safe audit events.
+
 ## Use When
 
 - [ ] irreversible delete

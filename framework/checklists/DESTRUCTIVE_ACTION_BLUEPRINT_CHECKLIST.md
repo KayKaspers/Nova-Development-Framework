@@ -1,5 +1,13 @@
 # Checklist – Destructive Action Blueprint
 
+## DE – Zweck
+
+Diese Checkliste prüft, ob ein Blueprint für eine destruktive Aktion vollständig ist: Scope, Autorisierung, Bestätigungen, Ausführungsschutz, Audit, Tests und Doku — ohne jede Implementierung.
+
+## EN – Purpose
+
+This checklist verifies that a destructive action blueprint is complete: scope, authorization, confirmations, execution guard, audit, tests and docs — without any implementation.
+
 ## Classification
 
 - [ ] Work Package Type is `destructive-blueprint`

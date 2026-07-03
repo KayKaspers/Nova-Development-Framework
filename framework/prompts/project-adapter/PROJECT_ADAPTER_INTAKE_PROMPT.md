@@ -11,6 +11,12 @@ requires_human_review: true
 
 # Prompt – Project Adapter Intake & Read-only Review
 
+> Sprachstatus / Language status: Foundation 0.2 prompt. Zweck, Grenzen und Rückmeldung DE/EN. / Purpose, boundaries and feedback DE/EN.
+
+## EN – Purpose
+
+Analyze an existing project strictly read-only and produce an NDF adapter proposal: review report, recommended NDF level, first safe work packages. No code or config changes, never read or output secrets, no commit, no push — analysis and proposal only.
+
 ## Rolle
 
 Du bist der Implementation Agent und analysierst ein bestehendes Projekt für die NDF-Adaption.
@@ -46,7 +52,7 @@ Analysiere das Zielprojekt ausschließlich lesend und erstelle einen NDF-Adapter
 
 ## Rückmeldung an Nova (zwingend)
 
-Nova ist die ChatGPT-basierte Planungs- und Review-Rolle des NDF (siehe `docs/workflow/NOVA_CHATGPT_ROLE.md`).
+Nova (ChatGPT) ist die ChatGPT-basierte Planungs-, Architektur- und Review-Rolle (siehe `docs/workflow/NOVA_CHATGPT_ROLE.md`). / Nova (ChatGPT) is the ChatGPT-based planning, architecture and review role.
 
 Struktur nach `framework/templates/RUECKMELDUNG_AN_NOVA_STANDARD.md`, mindestens:
 

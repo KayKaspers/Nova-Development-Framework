@@ -1,5 +1,13 @@
 # Checklist – Audit Privacy
 
+## DE – Zweck
+
+Diese Checkliste sichert das Prinzip „Belege ohne Leaks“: Audit-Events enthalten Ereignis, Akteur, Ressourcen-Klasse und Ergebnis — niemals Tokens, Secrets, Dateiinhalte oder volle Host-Pfade.
+
+## EN – Purpose
+
+This checklist protects the principle of evidence without leakage: audit events contain event, actor, resource class and result — never tokens, secrets, file contents or full host paths.
+
 ## Required Principle
 
 ```text

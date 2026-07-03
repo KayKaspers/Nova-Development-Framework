@@ -1,5 +1,13 @@
 # Checklist – Work Package Type
 
+## DE – Zweck
+
+Diese Checkliste prüft vor dem Prompt und vor dem Commit, ob das Work Package korrekt typisiert ist und im Scope geblieben ist. Die Schnellreferenz unten ordnet Aufgaben den Typen zu.
+
+## EN – Purpose
+
+This checklist verifies before the prompt and before commit that the work package is correctly typed and stayed in scope. The quick reference below maps tasks to types.
+
 ## Before Prompt
 
 - [ ] Work Package ID defined

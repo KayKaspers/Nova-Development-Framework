@@ -1,5 +1,9 @@
 # Project Adapter Checklist
 
+## EN – Purpose
+
+This checklist accompanies every project adapter run: preflight, repository status, privacy and secret rules, read-only analysis, detection of Docker/CI/docs/security/destructive features, role model, initial Health Score, typed work packages, and the feedback to Nova (ChatGPT).
+
 Für jede Adapter-Ausführung abarbeiten. Bezugsdokument: `docs/project-starter/PROJECT_ADAPTER_V0_2.md`
 
 ## Preflight

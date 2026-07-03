@@ -11,6 +11,12 @@ requires_human_review: true
 
 # NDF Prompt – Create Project Adapter
 
+> Sprachstatus / Language status: Foundation 0.2 prompt. Zweck, Grenzen und Rückmeldung DE/EN. / Purpose, boundaries and feedback DE/EN.
+
+## EN – Purpose
+
+Legacy v0.1 short form: describe an existing project and propose an NDF adapter (goal, current state, standards, quality gates, first work packages). No code changes, no commit, no push. For the full v0.2 flow use PROJECT_ADAPTER_INTAKE_PROMPT.md and PROJECT_SYSTEM_BASELINE_PROMPT.md.
+
 ## Ziel
 
 Erstelle einen NDF Project Adapter für ein bestehendes Projekt.
@@ -31,5 +37,7 @@ Erstelle einen NDF Project Adapter für ein bestehendes Projekt.
 - Kein Push.
 
 ## Rückmeldung an Nova
+
+Nova (ChatGPT) ist die ChatGPT-basierte Planungs-, Architektur- und Review-Rolle (siehe `docs/workflow/NOVA_CHATGPT_ROLE.md`). / Nova (ChatGPT) is the ChatGPT-based planning, architecture and review role.
 
 Nutze den Standardblock Rückmeldung an Nova.

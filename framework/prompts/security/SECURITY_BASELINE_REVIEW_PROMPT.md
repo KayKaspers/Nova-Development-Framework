@@ -1,5 +1,11 @@
 # Claude Prompt – Security Baseline Review
 
+> Sprachstatus / Language status: Foundation 0.2 prompt. Zweck, Grenzen und Rückmeldung DE/EN. / Purpose, boundaries and feedback DE/EN.
+
+## EN – Purpose
+
+Produce a structured security baseline assessment (secrets, auth, authorization, headers, containers, destructive actions, audit, rate limiting, CI) without any functional changes. A security review is not a security fix and not a Health Score update — those are separate work packages. Never output secrets. No commit, no push.
+
 ## Rolle
 
 Du bist Claude und prüfst ein Projekt nach dem Nova Development Framework auf eine erste Security-Baseline.
@@ -40,6 +46,8 @@ Prüfe:
 - Kein Push
 
 ## Rückmeldung an Nova
+
+Nova (ChatGPT) ist die ChatGPT-basierte Planungs-, Architektur- und Review-Rolle (siehe `docs/workflow/NOVA_CHATGPT_ROLE.md`). / Nova (ChatGPT) is the ChatGPT-based planning, architecture and review role.
 
 ### Zusammenfassung
 

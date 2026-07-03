@@ -26,9 +26,9 @@ Grobe Übersicht, welche Bereiche des NDF bereits DE/EN-tauglich sind und wo Fol
 | `docs/workflow/` | bilingual | seit WP-038: 6 Kern-Dokumente voll DE/EN, TYPE_INTEGRATION mit DE-Kurzfassung; nur GITHUB_DESKTOP_WORKFLOW noch de-only / 6 core docs fully DE/EN since WP-038, TYPE_INTEGRATION with German summary; only GITHUB_DESKTOP_WORKFLOW still German |
 | `docs/repository/` | mixed | Quality-Gate-Doku DE, Policies DE/EN gemischt |
 | `docs/roadmap/` | mixed | Progress-Dateien DE/EN gemischt; niedrige Priorität / low priority |
-| `framework/prompts/` | mixed | Frontmatter EN, Inhalte teils DE; neue Prompts zuerst angleichen |
+| `framework/prompts/` | mixed | seit WP-039: 12 Kern-Prompts (Adapter, Core, Review, priorisierte Security) mit DE/EN-Zweck/Grenzen/Rückmeldung; übrige Prompts DE / 12 core prompts carry DE/EN purpose, boundaries and feedback since WP-039; remaining prompts German |
 | `framework/templates/` | mixed | Feldnamen EN, Anleitungen DE; für öffentliche Nutzung EN ergänzen |
-| `framework/checklists/` | de-only | EN-Fassungen offen |
+| `framework/checklists/` | mixed | seit WP-039: 7 zentrale Checklisten mit bilingualem Zweck-Block; Punktlisten überwiegend EN / 7 core checklists with bilingual purpose blocks since WP-039; item lists mostly English |
 | `docs/academy/` | de-only | Lernmaterial; Übersetzung als eigenes WP / translation as its own WP |
 | `docs/adr/` | mixed | 0027–0030 EN, frühe thematische DE/EN gemischt |
 | `adr/` | frozen | Foundation 0.1, bleibt unverändert / stays unchanged |
@@ -46,6 +46,6 @@ Grobe Übersicht, welche Bereiche des NDF bereits DE/EN-tauglich sind und wo Fol
 
 1. ~~`README.md` DE-Spiegelung~~ — erledigt in WP-036 / done in WP-036
 2. ~~Workflow docs full DE/EN alignment~~ — erledigt in WP-038 / done in WP-038 (Rest: GITHUB_DESKTOP_WORKFLOW, Detailteile der Standards)
-3. `framework/prompts/` + `framework/checklists/` EN (öffentliche Nutzbarkeit)
+3. Prompt library full DE/EN alignment + Checklist library full DE/EN alignment + Security prompt full DE/EN pass (Kern erledigt in WP-039 / core done in WP-039)
 4. `docs/project-starter/` EN (Adapter/Onboarding)
 5. `docs/academy/` EN (eigenes größeres WP)

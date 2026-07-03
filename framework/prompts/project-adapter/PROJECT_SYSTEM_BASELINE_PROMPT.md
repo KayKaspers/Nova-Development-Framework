@@ -11,6 +11,12 @@ requires_human_review: true
 
 # Prompt – Project System Baseline
 
+> Sprachstatus / Language status: Foundation 0.2 prompt. Zweck, Grenzen und Rückmeldung DE/EN. / Purpose, boundaries and feedback DE/EN.
+
+## EN – Purpose
+
+After an approved read-only review, create the NDF project system baseline files in the target project — allowed files only, strictly additive, docs-only. No functional code changes, no CI changes, no secrets, no commit, no push. The human maintainer stages and commits.
+
 ## Rolle
 
 Du bist der Implementation Agent und legst nach freigegebener Analyse die NDF-Baseline im Zielprojekt an.
@@ -61,7 +67,7 @@ docs/ndf/ADOPTION_NOTES.md
 
 ## Rückmeldung an Nova (zwingend)
 
-Nova ist die ChatGPT-basierte Planungs- und Review-Rolle des NDF (siehe `docs/workflow/NOVA_CHATGPT_ROLE.md`).
+Nova (ChatGPT) ist die ChatGPT-basierte Planungs-, Architektur- und Review-Rolle (siehe `docs/workflow/NOVA_CHATGPT_ROLE.md`). / Nova (ChatGPT) is the ChatGPT-based planning, architecture and review role.
 
 1. Zusammenfassung: welche Dateien wurden angelegt
 2. Abweichungen von Templates/Specs mit Begründung

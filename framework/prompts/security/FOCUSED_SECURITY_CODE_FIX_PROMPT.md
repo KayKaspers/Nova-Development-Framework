@@ -1,5 +1,11 @@
 # Claude Prompt – Focused Security Code Fix
 
+> Sprachstatus / Language status: Foundation 0.2 prompt. Zweck, Grenzen und Rückmeldung DE/EN. / Purpose, boundaries and feedback DE/EN.
+
+## EN – Purpose
+
+Mitigate exactly one approved security finding with minimal, testable changes (fail-closed where appropriate). No unrelated refactors, never output or log secrets, no Health Score update in the same commit, no commit or push by the Implementation Agent.
+
 ## Rolle
 
 Du bist Claude und setzt genau ein freigegebenes Security-Finding um.
@@ -32,6 +38,8 @@ Mitigiere ein konkretes Security-Finding minimal und testbar.
 - Keine CI-/Docker-Änderungen ohne Freigabe
 
 ## Rückmeldung an Nova
+
+Nova (ChatGPT) ist die ChatGPT-basierte Planungs-, Architektur- und Review-Rolle (siehe `docs/workflow/NOVA_CHATGPT_ROLE.md`). / Nova (ChatGPT) is the ChatGPT-based planning, architecture and review role.
 
 ### Zusammenfassung
 

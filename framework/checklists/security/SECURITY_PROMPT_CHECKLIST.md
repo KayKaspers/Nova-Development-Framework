@@ -1,5 +1,13 @@
 # Checklist – Security Prompt
 
+## DE – Zweck
+
+Diese Checkliste prüft Security-Prompts vor dem Versand und Ergebnisse vor dem Commit: Typ, Scope, Secret-Regeln, Tests, getrenntes Health-Score-Update und Rückmeldung an Nova (ChatGPT).
+
+## EN – Purpose
+
+This checklist verifies security prompts before sending and results before commit: type, scope, secret rules, tests, separated Health Score update, and the feedback to Nova (ChatGPT).
+
 ## Before Sending Prompt
 
 - [ ] Work Package Type declared
