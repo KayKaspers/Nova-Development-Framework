@@ -110,6 +110,7 @@ An automated quality gate protects this repository's public neutrality: denylist
 
 - **Foundation 0.1:** released / frozen
 - **Foundation 0.2:** ist als `v0.2.0-foundation` Foundation Pre-Release veröffentlicht — [Release Notes](docs/release/FOUNDATION_0_2_RELEASE_NOTES.md)
+- **Foundation 0.3:** befindet sich in Planung — [Plan](docs/roadmap/FOUNDATION_0_3_PLAN.md)
 - Public Framework Cleanup: erledigt · Project Adapter v0.2: verfügbar · DE/EN-Angleichung: laufend
 
 Struktur-Review: [REPOSITORY_STRUCTURE_REVIEW.md](docs/repository/REPOSITORY_STRUCTURE_REVIEW.md) — NDF ist bewusst noch kein v1.0.
@@ -118,6 +119,7 @@ Struktur-Review: [REPOSITORY_STRUCTURE_REVIEW.md](docs/repository/REPOSITORY_STR
 
 - **Foundation 0.1:** released / frozen
 - **Foundation 0.2:** published as the `v0.2.0-foundation` foundation pre-release — [Release Notes](docs/release/FOUNDATION_0_2_RELEASE_NOTES.md)
+- **Foundation 0.3:** is in planning — [Plan](docs/roadmap/FOUNDATION_0_3_PLAN.md)
 - Public framework cleanup: done · Project Adapter v0.2: available · DE/EN alignment: in progress
 
 Structure review: [REPOSITORY_STRUCTURE_REVIEW.md](docs/repository/REPOSITORY_STRUCTURE_REVIEW.md) — NDF is deliberately not v1.0 yet.
