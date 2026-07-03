@@ -9,8 +9,8 @@ Es ist maschinenlesbar und menschenlesbar.
 ## Empfohlenes Format
 
 ```yaml
-name: CastCore
-slug: castcore
+name: SampleProject
+slug: sample-project
 owner: Kay
 architecture_lead: Nova
 implementation_assistant: Claude

@@ -14,7 +14,7 @@
 Primary validation source:
 
 ```text
-SpeakCore
+Reference Project A
 ```
 
 ## Next Steps
@@ -23,4 +23,4 @@ SpeakCore
 |---|---|---|
 | NDF-WP-029 | Security Prompt Library Expansion | P1 |
 | NDF-WP-030 | Health Score Automation Concept | P2 |
-| NDF-WP-031 | Academy Examples from SpeakCore and CastCore | P2 |
+| NDF-WP-031 | Academy Examples from Reference Projects | P2 |

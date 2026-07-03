@@ -27,7 +27,7 @@ Foundation 0.2 soll zeigen, dass NDF praktisch nutzbar, überprüfbar und auf ec
 
 1. Repository weiter konsolidieren.
 2. Basic Automation Checks vorbereiten oder einführen.
-3. CastCore als erste echte NDF-Integration anbinden.
+3. Referenzprojekt B als erste echte NDF-Integration anbinden.
 4. Academy Band 1 mit echten Kapiteln beginnen.
 5. MkDocs Website-Prototyp vorbereiten.
 6. PDF/DOCX Export-Prototyp vorbereiten.
@@ -54,7 +54,7 @@ klein → prüfbar → dokumentiert → wiederverwendbar
 
 1. Repository Consolidation
 2. Basic Automation Checks
-3. CastCore Integration
+3. Reference Project Integration
 4. Academy Band 1 Kapitel 1–3
 5. MkDocs Prototype
 6. Export Prototype
@@ -66,7 +66,7 @@ Foundation 0.2 ist erfolgreich, wenn:
 
 - das Repository sichtbar sauberer ist
 - Basisprüfungen für Markdown/Links/Struktur geplant oder aktiv sind
-- CastCore als echtes Projekt ein NDF Project System besitzt
+- Referenzprojekt B als echtes Projekt ein NDF Project System besitzt
 - Academy Band 1 mindestens die ersten 3 Kapitel ausführlich enthält
 - ein erster Website-Prototyp lokal nachvollziehbar ist
 - ein erster Export-Prototyp dokumentiert ist

@@ -47,9 +47,9 @@ Destructive Blueprint
 | ADR/Decision Record | yes |
 | Tests | yes |
 
-## The SpeakCore Pattern
+## The Reference Project A Pattern
 
-SpeakCore validated this model with a controlled managed backup delete flow:
+Reference Project A validated this model with a controlled managed backup delete flow:
 
 - exactly one strictly validated managed backup archive
 - exactly derived metadata companion file

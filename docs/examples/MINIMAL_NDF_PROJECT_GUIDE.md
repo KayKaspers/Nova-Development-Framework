@@ -29,10 +29,9 @@ Das Minimal NDF Project zeigt:
 
 Für jedes neue Projekt im NDF-Ökosystem:
 
-- CastCore
-- SpeakCore
-- AirCore
-- SC-OrgaSuite
+- Referenzprojekt B (CI/Docker)
+- Referenzprojekt A (Destructive Operations)
+- zukünftige Referenzprojekte
 - kleinere Tools
 - Dokumentationsprojekte
 

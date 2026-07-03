@@ -6,14 +6,14 @@ Accepted
 
 ## Context
 
-NDF Foundation 0.2 uses real project validation from SpeakCore and CastCore.
+NDF Foundation 0.2 uses real project validation from the reference projects.
 
 Both projects showed that work must be separated by type.
 
 Examples:
 
-- CastCore: security review, code mitigation and Health Score update worked best as separate steps.
-- SpeakCore: destructive actions require blueprint before implementation.
+- Reference Project B: security review, code mitigation and Health Score update worked best as separate steps.
+- Reference Project A: destructive actions require blueprint before implementation.
 
 ## Decision
 

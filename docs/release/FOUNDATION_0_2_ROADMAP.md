@@ -44,12 +44,12 @@ Foundation 0.2 should stabilize, simplify and validate the framework after Found
 Recommended first project:
 
 ```text
-CastCore
+Reference Project B
 ```
 
 Reason:
 
-CastCore already has real CI, Docker, Preflight and strong project learnings.
+Reference Project B already has real CI, Docker, Preflight and strong project learnings.
 
 ## Foundation 0.2 Success Criteria
 

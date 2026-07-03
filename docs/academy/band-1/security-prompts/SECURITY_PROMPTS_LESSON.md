@@ -10,14 +10,14 @@ Verstehen, warum Security-Prompts anders aufgebaut sein müssen als normale Codi
 Security-Arbeit braucht Scope, Tests und klare Grenzen.
 ```
 
-## CastCore-Beispiel
+## Beispiel aus Referenzprojekt B
 
 1. Security Baseline Review fand SEC-01.
 2. Focused Security Code Fix mitigierte SEC-01.
 3. Tests liefen grün.
 4. Danach wurde Health Score aktualisiert.
 
-## SpeakCore-Beispiel
+## Beispiel aus Referenzprojekt A
 
 Backup Delete wurde nicht direkt gebaut.
 

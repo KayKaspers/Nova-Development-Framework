@@ -32,7 +32,7 @@ Der Knowledge Graph verbindet Wissen, Regeln, Entscheidungen, Prompts und Projek
 ## Beispiel
 
 ```text
-CastCore
+Referenzprojekt B
   uses Docker Standard
 Docker Standard
   requires Docker Quality Gate
@@ -41,7 +41,7 @@ Docker Quality Gate
 Lesson Learned FFmpeg Tests
   improves Testing Standard
 Testing Standard
-  applies_to CastCore
+  applies_to Referenzprojekt B
 ```
 
 ## Nutzen

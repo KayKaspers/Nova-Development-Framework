@@ -1,6 +1,6 @@
 # Project Brain Notes – Real Project Validation
 
-## SpeakCore adds
+## Reference Project A adds
 
 - destructive action safety
 - backup delete standard
@@ -8,7 +8,7 @@
 - audit privacy
 - agent endpoint security
 
-## CastCore adds
+## Reference Project B adds
 
 - deterministic generated files
 - CI risk classification

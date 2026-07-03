@@ -42,10 +42,9 @@ Ein Project ist ein konkretes Software-, Dokumentations- oder Infrastrukturvorha
 
 Beispiele:
 
-- CastCore
-- SpeakCore
-- AirCore
-- SC-OrgaSuite
+- Referenzprojekt B (CI/Docker)
+- Referenzprojekt A (Destructive Operations)
+- zukünftige Referenzprojekte
 - NDF selbst
 
 Ein Project besitzt:

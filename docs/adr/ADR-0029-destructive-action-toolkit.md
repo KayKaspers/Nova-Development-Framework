@@ -6,7 +6,7 @@ Accepted
 
 ## Context
 
-SpeakCore validated a safe pattern for destructive actions, especially managed backup deletion.
+Reference Project A validated a safe pattern for destructive actions, especially managed backup deletion.
 
 NDF needs a reusable toolkit so future projects do not re-invent dangerous delete flows inconsistently.
 

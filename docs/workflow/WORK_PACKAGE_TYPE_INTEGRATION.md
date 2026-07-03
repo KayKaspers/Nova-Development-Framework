@@ -4,7 +4,7 @@
 
 NDF requires every planned work package to declare its type before execution.
 
-This rule was validated through SpeakCore and CastCore.
+This rule was validated through the reference projects.
 
 ## Core Rule
 
@@ -25,8 +25,8 @@ Optional secondary tags may be added, but the primary type decides:
 
 | Project | Lesson |
 |---|---|
-| SpeakCore | destructive actions require blueprint, owner-only controls and safety gates |
-| CastCore | review, code fix, test and Health Score update should be separate steps |
+| Reference Project A | destructive actions require blueprint, owner-only controls and safety gates |
+| Reference Project B | review, code fix, test and Health Score update should be separate steps |
 
 ## Required Flow
 
@@ -37,7 +37,7 @@ Classify -> Plan -> Execute -> Rückmeldung an Nova -> Review -> Commit/Push
 ## Work Package Metadata
 
 ```yaml
-id: "CC-WP-007"
+id: "RP-WP-007"
 title: "Fail-closed Secret Validation"
 type: "security-code-fix"
 tags: ["backend", "config", "fail-closed"]

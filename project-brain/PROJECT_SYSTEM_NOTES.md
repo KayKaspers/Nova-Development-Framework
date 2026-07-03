@@ -10,11 +10,10 @@ Bestehende Projekte können künftig sauber an NDF angebunden werden.
 
 ## Erste Zielprojekte
 
-1. CastCore
-2. SpeakCore
-3. AirCore
-4. SC-OrgaSuite
+1. Referenzprojekt B (CI/Docker)
+2. Referenzprojekt A (Destructive Operations)
+3. zukünftige Referenzprojekte
 
 ## Nächster Schritt
 
-NDF Template Library v0.1 erweitern oder erstes reales Project System für CastCore erstellen.
+NDF Template Library v0.1 erweitern oder erstes reales Project System für Referenzprojekt B erstellen.

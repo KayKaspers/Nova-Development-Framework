@@ -12,7 +12,7 @@ Er ist die Grundlage für den späteren NDF Generator.
 - bei einem bestehenden Projekt
 - bei einem Fork
 - bei einer Dokumentationsplattform
-- bei einer Suite wie CastCore, SpeakCore, AirCore oder SC-OrgaSuite
+- bei einer bestehenden Projekt-Suite
 
 ## Ergebnis
 

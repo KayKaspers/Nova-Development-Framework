@@ -7,8 +7,8 @@
 | F02-WP-001 | Repository Consolidation Review | P1 | Root und Struktur final aufräumen |
 | F02-WP-002 | Basic Automation Plan | P1 | Markdown/Link/Structure Checks planen |
 | F02-WP-003 | Basic Automation Draft | P2 | erste GitHub Actions oder lokale Checks vorbereiten |
-| F02-WP-004 | CastCore NDF Integration Plan | P1 | erste echte Projektintegration planen |
-| F02-WP-005 | CastCore Project System Baseline | P1 | CastCore nach NDF beschreiben |
+| F02-WP-004 | Reference Project NDF Integration Plan | P1 | erste echte Projektintegration planen |
+| F02-WP-005 | Reference Project System Baseline | P1 | Referenzprojekt B nach NDF beschreiben |
 | F02-WP-006 | Academy Band 1 Chapter Expansion | P1 | Kapitel 1–3 ausarbeiten |
 | F02-WP-007 | MkDocs Website Prototype Plan | P2 | Website-Prototyp vorbereiten |
 | F02-WP-008 | Export Prototype Plan | P2 | PDF/DOCX-Test vorbereiten |
@@ -52,11 +52,11 @@ Erste einfache Prüfläufe vorbereiten, noch ohne überstrenge Regeln.
 - lokale Check-Anleitung
 - Fehlerkategorien
 
-## F02-WP-004 – CastCore NDF Integration Plan
+## F02-WP-004 – Reference Project NDF Integration Plan
 
 ### Ziel
 
-CastCore als erstes echtes Projekt nach NDF anbinden.
+Referenzprojekt B als erstes echtes Projekt nach NDF anbinden.
 
 ### Ergebnis
 
@@ -65,15 +65,15 @@ CastCore als erstes echtes Projekt nach NDF anbinden.
 - erste Work Packages
 - erwarteter NDF-Level
 
-## F02-WP-005 – CastCore Project System Baseline
+## F02-WP-005 – Reference Project System Baseline
 
 ### Ziel
 
-Für CastCore Project Manifest, Project Profile, Capability Matrix, Compliance Check, Health Score und Work Package Queue erstellen.
+Für das Referenzprojekt: Project Manifest, Project Profile, Capability Matrix, Compliance Check, Health Score und Work Package Queue erstellen.
 
 ### Ergebnis
 
-- CastCore Project System Baseline
+- Reference Project System Baseline
 
 ## F02-WP-006 – Academy Band 1 Chapter Expansion
 

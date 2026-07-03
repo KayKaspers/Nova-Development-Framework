@@ -6,7 +6,7 @@ Accepted
 
 ## Context
 
-SpeakCore and CastCore validated that security work needs stronger prompt boundaries.
+The reference projects validated that security work needs stronger prompt boundaries.
 
 Security review, mitigation and scoring must not be mixed casually.
 

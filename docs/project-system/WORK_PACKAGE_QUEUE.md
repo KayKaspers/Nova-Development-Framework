@@ -23,11 +23,11 @@ Die Work Package Queue enthält die nächsten sinnvollen Arbeitspakete eines Pro
 ## Beispiel
 
 ```yaml
-- id: castcore-wp-001
+- id: sample-project-wp-001
   title: Stabilize docs-status generation
   priority: P1
   status: ready
-  prompt: prompts/claude/castcore/docs-status-stability.md
+  prompt: prompts/claude/sample-project/docs-status-stability.md
 ```
 
 ## Regel

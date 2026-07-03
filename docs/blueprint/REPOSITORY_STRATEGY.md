@@ -65,9 +65,9 @@ Enthält:
 
 - Beispielprojekte
 - Referenzimplementierungen
-- CastCore Adapter
-- SpeakCore Adapter
-- AirCore Adapter
+- Referenzprojekt-B-Adapter (CI/Docker)
+- Referenzprojekt-A-Adapter (Destructive Operations)
+- Adapter für zukünftige Referenzprojekte
 
 ## Entscheidung
 

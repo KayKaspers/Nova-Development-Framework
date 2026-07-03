@@ -14,4 +14,4 @@ Prompt Library v0.1 eingeführt.
 
 ## Nächster Schritt
 
-NDF Project Adapter v0.1 erstellen, damit bestehende Projekte wie CastCore, SpeakCore, AirCore und SC-OrgaSuite schnell angebunden werden können.
+NDF Project Adapter v0.1 erstellen, damit bestehende Projekte schnell angebunden werden können.

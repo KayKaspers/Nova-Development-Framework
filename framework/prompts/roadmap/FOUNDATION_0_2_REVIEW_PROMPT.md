@@ -19,7 +19,7 @@ Prüfe den Fortschritt von Foundation 0.2 anhand des Plans und der Release Crite
 
 1. Prüfe Repository Consolidation.
 2. Prüfe Basic Automation Plan.
-3. Prüfe CastCore Integration Stand.
+3. Prüfe den Stand der Referenzprojekt-Integration.
 4. Prüfe Academy Band 1 Ausbau.
 5. Prüfe Website-Prototyp-Stand.
 6. Prüfe Export-Prototyp-Stand.

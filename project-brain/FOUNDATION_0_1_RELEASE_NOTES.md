@@ -26,4 +26,4 @@ Foundation 0.2
 
 ## Recommended First Real Integration
 
-CastCore
+Reference Project B

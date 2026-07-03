@@ -6,7 +6,7 @@ Accepted
 
 ## Kontext
 
-Das NDF soll nicht erst nach vollständiger Academy oder großem Handbuch nutzbar sein. CastCore soll zeitnah nach NDF weitergeführt werden können.
+Das NDF soll nicht erst nach vollständiger Academy oder großem Handbuch nutzbar sein. Bestehende reale Projekte sollen zeitnah nach NDF weitergeführt werden können.
 
 ## Entscheidung
 

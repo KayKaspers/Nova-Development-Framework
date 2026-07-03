@@ -21,4 +21,4 @@ Foundation 0.2 is moving from documentation framework to execution framework.
 | NDF-WP-028 | Destructive Action Toolkit Checklist | P1 |
 | NDF-WP-029 | Security Prompt Library Expansion | P1 |
 | NDF-WP-030 | Health Score Automation Concept | P2 |
-| NDF-WP-031 | Academy Examples from SpeakCore and CastCore | P2 |
+| NDF-WP-031 | Academy Examples from Reference Projects | P2 |

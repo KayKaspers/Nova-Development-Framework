@@ -111,10 +111,9 @@ Best Practices speichern Erfahrung.
 
 Enthält:
 
-- Lessons Learned aus CastCore
-- Lessons Learned aus SpeakCore
-- Lessons Learned aus AirCore
-- Lessons Learned aus SC-OrgaSuite
+- Lessons Learned aus Referenzprojekt B (CI/Docker)
+- Lessons Learned aus Referenzprojekt A (Destructive Operations)
+- Lessons Learned aus zukünftigen Referenzprojekten
 - wiederverwendbare Entscheidungen
 - typische Fehler
 

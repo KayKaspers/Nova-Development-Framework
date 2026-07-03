@@ -2,7 +2,7 @@
 
 ## Why This WP Exists
 
-Security work in CastCore and SpeakCore showed that generic coding prompts are not sufficient.
+Security work in the reference projects showed that generic coding prompts are not sufficient.
 
 ## Key Rule
 
@@ -27,5 +27,5 @@ Security review, mitigation and scoring are separate Work Packages.
 ## Next Recommended Work Packages
 
 1. NDF-WP-030 – Health Score Automation Concept
-2. NDF-WP-031 – Academy Examples from SpeakCore and CastCore
+2. NDF-WP-031 – Academy Examples from Reference Projects
 3. NDF-WP-032 – Project Adapter v0.2

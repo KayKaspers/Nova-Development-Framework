@@ -6,8 +6,8 @@ NDF soll nicht nur aus Regeln bestehen, sondern in echten Projekten funktioniere
 
 Dieses Paket dokumentiert die ersten zwei Referenzvalidierungen:
 
-- SpeakCore
-- CastCore
+- Referenzprojekt A
+- Referenzprojekt B
 
 ## Zentrale Erkenntnis
 
@@ -17,9 +17,9 @@ NDF funktioniert am besten als kontrollierter Ausführungsrahmen:
 Planung -> kleines Work Package -> Claude Umsetzung -> Rückmeldung an Nova -> Kay Review -> Commit/Push
 ```
 
-## SpeakCore als Referenz
+## Referenzprojekt A als Referenz
 
-SpeakCore validiert NDF für besonders riskante Funktionen:
+Referenzprojekt A validiert NDF für besonders riskante Funktionen:
 
 - destructive actions
 - Backup-Delete
@@ -30,9 +30,9 @@ SpeakCore validiert NDF für besonders riskante Funktionen:
 - ADR-Pflicht
 - Blueprint-vor-Ausführung
 
-## CastCore als Referenz
+## Referenzprojekt B als Referenz
 
-CastCore validiert NDF für technische Projektreife:
+Referenzprojekt B validiert NDF für technische Projektreife:
 
 - Docker-first
 - CI-Gates

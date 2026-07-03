@@ -17,15 +17,15 @@ Ohne klare Typen passiert schnell Folgendes:
 
 NDF nutzt Work-Package-Typen.
 
-## Beispiel aus CastCore
+## Beispiel aus Referenzprojekt B
 
-`CC-WP-006 Security Baseline Review` hatte den Typ `security-baseline`.
+`RP-WP-006 Security Baseline Review` hatte den Typ `security-baseline`.
 
-Danach wurde `CC-WP-007 Fail-closed Secret Validation` als `security-code-fix` umgesetzt.
+Danach wurde `RP-WP-007 Fail-closed Secret Validation` als `security-code-fix` umgesetzt.
 
 Der Health Score wurde anschließend separat als `health-score-update` angepasst.
 
-## Beispiel aus SpeakCore
+## Beispiel aus Referenzprojekt A
 
 Eine Backup-Delete-Funktion darf nicht direkt implementiert werden.
 

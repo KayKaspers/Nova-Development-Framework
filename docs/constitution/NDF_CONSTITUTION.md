@@ -46,7 +46,7 @@ Keine Secrets, keine Zugangsdaten, keine unkontrollierten Repository-Operationen
 
 ## Artikel 9 – Lernen aus jedem Projekt
 
-Erfahrungen aus CastCore, SpeakCore, AirCore, SC-OrgaSuite und zukünftigen Projekten fließen zurück ins NDF.
+Erfahrungen aus realen Referenzprojekten und zukünftigen Projekten fließen zurück ins NDF.
 
 ## Artikel 10 – Langfristige Wartbarkeit
 

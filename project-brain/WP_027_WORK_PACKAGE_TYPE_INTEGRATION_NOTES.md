@@ -2,7 +2,7 @@
 
 ## Why This WP Exists
 
-SpeakCore and CastCore showed that NDF needs a formal Work Package type system.
+The reference projects showed that NDF needs a formal Work Package type system.
 
 ## Key Decisions
 
@@ -20,4 +20,4 @@ Future NDF work should now be easier to control and review.
 1. NDF-WP-028 – Destructive Action Toolkit Checklist
 2. NDF-WP-029 – Security Prompt Library Expansion
 3. NDF-WP-030 – Health Score Automation Concept
-4. NDF-WP-031 – Academy Examples from SpeakCore and CastCore
+4. NDF-WP-031 – Academy Examples from Reference Projects

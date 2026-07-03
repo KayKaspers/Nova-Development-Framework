@@ -2,7 +2,7 @@
 
 ## Why This WP Exists
 
-SpeakCore showed that destructive actions need stronger default patterns than normal features.
+Reference Project A showed that destructive actions need stronger default patterns than normal features.
 
 ## Key NDF Rule
 
@@ -25,4 +25,4 @@ No destructive implementation without approved blueprint.
 
 1. NDF-WP-029 – Security Prompt Library Expansion
 2. NDF-WP-030 – Health Score Automation Concept
-3. NDF-WP-031 – Academy Examples from SpeakCore and CastCore
+3. NDF-WP-031 – Academy Examples from Reference Projects

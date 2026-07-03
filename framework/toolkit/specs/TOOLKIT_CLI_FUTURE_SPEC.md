@@ -20,7 +20,7 @@ ndf release prepare
 ## Beispiel
 
 ```bash
-ndf init --name CastCore --type web-suite --docker true
+ndf init --name SampleProject --type web-suite --docker true
 ```
 
 ## Nicht in v0.1 enthalten

@@ -7,6 +7,8 @@ Diese Dateien bleiben nachvollziehbar erhalten, sollen aber nicht dauerhaft im R
 ## Inhalt
 
 - frühere Import-Anleitungen
+- Paket-Changelogs
+- Pack-READMEs
 - Paketübersichten
 - Legacy-Übersichten
 

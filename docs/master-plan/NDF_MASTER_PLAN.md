@@ -9,7 +9,7 @@ Architecture Lead: Nova
 
 Das Nova Development Framework (NDF) ist ein modulares Entwicklungsframework für moderne Softwareprojekte. Es verbindet Projektplanung, Architektur, Dokumentation, KI-gestützte Umsetzung, Qualitätssicherung und Release-Management in einem einheitlichen Arbeitsmodell.
 
-Das NDF dient als gemeinsame Grundlage für Projekte wie CastCore, SpeakCore, AirCore, SC-OrgaSuite und zukünftige Softwareprojekte.
+Das NDF dient als gemeinsame Grundlage für reale Referenzprojekte und zukünftige Softwareprojekte.
 
 ## 2. Mission
 

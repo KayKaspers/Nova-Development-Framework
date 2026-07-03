@@ -28,9 +28,9 @@ Destructive Actions sind Sicherheitsfunktionen.
 Blueprint -> Review -> Implementierung -> Tests -> Commit -> CI
 ```
 
-## SpeakCore-Beispiel
+## Beispiel aus Referenzprojekt A
 
-SpeakCore hat einen Einzel-Backup-Delete mit diesen Controls umgesetzt:
+Referenzprojekt A hat einen Einzel-Backup-Delete mit diesen Controls umgesetzt:
 
 - OWNER-only
 - 3 Pflichtbestätigungen

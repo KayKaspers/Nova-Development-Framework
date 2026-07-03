@@ -164,6 +164,6 @@ This release is not the final version of NDF. It is the first stable base layer.
 1. Create Foundation 0.1 GitHub Release.
 2. Start Foundation 0.2 planning.
 3. Expand Academy Band 1 chapters 1–3.
-4. Prepare first real project adapter/integration, preferably CastCore.
+4. Prepare first real project adapter/integration, preferably Reference Project B.
 5. Add basic Markdown/link quality automation.
 6. Prepare MkDocs prototype.

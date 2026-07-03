@@ -14,4 +14,4 @@ Der Manual Flow ist bewusst manuell. Er ist die Grundlage für spätere Automati
 
 ## Nächster Schritt
 
-NDF Academy Band 1 Skeleton oder NDF Project Starter für CastCore als erstes echtes Beispiel.
+NDF Academy Band 1 Skeleton oder NDF Project Starter für Referenzprojekt B als erstes echtes Beispiel.

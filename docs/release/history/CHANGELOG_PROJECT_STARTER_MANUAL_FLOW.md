@@ -10,7 +10,7 @@
 - Project Type Decision Tree
 - New Project Flow
 - Existing Project Flow
-- CastCore-style example
+- existing-project style example
 - starter templates
 - starter prompts
 - checklist

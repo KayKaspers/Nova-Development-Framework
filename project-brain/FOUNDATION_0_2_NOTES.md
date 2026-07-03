@@ -19,7 +19,7 @@ Foundation 0.2: Framework beweisen
 
 1. Repository weiter konsolidieren.
 2. Basic Automation Checks planen/einführen.
-3. CastCore integrieren.
+3. Referenzprojekt B integrieren.
 4. Academy Band 1 mit echten Kapiteln beginnen.
 5. Website-Prototyp vorbereiten.
 6. Export-Prototyp vorbereiten.
@@ -30,4 +30,4 @@ Keine neuen großen Framework-Module hinzufügen, bevor Foundation 0.2 die Praxi
 
 ## Erste empfohlene Arbeit
 
-Repository Consolidation Review oder CastCore Integration Baseline.
+Repository Consolidation Review oder Reference Project Integration Baseline.

@@ -6,7 +6,7 @@ Accepted
 
 ## Kontext
 
-Das NDF benötigt eine strukturierte Methode, um echte Projekte wie CastCore, SpeakCore, AirCore und SC-OrgaSuite anzubinden.
+Das NDF benötigt eine strukturierte Methode, um echte Projekte anzubinden.
 
 ## Entscheidung
 

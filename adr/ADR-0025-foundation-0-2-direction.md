@@ -14,7 +14,7 @@ Foundation 0.2 konzentriert sich auf Stabilisierung und Validierung:
 
 - Repository-Konsolidierung
 - Basic Automation Checks
-- CastCore als erste echte Projektintegration
+- Referenzprojekt B als erste echte Projektintegration
 - Academy Band 1 Ausbau
 - MkDocs Website-Prototyp
 - Export-Prototyp
@@ -24,5 +24,5 @@ Foundation 0.2 konzentriert sich auf Stabilisierung und Validierung:
 
 - Neue große Konzepte werden zurückgestellt.
 - Der Fokus liegt auf Beweisbarkeit und Anwendung.
-- CastCore wird zum ersten realen Referenzprojekt.
+- Referenzprojekt B wird zum ersten realen Referenzprojekt.
 - Foundation 0.2 wird ein Stabilization Release.

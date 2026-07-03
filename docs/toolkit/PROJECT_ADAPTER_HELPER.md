@@ -17,10 +17,9 @@ Der Project Adapter Helper führt ein bestehendes Projekt in das NDF.
 
 ## Zielprojekte
 
-- CastCore
-- SpeakCore
-- AirCore
-- SC-OrgaSuite
+- Reference Project B (CI/Docker)
+- Reference Project A (Destructive Operations)
+- future reference projects
 
 ## Ergebnis
 

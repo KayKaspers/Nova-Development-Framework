@@ -19,7 +19,7 @@ Das Project Profile beschreibt ein Projekt fachlich und technisch.
 ## Beispielstruktur
 
 ```markdown
-# Project Profile – CastCore
+# Project Profile – SampleProject
 
 ## Ziel
 

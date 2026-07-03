@@ -6,7 +6,7 @@ NDF wird praktisch nutzbar gemacht, bevor Academy und vollständiges Handbuch ab
 
 ## Begründung
 
-CastCore und andere Projekte sollen zeitnah vom NDF profitieren.
+Referenzprojekt B und andere Projekte sollen zeitnah vom NDF profitieren.
 
 ## Ergebnis
 

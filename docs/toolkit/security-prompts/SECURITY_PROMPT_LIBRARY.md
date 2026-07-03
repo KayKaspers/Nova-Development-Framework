@@ -31,7 +31,7 @@ Security review, security mitigation and security scoring are separate work pack
 
 ## Lessons from Real Projects
 
-### SpeakCore
+### Reference Project A
 
 Validated:
 
@@ -40,7 +40,7 @@ Validated:
 - audit must prove without leaking
 - agent endpoints require token gates and strict scope
 
-### CastCore
+### Reference Project B
 
 Validated:
 

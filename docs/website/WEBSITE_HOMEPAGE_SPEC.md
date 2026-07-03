@@ -45,7 +45,7 @@ Nova → Claude → VS Code → GitHub Desktop → GitHub
 
 ### Abschnitt: Für bestehende Projekte
 
-Erklärt, wie CastCore-artige Projekte angebunden werden.
+Erklärt, wie bestehende Projekte angebunden werden.
 
 ### Abschnitt: Aktueller Status
 
