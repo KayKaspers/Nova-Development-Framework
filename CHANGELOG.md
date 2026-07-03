@@ -2,7 +2,9 @@
 
 All notable changes to the Nova Development Framework will be documented in this file.
 
-## [Unreleased] - Foundation 0.2 (in development)
+## [0.2.0-foundation] - 2026-07-03
+
+Foundation Stabilization Pre-Release. Status: prepared for release — tag `v0.2.0-foundation` pending (created manually by the human maintainer). Release notes: `docs/release/FOUNDATION_0_2_RELEASE_NOTES.md`
 
 ### Added
 
@@ -17,6 +19,7 @@ All notable changes to the Nova Development Framework will be documented in this
 - Improved DE/EN alignment for core workflow documentation (WP-038)
 - Improved DE/EN alignment for core prompts and checklists (WP-039)
 - Added Foundation 0.2 release readiness review (WP-040)
+- Prepared Foundation 0.2 release: release notes, criteria update, go/no-go checklist, tagging guide (WP-041)
 
 ### Changed
 

@@ -32,7 +32,7 @@ Bewertung: Das ist ein kohärenter „Foundation Stabilization Release" — inha
 
 ## 5. Public Neutrality Ergebnis
 
-`git grep -i "SpeakCore|CastCore|AirCore|SC-OrgaSuite"` und `git grep -i "\bKay\b|KayKaspers"` → repo-weit **0 Treffer**.
+Die beiden Standard-Neutralitäts-Greps (private Projektnamen; private Personen-/Owner-Namen — die konkreten Begriffe stehen bewusst nicht im Repository) → repo-weit **0 Treffer**.
 
 ## 6. DE/EN Status
 
