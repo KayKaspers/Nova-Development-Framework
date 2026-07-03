@@ -1,0 +1,13 @@
+# Example neutrality denylist for the NDF Public Repository Quality Gate.
+#
+# Copy this file to .ndf/public-neutrality-terms.local.txt (untracked, see
+# .gitignore) and replace the placeholders with your real private terms.
+# One term per line. Lines starting with # are ignored.
+#
+# NEVER commit real private project names, person names, or domains.
+
+PRIVATE_PROJECT_A
+PRIVATE_PROJECT_B
+PRIVATE_PERSON_A
+PRIVATE_OWNER_A
+example-private-domain.test

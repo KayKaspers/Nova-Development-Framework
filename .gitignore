@@ -1,0 +1,6 @@
+# local (untracked) neutrality denylist for the public quality gate
+.ndf/public-neutrality-terms.local.txt
+
+# python
+__pycache__/
+*.pyc

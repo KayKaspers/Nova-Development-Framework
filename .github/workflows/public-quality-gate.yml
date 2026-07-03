@@ -1,0 +1,30 @@
+name: Public Quality Gate
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  public-quality-gate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Self-test
+        run: python scripts/check_public_quality.py --self-test
+
+      - name: Run public quality gate (strict)
+        env:
+          # Optional repository secret with comma-separated private terms.
+          # If the secret is empty, the gate still runs; the missing denylist
+          # is reported as a notice, not a failure.
+          NDF_PUBLIC_NEUTRALITY_DENYLIST: ${{ secrets.NDF_PUBLIC_NEUTRALITY_DENYLIST }}
+        run: python scripts/check_public_quality.py --strict
