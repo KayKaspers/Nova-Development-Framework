@@ -19,7 +19,7 @@ Grobe Übersicht, welche Bereiche des NDF bereits DE/EN-tauglich sind und wo Fol
 
 | Bereich / Area | Status | Anmerkung / Note |
 |---|---|---|
-| `README.md` | en-only | öffentlicher Einstieg; DE-Spiegelung empfohlen / public entry; DE mirror recommended |
+| `README.md` | bilingual | seit WP-036 vollständig DE/EN gespiegelt / fully DE/EN mirrored since WP-036 |
 | `CHANGELOG.md` | en-only | Format beibehalten / keep format |
 | `docs/project-starter/` | mixed | v0.2-Guide DE, ältere Flows DE; EN-Fassungen offen |
 | `docs/toolkit/` | mixed | Toolkit-Kern EN (Destructive Action Toolkit), Helper DE |
@@ -44,7 +44,7 @@ Grobe Übersicht, welche Bereiche des NDF bereits DE/EN-tauglich sind und wo Fol
 
 ## Empfohlene Reihenfolge / Recommended order
 
-1. `README.md` DE-Spiegelung (öffentlicher Einstieg)
+1. ~~`README.md` DE-Spiegelung~~ — erledigt in WP-036 / done in WP-036
 2. `docs/workflow/` EN (Kernprozess)
 3. `framework/prompts/` + `framework/checklists/` EN (öffentliche Nutzbarkeit)
 4. `docs/project-starter/` EN (Adapter/Onboarding)

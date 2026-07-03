@@ -12,6 +12,7 @@ All notable changes to the Nova Development Framework will be documented in this
 - Public Repository Quality Gate: script, CI workflow, denylist concept (WP-032)
 - Project Adapter v0.2: guide, templates, checklist and prompts (WP-034)
 - DE/EN language standard, translation status matrix, and updated prompt index (WP-035)
+- Improved README as bilingual DE/EN public entry point (WP-036)
 
 ### Changed
 

@@ -1,111 +1,137 @@
-# Nova Development Framework (NDF)
+# Nova Development Framework
 
-The Nova Development Framework is a structured, documentation-first development framework for planning, building, securing, and maintaining software projects with AI assistance under human control.
+## DE – Überblick
 
-It is not tied to any single project. It is a general, reusable methodology validated against real reference projects.
+Das Nova Development Framework (NDF) ist ein dokumentations- und sicherheitsorientiertes Entwicklungs-Framework: Softwareprojekte werden mit KI-Unterstützung geplant, gebaut und gepflegt — unter durchgehender menschlicher Kontrolle. NDF ist projektneutral und wurde an realen Referenzprojekten validiert.
 
-## Purpose
+## EN – Overview
 
-Modern AI-assisted development is fast but easily becomes unstructured: reviews turn into code changes, features ship without documentation, and dangerous operations get built without safeguards.
+The Nova Development Framework (NDF) is a documentation-first, security-first development framework: software projects are planned, built, and maintained with AI assistance — under continuous human control. NDF is project-neutral and was validated against real reference projects.
 
-NDF solves this with a clear operating model:
+## DE – Wofür ist NDF gedacht?
 
-- every change is a small, explicitly typed work package
-- planning, execution, and approval are separate roles
-- documentation and architecture come before implementation
-- security and destructive operations follow mandatory safety patterns
-- lessons learned from real projects flow back into the framework
+KI-gestützte Entwicklung ist schnell, wird aber leicht unstrukturiert: Reviews werden zu Code-Umbauten, Features entstehen ohne Doku, gefährliche Funktionen ohne Schutzmaßnahmen. NDF beantwortet das mit kleinen, typisierten Work Packages, getrennten Rollen für Planung, Umsetzung und Freigabe sowie verpflichtenden Sicherheitsmustern.
 
-## Core Principles
+## EN – What is NDF for?
 
-1. **Documentation First** – important decisions and structures are documented before they become permanent.
-2. **Architecture First** – complex work is planned before it is implemented.
-3. **AI creates. Humans approve.** – AI never makes irreversible decisions autonomously.
-4. **Small, typed work packages** – no work package without a declared type and scope.
-5. **Security first, fail closed** – risky functionality requires explicit safety patterns.
-6. **Continuous feedback** – validated experience from real projects is fed back into the framework.
+AI-assisted development is fast but easily becomes unstructured: reviews turn into refactorings, features ship without documentation, dangerous operations get built without safeguards. NDF answers this with small, typed work packages, separate roles for planning, execution, and approval, and mandatory safety patterns.
 
-## NDF Workflow
+## DE – Kernprinzipien
+
+1. **Documentation First** — wichtige Entscheidungen werden dokumentiert, bevor sie dauerhaft werden.
+2. **Architecture First** — komplexe Arbeit wird erst geplant, dann umgesetzt.
+3. **AI creates. Humans approve.** — KI trifft keine irreversiblen Entscheidungen.
+4. **Kleine, typisierte Work Packages** — kein Work Package ohne deklarierten Typ.
+5. **Security first, fail closed** — riskante Funktionen brauchen explizite Sicherheitsmuster.
+6. **Kontinuierliches Feedback** — validierte Erfahrung fließt zurück ins Framework.
+
+## EN – Core Principles
+
+1. **Documentation First** — important decisions are documented before they become permanent.
+2. **Architecture First** — complex work is planned before it is implemented.
+3. **AI creates. Humans approve.** — AI never makes irreversible decisions.
+4. **Small, typed Work Packages** — no work package without a declared type.
+5. **Security first, fail closed** — risky functionality requires explicit safety patterns.
+6. **Continuous feedback** — validated experience flows back into the framework.
+
+## DE – Rollenmodell
+
+- **Nova** (Planung) — spezifiziert Work Packages: Typ, Umfang, Akzeptanzkriterien.
+- **Implementation Agent** (Umsetzung, z. B. Claude) — führt genau ein Work Package aus und berichtet strukturiert zurück.
+- **Menschlicher Maintainer** (Review & Freigabe) — prüft, entscheidet GO / REWORK / SPLIT / STOP, committet und pusht.
+
+## EN – Role Model
+
+- **Nova** (planning) — specifies work packages: type, scope, acceptance criteria.
+- **Implementation Agent** (execution, e.g. Claude) — executes exactly one work package and reports back in a structured format.
+- **Human Maintainer** (review & approval) — reviews, decides GO / REWORK / SPLIT / STOP, commits and pushes.
+
+## DE – Standard-Workflow
 
 ```text
-Nova (planning) -> Implementation Agent (execution) -> Human Maintainer (review & approval)
+Klassifizieren -> Planen -> Umsetzen -> Rückmeldung an Nova -> Review -> Commit
 ```
 
-- **Nova** plans and specifies work packages, defines type, scope, and acceptance criteria.
-- **The implementation agent** (e.g. Claude) executes exactly one work package at a time and reports back in a structured format.
-- **The human maintainer** reviews the result, decides GO / REWORK / SPLIT / STOP, and performs commit and push.
+Kein Schritt wird übersprungen. Details: [WORK_PACKAGE_LIFECYCLE.md](framework/standards/WORK_PACKAGE_LIFECYCLE.md)
 
-No step is skipped: classify → plan → execute → report → review → commit.
+## EN – Standard Workflow
 
-## Work Package Types
+```text
+Classify -> Plan -> Execute -> Report to Nova -> Review -> Commit
+```
 
-Every work package has exactly one primary type. The type decides which changes are allowed, which tests are expected, and how deep the review must be. Defined types include:
+No step is skipped. Details: [WORK_PACKAGE_LIFECYCLE.md](framework/standards/WORK_PACKAGE_LIFECYCLE.md)
 
-| Type | Purpose |
-|---|---|
-| `review-only` | inspect and report, no changes |
-| `docs-only` | documentation updates only |
-| `code-fix` | one targeted code correction with tests |
-| `feature` | small scoped feature addition |
-| `test-only` | add or adjust tests |
-| `security-baseline` | security review and findings |
-| `security-code-fix` | mitigate one approved security finding |
-| `health-score-update` | update project score based on evidence |
-| `ci-diagnostic` | diagnose CI or build failures |
-| `release-prep` | release documentation and checklists |
-| `destructive-blueprint` | plan a high-risk destructive action |
-| `destructive-implementation` | implement an approved destructive action |
-| `project-adapter` | adapt NDF to an existing project |
+## DE – Work Packages
 
-The full standard lives in [framework/standards/WORK_PACKAGE_TYPES.md](framework/standards/WORK_PACKAGE_TYPES.md).
+Jedes Work Package hat genau einen primären Typ — er bestimmt erlaubte Änderungen, Testerwartung und Review-Tiefe. Beispiele: `review-only`, `docs-only`, `code-fix`, `feature`, `security-baseline`, `destructive-blueprint`, `destructive-implementation`, `project-adapter`. Vollständiger Standard: [WORK_PACKAGE_TYPES.md](framework/standards/WORK_PACKAGE_TYPES.md)
 
-## Security First / Destructive Action Safety
+## EN – Work Packages
 
-Dangerous functionality (deletion, bulk operations, irreversible changes) is never implemented directly. NDF requires:
+Every work package has exactly one primary type — it decides allowed changes, test expectations, and review depth. Examples: `review-only`, `docs-only`, `code-fix`, `feature`, `security-baseline`, `destructive-blueprint`, `destructive-implementation`, `project-adapter`. Full standard: [WORK_PACKAGE_TYPES.md](framework/standards/WORK_PACKAGE_TYPES.md)
 
-- a `destructive-blueprint` work package **before** any implementation
-- strict validation, read-only preview, and explicit confirmation flows
-- owner-only authorization for critical operations
-- backup-before-delete patterns
-- audit logging with privacy constraints
-- fail-closed behavior for secrets and security configuration
+## DE – Sicherheit und destructive Actions
 
-The patterns are documented in the [Destructive Action Toolkit](docs/toolkit/destructive-actions/DESTRUCTIVE_ACTION_TOOLKIT.md) and the [Security Prompt Library](docs/toolkit/security-prompts/SECURITY_PROMPT_LIBRARY.md).
+Gefährliche Funktionen (Löschen, Bulk-Operationen, Irreversibles) werden nie direkt implementiert: erst `destructive-blueprint`, dann nach Freigabe `destructive-implementation` — mit strikter Validierung, Read-only-Preview, Owner-only-Autorisierung, Backup-vor-Delete und Audit-Logging. Werkzeuge: [Destructive Action Toolkit](docs/toolkit/destructive-actions/DESTRUCTIVE_ACTION_TOOLKIT.md) · [Security Prompt Library](docs/toolkit/security-prompts/SECURITY_PROMPT_LIBRARY.md)
 
-## Project Neutrality
+## EN – Security and Destructive Actions
 
-NDF is project-neutral. Its rules and toolkits were validated against real reference projects:
+Dangerous functionality (deletion, bulk operations, irreversible changes) is never implemented directly: first `destructive-blueprint`, then — after approval — `destructive-implementation`, with strict validation, read-only preview, owner-only authorization, backup-before-delete, and audit logging. Tools: [Destructive Action Toolkit](docs/toolkit/destructive-actions/DESTRUCTIVE_ACTION_TOOLKIT.md) · [Security Prompt Library](docs/toolkit/security-prompts/SECURITY_PROMPT_LIBRARY.md)
 
-- **Reference Project A** – a suite with high-risk destructive operations (backup/delete flows, owner-only controls, audit privacy, agent endpoint security)
-- **Reference Project B** – a Docker-first suite with CI, build gates, and security baseline hardening (CI/Docker reference)
+## DE – Project Adapter
 
-The validated findings are preserved in neutral form under [docs/validation/](docs/validation/), so any project can apply them without depending on a specific codebase.
+Der Project Adapter v0.2 überführt bestehende Projekte strukturiert nach NDF: von der read-only-Analyse über Project Profile, Manifest und Health Score bis zur ersten sicheren Work Package Queue. Guide: [PROJECT_ADAPTER_V0_2.md](docs/project-starter/PROJECT_ADAPTER_V0_2.md)
 
-## Repository Structure
+## EN – Project Adapter
 
-| Path | Content |
-|---|---|
-| `docs/` | framework documentation: constitution, blueprint, roadmap, validation, toolkit, ADRs |
-| `framework/` | operational assets: standards, prompts, templates, checklists |
-| `standards/` | general development standards |
-| `templates/` | reusable document and project templates |
-| `adr/` | architecture decision records (Foundation 0.1) |
-| `academy/`, `docs/academy/` | learning material for the NDF method |
-| `examples/` | minimal usage examples |
-| `project-brain/` | framework working memory: notes, decisions, next steps |
-| `docs/import-history/` | archived import packages from earlier framework iterations |
+Project Adapter v0.2 brings existing projects into NDF in a structured way: from read-only analysis through project profile, manifest, and health score to the first safe work package queue. Guide: [PROJECT_ADAPTER_V0_2.md](docs/project-starter/PROJECT_ADAPTER_V0_2.md)
 
-## Language / Sprache
+## DE – Repository Quality Gate
 
-NDF is maintained bilingually (German/English) going forward. New central framework documents are either bilingual or clearly language-mirrored. / NDF wird künftig zweisprachig (Deutsch/Englisch) geführt; neue zentrale Framework-Dokumente sind bilingual oder klar sprachlich gespiegelt.
+Ein automatischer Quality Gate schützt die öffentliche Neutralität dieses Repositories: Denylist-Scan (ohne private Begriffe im Repo), Root-Hygiene, History-Trennung und README-Struktur — lokal per Script, in CI bei jedem Pull Request. Doku: [PUBLIC_QUALITY_GATE.md](docs/repository/PUBLIC_QUALITY_GATE.md)
 
-Details: [docs/i18n/DE_EN_LANGUAGE_STANDARD.md](docs/i18n/DE_EN_LANGUAGE_STANDARD.md) · Status: [docs/i18n/TRANSLATION_STATUS.md](docs/i18n/TRANSLATION_STATUS.md)
+## EN – Repository Quality Gate
 
-## Status
+An automated quality gate protects this repository's public neutrality: denylist scan (no private terms stored in the repo), root hygiene, history separation, and README structure — locally via script, in CI on every pull request. Docs: [PUBLIC_QUALITY_GATE.md](docs/repository/PUBLIC_QUALITY_GATE.md)
 
-- **Foundation 0.2 – in development.** Current focus: work package type standard, destructive action toolkit, security prompt library, real project validation, and reference project integration.
-- **Foundation 0.1 – frozen.** The 0.1 release is preserved unchanged as the first stable baseline; see [docs/release/FOUNDATION_0_1_RELEASE_NOTES.md](docs/release/FOUNDATION_0_1_RELEASE_NOTES.md).
+## DE – Aktueller Status
 
-## License
+- **Foundation 0.1:** released / frozen
+- **Foundation 0.2:** in development
+- Public Framework Cleanup: erledigt · Project Adapter v0.2: verfügbar · DE/EN-Angleichung: laufend
+
+Struktur-Review: [REPOSITORY_STRUCTURE_REVIEW.md](docs/repository/REPOSITORY_STRUCTURE_REVIEW.md) — NDF ist bewusst noch kein v1.0.
+
+## EN – Current Status
+
+- **Foundation 0.1:** released / frozen
+- **Foundation 0.2:** in development
+- Public framework cleanup: done · Project Adapter v0.2: available · DE/EN alignment: in progress
+
+Structure review: [REPOSITORY_STRUCTURE_REVIEW.md](docs/repository/REPOSITORY_STRUCTURE_REVIEW.md) — NDF is deliberately not v1.0 yet.
+
+## DE – Einstieg
+
+1. Kernprinzipien und Rollenmodell oben lesen.
+2. Work-Package-Typen verstehen: [WORK_PACKAGE_TYPES.md](framework/standards/WORK_PACKAGE_TYPES.md)
+3. Bestehendes Projekt anbinden: [PROJECT_ADAPTER_V0_2.md](docs/project-starter/PROJECT_ADAPTER_V0_2.md)
+4. Vorlagen und Prompts: `framework/templates/` · `framework/prompts/`
+
+## EN – Getting Started
+
+1. Read the core principles and role model above.
+2. Understand work package types: [WORK_PACKAGE_TYPES.md](framework/standards/WORK_PACKAGE_TYPES.md)
+3. Adapt an existing project: [PROJECT_ADAPTER_V0_2.md](docs/project-starter/PROJECT_ADAPTER_V0_2.md)
+4. Templates and prompts: `framework/templates/` · `framework/prompts/`
+
+## DE – Sprache / Übersetzung
+
+NDF wird zweisprachig (Deutsch/Englisch) geführt. Neue zentrale Dokumente sind bilingual oder klar sprachlich zugeordnet. Standard: [DE_EN_LANGUAGE_STANDARD.md](docs/i18n/DE_EN_LANGUAGE_STANDARD.md) · Status: [TRANSLATION_STATUS.md](docs/i18n/TRANSLATION_STATUS.md)
+
+## EN – Language / Translation
+
+NDF is maintained bilingually (German/English). New central documents are bilingual or clearly language-assigned. Standard: [DE_EN_LANGUAGE_STANDARD.md](docs/i18n/DE_EN_LANGUAGE_STANDARD.md) · Status: [TRANSLATION_STATUS.md](docs/i18n/TRANSLATION_STATUS.md)
+
+## License / Lizenz
 
 See [LICENSE](LICENSE).
