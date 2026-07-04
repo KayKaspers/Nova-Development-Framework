@@ -2,7 +2,9 @@
 
 All notable changes to the Nova Development Framework will be documented in this file.
 
-## [Unreleased] - Foundation 0.4 planning
+## [0.4.0-foundation] - 2026-07-04
+
+Adoption Hardening & Public Usability Pre-Release. Status: prepared for release — tag `v0.4.0-foundation` pending (created manually by the human maintainer). Release notes: `docs/release/FOUNDATION_0_4_RELEASE_NOTES.md`
 
 ### Added
 
@@ -11,6 +13,7 @@ All notable changes to the Nova Development Framework will be documented in this
 - Project adapter conventions (manifest, output path, health score) and first-safe-WP template (WP-059)
 - Prompt library DE/EN priority pass: five adoption prompts fully bilingual, prioritized security/gate prompts DE/EN core (WP-060)
 - Foundation 0.4 release readiness review: GO WITH NOTES (WP-067)
+- Prepared Foundation 0.4 release: release notes, go/no-go checklist, tagging guide, criteria update (WP-068)
 
 ## [0.3.0-foundation] - 2026-07-04
 

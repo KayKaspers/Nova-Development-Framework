@@ -18,8 +18,10 @@ Gemäß Scope Lock (`docs/roadmap/FOUNDATION_0_4_SCOPE_LOCK.md`): nur diese Krit
 - [x] Prompt Library DE/EN Priority Pass umgesetzt (NDF-WP-060: 5 Adoptions-Erstkontakt-Prompts vollständig bilingual, 7 Security-/Gate-Prompts DE/EN-Kern; `PROMPT_LIBRARY_DE_EN_PRIORITY_PASS.md`).
 - [x] Public Quality Gate v0.2 weiterhin grün (strict + self-test), new-file neutrality check aktiv (WP-067 verifiziert).
 - [x] Release Readiness Review durchgeführt (NDF-WP-067: **GO WITH NOTES**, `FOUNDATION_0_4_RELEASE_READINESS_REVIEW.md`).
-- [ ] Release Notes 0.4 vorbereitet (NDF-WP-068).
-- [ ] Go/No-Go-Checkliste 0.4 vorbereitet und durchgegangen (NDF-WP-068).
+- [x] Release Notes 0.4 vorbereitet (NDF-WP-068: `FOUNDATION_0_4_RELEASE_NOTES.md`).
+- [x] Go/No-Go-Checkliste 0.4 vorbereitet (NDF-WP-068: `FOUNDATION_0_4_GO_NO_GO_CHECKLIST.md`) — Durchgang durch den Human Maintainer offen.
+- [x] Tagging-/GitHub-Release-Guide 0.4 vorbereitet (NDF-WP-068: `FOUNDATION_0_4_TAGGING_AND_GITHUB_RELEASE_GUIDE.md`).
+- [ ] Finaler Tag `v0.4.0-foundation` + GitHub Pre-Release (nur Human Maintainer, offen).
 
 ## Optionale Kriterien / Optional criteria (should-have, nicht release-blockierend)
 
