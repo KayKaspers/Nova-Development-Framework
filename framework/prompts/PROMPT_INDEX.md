@@ -4,11 +4,13 @@ Sprache / Language: Prompt-Titel sind englisch, Prompt-Inhalte teils DE, teils E
 
 Rollen / Roles: Nova = ChatGPT-basierte Planungs-/Review-Rolle; „Rückmeldung an Nova" = Bericht an diese Rolle. / Nova = ChatGPT-based planning and review role; "Rückmeldung an Nova" = report to this role. Details: `docs/workflow/NOVA_CHATGPT_ROLE.md`
 
+DE/EN Priority Pass (Foundation 0.4, NDF-WP-060): Die fünf Adoptions-Erstkontakt-Prompts sind vollständig DE/EN („DE/EN priority pass complete"); priorisierte Security-/Gate-Prompts haben DE/EN-Kernabschnitte („DE/EN core"). Details und Restarbeiten: `docs/prompts/PROMPT_LIBRARY_DE_EN_PRIORITY_PASS.md`.
+
 ## Core
 
 - `core/PROJECT_REVIEW.md`
 - `core/WORK_PACKAGE_EXECUTION.md`
-- `core/WORK_PACKAGE_CLASSIFICATION_PROMPT.md` — DE/EN core
+- `core/WORK_PACKAGE_CLASSIFICATION_PROMPT.md` — DE/EN priority pass complete
 
 ## Architecture
 
@@ -47,13 +49,13 @@ Weitere Security-Prompts / more security prompts: `security/` (siehe / see `docs
 ## Review
 
 - `review/NOVA_HANDOFF_REVIEW.md`
-- `review/WORK_PACKAGE_BOUNDARY_REVIEW_PROMPT.md` — DE/EN core
+- `review/WORK_PACKAGE_BOUNDARY_REVIEW_PROMPT.md` — DE/EN priority pass complete
 
 ## Project Adapter
 
-- `project-adapter/PROJECT_ADAPTER_INTAKE_PROMPT.md` — read-only Intake & Review (v0.2, DE/EN core)
-- `project-adapter/PROJECT_SYSTEM_BASELINE_PROMPT.md` — Project System Baseline nach Freigabe (v0.2, DE/EN core)
-- `project-adapter/CREATE_PROJECT_ADAPTER.md` — Adapter-Kurzform (v0.1, legacy)
+- `project-adapter/PROJECT_ADAPTER_INTAKE_PROMPT.md` — read-only Intake & Review (v0.2, DE/EN priority pass complete)
+- `project-adapter/PROJECT_SYSTEM_BASELINE_PROMPT.md` — Project System Baseline nach Freigabe (v0.2, DE/EN priority pass complete)
+- `project-adapter/CREATE_PROJECT_ADAPTER.md` — Adapter-Kurzform (v0.1, legacy, DE/EN priority pass complete)
 
 ## Blocks
 

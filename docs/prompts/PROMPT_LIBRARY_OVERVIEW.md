@@ -8,6 +8,8 @@ Rollenhinweis: Nova = ChatGPT-basierte Planungs-/Review-Rolle (siehe `docs/workf
 
 Sprachstatus / Language status: Kern-Prompts (Adapter, Core, Review, priorisierte Security) tragen seit WP-039 DE/EN-Zweck- und Grenzen-Blöcke; Details siehe `docs/i18n/TRANSLATION_STATUS.md`. / Core prompts carry DE/EN purpose and boundary blocks since WP-039.
 
+DE/EN Priority Pass (Foundation 0.4, NDF-WP-060): Zuerst nutzen — die fünf Adoptions-Erstkontakt-Prompts (Project Adapter Intake/Baseline/Create, Work Package Classification, Boundary Review) sind vollständig DE/EN. Danach die priorisierten Security-/Gate-Prompts (DE/EN-Kern). Restarbeiten transparent: `docs/prompts/PROMPT_LIBRARY_DE_EN_PRIORITY_PASS.md`; NDF ist kein v1.0. / Use first: the five fully bilingual adoption first-contact prompts, then the prioritized security/gate prompts.
+
 ## Kategorien
 
 ```text

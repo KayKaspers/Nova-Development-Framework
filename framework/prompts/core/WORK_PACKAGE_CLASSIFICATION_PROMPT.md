@@ -1,57 +1,63 @@
-# Claude Prompt – Work Package Classification
+# Prompt – Work Package Classification
 
-> Sprachstatus / Language status: Foundation 0.2 prompt. Zweck, Grenzen und Rückmeldung DE/EN. / Purpose, boundaries and feedback DE/EN.
+> Sprachstatus / Language status: DE/EN priority pass complete (Foundation 0.4, NDF-WP-060). DE und EN sind gleichwertig nutzbar. / DE and EN are equally usable.
+
+## DE – Zweck
+
+Ein geplantes Work Package **vor** der Umsetzung klassifizieren: Primärtyp, Risiko-Level, erlaubter/verbotener Scope, Testpflicht, Blueprint-Bedarf und Commit-Strategie.
 
 ## EN – Purpose
 
-Classify a planned work package before execution: recommend the primary type, risk level, allowed and forbidden scope, test duty, blueprint need and commit strategy. Work package type: `review-only` — no code changes, no commit, no push. Finish with the structured feedback to Nova (ChatGPT).
+Classify a planned work package **before** execution: primary type, risk level, allowed/forbidden scope, test duty, blueprint need and commit strategy.
 
-## Rolle
+## DE – Rolle / EN – Role
 
-Du bist Claude und klassifizierst ein geplantes Work Package nach dem Nova Development Framework.
+Du bist der Implementation Agent (z. B. Claude) und klassifizierst ein geplantes Work Package nach dem Nova Development Framework. / You are the Implementation Agent classifying a planned work package per the Nova Development Framework.
 
-## Work Package Type
+Work Package Type: `review-only`
 
-review-only
+## DE – Verwendung / EN – When to Use
 
-## Ziel
+Vor jeder Umsetzung, damit Typ, Scope und Regeln vorab feststehen. / Before any execution, so type, scope and rules are fixed in advance.
 
-Bestimme den passenden Work-Package-Typ, bevor Umsetzung beginnt.
+## DE – Aufgabe / EN – Tasks
 
-## Aufgabe
+Analysiere die geplante Aufgabe und gib aus / analyze the planned task and output:
 
-Analysiere die geplante Aufgabe und gib aus:
+1. empfohlener Primärtyp / recommended primary type
+2. mögliche Sekundär-Tags / optional secondary tags
+3. Risiko-Level / risk level
+4. erlaubte Dateien/Bereiche / allowed files/areas
+5. verbotene Dateien/Bereiche / forbidden files/areas
+6. Testpflicht / test duty
+7. ob ein Blueprint nötig ist / whether a blueprint is required
+8. ob Nova-Freigabe vor Code nötig ist / whether Nova approval is required before code
+9. empfohlene Commit-Strategie / recommended commit strategy
 
-1. empfohlener Primärtyp
-2. mögliche Sekundär-Tags
-3. Risiko-Level
-4. erlaubte Dateien/Bereiche
-5. verbotene Dateien/Bereiche
-6. Testpflicht
-7. ob ein Blueprint nötig ist
-8. ob Nova-Freigabe vor Code nötig ist
-9. empfohlene Commit-Strategie
+Referenz / reference: `framework/standards/WORK_PACKAGE_TYPES.md`
 
-## Grenzen
+## DE – Grenzen / EN – Boundaries
 
-Keine Codeänderungen. Kein Commit. Kein Push.
+Keine Codeänderungen. Kein Commit. Kein Push. / No code changes. No commit. No push.
 
-## Rückmeldung an Nova
+## DE – Erwartete Ausgabe / EN – Expected Output & Feedback to Nova (ChatGPT)
 
 Nova (ChatGPT) ist die ChatGPT-basierte Planungs-, Architektur- und Review-Rolle (siehe `docs/workflow/NOVA_CHATGPT_ROLE.md`). / Nova (ChatGPT) is the ChatGPT-based planning, architecture and review role.
 
-### Empfohlener Typ
+### Empfohlener Typ / Recommended type
 
-### Begründung
+### Begründung / Reasoning
 
-### Risiko-Level
+### Risiko-Level / Risk level
 
-### Erlaubter Scope
+### Erlaubter Scope / Allowed scope
 
-### Verbotener Scope
+### Verbotener Scope / Forbidden scope
 
 ### Tests
 
-### Benötigt Blueprint?
+### Benötigt Blueprint? / Blueprint needed?
 
-### Empfehlung
+### Empfehlung / Recommendation
+
+Der Human Maintainer bleibt final zuständig. / The human maintainer remains the final authority.

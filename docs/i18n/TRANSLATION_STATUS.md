@@ -26,7 +26,7 @@ Grobe Übersicht, welche Bereiche des NDF bereits DE/EN-tauglich sind und wo Fol
 | `docs/workflow/` | bilingual | seit WP-038: 6 Kern-Dokumente voll DE/EN, TYPE_INTEGRATION mit DE-Kurzfassung; nur GITHUB_DESKTOP_WORKFLOW noch de-only / 6 core docs fully DE/EN since WP-038, TYPE_INTEGRATION with German summary; only GITHUB_DESKTOP_WORKFLOW still German |
 | `docs/repository/` | mixed | Quality-Gate-Doku DE, Policies DE/EN gemischt |
 | `docs/roadmap/` | mixed | Progress-Dateien DE/EN gemischt; niedrige Priorität / low priority |
-| `framework/prompts/` | mixed | seit WP-039: 12 Kern-Prompts (Adapter, Core, Review, priorisierte Security) mit DE/EN-Zweck/Grenzen/Rückmeldung; übrige Prompts DE / 12 core prompts carry DE/EN purpose, boundaries and feedback since WP-039; remaining prompts German |
+| `framework/prompts/` | mixed | WP-039: 12 Kern-Prompts DE/EN-Kern. WP-060 (Foundation 0.4): 5 Adoptions-Erstkontakt-Prompts (Adapter Intake/Baseline/Create, WP Classification, Boundary Review) **vollständig bilingual (priority pass complete)**; 7 priorisierte Security-/Gate-Prompts DE/EN-Kern bestätigt. Übrige Prompts DE (Restarbeit non-blocking). Siehe `docs/prompts/PROMPT_LIBRARY_DE_EN_PRIORITY_PASS.md`. / 5 adoption prompts fully bilingual since WP-060; remaining prompts German (non-blocking). |
 | `framework/templates/` | mixed | Feldnamen EN, Anleitungen DE; für öffentliche Nutzung EN ergänzen |
 | `framework/checklists/` | mixed | seit WP-039: 7 zentrale Checklisten mit bilingualem Zweck-Block; Punktlisten überwiegend EN / 7 core checklists with bilingual purpose blocks since WP-039; item lists mostly English |
 | `docs/academy/` | de-only | Lernmaterial; Übersetzung als eigenes WP / translation as its own WP |

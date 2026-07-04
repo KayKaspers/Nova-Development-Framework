@@ -6,7 +6,7 @@
 |---|---|---|---|---|---|---|---|
 | NDF-WP-058 | Foundation 0.4 Scope Lock | docs-only / planning-gate | P1 | 0.4-Umfang einfrieren, Queue bestätigen, Nicht-Ziele fixieren | WP-057 | **release-blocking** (Gate — abgeschlossen mit diesem Dokument) | nein |
 | NDF-WP-059 | Adapter Conventions Polish | docs-only | P1 | WP-047-Backlog 1–3 umsetzen: Manifest-Format-Konvention, Health-Score-Kategorien, Output-Pfad-Konvention; dazu Präfix-Beispiel und First-Safe-WP-Template | WP-058 | **release-blocking** (Kern: Adoption Hardening) — umgesetzt in WP-059 (`PROJECT_ADAPTER_CONVENTIONS.md`) | nein |
-| NDF-WP-060 | Prompt Library DE/EN Priority Pass | docs-only / i18n | P1 | meistgenutzte zentrale Prompts DE/EN-Kern (Priority Pass, nicht gesamte Bibliothek) | WP-058 | **release-blocking** (Kern: Public Usability; über WP-067 herabstufbar, siehe Scope Lock) | Rest → 0.5 |
+| NDF-WP-060 | Prompt Library DE/EN Priority Pass | docs-only / i18n | P1 | meistgenutzte zentrale Prompts DE/EN-Kern (Priority Pass, nicht gesamte Bibliothek) | WP-058 | **release-blocking** (Kern: Public Usability) — umgesetzt in WP-060: 5 Adoptions-Prompts voll bilingual + 7 Security-/Gate-Prompts DE/EN-Kern (`PROMPT_LIBRARY_DE_EN_PRIORITY_PASS.md`) | Rest → 0.5 |
 | NDF-WP-061 | Checklist Library DE/EN Priority Pass | docs-only / i18n | P2 | übrige Checklisten DE/EN-Zweck | WP-058 | optional (should-have) | ja |
 | NDF-WP-062 | Academy Band 1 Entry Pass | docs-only / i18n | P2 | Einstiegskapitel (01–04) DE/EN, von README verlinkt | WP-058 | optional (should-have) | ja |
 | NDF-WP-063 | ADR Policy & Structure Consolidation Plan | docs-only / adr-policy | P2 | ADR-Policy entscheiden (Nummernraum, Ablageort, Altbestand) — nur Plan, keine Migration | WP-058 | optional (should-have) | ja |
