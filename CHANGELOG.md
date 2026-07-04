@@ -2,6 +2,12 @@
 
 All notable changes to the Nova Development Framework will be documented in this file.
 
+## [Unreleased] - Foundation 0.4 planning
+
+### Added
+
+- Foundation 0.4 planning documents and draft work package queue (WP-057)
+
 ## [0.3.0-foundation] - 2026-07-04
 
 Foundation Adoption Pre-Release. Status: **Released** as Foundation pre-release on 2026-07-04 (tag `v0.3.0-foundation`). Release notes: `docs/release/FOUNDATION_0_3_RELEASE_NOTES.md`
