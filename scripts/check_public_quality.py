@@ -1,21 +1,28 @@
 #!/usr/bin/env python3
-"""NDF Public Repository Quality Gate.
+"""NDF Public Repository Quality Gate (v0.2).
 
 Checks that the public NDF repository stays neutral and clean:
 
-1. Public neutrality: no denylisted terms in tracked text files.
+1. Public neutrality: no denylisted terms in repository text files.
    The denylist is intentionally NOT part of the repository. It is provided
    via the environment variable NDF_PUBLIC_NEUTRALITY_DENYLIST (comma-separated)
    and/or the untracked local file .ndf/public-neutrality-terms.local.txt.
-2. Root hygiene: no package/import artifacts in the repository root.
-3. History separation: import package artifacts belong to docs/import-history/.
-4. README structure: README.md exists and contains required framework terms.
+   Never write real private terms into repository files - not even as
+   examples, grep commands, or review documentation.
+2. New-file neutrality check (v0.2): by default, relevant NEW/untracked
+   files are scanned as well, so private terms are caught BEFORE the first
+   commit. Use --tracked-only to restrict scanning to tracked files.
+3. Root hygiene: no package/import artifacts in the repository root
+   (tracked or new).
+4. History separation: import package artifacts belong to docs/import-history/.
+5. README structure: README.md exists and contains required framework terms.
 
 Uses only the Python standard library.
 
 Usage:
     python scripts/check_public_quality.py
     python scripts/check_public_quality.py --strict
+    python scripts/check_public_quality.py --strict --tracked-only
     python scripts/check_public_quality.py --self-test
 """
 
@@ -113,6 +120,34 @@ def git_tracked_files(root: Path) -> list[str]:
                 rel = Path(dirpath, name).relative_to(root)
                 files.append(rel.as_posix())
         return files
+
+
+def git_untracked_files(root: Path) -> list[str]:
+    """Return repo-relative paths of new/untracked files (gitignore respected).
+
+    Used for the new-file neutrality check (v0.2). Returns an empty list when
+    git is unavailable (the walk fallback of git_tracked_files already covers
+    everything in that case).
+    """
+    try:
+        out = subprocess.run(
+            ["git", "ls-files", "-z", "--others", "--exclude-standard"],
+            cwd=root, capture_output=True, check=True,
+        ).stdout
+        return [p.decode("utf-8", "replace") for p in out.split(b"\0") if p]
+    except (OSError, subprocess.CalledProcessError):
+        return []
+
+
+def merge_file_lists(tracked: list[str], untracked: list[str]) -> list[str]:
+    """Merge tracked and untracked file lists without duplicates, keeping order."""
+    seen = set(tracked)
+    merged = list(tracked)
+    for rel in untracked:
+        if rel not in seen:
+            seen.add(rel)
+            merged.append(rel)
+    return merged
 
 
 def is_scannable(rel_path: str) -> bool:
@@ -257,15 +292,33 @@ def check_readme(root: Path) -> list[Finding]:
 # runner
 # ---------------------------------------------------------------------------
 
-def run_checks(root: Path) -> list[Finding]:
+def run_checks(root: Path, tracked_only: bool = False) -> list[Finding]:
     findings: list[Finding] = []
     tracked = git_tracked_files(root)
 
+    if tracked_only:
+        repo_files = tracked
+        findings.append(Finding(INFO, "scan mode: tracked-only "
+                                      "(new-file neutrality check disabled)"))
+    else:
+        untracked = git_untracked_files(root)
+        new_scannable = [p for p in untracked if is_scannable(p)]
+        repo_files = merge_file_lists(tracked, untracked)
+        findings.append(Finding(INFO, "scan mode: tracked + new/untracked files "
+                                      "(new-file neutrality check active)"))
+        if new_scannable:
+            findings.append(Finding(INFO, f"new-file neutrality check: "
+                                          f"{len(new_scannable)} new text file(s) included in scan"))
+
     terms, denylist_findings = load_denylist(root)
     findings.extend(denylist_findings)
-    findings.extend(scan_files_for_terms(root, tracked, terms))
-    findings.extend(check_root_hygiene(tracked))
-    findings.extend(check_history_separation(tracked))
+    if not terms and not tracked_only:
+        findings.append(Finding(INFO, "new-file neutrality check: no denylist "
+                                      "configured - only structure/root/README "
+                                      "rules apply to new files"))
+    findings.extend(scan_files_for_terms(root, repo_files, terms))
+    findings.extend(check_root_hygiene(repo_files))
+    findings.extend(check_history_separation(repo_files))
     findings.extend(check_readme(root))
     return findings
 
@@ -325,7 +378,7 @@ def self_test() -> int:
         expect(terms == [], "empty denylist")
         expect(len(notes) == 1 and notes[0].level == INFO, "missing denylist is a notice")
 
-        # 4. neutrality scan finds terms case-insensitively
+        # 4. neutrality scan finds terms case-insensitively (tracked-like file)
         (root / "docs").mkdir()
         (root / "docs" / "sample.md").write_text(
             "Line one is fine.\nThis mentions private_project_a here.\n",
@@ -334,6 +387,32 @@ def self_test() -> int:
         hits = scan_files_for_terms(root, ["docs/sample.md"], ["PRIVATE_PROJECT_A"])
         expect(len(hits) == 1 and hits[0].level == ERROR, "neutrality scan hit")
         expect("docs/sample.md:2" in hits[0].message, "neutrality scan location")
+
+        # 4b. new-file neutrality check: synthetic term in an untracked-like
+        #     new file is detected via the merged file list
+        (root / "docs" / "new_untracked_note.md").write_text(
+            "Draft text mentioning ExamplePrivateTerm in a new file.\n",
+            encoding="utf-8",
+        )
+        merged = merge_file_lists(["docs/sample.md"], ["docs/new_untracked_note.md"])
+        expect(merged == ["docs/sample.md", "docs/new_untracked_note.md"],
+               "merge_file_lists keeps order without duplicates")
+        merged_dup = merge_file_lists(["a.md", "b.md"], ["b.md", "c.md"])
+        expect(merged_dup == ["a.md", "b.md", "c.md"], "merge_file_lists dedupes")
+        hits = scan_files_for_terms(root, merged, ["ExamplePrivateTerm"])
+        expect(
+            len(hits) == 1 and "new_untracked_note.md:1" in hits[0].message,
+            "new-file neutrality check detects synthetic term in untracked-like file",
+        )
+
+        # 4c. synthetic term ExampleInternalName in tracked-like file detected
+        (root / "docs" / "tracked_like.md").write_text(
+            "Contains ExampleInternalName once.\n", encoding="utf-8",
+        )
+        hits = scan_files_for_terms(root, ["docs/tracked_like.md"],
+                                    ["ExampleInternalName", "ExampleSensitivePlaceholder"])
+        expect(len(hits) == 1 and hits[0].level == ERROR,
+               "synthetic term detected in tracked-like file")
 
         # 5. neutrality scan skips non-text and .ndf files
         hits = scan_files_for_terms(
@@ -384,18 +463,30 @@ def self_test() -> int:
 
 
 def main(argv: list[str] | None = None) -> int:
-    parser = argparse.ArgumentParser(description="NDF public repository quality gate")
+    parser = argparse.ArgumentParser(
+        description="NDF public repository quality gate (v0.2)",
+        epilog=(
+            "Denylist sources (never commit real private terms to the repo): "
+            f"environment variable {ENV_DENYLIST_VAR} (comma-separated) and/or the "
+            f"untracked local file {LOCAL_DENYLIST_FILE.as_posix()} (gitignored). "
+            "By default, new/untracked text files are scanned too "
+            "(new-file neutrality check)."
+        ),
+    )
     parser.add_argument("--strict", action="store_true",
-                        help="treat warnings as errors")
+                        help="treat warnings as errors (notices never fail the gate)")
+    parser.add_argument("--tracked-only", action="store_true",
+                        help="scan only git-tracked files; disables the "
+                             "new-file neutrality check")
     parser.add_argument("--self-test", action="store_true",
-                        help="run internal test cases and exit")
+                        help="run internal test cases (synthetic terms only) and exit")
     args = parser.parse_args(argv)
 
     if args.self_test:
         return self_test()
 
     root = Path(__file__).resolve().parent.parent
-    findings = run_checks(root)
+    findings = run_checks(root, tracked_only=args.tracked_only)
     return report(findings, strict=args.strict)
 
 

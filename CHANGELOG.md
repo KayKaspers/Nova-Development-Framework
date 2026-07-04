@@ -10,6 +10,7 @@ All notable changes to the Nova Development Framework will be documented in this
 - Foundation 0.3 scope lock and release-blocking work package definition (WP-045)
 - Neutral example project v0.2 (SampleProject) as adapter validation fixture (WP-046)
 - Project adapter v0.2 practically validated against SampleProject: PASS WITH NOTES (WP-047)
+- Public quality gate v0.2: new-file neutrality check for untracked files, --tracked-only flag, extended self-tests and denylist documentation rules (WP-052)
 
 ## [0.2.0-foundation] - 2026-07-03
 

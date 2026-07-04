@@ -2,9 +2,17 @@
 
 ## Zweck
 
-Der Public Quality Gate schützt die öffentliche Neutralität des NDF-Repositories automatisch.
+Der Public Quality Gate schützt die öffentliche Neutralität des NDF-Repositories automatisch. / The public quality gate automatically protects the repository's public neutrality.
 
 Nach den Neutralisierungs-Work-Packages (WP-030, WP-031) soll verhindert werden, dass versehentlich wieder private Projektbezüge, personenbezogene Maintainer-Bezüge oder Import-Paket-Artefakte im öffentlichen Repository landen.
+
+## Neu in v0.2 (WP-052) / New in v0.2
+
+- **New-file neutrality check:** Standardmäßig werden auch relevante **neue/untracked** Textdateien gescannt — private Begriffe werden damit **vor** dem ersten Commit gefangen, nicht erst danach. / By default, relevant **new/untracked** text files are scanned too, catching private terms **before** the first commit.
+- `--tracked-only` schaltet den New-file-Check bewusst ab (z. B. für Vergleichsläufe). / disables the new-file check deliberately.
+- Der Gate meldet den aktiven Scan-Modus als Notice; ohne konfigurierte Denylist erscheint der Hinweis, dass für neue Dateien nur Struktur-/Root-/README-Regeln greifen. / The gate reports its scan mode; without a denylist it notes that only structure rules apply to new files.
+- Root-Hygiene- und History-Regeln prüfen jetzt ebenfalls neue Dateien (ein neues Paket-Artefakt im Root schlägt schon vor dem Commit fehl).
+- Hintergrund: In Foundation 0.2 enthielt ein Review-Dokument die Kontroll-Grep-Kommandos **wörtlich** inklusive privater Begriffe, und der Final-Check übersah es, weil die Datei noch untracked war. Beides adressiert v0.2.
 
 ## Was wird geprüft?
 
@@ -15,12 +23,20 @@ Das Script `scripts/check_public_quality.py` prüft getrackte Textdateien (`.md`
 3. **Import-History-/Release-History-Trennung** – Import-Artefakte (`*_IMPORT_ANLEITUNG.md`, `README_WP_*.md`, `CHANGELOG_WP_*.md`) dürfen nur unter `docs/import-history/` liegen.
 4. **README-Basisstruktur** – `README.md` existiert und enthält die Begriffe `Nova Development Framework`, `Work Package`, `Security`, `Maintainer`, `Foundation`.
 
-## Warum stehen keine echten privaten Namen im Repo?
+## Warum stehen keine echten privaten Namen im Repo? / Why no real private terms in the repo?
 
 Der Quality Gate selbst muss öffentlich neutral sein. Würden die zu blockierenden privaten Begriffe im Repository stehen (Config, Tests, CI-YAML), wären sie genau dadurch wieder öffentlich. Deshalb:
 
 - Das Repository enthält nur Platzhalter (`PRIVATE_PROJECT_A`, `example-owner`, …).
 - Die echte Denylist lebt ausschließlich lokal (ungetrackt) oder als GitHub Secret.
+
+**Verschärfung aus Foundation 0.2 (WP-052):** Private Begriffe dürfen **nirgends** in Repo-Dateien stehen — auch nicht:
+
+- als wörtliche Grep-/Kontrollkommandos in Doku, Checklisten oder Release-Dokumenten,
+- als „Beispiel" in Prompts, Tests oder CI-YAML,
+- in Review-/Readiness-Berichten, die Prüfbefehle protokollieren.
+
+In öffentlichen Dokumenten immer neutral formulieren: *private denylist terms*, *custom denylist*, *private project/person checks*, *new-file neutrality check*. Echte Begriffe gehören ausschließlich in: das GitHub Secret, die lokale ignorierte `.ndf/public-neutrality-terms.local.txt`, oder temporäre manuelle Prüfungen außerhalb des Repos. Für Self-Tests nur synthetische Begriffe wie `ExamplePrivateTerm` in temporären Dateien. / Real terms belong only in the GitHub secret, the local gitignored denylist file, or temporary checks outside the repo — never in repository files, not even inside documented grep commands; use synthetic terms like `ExamplePrivateTerm` for tests.
 
 ## Lokale Denylist
 
@@ -43,15 +59,18 @@ NDF_PUBLIC_NEUTRALITY_DENYLIST=term1,term2,term3
 
 In GitHub Actions wird die Variable aus dem Repository-Secret `NDF_PUBLIC_NEUTRALITY_DENYLIST` befüllt. Ist das Secret leer, läuft der Gate trotzdem durch — die fehlende Denylist ist nur ein Hinweis (`No custom neutrality denylist configured.`), kein Fehler.
 
-## Lokal prüfen
+## Lokal prüfen / Local checks
 
 ```text
-python scripts/check_public_quality.py            # Standard
-python scripts/check_public_quality.py --strict   # Warnungen werden Fehler
-python scripts/check_public_quality.py --self-test # interne Testfälle
+python scripts/check_public_quality.py                    # Standard (inkl. new-file check)
+python scripts/check_public_quality.py --strict           # Warnungen werden Fehler
+python scripts/check_public_quality.py --strict --tracked-only  # nur getrackte Dateien
+python scripts/check_public_quality.py --self-test        # interne Testfälle (synthetisch)
 ```
 
-Das Script nutzt nur die Python-Standardbibliothek (Python 3.10+).
+Alternativ mit `py` statt `python` (Windows). Das Script nutzt nur die Python-Standardbibliothek (Python 3.10+).
+
+Empfohlener Maintainer-Ablauf vor jedem Commit mit neuen Dateien: lokale Denylist pflegen → `--strict` laufen lassen (new-file check aktiv) → erst bei „passed" committen. Kurzfassung: `framework/checklists/PUBLIC_QUALITY_GATE_CHECKLIST.md`
 
 ## Root-Hygiene im Alltag
 
