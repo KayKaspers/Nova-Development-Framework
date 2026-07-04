@@ -2,7 +2,9 @@
 
 ## Status
 
-In planning (nach Release `v0.3.0-foundation`, 2026-07-04). Arbeitstitel: **Adoption Hardening & Public Usability**.
+Scope locked (NDF-WP-058, 2026-07-04) — verbindliche Einstufung: [FOUNDATION_0_4_SCOPE_LOCK.md](FOUNDATION_0_4_SCOPE_LOCK.md). Arbeitstitel: **Adoption Hardening & Public Usability**.
+
+**Scope-Lock-Regel / Scope lock rule:** Foundation 0.4 bleibt Adoption Hardening & Public Usability mit bewusst kleinem Release-blocking Kern (058, 059, 060, 067, 068 — je ein Deliverable pro Titel-Hälfte). Weitere Wünsche sind optional oder gehen nach 0.5; neue blocking WPs nur über die Änderungsregeln im Scope Lock. / Foundation 0.4 keeps a deliberately small release-blocking core; additional wishes are optional or deferred, new blocking work packages only via the scope lock change rules.
 
 ## DE – Ziel
 

@@ -30,6 +30,8 @@ Keine Website, keine Export-Pipeline, keine CLI, keine ADR-Massenmigration, kein
 
 **Keine neuen großen Inhalte vor dem Scope Lock.** Details: `docs/roadmap/FOUNDATION_0_4_PLAN.md`, `docs/roadmap/FOUNDATION_0_4_WORK_PACKAGES.md`
 
+**Update (WP-058):** Scope Lock ist beschlossen — Release-blocking sind nur 058, 059, 060, 067, 068; 061–063 und 066 optional; 064/065 deferred. WP-060 ist eng gefasst und über WP-067 herabstufbar. Verbindlich: `docs/roadmap/FOUNDATION_0_4_SCOPE_LOCK.md`
+
 ## Offene manuelle Maintenance-Punkte (kein Framework-WP)
 
 1. GitHub Secret `NDF_PUBLIC_NEUTRALITY_DENYLIST` prüfen/setzen.

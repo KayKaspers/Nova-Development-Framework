@@ -8,12 +8,14 @@
 Foundation Adoption Hardening Release (Pre-Release v0.4.0-foundation)
 ```
 
-## Pflichtkriterien / Required criteria (Draft — verbindlich ab Scope Lock WP-058)
+## Release-blocking Pflichtkriterien / Release-blocking criteria
+
+Gemäß Scope Lock (`docs/roadmap/FOUNDATION_0_4_SCOPE_LOCK.md`): nur diese Kriterien blockieren den Release.
 
 - [x] Foundation 0.3 released (Tag `v0.3.0-foundation`, 2026-07-04).
-- [ ] Foundation 0.4 Scope locked (NDF-WP-058).
+- [x] Foundation 0.4 Scope locked (NDF-WP-058, 2026-07-04).
 - [ ] Adapter Conventions Polish umgesetzt (NDF-WP-059: WP-047-Backlog 1–3 + Präfix/First-Safe-WP-Template).
-- [ ] Prompt Library DE/EN Priority Pass umgesetzt (NDF-WP-060) oder Rest bewusst dokumentiert.
+- [ ] Prompt Library DE/EN Priority Pass umgesetzt (NDF-WP-060) oder über WP-067 dokumentiert herabgestuft.
 - [ ] Public Quality Gate v0.2 weiterhin grün (strict + self-test), new-file neutrality check aktiv.
 - [ ] Release Readiness Review durchgeführt (NDF-WP-067, GO/GO WITH NOTES).
 - [ ] Release Notes 0.4 vorbereitet (NDF-WP-068).
@@ -27,8 +29,10 @@ Unfertige optionale Punkte blockieren den Release nicht, müssen aber in Release
 - [ ] Academy Band 1 Entry Pass (NDF-WP-062).
 - [ ] ADR Policy & Structure Consolidation Plan (NDF-WP-063).
 - [ ] Public Quality Gate Maintenance Review (NDF-WP-066).
-- [ ] Independent Adapter Validation Run (NDF-WP-064 — deferred candidate).
-- [ ] Docs Export / Website Readiness Concept (NDF-WP-065 — deferred candidate).
+## Deferred (blockieren den Release nicht) / Deferred (do not block the release)
+
+- [ ] Independent Adapter Validation Run (NDF-WP-064 — deferred candidate, nur wenn Unbeteiligte verfügbar).
+- [ ] Docs Export / Website Readiness Concept (NDF-WP-065 — deferred candidate, nur bei Restkapazität).
 
 ## Invarianten (müssen durchgehend gelten) / Invariants
 
