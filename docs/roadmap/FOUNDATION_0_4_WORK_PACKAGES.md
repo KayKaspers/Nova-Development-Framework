@@ -13,7 +13,7 @@
 | NDF-WP-064 | Independent Adapter Validation Run | review-only | P3 | Adapter durch Unbeteiligte(n) durchspielen lassen (Selbstvalidierungs-Bias aus WP-047 adressieren) | WP-059 | **deferred candidate** (nur wenn Unbeteiligte verfügbar) | ja |
 | NDF-WP-065 | Docs Export / Website Readiness Concept | docs-only / concept | P3 | MkDocs-/Export-Konzept konkretisieren (kein Build, keine Pipeline) | alle blocking WPs fertig | **deferred candidate** (aus 0.3) | ja |
 | NDF-WP-066 | Public Quality Gate Maintenance Review | review-only + docs-only | P2 | v0.2-Nachlauf: Gate weiterhin grün, Doku/Checkliste aktuell, kleine Härtung nur bei klarem Bedarf | WP-058 | optional (should-have) | ja |
-| NDF-WP-067 | Foundation 0.4 Release Readiness Review | review-only | Release | Ehrliches GO/GO WITH NOTES/REWORK/STOP gegen die 0.4-Kriterien | 059, 060 done | **release-blocking** | nein |
+| NDF-WP-067 | Foundation 0.4 Release Readiness Review | review-only | Release | Ehrliches GO/GO WITH NOTES/REWORK/STOP gegen die 0.4-Kriterien | 059, 060 done | **release-blocking** — durchgeführt in WP-067: **GO WITH NOTES** (`docs/release/FOUNDATION_0_4_RELEASE_READINESS_REVIEW.md`) | nein |
 | NDF-WP-068 | Foundation 0.4 Release Prep | docs-only / release-prep | Release | Release Notes, Kriterien-Abschluss, Go/No-Go, Tagging-Guide für `v0.4.0-foundation` | WP-067 | **release-blocking** | nein |
 
 ## Reihenfolge / Order

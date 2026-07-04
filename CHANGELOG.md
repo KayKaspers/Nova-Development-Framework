@@ -10,6 +10,7 @@ All notable changes to the Nova Development Framework will be documented in this
 - Foundation 0.4 scope lock and release-blocking work package definition (WP-058)
 - Project adapter conventions (manifest, output path, health score) and first-safe-WP template (WP-059)
 - Prompt library DE/EN priority pass: five adoption prompts fully bilingual, prioritized security/gate prompts DE/EN core (WP-060)
+- Foundation 0.4 release readiness review: GO WITH NOTES (WP-067)
 
 ## [0.3.0-foundation] - 2026-07-04
 
