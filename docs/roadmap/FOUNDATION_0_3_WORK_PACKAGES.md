@@ -14,7 +14,7 @@
 | NDF-WP-051 | ADR Structure Consolidation Plan | docs-only / adr-policy | P2 | ADR-Policy entscheiden (Nummernraum, Ablageort, Umgang mit Altbestand) — Plan, noch keine Migration | WP-045 | optional (should-have; nur Policy, keine Migration) |
 | NDF-WP-053 | Docs Export / Website Readiness Concept | docs-only / concept | P3 | MkDocs-/Export-Konzept konkretisieren (kein Build, keine Pipeline) | alle blocking WPs fertig | **deferred candidate** (nur bei Restkapazität, sonst 0.4) |
 | NDF-WP-054 | Foundation 0.3 Release Readiness Review | review-only | Release | Ehrliches GO/GO WITH NOTES/REWORK/STOP gegen die 0.3-Kriterien | 046, 047, 052 done | **release-blocking** — durchgeführt in WP-054: **GO WITH NOTES** (`docs/release/FOUNDATION_0_3_RELEASE_READINESS_REVIEW.md`) |
-| NDF-WP-055 | Foundation 0.3 Release Prep | docs-only / release-prep | Release | Release Notes, Kriterien-Abschluss, Go/No-Go, Tagging-Guide-Update für `v0.3.0-foundation` | WP-054 | **release-blocking** — vorbereitet in WP-055 (Release Notes, Go/No-Go, Tagging-Guide); finaler Tag/Release manuell offen |
+| NDF-WP-055 | Foundation 0.3 Release Prep | docs-only / release-prep | Release | Release Notes, Kriterien-Abschluss, Go/No-Go, Tagging-Guide-Update für `v0.3.0-foundation` | WP-054 | **release-blocking** — done: `v0.3.0-foundation` veröffentlicht 2026-07-04; Post-Release-Cleanup in WP-056 |
 
 ## Reihenfolge-Empfehlung / Recommended order
 

@@ -1,6 +1,6 @@
 # Foundation 0.3 Release Notes
 
-Release: `v0.3.0-foundation` — Foundation Adoption **Pre-Release**. Vorbereitet für den geplanten Release / prepared for the planned foundation pre-release — **tag pending**. NDF ist damit bewusst noch kein v1.0.
+Release: `v0.3.0-foundation` — Foundation Adoption **Pre-Release**, veröffentlicht am / published on 2026-07-04. NDF ist damit bewusst noch kein v1.0.
 
 ## DE – Überblick
 

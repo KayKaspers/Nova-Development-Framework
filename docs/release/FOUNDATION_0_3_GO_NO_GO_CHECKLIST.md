@@ -1,5 +1,7 @@
 # Foundation 0.3 Go/No-Go Checklist
 
+> **Status: abgeschlossen / archived (post-release).** Der Release `v0.3.0-foundation` wurde am 2026-07-04 veröffentlicht. Diese Checkliste bleibt als Vorlage für künftige Releases erhalten.
+
 > DE: Finale Prüfung vor Tag und GitHub Release `v0.3.0-foundation`. Durchführung durch den Human Maintainer; der Implementation Agent erstellt weder Tag noch Release. / EN: Final check before tag and GitHub release `v0.3.0-foundation`. Performed by the human maintainer; the Implementation Agent creates neither tag nor release.
 
 ## 1. Working Tree

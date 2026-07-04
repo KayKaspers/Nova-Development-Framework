@@ -2,7 +2,7 @@
 
 ## Status
 
-Scope locked (NDF-WP-045, 2026-07-03) — verbindliche Einstufung: [FOUNDATION_0_3_SCOPE_LOCK.md](FOUNDATION_0_3_SCOPE_LOCK.md)
+Released as `v0.3.0-foundation` (Foundation Pre-Release, 2026-07-04) — [Release Notes](../release/FOUNDATION_0_3_RELEASE_NOTES.md). Verbindliche Scope-Einstufung: [FOUNDATION_0_3_SCOPE_LOCK.md](FOUNDATION_0_3_SCOPE_LOCK.md)
 
 **Scope-Lock-Regel / Scope lock rule:** Foundation 0.3 bleibt ein Adoption Release mit bewusst kleinem Release-blocking Scope (045–047, 052, 054, 055). Weitere Wünsche sind optional oder gehen nach 0.3; neue blocking WPs nur über die Änderungsregeln im Scope Lock. / Foundation 0.3 stays an adoption release with a deliberately small release-blocking scope; additional wishes are optional or deferred, new blocking work packages only via the scope lock change rules.
 

@@ -19,9 +19,9 @@ Gemäß Scope Lock (`docs/roadmap/FOUNDATION_0_3_SCOPE_LOCK.md`): nur diese Krit
 - [x] Public Quality Gate v0.2 geprüft und grün (NDF-WP-052: new-file neutrality check aktiv, strict + self-test passed, E2E-Nachweis mit synthetischem Begriff).
 - [x] Release Readiness Review durchgeführt (NDF-WP-054: **GO WITH NOTES**, `FOUNDATION_0_3_RELEASE_READINESS_REVIEW.md`).
 - [x] Release Notes 0.3 vorbereitet (NDF-WP-055: `FOUNDATION_0_3_RELEASE_NOTES.md`).
-- [x] Go/No-Go-Checkliste 0.3 vorbereitet (NDF-WP-055: `FOUNDATION_0_3_GO_NO_GO_CHECKLIST.md`) — Durchgang durch den Human Maintainer offen.
+- [x] Go/No-Go-Checkliste 0.3 vorbereitet und durch den Human Maintainer durchgegangen (NDF-WP-055: `FOUNDATION_0_3_GO_NO_GO_CHECKLIST.md`).
 - [x] Tagging-/GitHub-Release-Guide 0.3 vorbereitet (NDF-WP-055: `FOUNDATION_0_3_TAGGING_AND_GITHUB_RELEASE_GUIDE.md`).
-- [ ] Finaler Tag `v0.3.0-foundation` + GitHub Pre-Release (nur Human Maintainer, offen).
+- [x] Finaler Tag `v0.3.0-foundation` + GitHub Pre-Release veröffentlicht 2026-07-04 (Human Maintainer; annotierter Tag auf dem WP-055-Commit, Titel „Nova Development Framework v0.3.0 Foundation").
 
 ## Optionale Kriterien / Optional criteria (should-have, nicht release-blockierend)
 
