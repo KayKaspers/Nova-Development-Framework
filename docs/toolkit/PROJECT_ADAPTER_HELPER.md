@@ -38,9 +38,20 @@ Vor allen anderen Verbesserungen, wenn eines zutrifft:
 
 Sobald das Projekt Funktionen hat, die löschen, massenhaft ändern oder irreversibel wirken (auch Admin-/Cleanup-Skripte). Diese Funktionen werden im Adapter nur erfasst; Änderungen laufen ausschließlich über `destructive-blueprint` → `destructive-implementation` (siehe `docs/toolkit/destructive-actions/DESTRUCTIVE_ACTION_TOOLKIT.md`).
 
+## Konventionen (seit Foundation 0.4) / Conventions
+
+Vor und während eines Adapter-Laufs beachten (Details: `docs/project-starter/PROJECT_ADAPTER_CONVENTIONS.md`):
+
+- **Vor dem Lauf den Output-Pfad festlegen** (Validierung → `examples/<fixture>/adapter-validation-output/`; produktionsnah → `project-system/` etc., nur nach Maintainer-Entscheidung).
+- **Manifest als Markdown-Review-Artefakt** erzeugen (`PROJECT_MANIFEST.md`), YAML/JSON nur eingebettet.
+- **Health Score mit den 0.4-Kategorien** bewerten (Documentation, Security, Operations, Testing/CI, Release Readiness, Maintainability, Governance/Workflow, i18n/Language Readiness).
+- **Unknowns nicht erfinden** — `unknown`/`not evidenced`/`n/a`/`open decision`.
+- **Erwartete und tatsächliche Outputs getrennt halten**; produktive Docs nie still überschreiben.
+
 ## Werkzeuge
 
 - Guide: `docs/project-starter/PROJECT_ADAPTER_V0_2.md`
+- Konventionen: `docs/project-starter/PROJECT_ADAPTER_CONVENTIONS.md`
 - Checkliste: `framework/checklists/PROJECT_ADAPTER_CHECKLIST.md`
 - Templates: `framework/templates/project-adapter/`
 - Prompts: `framework/prompts/project-adapter/`

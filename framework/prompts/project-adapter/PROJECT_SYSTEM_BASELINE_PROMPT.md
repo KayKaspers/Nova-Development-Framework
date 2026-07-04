@@ -69,6 +69,8 @@ docs/ndf/ADOPTION_NOTES.md
 
 Nova (ChatGPT) ist die ChatGPT-basierte Planungs-, Architektur- und Review-Rolle (siehe `docs/workflow/NOVA_CHATGPT_ROLE.md`). / Nova (ChatGPT) is the ChatGPT-based planning, architecture and review role.
 
+Adapter-Konventionen beachten / follow the adapter conventions: `docs/project-starter/PROJECT_ADAPTER_CONVENTIONS.md` (Manifest, Output-Pfade, Health Score).
+
 1. Zusammenfassung: welche Dateien wurden angelegt
 2. Abweichungen von Templates/Specs mit Begründung
 3. Offene Felder, die der Maintainer ergänzen muss

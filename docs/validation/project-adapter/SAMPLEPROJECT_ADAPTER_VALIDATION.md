@@ -34,6 +34,10 @@ Das release-blocking Kriterium „Project Adapter praktisch validiert" (NDF-WP-0
 2. Backlog-Punkte 4–5 als later/should-have.
 3. Regulär weiter gemäß Scope Lock: NDF-WP-052 (Quality Gate v0.2), dann WP-054/055.
 
+## Folgearbeit (NDF-WP-059)
+
+Die drei should-have-Findings und die Präfix-/Template-Punkte wurden in Foundation 0.4 (NDF-WP-059) über `docs/project-starter/PROJECT_ADAPTER_CONVENTIONS.md` und aktualisierte Templates/Checklisten adressiert. Dieses Validierungsergebnis bleibt historisch **PASS WITH NOTES**. / The should-have findings were addressed in Foundation 0.4 (NDF-WP-059); this result stays historically PASS WITH NOTES.
+
 ## Grenzen der Validierung
 
 1. SampleProject ist ein **Doku-Fixture ohne echten Code** — die Analyse-/Doku-Phasen sind voll validiert; Aspekte wie echtes `git status`, Secrets-Scans oder CI-Läufe im Zielprojekt sind nur simuliert.

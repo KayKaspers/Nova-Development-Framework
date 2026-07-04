@@ -49,9 +49,22 @@ Für jede Adapter-Ausführung abarbeiten. Bezugsdokument: `docs/project-starter/
 - [ ] Menschlicher Maintainer / Owner-Rolle erfasst
 - [ ] Review- und Freigabeweg dokumentiert (Nova → Implementation Agent → Human Maintainer)
 
+## Adapter-Konventionen / Adapter conventions (seit Foundation 0.4)
+
+Details: `docs/project-starter/PROJECT_ADAPTER_CONVENTIONS.md`
+
+- [ ] Output-Pfad vor dem Lauf festgelegt (Validierung vs. produktionsnah)
+- [ ] Manifest-Konvention geprüft (`PROJECT_MANIFEST.md` kanonisch, Markdown)
+- [ ] Expected output und actual output getrennt gehalten
+- [ ] Validierungsoutput klar markiert (keine produktive Doku)
+- [ ] Keine produktiven Dokumente still überschrieben
+- [ ] Unknowns als `unknown`/`not evidenced`/`n/a`/`open decision` markiert, nicht erfunden
+- [ ] Neutralitätscheck für neue Adapter-Outputs (Public Quality Gate v0.2, new-file neutrality check)
+
 ## Health Score
 
-- [ ] Initialer Health Score über alle Kategorien geschätzt (`PROJECT_ADAPTER_HEALTH_SCORE_TEMPLATE.md`)
+- [ ] Initialer Health Score über alle Foundation-0.4-Kategorien geschätzt (`PROJECT_ADAPTER_HEALTH_SCORE_TEMPLATE.md`)
+- [ ] Kategorien vollständig oder mit Begründung `n/a`
 - [ ] Bewertungen mit Evidenz begründet, nicht geraten
 
 ## Work Packages

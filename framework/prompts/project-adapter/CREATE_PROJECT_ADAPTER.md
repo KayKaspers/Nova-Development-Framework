@@ -30,6 +30,8 @@ Erstelle einen NDF Project Adapter für ein bestehendes Projekt.
 5. Definiere Claude-Regeln.
 6. Schlage erste Work Packages vor.
 
+Adapter-Konventionen (Foundation 0.4): `docs/project-starter/PROJECT_ADAPTER_CONVENTIONS.md`.
+
 ## Grenzen
 
 - Keine Codeänderungen.

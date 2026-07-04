@@ -22,8 +22,11 @@ Abgeleitet aus der praktischen Validierung am SampleProject-Fixture. Keine Umset
 | 5 | **First-Safe-WP-Template ergänzen** (`framework/templates/project-adapter/FIRST_SAFE_WORK_PACKAGE_TEMPLATE.md`) | Datei musste frei formuliert werden |
 | 6 | **Unabhängiger Testlauf:** Adapter durch einen nicht am Bau beteiligten Nutzer/Agent durchspielen lassen | Selbstvalidierungs-Bias dieser Runde |
 
-## Mögliche Folge-WPs
+## Status (Update NDF-WP-059, Foundation 0.4)
 
-- „Project Adapter Conventions Polish" (docs-only; Punkte 1–3) — vor NDF-WP-054 empfohlen.
-- Punkte 4–5 als Sammel-WP nach 0.3 oder huckepack im Conventions-Polish.
-- Punkt 6 nach 0.3 (externe Mitwirkung nötig).
+- **Punkte 1–3 (should-have): addressed.** In WP-059 umgesetzt über `docs/project-starter/PROJECT_ADAPTER_CONVENTIONS.md` (Manifest-Konvention, Health-Score-Kategorien, Output-Pfad-Konvention) sowie aktualisierte Templates (Health Score, Output Structure, Review Report) und Checkliste.
+- **Punkt 4 (Präfix-Beispiel): addressed.** Queue-Template nutzt jetzt das Platzhalter-Präfix `XY-WP` statt `SP-WP`.
+- **Punkt 5 (First-Safe-WP-Template): addressed.** `framework/templates/project-adapter/FIRST_SAFE_WORK_PACKAGE_TEMPLATE.md` erstellt.
+- **Punkt 6 (unabhängiger Testlauf): weiterhin later** — Foundation 0.4 deferred candidate (NDF-WP-064, nur wenn Unbeteiligte verfügbar).
+
+Die WP-047-Validierung selbst bleibt historisch **PASS WITH NOTES**; diese Konventionen sind Folgearbeit daraus.

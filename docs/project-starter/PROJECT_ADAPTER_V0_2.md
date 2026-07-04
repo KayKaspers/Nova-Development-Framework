@@ -1,6 +1,8 @@
 # NDF Project Adapter v0.2
 
 > Sprachstatus / Language status: Foundation 0.2 document. DE/EN alignment pending according to `docs/i18n/DE_EN_LANGUAGE_STANDARD.md`.
+>
+> Konventionen / Conventions: Seit Foundation 0.4 gelten verbindliche Manifest-, Output-Pfad- und Health-Score-Konventionen — siehe [PROJECT_ADAPTER_CONVENTIONS.md](PROJECT_ADAPTER_CONVENTIONS.md). Kurz: `PROJECT_MANIFEST.md` ist kanonisch (Markdown), Validierungsoutput liegt unter `examples/<fixture>/adapter-validation-output/` getrennt von erwartetem Output, und der Health Score nutzt die 0.4-Kategorien mit `unknown`/`n/a`-Regeln.
 
 ## 1. Zweck
 

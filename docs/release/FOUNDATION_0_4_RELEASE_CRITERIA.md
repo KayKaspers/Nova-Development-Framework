@@ -14,7 +14,7 @@ Gemäß Scope Lock (`docs/roadmap/FOUNDATION_0_4_SCOPE_LOCK.md`): nur diese Krit
 
 - [x] Foundation 0.3 released (Tag `v0.3.0-foundation`, 2026-07-04).
 - [x] Foundation 0.4 Scope locked (NDF-WP-058, 2026-07-04).
-- [ ] Adapter Conventions Polish umgesetzt (NDF-WP-059: WP-047-Backlog 1–3 + Präfix/First-Safe-WP-Template).
+- [x] Adapter Conventions Polish umgesetzt (NDF-WP-059: `PROJECT_ADAPTER_CONVENTIONS.md`, Manifest-/Output-/Health-Score-Konvention, Templates/Checkliste, Präfix + First-Safe-WP-Template).
 - [ ] Prompt Library DE/EN Priority Pass umgesetzt (NDF-WP-060) oder über WP-067 dokumentiert herabgestuft.
 - [ ] Public Quality Gate v0.2 weiterhin grün (strict + self-test), new-file neutrality check aktiv.
 - [ ] Release Readiness Review durchgeführt (NDF-WP-067, GO/GO WITH NOTES).

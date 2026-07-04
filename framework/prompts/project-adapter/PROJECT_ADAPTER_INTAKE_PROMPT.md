@@ -54,6 +54,8 @@ Analysiere das Zielprojekt ausschließlich lesend und erstelle einen NDF-Adapter
 
 Nova (ChatGPT) ist die ChatGPT-basierte Planungs-, Architektur- und Review-Rolle (siehe `docs/workflow/NOVA_CHATGPT_ROLE.md`). / Nova (ChatGPT) is the ChatGPT-based planning, architecture and review role.
 
+Adapter-Konventionen beachten / follow the adapter conventions: `docs/project-starter/PROJECT_ADAPTER_CONVENTIONS.md` (Manifest, Output-Pfade, Health Score).
+
 Struktur nach `framework/templates/RUECKMELDUNG_AN_NOVA_STANDARD.md`, mindestens:
 
 1. Zusammenfassung der Analyse

@@ -38,6 +38,18 @@ Ergebnis von Phase 1 (Repository Read-only Review). Grundlage für die Nova-Frei
 
 <!-- 3–6 kleine, typisierte WPs; erstes WP muss sicher sein (review-only oder docs-only) -->
 
+## Adapter Conventions Compliance
+
+Gemäß `docs/project-starter/PROJECT_ADAPTER_CONVENTIONS.md` (Foundation 0.4). Bei Abweichung: Grund nennen. / Per the adapter conventions; note any deviation.
+
+- [ ] Manifest convention befolgt (`PROJECT_MANIFEST.md` kanonisch, Unknowns markiert)
+- [ ] Output path convention befolgt (Validierungs- vs. produktionsnahe Pfade getrennt, expected ≠ actual)
+- [ ] Health score convention befolgt (Foundation-0.4-Kategorien, Evidenz, `unknown`/`n/a` begründet)
+- [ ] Neutralität: keine privaten Namen/Domains/Secrets in erzeugten Outputs (new-file neutrality check)
+
 ## Empfehlung an Nova
 
-<!-- GO / REWORK / SPLIT / STOP mit Begründung -->
+<!-- PASS / PASS WITH NOTES / REWORK / STOP mit Begründung — PASS WITH NOTES ist ausdrücklich erlaubt -->
+<!-- Für Adapter-Validierungsläufe (Fixture): PASS / PASS WITH NOTES / REWORK / FAIL -->
+<!-- Für produktionsnahe Read-only Reviews: GO / REWORK / SPLIT / STOP -->
+
