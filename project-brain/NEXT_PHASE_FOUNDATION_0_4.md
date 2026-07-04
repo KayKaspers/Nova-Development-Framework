@@ -1,5 +1,7 @@
 # Project Brain – Next Phase Foundation 0.4
 
+> **Status-Update (WP-069):** Foundation 0.4 ist als `v0.4.0-foundation` veröffentlicht (2026-07-04). Nächste Phase — Vorschlag, nicht verbindlich: Foundation 0.5 Planning bzw. Post-Release Maintenance (offene optionale WPs 061–063/066, deferred 064/065). Kein 0.5-Scope festgelegt; kein v1.0.
+
 ## Warum Foundation 0.4?
 
 Foundation 0.3 hat NDF als übernehmbar bewiesen. 0.4 härtet diese Übernehmbarkeit: die konkreten Adapter-Konventionslücken aus der WP-047-Validierung schließen und die größte öffentliche i18n-Lücke (Prompts) reduzieren. Arbeitstitel: **Adoption Hardening & Public Usability**.

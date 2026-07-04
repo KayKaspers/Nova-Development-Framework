@@ -19,9 +19,9 @@ Gemäß Scope Lock (`docs/roadmap/FOUNDATION_0_4_SCOPE_LOCK.md`): nur diese Krit
 - [x] Public Quality Gate v0.2 weiterhin grün (strict + self-test), new-file neutrality check aktiv (WP-067 verifiziert).
 - [x] Release Readiness Review durchgeführt (NDF-WP-067: **GO WITH NOTES**, `FOUNDATION_0_4_RELEASE_READINESS_REVIEW.md`).
 - [x] Release Notes 0.4 vorbereitet (NDF-WP-068: `FOUNDATION_0_4_RELEASE_NOTES.md`).
-- [x] Go/No-Go-Checkliste 0.4 vorbereitet (NDF-WP-068: `FOUNDATION_0_4_GO_NO_GO_CHECKLIST.md`) — Durchgang durch den Human Maintainer offen.
+- [x] Go/No-Go-Checkliste 0.4 vorbereitet und durch den Human Maintainer durchgegangen (NDF-WP-068: `FOUNDATION_0_4_GO_NO_GO_CHECKLIST.md`).
 - [x] Tagging-/GitHub-Release-Guide 0.4 vorbereitet (NDF-WP-068: `FOUNDATION_0_4_TAGGING_AND_GITHUB_RELEASE_GUIDE.md`).
-- [ ] Finaler Tag `v0.4.0-foundation` + GitHub Pre-Release (nur Human Maintainer, offen).
+- [x] Finaler Tag `v0.4.0-foundation` + GitHub Pre-Release veröffentlicht 2026-07-04 (Human Maintainer; annotierter Tag auf dem WP-068-Commit, Titel „Nova Development Framework v0.4.0 Foundation", read-only verifiziert).
 
 ## Optionale Kriterien / Optional criteria (should-have, nicht release-blockierend)
 

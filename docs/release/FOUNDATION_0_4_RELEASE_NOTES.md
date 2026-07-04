@@ -1,6 +1,6 @@
 # Foundation 0.4 Release Notes
 
-Release: `v0.4.0-foundation` — Adoption Hardening & Public Usability **Pre-Release**. Vorbereitet für den geplanten Release / prepared for the planned foundation pre-release — **tag pending**. NDF ist damit bewusst noch kein v1.0.
+Release: `v0.4.0-foundation` — Adoption Hardening & Public Usability **Pre-Release**, veröffentlicht am / published on 2026-07-04 (GitHub Pre-Release, Tag `v0.4.0-foundation`). NDF ist damit bewusst noch kein v1.0.
 
 ## DE – Überblick
 
