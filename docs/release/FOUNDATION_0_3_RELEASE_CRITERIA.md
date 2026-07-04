@@ -17,7 +17,7 @@ Gemäß Scope Lock (`docs/roadmap/FOUNDATION_0_3_SCOPE_LOCK.md`): nur diese Krit
 - [x] Neutrales Beispielprojekt vorhanden als Adapter-Fixture (NDF-WP-046: `examples/neutral-example-project/`).
 - [x] Project Adapter praktisch validiert: alle Phasen 0–10 am neutralen Beispielprojekt durchgespielt, Findings zurückgeführt (NDF-WP-047: **PASS WITH NOTES**, `docs/validation/project-adapter/SAMPLEPROJECT_ADAPTER_VALIDATION.md`).
 - [x] Public Quality Gate v0.2 geprüft und grün (NDF-WP-052: new-file neutrality check aktiv, strict + self-test passed, E2E-Nachweis mit synthetischem Begriff).
-- [ ] Release Readiness Review durchgeführt (NDF-WP-054, GO/GO WITH NOTES).
+- [x] Release Readiness Review durchgeführt (NDF-WP-054: **GO WITH NOTES**, `FOUNDATION_0_3_RELEASE_READINESS_REVIEW.md`).
 - [ ] Release Notes 0.3 vorbereitet (NDF-WP-055).
 - [ ] Go/No-Go-Checkliste 0.3 vorbereitet und durchgegangen (NDF-WP-055).
 
