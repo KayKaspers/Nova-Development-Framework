@@ -2,7 +2,9 @@
 
 All notable changes to the Nova Development Framework will be documented in this file.
 
-## [Unreleased] - Foundation 0.3 planning
+## [0.3.0-foundation] - 2026-07-04
+
+Foundation Adoption Pre-Release. Status: prepared for release — tag `v0.3.0-foundation` pending (created manually by the human maintainer). Release notes: `docs/release/FOUNDATION_0_3_RELEASE_NOTES.md`
 
 ### Added
 
@@ -12,6 +14,7 @@ All notable changes to the Nova Development Framework will be documented in this
 - Project adapter v0.2 practically validated against SampleProject: PASS WITH NOTES (WP-047)
 - Public quality gate v0.2: new-file neutrality check for untracked files, --tracked-only flag, extended self-tests and denylist documentation rules (WP-052)
 - Foundation 0.3 release readiness review: GO WITH NOTES (WP-054)
+- Prepared Foundation 0.3 release: release notes, go/no-go checklist, tagging guide, criteria update (WP-055)
 
 ## [0.2.0-foundation] - 2026-07-03
 

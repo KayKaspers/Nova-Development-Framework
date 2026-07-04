@@ -18,8 +18,10 @@ Gemäß Scope Lock (`docs/roadmap/FOUNDATION_0_3_SCOPE_LOCK.md`): nur diese Krit
 - [x] Project Adapter praktisch validiert: alle Phasen 0–10 am neutralen Beispielprojekt durchgespielt, Findings zurückgeführt (NDF-WP-047: **PASS WITH NOTES**, `docs/validation/project-adapter/SAMPLEPROJECT_ADAPTER_VALIDATION.md`).
 - [x] Public Quality Gate v0.2 geprüft und grün (NDF-WP-052: new-file neutrality check aktiv, strict + self-test passed, E2E-Nachweis mit synthetischem Begriff).
 - [x] Release Readiness Review durchgeführt (NDF-WP-054: **GO WITH NOTES**, `FOUNDATION_0_3_RELEASE_READINESS_REVIEW.md`).
-- [ ] Release Notes 0.3 vorbereitet (NDF-WP-055).
-- [ ] Go/No-Go-Checkliste 0.3 vorbereitet und durchgegangen (NDF-WP-055).
+- [x] Release Notes 0.3 vorbereitet (NDF-WP-055: `FOUNDATION_0_3_RELEASE_NOTES.md`).
+- [x] Go/No-Go-Checkliste 0.3 vorbereitet (NDF-WP-055: `FOUNDATION_0_3_GO_NO_GO_CHECKLIST.md`) — Durchgang durch den Human Maintainer offen.
+- [x] Tagging-/GitHub-Release-Guide 0.3 vorbereitet (NDF-WP-055: `FOUNDATION_0_3_TAGGING_AND_GITHUB_RELEASE_GUIDE.md`).
+- [ ] Finaler Tag `v0.3.0-foundation` + GitHub Pre-Release (nur Human Maintainer, offen).
 
 ## Optionale Kriterien / Optional criteria (should-have, nicht release-blockierend)
 
