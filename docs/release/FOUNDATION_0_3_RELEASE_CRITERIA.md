@@ -15,7 +15,7 @@ Gemäß Scope Lock (`docs/roadmap/FOUNDATION_0_3_SCOPE_LOCK.md`): nur diese Krit
 - [x] Foundation 0.2 released (Tag `v0.2.0-foundation`, 2026-07-03).
 - [x] Foundation 0.3 Scope locked (NDF-WP-045, 2026-07-03).
 - [x] Neutrales Beispielprojekt vorhanden als Adapter-Fixture (NDF-WP-046: `examples/neutral-example-project/`).
-- [ ] Project Adapter praktisch validiert: alle Phasen 0–10 am neutralen Beispielprojekt durchgespielt, Findings zurückgeführt (NDF-WP-047).
+- [x] Project Adapter praktisch validiert: alle Phasen 0–10 am neutralen Beispielprojekt durchgespielt, Findings zurückgeführt (NDF-WP-047: **PASS WITH NOTES**, `docs/validation/project-adapter/SAMPLEPROJECT_ADAPTER_VALIDATION.md`).
 - [ ] Public Quality Gate v0.2 geprüft und grün (NDF-WP-052).
 - [ ] Release Readiness Review durchgeführt (NDF-WP-054, GO/GO WITH NOTES).
 - [ ] Release Notes 0.3 vorbereitet (NDF-WP-055).
