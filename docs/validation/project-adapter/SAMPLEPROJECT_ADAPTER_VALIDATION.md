@@ -41,5 +41,5 @@ Die drei should-have-Findings und die Präfix-/Template-Punkte wurden in Foundat
 ## Grenzen der Validierung
 
 1. SampleProject ist ein **Doku-Fixture ohne echten Code** — die Analyse-/Doku-Phasen sind voll validiert; Aspekte wie echtes `git status`, Secrets-Scans oder CI-Läufe im Zielprojekt sind nur simuliert.
-2. Validierung durch den Implementation Agent, der den Adapter selbst mitgebaut hat — ein unabhängiger externer Testlauf bleibt wünschenswert (later).
+2. Validierung durch den Implementation Agent, der den Adapter selbst mitgebaut hat — ein unabhängiger externer Testlauf bleibt wünschenswert (later). *Update Foundation 0.5:* vorbereitet durch NDF-WP-073 ([INDEPENDENT_ADAPTER_VALIDATION_PREPARATION.md](INDEPENDENT_ADAPTER_VALIDATION_PREPARATION.md)); Durchführung in NDF-WP-074 noch offen.
 3. Kleines Einzelprojekt; Monorepos/Teams > 10 sind nicht abgedeckt.

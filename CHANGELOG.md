@@ -8,6 +8,7 @@ All notable changes to the Nova Development Framework will be documented in this
 
 - docs(roadmap): Foundation 0.5 planning draft — external validation & 1.0 path hardening: plan, work package queue draft, release criteria draft (WP-071)
 - docs(roadmap): locked Foundation 0.5 scope — blocking core 072/073/074/079/081/082, WP-074 downgrade valve (8 conditions via WP-081), WP-076 prioritize-or-drop rule (WP-072)
+- docs(validation): prepared independent adapter validation — preparation doc, runbook, validator brief, feedback + outreach templates, independent-runs result location; run itself (WP-074) still open (WP-073)
 
 ### Maintenance
 

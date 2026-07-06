@@ -22,7 +22,7 @@ Foundation pre-release `v0.5.0-foundation` — external validation & 1.0 path ha
 
 - [x] Foundation 0.4 released und Follow-ups geschlossen (`v0.4.0-foundation`, 2026-07-04; WP-070).
 - [x] Foundation 0.5 Scope locked (NDF-WP-072, 2026-07-06: `FOUNDATION_0_5_SCOPE_LOCK.md`).
-- [ ] Independent Adapter Validation Preparation abgeschlossen (NDF-WP-073: Testleitfaden, neutrales Setup, Erfolgskriterien, Feedback-Format).
+- [x] Independent Adapter Validation Preparation abgeschlossen (NDF-WP-073: Preparation-Dokument, Runbook, Validator Brief, Feedback- und Outreach-Template unter `docs/validation/project-adapter/`; Ergebnisort `independent-runs/` definiert).
 - [ ] Independent Adapter Validation Run durchgeführt und Findings dokumentiert (NDF-WP-074) — **oder** Downgrade-Ventil über WP-081 gezogen gemäß den 8 Bedingungen im Scope Lock (inkl. dokumentiertem Anfrage-Versuch, Known-Limitation-Eintrag und Maintainer-Bestätigung).
 - [ ] v1.0 Readiness Criteria Draft erstellt (NDF-WP-079) — als Entwurf markiert, ohne v1.0-Claim.
 - [ ] Public Quality Gate weiterhin grün (strict + self-test), new-file neutrality check aktiv.
