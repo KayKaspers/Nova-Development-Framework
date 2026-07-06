@@ -46,7 +46,7 @@ Zwei Kernideen, je eine pro Titel-Hälfte:
 | P1 | Scope Lock für Foundation 0.5 (NDF-WP-072) |
 | P1 | Independent Adapter Validation Preparation (NDF-WP-073): Testleitfaden, neutrales Setup, Erfolgskriterien, Feedback-Format — damit eine unbeteiligte Person ohne Vorwissen validieren kann |
 | P1 | Independent Adapter Validation Run (NDF-WP-074): tatsächlicher unabhängiger Durchlauf; abhängig von Verfügbarkeit einer unbeteiligten Person (Downgrade-Ventil siehe Risiken) |
-| P1 | v1.0 Readiness Criteria Draft (NDF-WP-079): messbare Kriterien Richtung v1.0 — Entwurf, kein Commitment |
+| P1 | v1.0 Readiness Criteria Draft (NDF-WP-079): messbare Kriterien Richtung v1.0 — Entwurf, kein Commitment — umgesetzt: [V1_0_READINESS_CRITERIA_DRAFT.md](../release/V1_0_READINESS_CRITERIA_DRAFT.md) · [V1_0_PATH_SUMMARY.md](V1_0_PATH_SUMMARY.md) |
 | P2 | Checklist Library DE/EN Priority Pass (NDF-WP-075, aus 0.4 übernommen) |
 | P2 | ADR Policy & Structure Consolidation Plan (NDF-WP-076, aus 0.4 übernommen — nur Policy/Plan) |
 | P2 | Academy Band 1 Entry Pass (NDF-WP-077, aus 0.4 übernommen) |
