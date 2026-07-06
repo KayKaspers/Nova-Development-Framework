@@ -10,11 +10,11 @@ This plan defines the proposed scope for Foundation 0.5. It is the result of NDF
 
 ## DE – Status
 
-**In Planung.** Foundation 0.4 ist als `v0.4.0-foundation` veröffentlicht, alle manuellen Follow-ups sind geschlossen (NDF-WP-070). Foundation 0.5 ist nicht released und hat noch keinen festgelegten Umfang.
+**Scope locked** (NDF-WP-072, 2026-07-06) — verbindliche Einstufung: [FOUNDATION_0_5_SCOPE_LOCK.md](FOUNDATION_0_5_SCOPE_LOCK.md). Foundation 0.4 ist als `v0.4.0-foundation` veröffentlicht, alle manuellen Follow-ups sind geschlossen (NDF-WP-070). Foundation 0.5 ist nicht released.
 
 ## EN – Status
 
-**In planning.** Foundation 0.4 is published as `v0.4.0-foundation`, all manual follow-ups are closed (NDF-WP-070). Foundation 0.5 is not released and has no locked scope yet.
+**Scope locked** (NDF-WP-072, 2026-07-06) — binding classification: [FOUNDATION_0_5_SCOPE_LOCK.md](FOUNDATION_0_5_SCOPE_LOCK.md). Foundation 0.4 is published as `v0.4.0-foundation`, all manual follow-ups are closed (NDF-WP-070). Foundation 0.5 is not released.
 
 ## DE – Zielbild
 

@@ -1,6 +1,6 @@
 # Project Brain – Next Phase Foundation 0.5
 
-> **Status:** In Planung (NDF-WP-071). Kein Scope Lock, kein Release, kein v1.0.
+> **Status:** Scope locked (NDF-WP-072, 2026-07-06) — verbindlich: `docs/roadmap/FOUNDATION_0_5_SCOPE_LOCK.md`. Nächster Schritt: WP-073 (Validation Preparation), parallel/danach WP-079 (v1.0 Criteria Draft). Kein Release, kein v1.0.
 
 ## Zielbild
 
@@ -20,4 +20,4 @@
 
 ## Nächster Schritt
 
-**NDF-WP-072 – Foundation 0.5 Scope Lock** (verbindliche Einstufung, Ventil-Formulierung, Änderungsregeln). Kein inhaltliches WP vorher. Details: `docs/roadmap/FOUNDATION_0_5_PLAN.md`, `docs/roadmap/FOUNDATION_0_5_WORK_PACKAGES.md`
+**Update (WP-072):** Scope Lock ist beschlossen — Release-blocking sind nur 072, 073, 074 (mit präzisem 8-Bedingungen-Downgrade-Ventil über WP-081), 079, 081, 082; 075–078 optional (076 mit Priorisieren-oder-Streichen-Regel für 0.6); 080 deferred. Nächstes WP: **NDF-WP-073 – Independent Adapter Validation Preparation** (parallel/danach WP-079). Verbindlich: `docs/roadmap/FOUNDATION_0_5_SCOPE_LOCK.md`

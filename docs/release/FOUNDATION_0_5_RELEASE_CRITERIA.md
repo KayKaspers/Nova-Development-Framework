@@ -2,11 +2,11 @@
 
 ## DE – Status
 
-**Draft aus NDF-WP-071.** Foundation 0.5 ist in Planung, nicht released. Alle release-blocking Kriterien sind Kandidaten, bis der Scope Lock (NDF-WP-072) sie verbindlich macht. Abgehakt wird erst gegen tatsächliche Ergebnisse.
+**Scope locked (NDF-WP-072, 2026-07-06).** Foundation 0.5 ist gelockt, nicht released. Die release-blocking Kriterien sind verbindlich gemäß [FOUNDATION_0_5_SCOPE_LOCK.md](../roadmap/FOUNDATION_0_5_SCOPE_LOCK.md); abgehakt wird erst gegen tatsächliche Ergebnisse.
 
 ## EN – Status
 
-**Draft from NDF-WP-071.** Foundation 0.5 is in planning, not released. All release-blocking criteria are candidates until the scope lock (NDF-WP-072) makes them binding. Boxes are only checked against actual results.
+**Scope locked (NDF-WP-072, 2026-07-06).** Foundation 0.5 is locked, not released. The release-blocking criteria are binding per the scope lock; boxes are only checked against actual results.
 
 ## DE – Release-Ziel
 
@@ -18,21 +18,21 @@ Foundation External Validation & 1.0 Path Hardening Release (Pre-Release v0.5.0-
 
 Foundation pre-release `v0.5.0-foundation` — external validation & 1.0 path hardening. Not v1.0.
 
-## DE – Release-blocking Kriterien (Kandidaten bis WP-072)
+## DE – Release-blocking Kriterien (verbindlich seit WP-072)
 
-- [ ] Foundation 0.4 released und Follow-ups geschlossen (bereits erfüllt, wird bei Scope Lock abgehakt).
-- [ ] Foundation 0.5 Scope locked (NDF-WP-072).
+- [x] Foundation 0.4 released und Follow-ups geschlossen (`v0.4.0-foundation`, 2026-07-04; WP-070).
+- [x] Foundation 0.5 Scope locked (NDF-WP-072, 2026-07-06: `FOUNDATION_0_5_SCOPE_LOCK.md`).
 - [ ] Independent Adapter Validation Preparation abgeschlossen (NDF-WP-073: Testleitfaden, neutrales Setup, Erfolgskriterien, Feedback-Format).
-- [ ] Independent Adapter Validation Run durchgeführt und Findings dokumentiert (NDF-WP-074) — **oder** Downgrade-Ventil über WP-081 gezogen und ehrlich in den Release Notes dokumentiert.
+- [ ] Independent Adapter Validation Run durchgeführt und Findings dokumentiert (NDF-WP-074) — **oder** Downgrade-Ventil über WP-081 gezogen gemäß den 8 Bedingungen im Scope Lock (inkl. dokumentiertem Anfrage-Versuch, Known-Limitation-Eintrag und Maintainer-Bestätigung).
 - [ ] v1.0 Readiness Criteria Draft erstellt (NDF-WP-079) — als Entwurf markiert, ohne v1.0-Claim.
 - [ ] Public Quality Gate weiterhin grün (strict + self-test), new-file neutrality check aktiv.
 - [ ] Release Readiness Review durchgeführt (NDF-WP-081).
 - [ ] Release Notes, Go/No-Go-Checkliste und Tagging-Guide vorbereitet (NDF-WP-082).
 - [ ] Finaler Tag `v0.5.0-foundation` + GitHub Pre-Release (nur Human Maintainer).
 
-## EN – Release-blocking Criteria (candidates until WP-072)
+## EN – Release-blocking Criteria (binding since WP-072)
 
-Scope locked; validation preparation done; validation run done and findings documented — or the downgrade valve pulled via WP-081 and documented honestly; v1.0 criteria draft created (marked as draft, no v1.0 claim); public quality gate green; readiness review done; release prep artifacts prepared; final tag + GitHub pre-release by the human maintainer only.
+0.4 released + follow-ups closed (done); scope locked (done, NDF-WP-072); validation preparation done; validation run done and findings documented — or the downgrade valve pulled via WP-081 per the 8 scope lock conditions (incl. documented outreach attempt, known-limitation entry, maintainer confirmation); v1.0 criteria draft created (marked as draft, no v1.0 claim); public quality gate green; readiness review done; release prep artifacts prepared; final tag + GitHub pre-release by the human maintainer only.
 
 ## DE – Optionale Kriterien (should-have, nicht release-blockierend)
 
