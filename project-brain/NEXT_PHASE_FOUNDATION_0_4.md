@@ -34,7 +34,9 @@ Keine Website, keine Export-Pipeline, keine CLI, keine ADR-Massenmigration, kein
 
 **Update (WP-058):** Scope Lock ist beschlossen — Release-blocking sind nur 058, 059, 060, 067, 068; 061–063 und 066 optional; 064/065 deferred. WP-060 ist eng gefasst und über WP-067 herabstufbar. Verbindlich: `docs/roadmap/FOUNDATION_0_4_SCOPE_LOCK.md`
 
-## Offene manuelle Maintenance-Punkte (kein Framework-WP)
+## Manuelle Maintenance-Punkte (kein Framework-WP)
 
-1. GitHub Secret `NDF_PUBLIC_NEUTRALITY_DENYLIST` prüfen/setzen.
-2. Älteren Foundation-0.2-GitHub-Release-Titel manuell korrigieren.
+Geschlossen (NDF-WP-070) — manual follow-ups from Foundation 0.4 post-release cleanup are closed:
+
+1. Custom neutrality denylist secret (`NDF_PUBLIC_NEUTRALITY_DENYLIST`): verified.
+2. Älterer Foundation-0.2-GitHub-Release-Titel: verified correct.

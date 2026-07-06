@@ -2,6 +2,12 @@
 
 All notable changes to the Nova Development Framework will be documented in this file.
 
+## [Unreleased]
+
+### Maintenance
+
+- docs(maintenance): closed Foundation 0.4 manual follow-ups after release — custom neutrality denylist secret verified, Foundation 0.2 release title verified correct (WP-070)
+
 ## [0.4.0-foundation] - 2026-07-04
 
 Adoption Hardening & Public Usability Pre-Release. Status: **Released** as Foundation pre-release on 2026-07-04 (tag `v0.4.0-foundation`). Release notes: `docs/release/FOUNDATION_0_4_RELEASE_NOTES.md`

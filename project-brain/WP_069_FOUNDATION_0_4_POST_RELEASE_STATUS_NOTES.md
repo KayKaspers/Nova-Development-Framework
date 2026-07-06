@@ -33,8 +33,10 @@ Optionale WPs 061/062/063/066 offen; deferred 064/065; restliche i18n-Arbeiten; 
 
 ## Manuelle Follow-ups
 
-1. GitHub Secret `NDF_PUBLIC_NEUTRALITY_DENYLIST` setzen/prüfen (weiterhin nicht von hier verifizierbar; Prüfung über GitHub-UI oder CI-Log-Notice).
-2. Foundation-0.2-Release-Titel auf GitHub korrigieren (aus WP-043 offen).
+Status-Update (NDF-WP-070): beide Punkte geschlossen.
+
+- GitHub Secret `NDF_PUBLIC_NEUTRALITY_DENYLIST`: verified (Existenz durch den Human Maintainer bestätigt; Wert nicht offengelegt).
+- Foundation 0.2 GitHub Release title: verified correct („Nova Development Framework v0.2.0 Foundation").
 
 ## Empfehlung für nächste Phase
 

@@ -114,13 +114,13 @@ No v1.0, no full-repo translation, no complete academy, no website, no export pi
 
 ## DE – Empfohlene nächste Schritte
 
-1. Manuell: GitHub Secret `NDF_PUBLIC_NEUTRALITY_DENYLIST` setzen/prüfen; Foundation-0.2-Release-Titel korrigieren.
+1. ~~Manuell: GitHub Secret `NDF_PUBLIC_NEUTRALITY_DENYLIST` setzen/prüfen; Foundation-0.2-Release-Titel korrigieren.~~ Erledigt (NDF-WP-070): Secret verifiziert, 0.2-Titel als korrekt verifiziert.
 2. Optionale WPs (061–063, 066) priorisiert abarbeiten.
 3. Independent Adapter Validation Run (064) und Docs Export/Website Concept (065) nach 0.4.
 
 ## EN – Recommended Next Steps
 
-1. Manual: set/verify the GitHub secret `NDF_PUBLIC_NEUTRALITY_DENYLIST`; correct the Foundation 0.2 release title.
+1. ~~Manual: set/verify the GitHub secret `NDF_PUBLIC_NEUTRALITY_DENYLIST`; correct the Foundation 0.2 release title.~~ Done (NDF-WP-070): secret verified, Foundation 0.2 title verified correct.
 2. Work through the optional work packages (061–063, 066) by priority.
 3. Independent adapter validation run (064) and docs export/website concept (065) after 0.4.
 
