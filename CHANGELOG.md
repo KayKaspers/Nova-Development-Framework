@@ -2,7 +2,11 @@
 
 All notable changes to the Nova Development Framework will be documented in this file.
 
-## [Unreleased]
+## [Unreleased] - Foundation 0.5 planning
+
+### Added
+
+- docs(roadmap): Foundation 0.5 planning draft — external validation & 1.0 path hardening: plan, work package queue draft, release criteria draft (WP-071)
 
 ### Maintenance
 
