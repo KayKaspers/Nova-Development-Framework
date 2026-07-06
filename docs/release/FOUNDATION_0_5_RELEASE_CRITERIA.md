@@ -23,7 +23,7 @@ Foundation pre-release `v0.5.0-foundation` — external validation & 1.0 path ha
 - [x] Foundation 0.4 released und Follow-ups geschlossen (`v0.4.0-foundation`, 2026-07-04; WP-070).
 - [x] Foundation 0.5 Scope locked (NDF-WP-072, 2026-07-06: `FOUNDATION_0_5_SCOPE_LOCK.md`).
 - [x] Independent Adapter Validation Preparation abgeschlossen (NDF-WP-073: Preparation-Dokument, Runbook, Validator Brief, Feedback- und Outreach-Template unter `docs/validation/project-adapter/`; Ergebnisort `independent-runs/` definiert).
-- [ ] Independent Adapter Validation Run durchgeführt und Findings dokumentiert (NDF-WP-074) — **oder** Downgrade-Ventil über WP-081 gezogen gemäß den 8 Bedingungen im Scope Lock (inkl. dokumentiertem Anfrage-Versuch, Known-Limitation-Eintrag und Maintainer-Bestätigung).
+- [x] Independent Adapter Validation Run durchgeführt und Findings dokumentiert (NDF-WP-074: neutralisierter unabhängiger Review eines privaten Referenzkontexts, **PASS WITH NOTES**, keine Blocker — [`independent-runs/2026-07-06-private-reference-validation/`](../validation/project-adapter/independent-runs/2026-07-06-private-reference-validation/README.md); Notes non-blocking, gehen als Known-Limitation-Kandidaten in WP-081/082). Downgrade-Ventil **nicht benötigt**.
 - [x] v1.0 Readiness Criteria Draft erstellt (NDF-WP-079: [`V1_0_READINESS_CRITERIA_DRAFT.md`](V1_0_READINESS_CRITERIA_DRAFT.md) + [`V1_0_PATH_SUMMARY.md`](../roadmap/V1_0_PATH_SUMMARY.md)) — als Entwurf markiert, ohne v1.0-Claim. Erfüllt den 0.5-Beitrag zu „1.0 Path Hardening"; bedeutet **nicht** v1.0-Readiness — v1.0 braucht später einen eigenen Zyklus.
 - [ ] Public Quality Gate weiterhin grün (strict + self-test), new-file neutrality check aktiv.
 - [ ] Release Readiness Review durchgeführt (NDF-WP-081).

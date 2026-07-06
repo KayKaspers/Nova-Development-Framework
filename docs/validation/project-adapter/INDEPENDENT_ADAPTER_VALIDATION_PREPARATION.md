@@ -10,11 +10,11 @@ This document prepares the independent validation of the project adapter (NDF-WP
 
 ## DE – Status
 
-Vorbereitung erstellt in NDF-WP-073. Der unabhängige Lauf (NDF-WP-074) ist **nicht durchgeführt**. Der Anfrage-Versuch beim Independent Validator ist eine spätere Aktion des Human Maintainers (Outreach-Template unten).
+Vorbereitung erstellt in NDF-WP-073. **Update (NDF-WP-074):** Ein unabhängiger Lauf wurde durchgeführt und ausgewertet — neutralisierte Rückmeldung aus einem privaten Referenzkontext, Ergebnis **PASS WITH NOTES**: [`independent-runs/2026-07-06-private-reference-validation/`](independent-runs/2026-07-06-private-reference-validation/README.md). Das öffentliche Repository dokumentiert nur neutralisierte Ergebnisse. Ein Runbook-Lauf gegen das öffentliche Fixture bleibt wünschenswert (v1.0-tracked); die Unterlagen dieses Dokuments bleiben dafür sofort nutzbar.
 
 ## EN – Status
 
-Preparation created in NDF-WP-073. The independent run (NDF-WP-074) has **not been performed**. Reaching out to an independent validator is a later human-maintainer action (outreach template below).
+Preparation created in NDF-WP-073. **Update (NDF-WP-074):** an independent run was performed and evaluated — neutralized feedback from a private reference context, verdict **PASS WITH NOTES** (folder above). The public repository records only neutralized results. A runbook-based run against the public fixture remains desirable (v1.0-tracked); these materials stay immediately usable for it.
 
 ## DE – Validierungsziel
 

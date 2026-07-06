@@ -27,6 +27,6 @@ Abgeleitet aus der praktischen Validierung am SampleProject-Fixture. Keine Umset
 - **Punkte 1–3 (should-have): addressed.** In WP-059 umgesetzt über `docs/project-starter/PROJECT_ADAPTER_CONVENTIONS.md` (Manifest-Konvention, Health-Score-Kategorien, Output-Pfad-Konvention) sowie aktualisierte Templates (Health Score, Output Structure, Review Report) und Checkliste.
 - **Punkt 4 (Präfix-Beispiel): addressed.** Queue-Template nutzt jetzt das Platzhalter-Präfix `XY-WP` statt `SP-WP`.
 - **Punkt 5 (First-Safe-WP-Template): addressed.** `framework/templates/project-adapter/FIRST_SAFE_WORK_PACKAGE_TEMPLATE.md` erstellt.
-- **Punkt 6 (unabhängiger Testlauf): prepared by WP-073** — in Foundation 0.5 release-blocking (NDF-WP-073 Vorbereitung abgeschlossen: [INDEPENDENT_ADAPTER_VALIDATION_PREPARATION.md](INDEPENDENT_ADAPTER_VALIDATION_PREPARATION.md); Durchführung NDF-WP-074 **noch offen**).
+- **Punkt 6 (unabhängiger Testlauf): completed with notes** — durchgeführt in NDF-WP-074 als neutralisierter unabhängiger Review eines privaten Referenzkontexts, Ergebnis **PASS WITH NOTES** ([independent-runs/2026-07-06-private-reference-validation/](independent-runs/2026-07-06-private-reference-validation/README.md)). Das öffentliche Repository dokumentiert nur neutralisierte Ergebnisse; ein Runbook-Lauf gegen das öffentliche Fixture bleibt v1.0-tracked.
 
 Die WP-047-Validierung selbst bleibt historisch **PASS WITH NOTES**; diese Konventionen sind Folgearbeit daraus.

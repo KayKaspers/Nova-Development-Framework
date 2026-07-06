@@ -16,6 +16,12 @@ Inhalt pro Lauf: das ausgefüllte Feedback-Template des Independent Validators u
 
 NDF-WP-074 creates one folder per run (pattern above), containing the validator's completed feedback template and the WP-074 evaluation report.
 
+## DE/EN – Durchgeführte Läufe / Recorded Runs
+
+| Lauf / Run | Quelle / Source | Ergebnis / Verdict |
+|---|---|---|
+| [`2026-07-06-private-reference-validation/`](2026-07-06-private-reference-validation/README.md) | neutralisierte unabhängige Rückmeldung, privater Referenzkontext / neutralized independent feedback, private reference context | **PASS WITH NOTES** |
+
 ## DE/EN – Regeln / Rules
 
 - **Keine Fake-Ergebnisse** — hier liegt nur, was tatsächlich durchgeführt wurde. / No fake results — only what was actually performed.

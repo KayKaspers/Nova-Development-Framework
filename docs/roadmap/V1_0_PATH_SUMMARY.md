@@ -27,11 +27,11 @@ NDF is **not v1.0** — and Foundation 0.5 does not change that. What it does ch
 
 ## DE – Was vor v1.0 noch offen ist
 
-Stand heute mindestens: mindestens ein durchgeführter und ausgewerteter unabhängiger Validierungslauf; die ADR-Policy-Entscheidung (priorisieren oder ehrlich streichen); eine definierte v1.x-Kompatibilitätszusage; Bestätigung der Konventions-Stabilität über weitere Releases. Vollständige Liste mit Ist-Stand: im Kriterien-Entwurf.
+Stand heute mindestens: ein Runbook-basierter unabhängiger Lauf gegen das **öffentliche** Fixture (ein neutralisierter unabhängiger Review eines privaten Referenzkontexts liegt seit NDF-WP-074 mit PASS WITH NOTES vor — Kriterium damit `partially met`); die ADR-Policy-Entscheidung (priorisieren oder ehrlich streichen); eine definierte v1.x-Kompatibilitätszusage; Bestätigung der Konventions-Stabilität über weitere Releases. Vollständige Liste mit Ist-Stand: im Kriterien-Entwurf.
 
 ## EN – What Remains Before v1.0
 
-As of today at least: one performed and evaluated independent validation run; the ADR policy decision (prioritize or drop honestly); a defined v1.x compatibility promise; confirmation of convention stability across further releases. Full list with current status: in the criteria draft.
+As of today at least: a runbook-based independent run against the **public** fixture (a neutralized independent review of a private reference context exists since NDF-WP-074 with PASS WITH NOTES — the criterion is `partially met`); the ADR policy decision (prioritize or drop honestly); a defined v1.x compatibility promise; confirmation of convention stability across further releases. Full list with current status: in the criteria draft.
 
 ## DE – Nächste Schritte
 

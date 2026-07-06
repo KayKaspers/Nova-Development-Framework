@@ -47,7 +47,7 @@ No v1.0 approval, no release candidate, no v1.0 scope lock, no schedule, no prom
 | # | Kategorie / Category | Stand heute / Status today |
 |---|---|---|
 | 1 | Public Usability | partially met |
-| 2 | External Validation | not met (Vorbereitung met) |
+| 2 | External Validation | partially met (Lauf mit PASS WITH NOTES, siehe Kategorie) |
 | 3 | Project Adapter Maturity | partially met |
 | 4 | Documentation & DE/EN Readiness | partially met |
 | 5 | Prompt & Checklist Readiness | partially met |
@@ -72,8 +72,8 @@ No v1.0 approval, no release candidate, no v1.0 scope lock, no schedule, no prom
 
 | Kriterium / Criterion | Für v1.0? / Required? | Stand / Status | Nachweis / Evidence Needed | Hinweise / Notes |
 |---|---|---|---|---|
-| Mindestens **ein** unabhängiger Adapter-Validierungslauf durchgeführt und ausgewertet | **blocking** | **not met** | ausgefülltes Feedback + Auswertungsbericht unter `docs/validation/project-adapter/independent-runs/` | Vorbereitung met (WP-073); Lauf = WP-074, offen. **Bleibt v1.0-blocking auch dann, wenn WP-074 in 0.5 über das Downgrade-Ventil herabgestuft wird** (Ventil-Bedingung 7, `FOUNDATION_0_5_SCOPE_LOCK.md`) |
-| Findings aus unabhängiger Validierung triagiert (umgesetzt oder begründet offen) | blocking | open | Folge-WPs bzw. begründete Backlog-Einträge | folgt aus dem Lauf |
+| Mindestens **ein** unabhängiger Adapter-Validierungslauf durchgeführt und ausgewertet | **blocking** | **partially met** | ausgefülltes Feedback + Auswertungsbericht unter `docs/validation/project-adapter/independent-runs/` | WP-074 durchgeführt: neutralisierter Review eines **privaten Referenzkontexts**, PASS WITH NOTES, keine privaten Details öffentlich (`2026-07-06-private-reference-validation/`). Für volles `met`: Runbook-Lauf gegen das öffentliche Fixture (tracked). Kriterium bleibt v1.0-blocking |
+| Findings aus unabhängiger Validierung triagiert (umgesetzt oder begründet offen) | blocking | met | Folge-WPs bzw. begründete Backlog-Einträge | für den 2026-07-06-Lauf: keine Blocker/High-Findings; 2 Info-Findings dokumentiert und als tracked eingestuft |
 | Validierungsunterlagen (Runbook, Brief, Templates) öffentlich und neutral | blocking | met | `docs/validation/project-adapter/INDEPENDENT_*.md` | WP-073 |
 
 ## DE – Project Adapter Maturity / EN – Project Adapter Maturity

@@ -22,4 +22,6 @@
 
 **Update (WP-072):** Scope Lock ist beschlossen — Release-blocking sind nur 072, 073, 074 (mit präzisem 8-Bedingungen-Downgrade-Ventil über WP-081), 079, 081, 082; 075–078 optional (076 mit Priorisieren-oder-Streichen-Regel für 0.6); 080 deferred. Verbindlich: `docs/roadmap/FOUNDATION_0_5_SCOPE_LOCK.md`
 
-**Update (WP-073/WP-079):** Beide inhaltlichen Kern-WPs sind erledigt — Validierungsvorbereitung (`docs/validation/project-adapter/`) und v1.0-Kriterien-Entwurf (`docs/release/V1_0_READINESS_CRITERIA_DRAFT.md` + `docs/roadmap/V1_0_PATH_SUMMARY.md`; Draft, kein v1.0-Claim). **Nächster Schritt:** Maintainer-Outreach für den Validator, dann WP-074 (Lauf) — oder, falls niemand verfügbar, WP-081 mit Ventil-Prüfung. Optionale WPs 075–078 nach Kapazität.
+**Update (WP-073/WP-079):** Beide inhaltlichen Kern-WPs sind erledigt — Validierungsvorbereitung (`docs/validation/project-adapter/`) und v1.0-Kriterien-Entwurf (`docs/release/V1_0_READINESS_CRITERIA_DRAFT.md` + `docs/roadmap/V1_0_PATH_SUMMARY.md`; Draft, kein v1.0-Claim).
+
+**Update (WP-074):** Unabhängiger Lauf durchgeführt — neutralisierter Review eines privaten Referenzkontexts, **PASS WITH NOTES**, keine Blocker; Ventil nicht benötigt (`docs/validation/project-adapter/independent-runs/2026-07-06-private-reference-validation/`). Alle inhaltlichen blocking WPs sind damit erledigt. **Nächster Schritt:** WP-081 (Release Readiness Review) — vorher optionale WPs 075–078 nach Kapazität. Kein Release, kein v1.0.
