@@ -27,7 +27,7 @@ Grundsatz: Kriterien müssen prüfbar sein (Nachweis benennbar); ehrliche Status
 
 - [x] Foundation 0.5 released und abgeschlossen (`v0.5.0-foundation`, 2026-07-07; WP-083).
 - [x] Foundation 0.6 Scope locked (NDF-WP-085, 2026-07-07: [`FOUNDATION_0_6_SCOPE_LOCK.md`](../roadmap/FOUNDATION_0_6_SCOPE_LOCK.md)).
-- [ ] **ADR-Policy explizit entschieden** (NDF-WP-086): dokumentierte Entscheidung — Minimal-Policy angenommen **oder** ehrliches Streichen mit Begründung; kein weiteres Verschieben.
+- [x] **ADR-Policy explizit entschieden** (NDF-WP-086, 2026-07-07: **Minimal ADR Policy adopted** — [`docs/adr/ADR_POLICY.md`](../adr/ADR_POLICY.md); Massenmigration bleibt deferred).
 - [ ] **Public SampleProject Runbook Validation ehrlich bewertet** (NDF-WP-088): durchgeführt und ausgewertet — oder gemäß dem strengen 8-Bedingungen-Ventil über WP-094 transparent herabgestuft (inkl. Known-Limitation-Eintrag und Maintainer-Bestätigung).
 - [ ] **Quality Gate Maintenance geprüft** (NDF-WP-089): Gate weiterhin grün (strict + self-test), Doku aktuell, CI-Denylist-Wirksamkeit bewertet — Nachweis in WP-089 oder als eigenes Artefakt (WP-090), falls WP-089 das für nötig erklärt.
 - [ ] Release Readiness Review durchgeführt (NDF-WP-094).

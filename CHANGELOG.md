@@ -10,6 +10,7 @@ Status: Scope locked, release-blocking work packages defined. Not v1.0.
 
 - docs(roadmap): Foundation 0.6 planning draft — adoption confidence & governance hardening: plan, work package candidates (084–095), release criteria draft (WP-084)
 - docs(roadmap): locked Foundation 0.6 scope — blocking core 085/086/088/089/094/095, ADR decision duty (adopt or drop, no third deferral), WP-088 8-condition downgrade valve via WP-094, WP-090 merged into WP-089 (WP-085)
+- docs(governance): adopted minimal ADR policy — new ADRs in docs/adr/ with cross-folder numbering (next: ADR-0031), roles, status values, no mass migration; closes the open v1.0 ADR criterion as met with notes (WP-086)
 
 ## [0.5.0-foundation] - 2026-07-07
 

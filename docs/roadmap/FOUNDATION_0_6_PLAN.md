@@ -2,7 +2,7 @@
 
 ## DE – Zweck
 
-Dieser Plan definiert den Umfang für Foundation 0.6 (Ergebnis von NDF-WP-084). **Status-Update: Scope locked** (NDF-WP-085, 2026-07-07) — verbindliche Einstufung: [FOUNDATION_0_6_SCOPE_LOCK.md](FOUNDATION_0_6_SCOPE_LOCK.md). Release-blocking sind nur 085, 086 (ADR-Entscheidung), 088 (öffentliche Validierung, mit 8-Bedingungen-Ventil über WP-094), 089 (Gate Maintenance), 094, 095. Foundation 0.6 ist nicht released und **nicht v1.0**.
+Dieser Plan definiert den Umfang für Foundation 0.6 (Ergebnis von NDF-WP-084). **Status-Update: Scope locked** (NDF-WP-085, 2026-07-07) — verbindliche Einstufung: [FOUNDATION_0_6_SCOPE_LOCK.md](FOUNDATION_0_6_SCOPE_LOCK.md). Release-blocking sind nur 085, 086 (ADR-Entscheidung — **erledigt: Minimal ADR Policy adopted**, [`docs/adr/ADR_POLICY.md`](../adr/ADR_POLICY.md)), 088 (öffentliche Validierung, mit 8-Bedingungen-Ventil über WP-094), 089 (Gate Maintenance), 094, 095. Foundation 0.6 ist nicht released und **nicht v1.0**.
 
 ## EN – Purpose
 

@@ -55,7 +55,7 @@ No v1.0 approval, no release candidate, no v1.0 scope lock, no schedule, no prom
 | 7 | Public Quality Gate & Neutrality | met |
 | 8 | Release Process & Versioning | met |
 | 9 | Governance & Human Maintainer Control | met |
-| 10 | ADR / Decision Structure | not met |
+| 10 | ADR / Decision Structure | met with notes (Policy adopted, WP-086) |
 | 11 | Maintenance & Backlog Discipline | met |
 | 12 | v1.0 Non-Goals / Boundaries | definiert in diesem Draft / defined in this draft |
 
@@ -143,7 +143,7 @@ No v1.0 approval, no release candidate, no v1.0 scope lock, no schedule, no prom
 
 | Kriterium / Criterion | Für v1.0? / Required? | Stand / Status | Nachweis / Evidence Needed | Hinweise / Notes |
 |---|---|---|---|---|
-| ADR-Policy entschieden (Nummernraum, Ablageort, Altbestand) **oder** als Known Limitation mit Regel dokumentiert | blocking | **not met** | ADR-Policy-Plan (WP-076) oder dokumentierte Streichungs-Entscheidung | zweimal verschoben; Scope-Lock-Regel: in 0.6 priorisieren **oder** ehrlich streichen — genau diese Entscheidung ist das v1.0-Kriterium |
+| ADR-Policy entschieden (Nummernraum, Ablageort, Altbestand) **oder** als Known Limitation mit Regel dokumentiert | blocking | **met with notes** | `docs/adr/ADR_POLICY.md` (NDF-WP-086, 2026-07-07: Minimal ADR Policy adopted) | Notes: Massenmigration bleibt deferred; die Policy muss sich in künftigen WPs bewähren |
 | Nummernkollisionen im Altbestand aufgelöst oder als frozen dokumentiert | tracked | partially met | Struktur-Review (WP-033) | dokumentierter Altbestand |
 
 ## DE – Maintenance- und Backlog-Disziplin / EN – Maintenance and Backlog Discipline
