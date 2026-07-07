@@ -15,7 +15,7 @@
 | NDF-WP-079 | v1.0 Readiness Criteria Draft | docs-only / concept | P1 | Messbare v1.0-Kriterien als Entwurf (kein Commitment, kein Zeitplan, kein v1.0-Claim) | WP-072 | **release-blocking** (Kern: 1.0 Path Hardening) — umgesetzt in WP-079: [`V1_0_READINESS_CRITERIA_DRAFT.md`](../release/V1_0_READINESS_CRITERIA_DRAFT.md) + [`V1_0_PATH_SUMMARY.md`](V1_0_PATH_SUMMARY.md); nur Entwurf, kein v1.0-Claim | nein |
 | NDF-WP-080 | Docs Export / Website Readiness Concept | docs-only / concept | P3 | Export-/Website-Konzept konkretisieren — kein Build, keine Pipeline (aus 0.3/0.4/WP-065) | alle blocking WPs fertig | **deferred** (nur bei Restkapazität) | ja |
 | NDF-WP-081 | Foundation 0.5 Release Readiness Review | review-only | Release | Ehrliches GO/GO WITH NOTES/REWORK/STOP gegen die 0.5-Kriterien; entscheidet über das WP-074-Ventil | 073, 079 done; 074 done oder Ventil | **release-blocking** — durchgeführt in WP-081: **GO WITH NOTES** ([`FOUNDATION_0_5_RELEASE_READINESS_REVIEW.md`](../release/FOUNDATION_0_5_RELEASE_READINESS_REVIEW.md)); Ventil-Prüfung entfiel (WP-074 done) | nein |
-| NDF-WP-082 | Foundation 0.5 Release Prep | docs-only / release-prep | Release | Release Notes, Kriterien-Abschluss, Go/No-Go, Tagging-Guide für `v0.5.0-foundation` | WP-081 | **release-blocking** | nein |
+| NDF-WP-082 | Foundation 0.5 Release Prep | docs-only / release-prep | Release | Release Notes, Kriterien-Abschluss, Go/No-Go, Tagging-Guide für `v0.5.0-foundation` | WP-081 | **release-blocking** — vorbereitet in WP-082 (Release Notes, Go/No-Go, Tagging-Guide); finaler Tag/Release manuell offen | nein |
 
 ## Reihenfolge / Order
 

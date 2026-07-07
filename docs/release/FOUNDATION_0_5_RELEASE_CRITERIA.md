@@ -27,8 +27,10 @@ Foundation pre-release `v0.5.0-foundation` — external validation & 1.0 path ha
 - [x] v1.0 Readiness Criteria Draft erstellt (NDF-WP-079: [`V1_0_READINESS_CRITERIA_DRAFT.md`](V1_0_READINESS_CRITERIA_DRAFT.md) + [`V1_0_PATH_SUMMARY.md`](../roadmap/V1_0_PATH_SUMMARY.md)) — als Entwurf markiert, ohne v1.0-Claim. Erfüllt den 0.5-Beitrag zu „1.0 Path Hardening"; bedeutet **nicht** v1.0-Readiness — v1.0 braucht später einen eigenen Zyklus.
 - [x] Public Quality Gate weiterhin grün (strict + self-test), new-file neutrality check aktiv (WP-081 verifiziert).
 - [x] Release Readiness Review durchgeführt (NDF-WP-081: **GO WITH NOTES**, [`FOUNDATION_0_5_RELEASE_READINESS_REVIEW.md`](FOUNDATION_0_5_RELEASE_READINESS_REVIEW.md)).
-- [ ] Release Notes, Go/No-Go-Checkliste und Tagging-Guide vorbereitet (NDF-WP-082).
-- [ ] Finaler Tag `v0.5.0-foundation` + GitHub Pre-Release (nur Human Maintainer).
+- [x] Release Notes vorbereitet (NDF-WP-082: [`FOUNDATION_0_5_RELEASE_NOTES.md`](FOUNDATION_0_5_RELEASE_NOTES.md), inkl. Known Limitations aus WP-081).
+- [x] Go/No-Go-Checkliste vorbereitet (NDF-WP-082: [`FOUNDATION_0_5_GO_NO_GO_CHECKLIST.md`](FOUNDATION_0_5_GO_NO_GO_CHECKLIST.md)) — Durchgang durch den Human Maintainer offen.
+- [x] Tagging-/GitHub-Release-Guide vorbereitet (NDF-WP-082: [`FOUNDATION_0_5_TAGGING_AND_GITHUB_RELEASE_GUIDE.md`](FOUNDATION_0_5_TAGGING_AND_GITHUB_RELEASE_GUIDE.md)).
+- [ ] Finaler Tag `v0.5.0-foundation` + GitHub Pre-Release (nur Human Maintainer, offen).
 
 ## EN – Release-blocking Criteria (binding since WP-072)
 

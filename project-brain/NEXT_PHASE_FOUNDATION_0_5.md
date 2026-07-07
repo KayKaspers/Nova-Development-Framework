@@ -26,4 +26,6 @@
 
 **Update (WP-074):** Unabhängiger Lauf durchgeführt — neutralisierter Review eines privaten Referenzkontexts, **PASS WITH NOTES**, keine Blocker; Ventil nicht benötigt (`docs/validation/project-adapter/independent-runs/2026-07-06-private-reference-validation/`). Alle inhaltlichen blocking WPs sind damit erledigt.
 
-**Update (WP-081):** Release Readiness Review abgeschlossen — **GO WITH NOTES**, keine Blocker (`docs/release/FOUNDATION_0_5_RELEASE_READINESS_REVIEW.md`). **Nächster Schritt: NDF-WP-082 – Foundation 0.5 Release Prep** (Release Notes müssen die Known Limitations aus dem Review übernehmen; WP-076-Regel in die 0.6-Planung). Kein Release, kein v1.0.
+**Update (WP-081):** Release Readiness Review abgeschlossen — **GO WITH NOTES**, keine Blocker (`docs/release/FOUNDATION_0_5_RELEASE_READINESS_REVIEW.md`).
+
+**Update (WP-082):** Release Prep abgeschlossen — Release Notes (inkl. aller Known Limitations), Go/No-Go-Checkliste (20 Punkte), Tagging-Guide; Changelog auf `[0.5.0-foundation]` („tag pending"), README auf „vorbereitet". **Nächster Schritt (manuell, Human Maintainer):** Go/No-Go durchgehen → Tag `v0.5.0-foundation` → GitHub Pre-Release → danach Post-Release-Cleanup-WP. WP-076-Regel und öffentlicher Fixture-Lauf gehören in die 0.6-Planung. Kein Release bis zum Tagging, kein v1.0.

@@ -2,7 +2,9 @@
 
 All notable changes to the Nova Development Framework will be documented in this file.
 
-## [Unreleased] - Foundation 0.5 planning
+## [0.5.0-foundation] - 2026-07-07
+
+External Validation & 1.0 Path Hardening Pre-Release. Status: prepared for release — tag `v0.5.0-foundation` pending (created manually by the human maintainer). Not v1.0. Release notes: `docs/release/FOUNDATION_0_5_RELEASE_NOTES.md`
 
 ### Added
 
@@ -12,6 +14,7 @@ All notable changes to the Nova Development Framework will be documented in this
 - docs(release): added v1.0 readiness criteria draft (12 categories, honest status, explicit non-goals) and v1.0 path summary — draft only, NDF is not v1.0 (WP-079)
 - docs(validation): recorded neutralized independent adapter validation result — private reference context, PASS WITH NOTES, no blockers; downgrade valve not needed (WP-074)
 - docs(release): Foundation 0.5 release readiness review: GO WITH NOTES — no blockers, notes are non-blocking known-limitation candidates (WP-081)
+- docs(release): prepared Foundation 0.5 release — release notes with known limitations, go/no-go checklist, tagging guide, criteria update (WP-082)
 
 ### Maintenance
 
