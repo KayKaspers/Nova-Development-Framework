@@ -1,5 +1,7 @@
 # Project Brain – Next Phase Foundation 0.5
 
+> **Hinweis:** Foundation 0.5 is complete. See [NEXT_PHASE_FOUNDATION_0_6.md](NEXT_PHASE_FOUNDATION_0_6.md).
+
 > **Status (WP-083): RELEASED** — Foundation 0.5 ist als `v0.5.0-foundation` veröffentlicht (2026-07-07, GitHub Pre-Release, read-only verifiziert). Keine offenen 0.5-blocking WPs. Nächste Phase — Vorschlag, nicht verbindlich: **Foundation 0.6 Planning** oder Post-Release-Monitoring/Adoption-Feedback. Wichtigste 0.6-Kandidaten: ADR-Policy-Entscheidung (**Sonderregel: priorisieren oder ehrlich streichen — kein drittes stilles Verschieben**), öffentlicher SampleProject-Runbook-Lauf (v1.0-tracked), Checklist-/i18n-Arbeit, Gate Maintenance, Academy Entry, v1.x-Kompatibilitätszusage. Kein v1.0.
 
 ## Zielbild

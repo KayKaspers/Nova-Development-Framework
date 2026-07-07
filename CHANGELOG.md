@@ -2,6 +2,14 @@
 
 All notable changes to the Nova Development Framework will be documented in this file.
 
+## [Unreleased] - Foundation 0.6 Planning
+
+Status: Planning started, scope not locked. Not v1.0.
+
+### Added
+
+- docs(roadmap): Foundation 0.6 planning draft — adoption confidence & governance hardening: plan, work package candidates (084–095), release criteria draft (WP-084)
+
 ## [0.5.0-foundation] - 2026-07-07
 
 External Validation & 1.0 Path Hardening Pre-Release. Status: **Released** as Foundation pre-release on 2026-07-07 (tag `v0.5.0-foundation`). Not v1.0. Release notes: `docs/release/FOUNDATION_0_5_RELEASE_NOTES.md`
