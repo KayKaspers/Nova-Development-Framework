@@ -30,7 +30,7 @@ Grundsatz: Kriterien müssen prüfbar sein (Nachweis benennbar); ehrliche Status
 - [x] **ADR-Policy explizit entschieden** (NDF-WP-086, 2026-07-07: **Minimal ADR Policy adopted** — [`docs/adr/ADR_POLICY.md`](../adr/ADR_POLICY.md); Massenmigration bleibt deferred).
 - [x] **Public SampleProject Runbook Validation ehrlich bewertet** (NDF-WP-088, 2026-07-07: **PASS WITH NOTES** — unabhängig positiv bestätigt, keine Blocker/High-Findings; Schrittbelege nicht vollständig, [`independent-runs/2026-07-07-public-sampleproject-runbook-validation/`](../validation/project-adapter/independent-runs/2026-07-07-public-sampleproject-runbook-validation/README.md); Ventil **nicht benötigt**; WP-087 **skipped/not needed** — Lauf direkt mit den WP-073-Unterlagen).
 - [x] **Quality Gate Maintenance geprüft** (NDF-WP-089, 2026-07-07: Gate grün, CI-Denylist-Wirksamkeit **Evidence-Level strong** — [`PUBLIC_QUALITY_GATE_MAINTENANCE_REVIEW.md`](../quality/PUBLIC_QUALITY_GATE_MAINTENANCE_REVIEW.md); **WP-090 not needed** — der Nachweis wurde ausreichend in WP-089 erbracht).
-- [ ] Release Readiness Review durchgeführt (NDF-WP-094).
+- [x] Release Readiness Review durchgeführt (NDF-WP-094, 2026-07-07: **GO WITH NOTES**, keine Blocker — [`FOUNDATION_0_6_RELEASE_READINESS_REVIEW.md`](FOUNDATION_0_6_RELEASE_READINESS_REVIEW.md)).
 - [ ] Release Notes, Go/No-Go-Checkliste und Tagging-Guide vorbereitet (NDF-WP-095).
 - [ ] Finaler Tag + GitHub Pre-Release (nur Human Maintainer).
 - [ ] Keine privaten Projekt-/Personen-/Secret-Leaks; kein v1.0-Claim (Invarianten unten, durchgehend).

@@ -13,6 +13,7 @@ Status: Scope locked, release-blocking work packages defined. Not v1.0.
 - docs(governance): adopted minimal ADR policy — new ADRs in docs/adr/ with cross-folder numbering (next: ADR-0031), roles, status values, no mass migration; closes the open v1.0 ADR criterion as met with notes (WP-086)
 - docs(validation): recorded public SampleProject runbook validation — independently and positively confirmed, PASS WITH NOTES, no blockers; valve not needed, WP-087 skipped; v1.0 external validation now met with notes (WP-088)
 - docs(quality): reviewed Public Quality Gate maintenance and CI denylist effectiveness — evidence level strong (incl. synthetic local test), WP-090 not needed (WP-089)
+- docs(release): Foundation 0.6 release readiness review: GO WITH NOTES — no blockers, notes are non-blocking known-limitation candidates (WP-094)
 
 ## [0.5.0-foundation] - 2026-07-07
 

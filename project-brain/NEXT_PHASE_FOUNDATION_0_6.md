@@ -8,7 +8,9 @@
 
 **Update (WP-088): Öffentliche SampleProject-Runbook-Validierung erledigt — PASS WITH NOTES** (unabhängig positiv bestätigt, keine Blocker/High-Findings; Ventil nicht benötigt; **WP-087 skipped/not needed** — Lauf direkt mit den WP-073-Unterlagen; `docs/validation/project-adapter/independent-runs/2026-07-07-public-sampleproject-runbook-validation/`). v1.0-External-Validation jetzt `met with notes`.
 
-**Update (WP-089): Quality Gate Maintenance Review erledigt** — Gate in gutem Zustand, CI-Denylist-Wirksamkeit **Evidence-Level strong** (inkl. synthetischem Lokaltest mit Cleanup); **WP-090 not needed** (`docs/quality/PUBLIC_QUALITY_GATE_MAINTENANCE_REVIEW.md`). **Alle inhaltlichen blocking WPs sind damit erledigt. Nächster Schritt: NDF-WP-094 – Foundation 0.6 Release Readiness Review**, danach WP-095. Known-Limitation-Kandidaten für die Release Notes: WP-088-Schrittbeleg-Note (PSV-001) + Gate-Log-Hinweis (QGM-003). Kein Release, kein v1.0.
+**Update (WP-089): Quality Gate Maintenance Review erledigt** — Gate in gutem Zustand, CI-Denylist-Wirksamkeit **Evidence-Level strong** (inkl. synthetischem Lokaltest mit Cleanup); **WP-090 not needed** (`docs/quality/PUBLIC_QUALITY_GATE_MAINTENANCE_REVIEW.md`).
+
+**Update (WP-094): Release Readiness Review abgeschlossen — GO WITH NOTES, keine Blocker** (`docs/release/FOUNDATION_0_6_RELEASE_READINESS_REVIEW.md`). **Nächster Schritt: NDF-WP-095 – Foundation 0.6 Release Prep** (Release Notes müssen PSV-001, QGM-003 und alle Known Limitations aus dem Review übernehmen; WP-091-Hinweis für die 0.7-Planung: drittes Mal optional offen — Priorisieren-oder-Streichen erwägen). Kein Release, kein v1.0.
 
 ## Current baseline
 
