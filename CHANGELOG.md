@@ -11,6 +11,7 @@ All notable changes to the Nova Development Framework will be documented in this
 - docs(validation): prepared independent adapter validation — preparation doc, runbook, validator brief, feedback + outreach templates, independent-runs result location; run itself (WP-074) still open (WP-073)
 - docs(release): added v1.0 readiness criteria draft (12 categories, honest status, explicit non-goals) and v1.0 path summary — draft only, NDF is not v1.0 (WP-079)
 - docs(validation): recorded neutralized independent adapter validation result — private reference context, PASS WITH NOTES, no blockers; downgrade valve not needed (WP-074)
+- docs(release): Foundation 0.5 release readiness review: GO WITH NOTES — no blockers, notes are non-blocking known-limitation candidates (WP-081)
 
 ### Maintenance
 

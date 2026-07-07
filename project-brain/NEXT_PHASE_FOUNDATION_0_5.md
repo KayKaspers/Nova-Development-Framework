@@ -24,4 +24,6 @@
 
 **Update (WP-073/WP-079):** Beide inhaltlichen Kern-WPs sind erledigt — Validierungsvorbereitung (`docs/validation/project-adapter/`) und v1.0-Kriterien-Entwurf (`docs/release/V1_0_READINESS_CRITERIA_DRAFT.md` + `docs/roadmap/V1_0_PATH_SUMMARY.md`; Draft, kein v1.0-Claim).
 
-**Update (WP-074):** Unabhängiger Lauf durchgeführt — neutralisierter Review eines privaten Referenzkontexts, **PASS WITH NOTES**, keine Blocker; Ventil nicht benötigt (`docs/validation/project-adapter/independent-runs/2026-07-06-private-reference-validation/`). Alle inhaltlichen blocking WPs sind damit erledigt. **Nächster Schritt:** WP-081 (Release Readiness Review) — vorher optionale WPs 075–078 nach Kapazität. Kein Release, kein v1.0.
+**Update (WP-074):** Unabhängiger Lauf durchgeführt — neutralisierter Review eines privaten Referenzkontexts, **PASS WITH NOTES**, keine Blocker; Ventil nicht benötigt (`docs/validation/project-adapter/independent-runs/2026-07-06-private-reference-validation/`). Alle inhaltlichen blocking WPs sind damit erledigt.
+
+**Update (WP-081):** Release Readiness Review abgeschlossen — **GO WITH NOTES**, keine Blocker (`docs/release/FOUNDATION_0_5_RELEASE_READINESS_REVIEW.md`). **Nächster Schritt: NDF-WP-082 – Foundation 0.5 Release Prep** (Release Notes müssen die Known Limitations aus dem Review übernehmen; WP-076-Regel in die 0.6-Planung). Kein Release, kein v1.0.
