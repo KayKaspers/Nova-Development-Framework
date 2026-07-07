@@ -2,7 +2,7 @@
 
 ## Status
 
-Planning started (NDF-WP-084). **Kein Scope Lock, kein Release, kein v1.0.** / Planning started — no scope lock, no release, not v1.0.
+**Scope locked** (NDF-WP-085, 2026-07-07) — verbindlich: `docs/roadmap/FOUNDATION_0_6_SCOPE_LOCK.md`. Release-blocking: 085 (done) · **086 ADR Decision** · **088 Public Validation Run** (8-Bedingungen-Ventil über WP-094) · **089 Gate Maintenance** (inkl. CI-Denylist-Bewertung; WP-090 merged) · 094 · 095. Optional: 087 (falls nötig), 091–093. **Nächster Schritt: NDF-WP-086 – ADR Policy Decision** (annehmen oder ehrlich streichen — „später" unzulässig). Kein Release, kein v1.0.
 
 ## Current baseline
 
