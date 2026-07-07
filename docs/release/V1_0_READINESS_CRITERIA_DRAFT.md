@@ -118,7 +118,7 @@ No v1.0 approval, no release candidate, no v1.0 scope lock, no schedule, no prom
 |---|---|---|---|---|
 | Gate strict + self-test grün auf dem Release-Commit | blocking | met | lokale Läufe + CI-Action | Invariante seit 0.2 |
 | New-file neutrality check aktiv (auch untracked Dateien) | blocking | met | Gate v0.2 (WP-052) | Antwort auf den WP-040-Vorfall |
-| Custom-Denylist-Secret gesetzt und als gepflegt dokumentiert | blocking | met | `NDF_PUBLIC_NEUTRALITY_DENYLIST` verifiziert (WP-070) | CI-Wirksamkeitsnachweis: WP-078 (optional) empfohlen |
+| Custom-Denylist-Secret gesetzt und als gepflegt dokumentiert | blocking | met | `NDF_PUBLIC_NEUTRALITY_DENYLIST` verifiziert (WP-070); CI-Denylist-Wirksamkeit bewertet: **Evidence-Level strong** (WP-089, `docs/quality/PUBLIC_QUALITY_GATE_MAINTENANCE_REVIEW.md`) | Prüfpunkt geschlossen; bei künftigen Gate-Reviews wiederholen |
 | Keine privaten Projekt-/Personenbeispiele in öffentlichen Dateien | blocking | met | Kontroll-Greps + Gate | Invariante |
 
 ## DE – Release-Prozess und Versionierung / EN – Release Process and Versioning

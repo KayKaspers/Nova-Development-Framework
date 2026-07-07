@@ -38,7 +38,7 @@ Nur diese WPs blockieren den Release:
 | NDF-WP-085 | Scope Lock | Gate — abgeschlossen mit diesem Dokument |
 | NDF-WP-086 | ADR Policy Decision | Governance-Kern; 0.5-Sonderregel verlangt eine Entscheidung (siehe unten) — **entschieden am 2026-07-07: Minimal ADR Policy adopted** (`docs/adr/ADR_POLICY.md`) |
 | NDF-WP-088 | Public SampleProject Runbook Validation Run | Adoption-Confidence-Kern; schließt die 0.5-Lücke (privater statt öffentlicher Kontext) — **durchgeführt am 2026-07-07: PASS WITH NOTES**, Ventil nicht benötigt; WP-087 skipped |
-| NDF-WP-089 | Quality Gate Maintenance Review | leichtgewichtiger Gate-Nachlauf, erstmals seit v0.2 fällig; inkl. CI-Denylist-Wirksamkeitsbewertung |
+| NDF-WP-089 | Quality Gate Maintenance Review | leichtgewichtiger Gate-Nachlauf, erstmals seit v0.2 fällig; inkl. CI-Denylist-Wirksamkeitsbewertung — **durchgeführt am 2026-07-07: Evidence-Level strong, WP-090 not needed** |
 | NDF-WP-094 | Release Readiness Review | Gate; entscheidet zugleich über das WP-088-Ventil |
 | NDF-WP-095 | Release Prep | Gate |
 

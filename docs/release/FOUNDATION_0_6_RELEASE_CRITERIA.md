@@ -29,7 +29,7 @@ Grundsatz: Kriterien müssen prüfbar sein (Nachweis benennbar); ehrliche Status
 - [x] Foundation 0.6 Scope locked (NDF-WP-085, 2026-07-07: [`FOUNDATION_0_6_SCOPE_LOCK.md`](../roadmap/FOUNDATION_0_6_SCOPE_LOCK.md)).
 - [x] **ADR-Policy explizit entschieden** (NDF-WP-086, 2026-07-07: **Minimal ADR Policy adopted** — [`docs/adr/ADR_POLICY.md`](../adr/ADR_POLICY.md); Massenmigration bleibt deferred).
 - [x] **Public SampleProject Runbook Validation ehrlich bewertet** (NDF-WP-088, 2026-07-07: **PASS WITH NOTES** — unabhängig positiv bestätigt, keine Blocker/High-Findings; Schrittbelege nicht vollständig, [`independent-runs/2026-07-07-public-sampleproject-runbook-validation/`](../validation/project-adapter/independent-runs/2026-07-07-public-sampleproject-runbook-validation/README.md); Ventil **nicht benötigt**; WP-087 **skipped/not needed** — Lauf direkt mit den WP-073-Unterlagen).
-- [ ] **Quality Gate Maintenance geprüft** (NDF-WP-089): Gate weiterhin grün (strict + self-test), Doku aktuell, CI-Denylist-Wirksamkeit bewertet — Nachweis in WP-089 oder als eigenes Artefakt (WP-090), falls WP-089 das für nötig erklärt.
+- [x] **Quality Gate Maintenance geprüft** (NDF-WP-089, 2026-07-07: Gate grün, CI-Denylist-Wirksamkeit **Evidence-Level strong** — [`PUBLIC_QUALITY_GATE_MAINTENANCE_REVIEW.md`](../quality/PUBLIC_QUALITY_GATE_MAINTENANCE_REVIEW.md); **WP-090 not needed** — der Nachweis wurde ausreichend in WP-089 erbracht).
 - [ ] Release Readiness Review durchgeführt (NDF-WP-094).
 - [ ] Release Notes, Go/No-Go-Checkliste und Tagging-Guide vorbereitet (NDF-WP-095).
 - [ ] Finaler Tag + GitHub Pre-Release (nur Human Maintainer).

@@ -87,4 +87,8 @@ Workflow: `.github/workflows/public-quality-gate.yml`
 
 - läuft bei `pull_request` und bei `push` auf `main`
 - führt zuerst den Self-Test aus, dann den Gate im Strict-Mode
-- liest optional das Secret `NDF_PUBLIC_NEUTRALITY_DENYLIST`
+- liest optional das Secret `NDF_PUBLIC_NEUTRALITY_DENYLIST` — der Secret-Wert wird nie geloggt oder dokumentiert
+
+## Maintenance-Status / Maintenance status
+
+Foundation 0.6 reviewed (NDF-WP-089, 2026-07-07): Script, Strict-Mode, Self-Test, New-file-Scan und CI-Denylist-Wirksamkeit geprüft — Evidence-Level **strong**, kein separates Nachweis-Artefakt nötig. Details: [PUBLIC_QUALITY_GATE_MAINTENANCE_REVIEW.md](../quality/PUBLIC_QUALITY_GATE_MAINTENANCE_REVIEW.md)
