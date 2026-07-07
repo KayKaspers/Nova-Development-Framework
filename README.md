@@ -112,7 +112,7 @@ An automated quality gate protects this repository's public neutrality: denylist
 - **Foundation 0.2:** ist als `v0.2.0-foundation` Foundation Pre-Release veröffentlicht — [Release Notes](docs/release/FOUNDATION_0_2_RELEASE_NOTES.md)
 - **Foundation 0.3:** ist als `v0.3.0-foundation` Foundation Pre-Release veröffentlicht — [Release Notes](docs/release/FOUNDATION_0_3_RELEASE_NOTES.md)
 - **Foundation 0.4:** ist als `v0.4.0-foundation` Foundation Pre-Release veröffentlicht (Adoption Hardening & Public Usability) — [Release Notes](docs/release/FOUNDATION_0_4_RELEASE_NOTES.md)
-- **Foundation 0.5:** ist für das geplante `v0.5.0-foundation` Foundation Pre-Release vorbereitet — [Release Notes](docs/release/FOUNDATION_0_5_RELEASE_NOTES.md) · [Go/No-Go](docs/release/FOUNDATION_0_5_GO_NO_GO_CHECKLIST.md) · [v1.0-Pfad](docs/roadmap/V1_0_PATH_SUMMARY.md) (v1.0 ist nicht erreicht)
+- **Foundation 0.5:** ist als `v0.5.0-foundation` Foundation Pre-Release veröffentlicht (External Validation & 1.0 Path Hardening) — [Release Notes](docs/release/FOUNDATION_0_5_RELEASE_NOTES.md) · [v1.0-Pfad](docs/roadmap/V1_0_PATH_SUMMARY.md) (v1.0 ist nicht erreicht)
 - Public Framework Cleanup: erledigt · Project Adapter v0.2: verfügbar · DE/EN-Angleichung: laufend
 
 Struktur-Review: [REPOSITORY_STRUCTURE_REVIEW.md](docs/repository/REPOSITORY_STRUCTURE_REVIEW.md) — NDF ist bewusst noch kein v1.0.
@@ -123,7 +123,7 @@ Struktur-Review: [REPOSITORY_STRUCTURE_REVIEW.md](docs/repository/REPOSITORY_STR
 - **Foundation 0.2:** published as the `v0.2.0-foundation` foundation pre-release — [Release Notes](docs/release/FOUNDATION_0_2_RELEASE_NOTES.md)
 - **Foundation 0.3:** published as the `v0.3.0-foundation` foundation pre-release — [Release Notes](docs/release/FOUNDATION_0_3_RELEASE_NOTES.md)
 - **Foundation 0.4:** published as the `v0.4.0-foundation` foundation pre-release (adoption hardening & public usability) — [Release Notes](docs/release/FOUNDATION_0_4_RELEASE_NOTES.md)
-- **Foundation 0.5:** is prepared for the planned `v0.5.0-foundation` foundation pre-release — [Release Notes](docs/release/FOUNDATION_0_5_RELEASE_NOTES.md) · [Go/No-Go](docs/release/FOUNDATION_0_5_GO_NO_GO_CHECKLIST.md) · [v1.0 path](docs/roadmap/V1_0_PATH_SUMMARY.md) (v1.0 is not reached)
+- **Foundation 0.5:** published as the `v0.5.0-foundation` foundation pre-release (external validation & 1.0 path hardening) — [Release Notes](docs/release/FOUNDATION_0_5_RELEASE_NOTES.md) · [v1.0 path](docs/roadmap/V1_0_PATH_SUMMARY.md) (v1.0 is not reached)
 - Public framework cleanup: done · Project Adapter v0.2: available · DE/EN alignment: in progress
 
 Structure review: [REPOSITORY_STRUCTURE_REVIEW.md](docs/repository/REPOSITORY_STRUCTURE_REVIEW.md) — NDF is deliberately not v1.0 yet.

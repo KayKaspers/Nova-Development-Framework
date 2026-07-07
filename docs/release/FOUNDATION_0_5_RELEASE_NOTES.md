@@ -1,6 +1,6 @@
 # Foundation 0.5 Release Notes
 
-Release: `v0.5.0-foundation` — External Validation & 1.0 Path Hardening **Pre-Release**. Vorbereitet für den geplanten Release / prepared for the planned foundation pre-release — **tag pending**. NDF ist damit bewusst **kein v1.0** — der v1.0 Readiness Criteria Draft ist eine Messlatte, keine Freigabe.
+Release: `v0.5.0-foundation` — External Validation & 1.0 Path Hardening **Pre-Release**, veröffentlicht am / published on 2026-07-07 (GitHub Pre-Release „Nova Development Framework v0.5.0 Foundation"). NDF ist damit bewusst **kein v1.0** — der v1.0 Readiness Criteria Draft ist eine Messlatte, keine Freigabe.
 
 ## DE – Überblick
 

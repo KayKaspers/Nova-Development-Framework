@@ -4,7 +4,7 @@ All notable changes to the Nova Development Framework will be documented in this
 
 ## [0.5.0-foundation] - 2026-07-07
 
-External Validation & 1.0 Path Hardening Pre-Release. Status: prepared for release — tag `v0.5.0-foundation` pending (created manually by the human maintainer). Not v1.0. Release notes: `docs/release/FOUNDATION_0_5_RELEASE_NOTES.md`
+External Validation & 1.0 Path Hardening Pre-Release. Status: **Released** as Foundation pre-release on 2026-07-07 (tag `v0.5.0-foundation`). Not v1.0. Release notes: `docs/release/FOUNDATION_0_5_RELEASE_NOTES.md`
 
 ### Added
 
@@ -15,6 +15,7 @@ External Validation & 1.0 Path Hardening Pre-Release. Status: prepared for relea
 - docs(validation): recorded neutralized independent adapter validation result — private reference context, PASS WITH NOTES, no blockers; downgrade valve not needed (WP-074)
 - docs(release): Foundation 0.5 release readiness review: GO WITH NOTES — no blockers, notes are non-blocking known-limitation candidates (WP-081)
 - docs(release): prepared Foundation 0.5 release — release notes with known limitations, go/no-go checklist, tagging guide, criteria update (WP-082)
+- docs(release): marked Foundation 0.5 as published (`v0.5.0-foundation`, 2026-07-07); post-release status cleanup (WP-083)
 
 ### Maintenance
 

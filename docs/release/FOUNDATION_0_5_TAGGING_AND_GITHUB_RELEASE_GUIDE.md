@@ -1,5 +1,7 @@
 # Foundation 0.5 – Tagging & GitHub Release Guide
 
+> **Post-release note:** `v0.5.0-foundation` wurde am 2026-07-07 veröffentlicht (GitHub Pre-Release, Titel „Nova Development Framework v0.5.0 Foundation", read-only verifiziert); Tag nicht neu erstellen oder verschieben. Diese Anleitung bleibt als Referenz für künftige Releases erhalten. / published 2026-07-07; do not recreate or move the tag.
+
 Anleitung für den **Human Maintainer**. Der Implementation Agent führt diese Schritte nicht aus — Tag und Release sind ausschließlich menschliche Aktionen. / Guide for the human maintainer; tag and release are human-only actions.
 
 ## 1. Voraussetzungen / Prerequisites
