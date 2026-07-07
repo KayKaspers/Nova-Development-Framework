@@ -2,7 +2,9 @@
 
 ## Status
 
-**Scope locked** (NDF-WP-085, 2026-07-07) — verbindlich: `docs/roadmap/FOUNDATION_0_6_SCOPE_LOCK.md`. Release-blocking: 085 (done) · 086 (done) · **088 Public Validation Run** (8-Bedingungen-Ventil über WP-094) · **089 Gate Maintenance** (inkl. CI-Denylist-Bewertung; WP-090 merged) · 094 · 095. Optional: 087 (falls nötig), 091–093.
+**RELEASED (WP-096):** Foundation 0.6 ist als `v0.6.0-foundation` veröffentlicht (2026-07-07, GitHub Pre-Release, per `gh` read-only verifiziert). **Keine offenen 0.6-blocking Aufgaben; keine manuellen Follow-ups** (einziger optionaler kosmetischer Punkt: Release-Body um den Notes-Vorschlag ergänzen). Nächste Phase — Vorschlag, nicht verbindlich: **Foundation 0.7 Planning** oder v1.0 Path Planning. 0.7-Kandidaten: WP-091 Checklist DE/EN (**priorisieren oder streichen — drittes Mal optional offen**), WP-093 v1.x Compatibility Policy Draft (ADR-0031-Kandidat, v1.0-tracked), verbleibende v1.0-Kriterien, optional Academy Entry und Doku-/i18n-Konsolidierung. Kein v1.0.
+
+*Historischer Verlauf: Scope locked (NDF-WP-085, 2026-07-07) — Release-blocking 085/086/088/089/094/095; optional 087 (skipped), 091–093; WP-090 not needed.*
 
 **Update (WP-086): ADR-Entscheidung getroffen — Minimal ADR Policy adopted** (`docs/adr/ADR_POLICY.md` + Template + Index-Update; Massenmigration bleibt deferred; v1.0-Kriterium jetzt `met with notes`). Der Dauerläufer aus 0.4/0.5 ist damit geschlossen.
 

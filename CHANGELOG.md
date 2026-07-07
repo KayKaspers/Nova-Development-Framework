@@ -4,7 +4,7 @@ All notable changes to the Nova Development Framework will be documented in this
 
 ## [0.6.0-foundation] - 2026-07-07
 
-Adoption Confidence & Governance Hardening Pre-Release. Status: prepared for release — tag `v0.6.0-foundation` pending (created manually by the human maintainer). Not v1.0. Release notes: `docs/release/FOUNDATION_0_6_RELEASE_NOTES.md`
+Adoption Confidence & Governance Hardening Pre-Release. Status: **Published** as Foundation pre-release on 2026-07-07 (tag `v0.6.0-foundation`). Not v1.0. Release notes: `docs/release/FOUNDATION_0_6_RELEASE_NOTES.md`
 
 ### Added
 
@@ -15,6 +15,7 @@ Adoption Confidence & Governance Hardening Pre-Release. Status: prepared for rel
 - docs(quality): reviewed Public Quality Gate maintenance and CI denylist effectiveness — evidence level strong (incl. synthetic local test), WP-090 not needed (WP-089)
 - docs(release): Foundation 0.6 release readiness review: GO WITH NOTES — no blockers, notes are non-blocking known-limitation candidates (WP-094)
 - docs(release): prepared Foundation 0.6 release — release notes with known limitations and operational notes, 22-item go/no-go checklist, tagging guide, criteria update (WP-095)
+- docs(release): marked Foundation 0.6 as published (`v0.6.0-foundation`, 2026-07-07); post-release status cleanup (WP-096)
 
 ## [0.5.0-foundation] - 2026-07-07
 

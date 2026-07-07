@@ -1,6 +1,6 @@
 # Foundation 0.6 Release Notes
 
-Release: `v0.6.0-foundation` — Adoption Confidence & Governance Hardening **Pre-Release**. Vorbereitet für das geplante Foundation Pre-Release / prepared for the planned foundation pre-release — **tag pending**. NDF ist damit bewusst **kein v1.0** und kein v1.0 Release Candidate.
+Release: `v0.6.0-foundation` — Adoption Confidence & Governance Hardening **Pre-Release**, veröffentlicht am / published on 2026-07-07 (GitHub Pre-Release „Nova Development Framework v0.6.0 Foundation", Target `main`). NDF ist damit bewusst **kein v1.0** und kein v1.0 Release Candidate.
 
 ## DE – Überblick
 

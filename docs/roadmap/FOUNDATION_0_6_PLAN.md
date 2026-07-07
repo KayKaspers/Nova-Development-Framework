@@ -2,11 +2,11 @@
 
 ## DE – Zweck
 
-Dieser Plan definiert den Umfang für Foundation 0.6 (Ergebnis von NDF-WP-084). **Status-Update: Scope locked** (NDF-WP-085, 2026-07-07) — verbindliche Einstufung: [FOUNDATION_0_6_SCOPE_LOCK.md](FOUNDATION_0_6_SCOPE_LOCK.md). Release-blocking sind nur 085, 086 (ADR-Entscheidung — **erledigt: Minimal ADR Policy adopted**, [`docs/adr/ADR_POLICY.md`](../adr/ADR_POLICY.md)), 088 (öffentliche Validierung — **erledigt: PASS WITH NOTES**, Ventil nicht benötigt, WP-087 skipped), 089 (Gate Maintenance — **erledigt: Evidence-Level strong, WP-090 not needed**), 094, 095. Foundation 0.6 ist nicht released und **nicht v1.0**.
+Dieser Plan definiert den Umfang für Foundation 0.6 (Ergebnis von NDF-WP-084). **Status-Update: Released** als `v0.6.0-foundation` (Foundation Pre-Release, 2026-07-07 — kein v1.0); Scope locked seit NDF-WP-085 — verbindliche Einstufung: [FOUNDATION_0_6_SCOPE_LOCK.md](FOUNDATION_0_6_SCOPE_LOCK.md). Release-blocking sind nur 085, 086 (ADR-Entscheidung — **erledigt: Minimal ADR Policy adopted**, [`docs/adr/ADR_POLICY.md`](../adr/ADR_POLICY.md)), 088 (öffentliche Validierung — **erledigt: PASS WITH NOTES**, Ventil nicht benötigt, WP-087 skipped), 089 (Gate Maintenance — **erledigt: Evidence-Level strong, WP-090 not needed**), 094 (**erledigt: GO WITH NOTES**), 095 (**erledigt: Release Prep**). Foundation 0.6 ist als `v0.6.0-foundation` veröffentlicht — weiterhin **nicht v1.0**.
 
 ## EN – Purpose
 
-This plan defines the proposed scope for Foundation 0.6. It is the result of NDF-WP-084 (planning) — **not a scope lock**; the scope only becomes binding with NDF-WP-085. Foundation 0.6 is not released and **not v1.0**.
+This plan defines the scope for Foundation 0.6 (result of NDF-WP-084). **Status update: Released** as `v0.6.0-foundation` (foundation pre-release, 2026-07-07 — not v1.0); scope locked since NDF-WP-085 — binding classification: [FOUNDATION_0_6_SCOPE_LOCK.md](FOUNDATION_0_6_SCOPE_LOCK.md). All release-blocking work packages are done.
 
 ## DE – Leitidee
 
