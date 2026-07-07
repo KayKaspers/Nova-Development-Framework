@@ -2,9 +2,9 @@
 
 All notable changes to the Nova Development Framework will be documented in this file.
 
-## [Unreleased] - Foundation 0.6 Scope Locked
+## [0.6.0-foundation] - 2026-07-07
 
-Status: Scope locked, release-blocking work packages defined. Not v1.0.
+Adoption Confidence & Governance Hardening Pre-Release. Status: prepared for release — tag `v0.6.0-foundation` pending (created manually by the human maintainer). Not v1.0. Release notes: `docs/release/FOUNDATION_0_6_RELEASE_NOTES.md`
 
 ### Added
 
@@ -14,6 +14,7 @@ Status: Scope locked, release-blocking work packages defined. Not v1.0.
 - docs(validation): recorded public SampleProject runbook validation — independently and positively confirmed, PASS WITH NOTES, no blockers; valve not needed, WP-087 skipped; v1.0 external validation now met with notes (WP-088)
 - docs(quality): reviewed Public Quality Gate maintenance and CI denylist effectiveness — evidence level strong (incl. synthetic local test), WP-090 not needed (WP-089)
 - docs(release): Foundation 0.6 release readiness review: GO WITH NOTES — no blockers, notes are non-blocking known-limitation candidates (WP-094)
+- docs(release): prepared Foundation 0.6 release — release notes with known limitations and operational notes, 22-item go/no-go checklist, tagging guide, criteria update (WP-095)
 
 ## [0.5.0-foundation] - 2026-07-07
 

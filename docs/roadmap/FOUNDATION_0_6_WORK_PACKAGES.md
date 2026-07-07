@@ -15,7 +15,7 @@
 | NDF-WP-092 | Academy Entry Pass | docs-only / i18n | Einstiegskapitel DE/EN, von README verlinkt | WP-085 | optional (should-have) | WP-062/077 |
 | NDF-WP-093 | v1.x Compatibility Policy Draft | docs-only / concept | Entwurf der v1.x-Kompatibilitätszusage (was verspricht v1.x: Struktur? Prompts? Konventionen?) — Draft, kein Versprechen | WP-085 | optional (should-have; v1.0-tracked — schließt die bewusste Lücke aus dem v1.0-Draft) | WP-079 offene Frage |
 | NDF-WP-094 | Foundation 0.6 Release Readiness Review | review-only | Ehrliches GO/GO WITH NOTES/REWORK/STOP gegen die 0.6-Kriterien | blocking WPs done | **release-blocking** — durchgeführt in WP-094: **GO WITH NOTES**, keine Blocker ([`FOUNDATION_0_6_RELEASE_READINESS_REVIEW.md`](../release/FOUNDATION_0_6_RELEASE_READINESS_REVIEW.md)) | Release-Muster |
-| NDF-WP-095 | Foundation 0.6 Release Prep | docs-only / release-prep | Release Notes, Kriterien-Abschluss, Go/No-Go, Tagging-Guide (voraussichtlich `v0.6.0-foundation`) | WP-094 | **release-blocking** | Release-Muster |
+| NDF-WP-095 | Foundation 0.6 Release Prep | docs-only / release-prep | Release Notes, Kriterien-Abschluss, Go/No-Go, Tagging-Guide (voraussichtlich `v0.6.0-foundation`) | WP-094 | **release-blocking** — vorbereitet in WP-095 (Release Notes, Go/No-Go, Tagging-Guide); finaler Tag/Release manuell offen | Release-Muster |
 
 ## Deferred (verbindlich / binding)
 

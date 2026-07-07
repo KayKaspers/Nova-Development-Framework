@@ -10,7 +10,9 @@
 
 **Update (WP-089): Quality Gate Maintenance Review erledigt** — Gate in gutem Zustand, CI-Denylist-Wirksamkeit **Evidence-Level strong** (inkl. synthetischem Lokaltest mit Cleanup); **WP-090 not needed** (`docs/quality/PUBLIC_QUALITY_GATE_MAINTENANCE_REVIEW.md`).
 
-**Update (WP-094): Release Readiness Review abgeschlossen — GO WITH NOTES, keine Blocker** (`docs/release/FOUNDATION_0_6_RELEASE_READINESS_REVIEW.md`). **Nächster Schritt: NDF-WP-095 – Foundation 0.6 Release Prep** (Release Notes müssen PSV-001, QGM-003 und alle Known Limitations aus dem Review übernehmen; WP-091-Hinweis für die 0.7-Planung: drittes Mal optional offen — Priorisieren-oder-Streichen erwägen). Kein Release, kein v1.0.
+**Update (WP-094): Release Readiness Review abgeschlossen — GO WITH NOTES, keine Blocker** (`docs/release/FOUNDATION_0_6_RELEASE_READINESS_REVIEW.md`).
+
+**Update (WP-095): Release Prep abgeschlossen** — Release Notes (inkl. PSV-001, QGM-003, aller Known Limitations), Go/No-Go-Checkliste (22 Punkte), Tagging-Guide; Changelog auf `[0.6.0-foundation]` („tag pending", „Not v1.0"), README auf „vorbereitet". **Nächster Schritt (manuell, Human Maintainer):** Go/No-Go durchgehen → Tag `v0.6.0-foundation` → GitHub Pre-Release → danach Post-Release-Cleanup-WP. Für die 0.7-Planung: WP-091-Entscheidung (drittes Mal optional offen), WP-093/ADR-0031, verbleibende v1.0-Kriterien. Kein Release bis zum Tagging, kein v1.0.
 
 ## Current baseline
 
