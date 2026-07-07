@@ -4,7 +4,9 @@
 
 **Scope locked** (NDF-WP-085, 2026-07-07) — verbindlich: `docs/roadmap/FOUNDATION_0_6_SCOPE_LOCK.md`. Release-blocking: 085 (done) · 086 (done) · **088 Public Validation Run** (8-Bedingungen-Ventil über WP-094) · **089 Gate Maintenance** (inkl. CI-Denylist-Bewertung; WP-090 merged) · 094 · 095. Optional: 087 (falls nötig), 091–093.
 
-**Update (WP-086): ADR-Entscheidung getroffen — Minimal ADR Policy adopted** (`docs/adr/ADR_POLICY.md` + Template + Index-Update; Massenmigration bleibt deferred; v1.0-Kriterium jetzt `met with notes`). Der Dauerläufer aus 0.4/0.5 ist damit geschlossen. **Nächster Schritt: NDF-WP-088 – Public SampleProject Runbook Validation Run** (WP-087 nur, falls die WP-073-Unterlagen für den öffentlichen Lauf nachgeschärft werden müssen — Erwartung: nicht nötig); danach WP-089. Maintainer-Aktion parallel: Validator-Outreach für WP-088 früh starten. Kein Release, kein v1.0.
+**Update (WP-086): ADR-Entscheidung getroffen — Minimal ADR Policy adopted** (`docs/adr/ADR_POLICY.md` + Template + Index-Update; Massenmigration bleibt deferred; v1.0-Kriterium jetzt `met with notes`). Der Dauerläufer aus 0.4/0.5 ist damit geschlossen.
+
+**Update (WP-088): Öffentliche SampleProject-Runbook-Validierung erledigt — PASS WITH NOTES** (unabhängig positiv bestätigt, keine Blocker/High-Findings; Ventil nicht benötigt; **WP-087 skipped/not needed** — Lauf direkt mit den WP-073-Unterlagen; `docs/validation/project-adapter/independent-runs/2026-07-07-public-sampleproject-runbook-validation/`). v1.0-External-Validation jetzt `met with notes`. **Nächster Schritt: NDF-WP-089 – Quality Gate Maintenance Review** (inkl. CI-Denylist-Wirksamkeitsbewertung; entscheidet über WP-090-Bedarf); danach WP-094 → WP-095. Kein Release, kein v1.0.
 
 ## Current baseline
 

@@ -21,6 +21,7 @@ NDF-WP-074 creates one folder per run (pattern above), containing the validator'
 | Lauf / Run | Quelle / Source | Ergebnis / Verdict |
 |---|---|---|
 | [`2026-07-06-private-reference-validation/`](2026-07-06-private-reference-validation/README.md) | neutralisierte unabhängige Rückmeldung, privater Referenzkontext / neutralized independent feedback, private reference context | **PASS WITH NOTES** |
+| [`2026-07-07-public-sampleproject-runbook-validation/`](2026-07-07-public-sampleproject-runbook-validation/README.md) | neutralisierte unabhängige Rückmeldung, **öffentlicher** SampleProject-/Runbook-Pfad / neutralized independent feedback, **public** SampleProject/runbook path (WP-088) | **PASS WITH NOTES** |
 
 ## DE/EN – Regeln / Rules
 
