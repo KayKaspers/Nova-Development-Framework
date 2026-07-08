@@ -48,7 +48,7 @@ No v1.0 approval, no release candidate, no v1.0 scope lock, no schedule, no prom
 |---|---|---|
 | 1 | Public Usability | partially met |
 | 2 | External Validation | met with notes (öffentlicher Lauf bestätigt, WP-088; Nachweis-Tiefe begrenzt) |
-| 3 | Project Adapter Maturity | partially met |
+| 3 | Project Adapter Maturity | met with notes (Konventions-Stabilität bestätigt, WP-101) |
 | 4 | Documentation & DE/EN Readiness | partially met |
 | 5 | Prompt & Checklist Readiness | partially met |
 | 6 | Security & Destructive Action Safety | met (framework-seitig) |
@@ -80,7 +80,7 @@ No v1.0 approval, no release candidate, no v1.0 scope lock, no schedule, no prom
 
 | Kriterium / Criterion | Für v1.0? / Required? | Stand / Status | Nachweis / Evidence Needed | Hinweise / Notes |
 |---|---|---|---|---|
-| Adapter-Konventionen stabil (Manifest, Output-Pfade, Health-Score) über ≥ 2 Releases unverändert oder nur additiv | blocking | partially met | `PROJECT_ADAPTER_CONVENTIONS.md` + Changelog-Historie | seit 0.4 stabil; 0.5 muss Stabilität bestätigen |
+| Adapter-Konventionen stabil (Manifest, Output-Pfade, Health-Score) über ≥ 2 Releases unverändert oder nur additiv | blocking | **met with notes** | `docs/validation/project-adapter/PROJECT_ADAPTER_CONVENTION_STABILITY_REVIEW.md` (NDF-WP-101) | Konventionen seit WP-059 (0.4) unverändert über 0.4→0.7 (4 Releases); Note: künftige Änderungen governed über ADR-0031, volle v1.x-Zusage erst mit v1.0 |
 | Adapter praktisch validiert gegen neutrales Fixture | blocking | met | `SAMPLEPROJECT_ADAPTER_VALIDATION.md` (PASS WITH NOTES) | WP-047; Selbstvalidierung — Ergänzung durch Kategorie 2 |
 | Grenzen dokumentiert (kein echter Code im Fixture, Monorepo/Teams > 10 nicht abgedeckt) | tracked | met | „Grenzen der Validierung" im Validierungsdokument | ehrlich dokumentiert seit WP-047 |
 | Adapter-Backlog leer oder jeder Punkt begründet offen | blocking | partially met | `PROJECT_ADAPTER_V0_2_IMPROVEMENT_BACKLOG.md` | Punkte 1–5 addressed; Punkt 6 prepared, Lauf offen |

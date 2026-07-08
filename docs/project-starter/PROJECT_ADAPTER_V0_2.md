@@ -41,7 +41,7 @@ Nova (Planung) -> Implementation Agent (Ausführung) -> Human Maintainer (Review
 | 0 | Intake | review-only | ausgefülltes Intake-Template |
 | 1 | Repository Read-only Review | review-only | Review Report |
 | 2 | Project Profile | docs-only | `project-system/PROJECT_PROFILE.md` |
-| 3 | Project Manifest | docs-only | `project-system/PROJECT_MANIFEST.yaml` |
+| 3 | Project Manifest | docs-only | `project-system/PROJECT_MANIFEST.md` (kanonisch Markdown; eingebettetes YAML/JSON erlaubt — siehe Conventions) |
 | 4 | Project Brain | docs-only | `project-brain/PROJECT_BRAIN.md` |
 | 5 | Capability Matrix | docs-only | `project-system/CAPABILITY_MATRIX.md` |
 | 6 | Compliance Check | review-only | `project-system/COMPLIANCE_CHECK.md` |
@@ -96,7 +96,7 @@ Siehe `framework/templates/project-adapter/PROJECT_ADAPTER_OUTPUT_STRUCTURE.md`:
 
 ```text
 project-system/PROJECT_PROFILE.md
-project-system/PROJECT_MANIFEST.yaml
+project-system/PROJECT_MANIFEST.md
 project-system/CAPABILITY_MATRIX.md
 project-system/COMPLIANCE_CHECK.md
 project-system/HEALTH_SCORE.md

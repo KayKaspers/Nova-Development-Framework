@@ -6,7 +6,9 @@
 
 **Update (WP-099): Checklist DE/EN entschieden — Option B (optional mit finaler Begründung)** (`docs/roadmap/FOUNDATION_0_7_CHECKLIST_DE_EN_DECISION.md`): kein Blocker, kein Auto-Carry mehr, kein Folge-WP.
 
-**Update (WP-100): v1.x Compatibility Policy als ADR-0031 angenommen** (`docs/adr/ADR-0031-v1x-compatibility-policy.md`, Status Accepted): Governance-Rahmen (5 Kompatibilitätskategorien, Breaking-/Deprecation-Regeln); **aktive volle v1.x-Zusage erst mit v1.0**; v1.0-Kriterium jetzt `met with notes`. Nächste freie ADR-Nummer: 0032. **Nächster Schritt: NDF-WP-101 – Project Adapter Convention Stability Review**, danach WP-104 → WP-105. Kein Release, kein v1.0.
+**Update (WP-100): v1.x Compatibility Policy als ADR-0031 angenommen** (`docs/adr/ADR-0031-v1x-compatibility-policy.md`, Status Accepted): Governance-Rahmen; aktive volle v1.x-Zusage erst mit v1.0; v1.0-Kriterium `met with notes`. Nächste freie ADR-Nummer: 0032.
+
+**Update (WP-101): Convention Stability Review — Stable with notes** (`docs/validation/project-adapter/PROJECT_ADAPTER_CONVENTION_STABILITY_REVIEW.md`): Adapter-Konventionen seit WP-059 über 4 Releases unverändert; ein low-Drift (`.yaml`→`.md`) korrigiert; v1.0-Kriterium + Adapter-Maturity `met with notes`. **Alle inhaltlichen blocking WPs sind damit erledigt; WP-102/103 nicht aktiviert (bleiben optional). Nächster Schritt: NDF-WP-104 – Foundation 0.7 Release Readiness Review**, danach WP-105. Known-Limitation-Kandidaten für WP-104/105: PSV-001 (Evidenz-Tiefe), aktive v1.x-Zusage erst mit v1.0. Kein Release, kein v1.0.
 
 ## Current baseline
 
