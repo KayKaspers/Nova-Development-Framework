@@ -2,7 +2,9 @@
 
 ## Status
 
-**Scope locked** (NDF-WP-098, 2026-07-08) — verbindlich: `docs/roadmap/FOUNDATION_0_7_SCOPE_LOCK.md`. Release-blocking: 098 (done) · **099 Checklist DE/EN Decision** (Korridor: priorisieren/optional-mit-Begründung/streichen) · **100 v1.x Compatibility Policy / ADR-0031** (ADR-0031 bevorzugt) · **101 Convention Stability Review** · 104 · 105. Optional: 102 (mit Upgrade-Ventil), 103, Doku-/i18n-Konsolidierung. **Nächster Schritt: NDF-WP-099.** Kein Release, kein v1.0.
+**Scope locked** (NDF-WP-098, 2026-07-08) — verbindlich: `docs/roadmap/FOUNDATION_0_7_SCOPE_LOCK.md`. Release-blocking: 098 (done) · 099 (done) · **100 v1.x Compatibility Policy / ADR-0031** (ADR-0031 bevorzugt) · **101 Convention Stability Review** · 104 · 105. Optional: 102 (mit Upgrade-Ventil), 103, Doku-/i18n-Konsolidierung.
+
+**Update (WP-099): Checklist DE/EN entschieden — Option B (optional mit finaler Begründung)** (`docs/roadmap/FOUNDATION_0_7_CHECKLIST_DE_EN_DECISION.md`): kein Foundation-Release-Blocker, kein Auto-Carry mehr, kein Folge-WP; Reststand ehrlich in der Translation-Status-Matrix. Der Dauerläufer aus 0.4/0.5/0.6 ist beendet. **Nächster Schritt: NDF-WP-100 – v1.x Compatibility Policy Decision / ADR-0031 Preparation** (parallel WP-101). Kein Release, kein v1.0.
 
 ## Current baseline
 
