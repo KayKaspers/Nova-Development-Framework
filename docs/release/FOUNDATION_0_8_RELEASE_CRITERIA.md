@@ -2,31 +2,32 @@
 
 ## DE – Status
 
-**Planning-Draft (NDF-WP-107).** Foundation 0.8 ist **nicht scope-locked**, **nicht released**, **nicht v1.0**. Die folgenden Kriterien sind **Kandidaten** für die spätere Scope-Lock-Entscheidung (WP-108) — sie werden erst gegen tatsächliche Ergebnisse abgehakt, keine falschen Haken. Nur WP-107 (Planning) ist erledigt.
+**Scope locked (NDF-WP-108, 2026-07-08).** Foundation 0.8 ist gelockt, **nicht released**, **nicht v1.0**. Verbindliche Einstufung: [FOUNDATION_0_8_SCOPE_LOCK.md](../roadmap/FOUNDATION_0_8_SCOPE_LOCK.md). Boxen werden nur gegen tatsächliche Ergebnisse abgehakt — keine falschen Haken.
 
 ## EN – Status
 
-**Planning draft (NDF-WP-107).** Foundation 0.8 is **not scope-locked**, **not released**, **not v1.0**. The criteria below are **candidates** for the later scope-lock decision (WP-108) — checked only against actual results, no false checkmarks. Only WP-107 (planning) is done.
+**Scope locked (NDF-WP-108, 2026-07-08).** Foundation 0.8 is locked, **not released**, **not v1.0**. Binding classification: the scope lock. Boxes are checked only against actual results — no false checkmarks.
 
 ## DE – Arbeitstitel
 
 ```text
 Foundation 0.8 – Agent Enablement & Context Economy
-(voraussichtlich Pre-Release v0.8.0-foundation — nur geplant, nicht scope-locked, nicht released)
+(voraussichtlich Pre-Release v0.8.0-foundation — scope-locked, nicht released, nicht v1.0)
 ```
 
 ## EN – Working Title
 
 Foundation pre-release, presumably `v0.8.0-foundation` — planned only, not scope-locked, not released. Operationalize agent enablement and context economy without claiming v1.0.
 
-## DE – Kandidaten-Kriterien (verbindlich erst mit WP-108)
+## DE – Release-blocking Kriterien (verbindlich seit WP-108)
 
 - [x] Foundation 0.7 released und abgeschlossen (`v0.7.0-foundation`, 2026-07-08; WP-106).
 - [x] Foundation 0.8 Planning erstellt (NDF-WP-107).
-- [ ] Foundation 0.8 Scope Lock abgeschlossen (NDF-WP-108).
+- [x] Foundation 0.8 Scope Lock abgeschlossen (NDF-WP-108, 2026-07-08: [`FOUNDATION_0_8_SCOPE_LOCK.md`](../roadmap/FOUNDATION_0_8_SCOPE_LOCK.md); WP-112 optional (Option A), ADR-0032 in WP-110).
 - [ ] NDF Context Economy Concept angenommen (NDF-WP-109).
-- [ ] NDF Skill Security Policy angenommen (NDF-WP-110).
-- [ ] Skills-MVP-Scope definiert (NDF-WP-111).
+- [ ] NDF Skill Security Policy angenommen / **ADR-0032 erstellt** (NDF-WP-110).
+- [ ] Skills-MVP-Design definiert (NDF-WP-111) — nur Design, keine Implementierung.
+- [ ] NDF Context Pack Template + Prompt-Modi standardisiert (NDF-WP-113).
 - [ ] Skill Pack bleibt public-neutral (keine privaten Projektdaten, keine externen Skill-Inhalte).
 - [ ] Keine autonome Git-/Release-/Tag-Aktion durch Skills.
 - [ ] Public Quality Gate strict grün.
@@ -35,9 +36,20 @@ Foundation pre-release, presumably `v0.8.0-foundation` — planned only, not sco
 - [ ] Release Prep abgeschlossen (NDF-WP-115).
 - [ ] Finaler Tag + GitHub Pre-Release (nur Human Maintainer).
 
-## EN – Candidate Criteria (binding only with WP-108)
+## EN – Release-Blocking Criteria (binding since WP-108)
 
-0.7 released (done); 0.8 planning done; scope lock; context economy concept accepted; skill security policy accepted; skills MVP scope defined; skill pack stays public-neutral; no autonomous git/release/tag action by skills; public quality gate strict + self-test green; readiness review; release prep; final tag + GitHub pre-release by the human maintainer only.
+0.7 released (done); 0.8 planning done; scope lock done (WP-112 optional per Option A, ADR-0032 in WP-110); context economy concept accepted; skill security policy accepted / ADR-0032 created; skills MVP design defined (design only); context pack template + prompt modes standardized; skill pack stays public-neutral; no autonomous git/release/tag action by skills; public quality gate strict + self-test green; readiness review; release prep; final tag + GitHub pre-release by the human maintainer only.
+
+## DE – Optionale Kandidaten
+
+- [ ] NDF Claude Skills Pack MVP Implementation (NDF-WP-112) — **optional (Option A)**; nur per Human-Maintainer-Scope-Change hochstufbar (Regel im Scope Lock).
+- [ ] Skill-to-Cursor Rules Export Assessment (NDF-WP-116).
+- [ ] Workflow Builder Evaluation (NDF-WP-117).
+- [ ] Docs Polish Skill Evaluation (NDF-WP-118).
+
+## EN – Optional Candidates
+
+WP-112 skills MVP implementation (optional, Option A — upgradable only via human-maintainer scope change), WP-116/117/118 assessments/evaluations — none blocks.
 
 ## DE – Sicherheits- und Neutralitätsinvarianten
 

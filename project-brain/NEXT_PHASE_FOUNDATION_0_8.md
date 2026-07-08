@@ -2,7 +2,7 @@
 
 ## Current status
 
-**Planning candidate** (NDF-WP-107, 2026-07-08). Foundation 0.8 ist **nicht scope-locked**, **nicht released**, **nicht v1.0**. Kein Skill Pack erstellt. Verbindliche Einstufung entsteht erst mit NDF-WP-108. Plan: `docs/roadmap/FOUNDATION_0_8_PLAN.md`.
+**Scope locked** (NDF-WP-108, 2026-07-08). Foundation 0.8 ist gelockt, **nicht released**, **nicht v1.0**. Kein Skill Pack erstellt. Verbindliche Einstufung: `docs/roadmap/FOUNDATION_0_8_SCOPE_LOCK.md`. Release-blocking: 108 (done) · 109 (Context Economy — nächster Schritt) · 110 (Skill Security Policy / ADR-0032) · 111 (Skills MVP Design) · 113 (Context Pack Template & Prompt Modes) · 114 · 115. **WP-112 (Skills MVP Implementation) optional (Option A)**, nur per Human-Maintainer-Scope-Change hochstufbar. Optional: 112/116/117/118.
 
 ## Working title
 
@@ -30,4 +30,4 @@ Foundation 0.7 released as `v0.7.0-foundation` (2026-07-08); vollständig abgesc
 
 ## Next WP
 
-**NDF-WP-108 – Foundation 0.8 Scope Lock.** Kein inhaltliches WP (Context Economy, Skills, Security Policy) startet vorher. Kein v1.0.
+**NDF-WP-109 – NDF Context Economy Concept.** Scope Lock (WP-108) abgeschlossen; WP-110 (Skill Security Policy / ADR-0032) und WP-111 (MVP Design) folgen im gesperrten Kern. ADR-0032 expected in WP-110 (nächste freie ADR-Nummer bleibt 0032 bis dahin). Kein v1.0.
