@@ -2,7 +2,7 @@
 
 ## Current status
 
-**Scope locked** (NDF-WP-108, 2026-07-08). Foundation 0.8 ist gelockt, **nicht released**, **nicht v1.0**. Kein Skill Pack erstellt. Verbindliche Einstufung: `docs/roadmap/FOUNDATION_0_8_SCOPE_LOCK.md`. Release-blocking: 108 (done) · 109 (Context Economy Concept — **done**) · 110 (Skill Security Policy / ADR-0032 — **done**, ADR-0032 Accepted + `docs/agent-workflows/NDF_SKILL_SECURITY_POLICY.md`) · 111 (Skills MVP Design — **nächster Schritt**) · 113 (Context Pack Template & Prompt Modes) · 114 · 115. **WP-112 (Skills MVP Implementation) optional (Option A)**, nur per Human-Maintainer-Scope-Change hochstufbar. Optional: 112/116/117/118.
+**Scope locked** (NDF-WP-108, 2026-07-08). Foundation 0.8 ist gelockt, **nicht released**, **nicht v1.0**. Kein Skill Pack erstellt. Verbindliche Einstufung: `docs/roadmap/FOUNDATION_0_8_SCOPE_LOCK.md`. Release-blocking: 108 (done) · 109 (Context Economy Concept — **done**) · 110 (Skill Security Policy / ADR-0032 — **done**) · 111 (Skills MVP Design — **done**, `docs/agent-workflows/NDF_CLAUDE_SKILLS_PACK_MVP_DESIGN.md`, 6 Skills, kein aktives Pack) · 113 (Context Pack Template & Prompt Modes — **nächster Schritt**) · 114 · 115. **WP-112 (Skills MVP Implementation) optional (Option A)**, nur per Human-Maintainer-Scope-Change hochstufbar. Optional: 112/116/117/118.
 
 ## Working title
 

@@ -2,7 +2,7 @@
 
 ## DE – Zweck
 
-Dieser Plan sammelt die Kandidaten für Foundation 0.8 (Ergebnis von NDF-WP-107). **Status-Update: Scope locked** (NDF-WP-108, 2026-07-08) — verbindliche Einstufung: [FOUNDATION_0_8_SCOPE_LOCK.md](FOUNDATION_0_8_SCOPE_LOCK.md). Release-blocking sind nur 108, 109 (Context Economy Concept — **erledigt**, [NDF_CONTEXT_ECONOMY.md](../agent-workflows/NDF_CONTEXT_ECONOMY.md)), 110 (Skill Security Policy — **erledigt: [ADR-0032](../adr/ADR-0032-skill-security-policy.md) Accepted + Policy-Dokument**), 111 (Skills MVP **Design**, keine Implementierung — **nächster Schritt**), 113 (Context Pack Template & Prompt Modes), 114, 115. **WP-112 (Skills MVP Implementation) bleibt optional (Option A)** — nur per Human-Maintainer-Scope-Change hochstufbar. Foundation 0.8 ist gelockt, **nicht released** und **nicht v1.0**. Es wird in diesem WP **kein Skill Pack erstellt**.
+Dieser Plan sammelt die Kandidaten für Foundation 0.8 (Ergebnis von NDF-WP-107). **Status-Update: Scope locked** (NDF-WP-108, 2026-07-08) — verbindliche Einstufung: [FOUNDATION_0_8_SCOPE_LOCK.md](FOUNDATION_0_8_SCOPE_LOCK.md). Release-blocking sind nur 108, 109 (Context Economy Concept — **erledigt**, [NDF_CONTEXT_ECONOMY.md](../agent-workflows/NDF_CONTEXT_ECONOMY.md)), 110 (Skill Security Policy — **erledigt: [ADR-0032](../adr/ADR-0032-skill-security-policy.md) Accepted + Policy-Dokument**), 111 (Skills MVP Design — **erledigt: [MVP Design](../agent-workflows/NDF_CLAUDE_SKILLS_PACK_MVP_DESIGN.md)**, kein aktives Skill Pack), 113 (Context Pack Template & Prompt Modes — **nächster Schritt**), 114, 115. **WP-112 (Skills MVP Implementation) bleibt optional (Option A)** — nur per Human-Maintainer-Scope-Change hochstufbar. Foundation 0.8 ist gelockt, **nicht released** und **nicht v1.0**. Es wird in diesem WP **kein Skill Pack erstellt**.
 
 ## EN – Purpose
 
@@ -103,7 +103,7 @@ WP-108 must settle: (a) final blocking/optional/deferred classification; (b) whe
 
 ## DE – Nächster Schritt
 
-**NDF-WP-111 – NDF Claude Skills Pack MVP Design.** WP-109 (Context Economy Concept) und WP-110 (Skill Security Policy / [ADR-0032](../adr/ADR-0032-skill-security-policy.md) Accepted) erledigt; WP-113 (Context Pack Template & Prompt Modes) folgt im gesperrten Kern. Nächste freie ADR-Nummer: 0033.
+**NDF-WP-113 – NDF Context Pack Template and Prompt Modes.** WP-109/110/111 erledigt (Context Economy, Skill Security Policy / [ADR-0032](../adr/ADR-0032-skill-security-policy.md), [Skills MVP Design](../agent-workflows/NDF_CLAUDE_SKILLS_PACK_MVP_DESIGN.md)); danach optional WP-112, dann WP-114/115. Nächste freie ADR-Nummer: 0033.
 
 ## EN – Next Step
 
