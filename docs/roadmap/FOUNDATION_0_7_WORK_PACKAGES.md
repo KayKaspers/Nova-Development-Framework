@@ -14,7 +14,7 @@
 | NDF-WP-102 | External Validation Evidence Depth Pass | review-only | Detaillierterer öffentlicher Lauf mit ausgefülltem Feedback-Template; adressiert PSV-001 → Richtung volles PASS / `met` | WP-098 | **optional mit Upgrade-Ventil** — nur per Human-Maintainer-Scope-Change hochstufbar (Bedingungen im Scope Lock); sonst optional, PSV-001 v1.0-tracked | WP-088-Note PSV-001 |
 | NDF-WP-103 | Academy Entry Decision | docs-only / i18n | **Entscheiden:** Academy-Einstieg priorisieren oder bewusst deferred; nicht still liegen lassen | WP-098 | optional (Entscheidungs-WP: priorisieren oder bewusst deferred) | WP-062/077/092, mehrfach offen |
 | NDF-WP-104 | Foundation 0.7 Release Readiness Review | review-only | Ehrliches GO/GO WITH NOTES/REWORK/STOP gegen die 0.7-Kriterien | blocking WPs done | **release-blocking** — durchgeführt in WP-104: **GO WITH NOTES** ([`FOUNDATION_0_7_RELEASE_READINESS_REVIEW.md`](../release/FOUNDATION_0_7_RELEASE_READINESS_REVIEW.md); keine Blocker, Notes non-blocking) | Release-Muster |
-| NDF-WP-105 | Foundation 0.7 Release Prep | docs-only / release-prep | Release Notes, Kriterien-Abschluss, Go/No-Go, Tagging-Guide (voraussichtlich `v0.7.0-foundation`) | WP-104 | **release-blocking** | Release-Muster |
+| NDF-WP-105 | Foundation 0.7 Release Prep | docs-only / release-prep | Release Notes, Kriterien-Abschluss, Go/No-Go, Tagging-Guide (voraussichtlich `v0.7.0-foundation`) | WP-104 | **release-blocking** — **prepared** in WP-105 (Release Notes/Go-No-Go/Tagging-Guide erstellt, „tag pending"); Tagging/Release manuell durch Human Maintainer, noch offen | Release-Muster |
 
 ## Optionaler Scope (verbindlich / binding)
 
@@ -33,6 +33,10 @@
 ## Manual / cosmetic (kein WP / no work package)
 
 - Optionaler v0.6-GitHub-Release-Body-Polish: Der Body enthält die Pflichtaussage „This is not a v1.0 release.", ist aber minimal. Der Human Maintainer kann ihn optional per Release-Edit aus den Release Notes erweitern — **keine GitHub-Schreibaktion in NDF-WPs**, non-blocking.
+
+## Future Candidate (nach Foundation 0.7 / after Foundation 0.7)
+
+- **NDF Agent Enablement & Context Economy**, inkl. eines kleinen public-neutralen Claude Skills Pack — nur möglicher nächster Evolutionsschritt **nach** Foundation 0.7. **Kein Foundation-0.7-Scope, kein Release-Kriterium, kein blocking WP; wird in diesem Zyklus nicht erstellt.** Über Aufnahme entscheidet ein späterer eigener Planungszyklus. / Only a possible next evolution step after Foundation 0.7 — not scope, not a release criterion, not a blocking work package.
 
 ## Regeln / Rules
 

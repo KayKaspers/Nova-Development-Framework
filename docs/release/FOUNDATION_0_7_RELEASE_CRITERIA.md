@@ -27,7 +27,7 @@ Foundation pre-release, presumably `v0.7.0-foundation` — not released. Consoli
 - [x] **v1.x Compatibility Policy entschieden** (NDF-WP-100, 2026-07-08: **ADR-0031 angenommen** — [`ADR-0031-v1x-compatibility-policy.md`](../adr/ADR-0031-v1x-compatibility-policy.md); Governance-Rahmen, aktive volle v1.x-Zusage erst mit v1.0; v1.0-Kriterium `met with notes`, kein v1.0-Claim).
 - [x] **Project Adapter Convention Stability bestätigt** (NDF-WP-101, 2026-07-08: **Stable with notes** — Konventionen seit WP-059 über 0.4→0.7 unverändert, [`PROJECT_ADAPTER_CONVENTION_STABILITY_REVIEW.md`](../validation/project-adapter/PROJECT_ADAPTER_CONVENTION_STABILITY_REVIEW.md); ein low-Drift korrigiert; v1.0-Kriterium `met with notes`).
 - [x] Release Readiness Review durchgeführt (NDF-WP-104, 2026-07-08: **GO WITH NOTES** — keine Blocker, Notes ausschließlich non-blocking, [`FOUNDATION_0_7_RELEASE_READINESS_REVIEW.md`](FOUNDATION_0_7_RELEASE_READINESS_REVIEW.md)).
-- [ ] Release Notes, Go/No-Go-Checkliste und Tagging-Guide vorbereitet (NDF-WP-105).
+- [x] Release Notes, Go/No-Go-Checkliste und Tagging-Guide vorbereitet (NDF-WP-105, 2026-07-08: [`FOUNDATION_0_7_RELEASE_NOTES.md`](FOUNDATION_0_7_RELEASE_NOTES.md), [`FOUNDATION_0_7_GO_NO_GO_CHECKLIST.md`](FOUNDATION_0_7_GO_NO_GO_CHECKLIST.md), [`FOUNDATION_0_7_TAGGING_AND_GITHUB_RELEASE_GUIDE.md`](FOUNDATION_0_7_TAGGING_AND_GITHUB_RELEASE_GUIDE.md); Status „tag pending", kein v1.0-Claim).
 - [ ] Finaler Tag + GitHub Pre-Release (nur Human Maintainer).
 
 ## EN – Release-Blocking Criteria (binding since WP-098)

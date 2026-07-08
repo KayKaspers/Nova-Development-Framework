@@ -2,9 +2,12 @@
 
 All notable changes to the Nova Development Framework will be documented in this file.
 
-## [Unreleased] - Foundation 0.7 Scope Locked
+## [0.7.0-foundation] - 2026-07-08
 
-Status: scope-locked. Not released. Not v1.0.
+Status: Prepared for Foundation pre-release — tag pending.
+Not v1.0. Not a v1.0 release candidate.
+Full v1.x compatibility promise activates only with a future v1.0 release.
+Release notes: `docs/release/FOUNDATION_0_7_RELEASE_NOTES.md`
 
 ### Added
 
@@ -14,6 +17,7 @@ Status: scope-locked. Not released. Not v1.0.
 - docs(adr): added ADR-0031 v1.x compatibility policy (Accepted) — governance framework with compatibility categories, breaking/deprecation rules; the active full v1.x promise activates only at v1.0; v1.0 criterion now met with notes (WP-100)
 - docs(validation): reviewed Project Adapter convention stability — Stable with notes (conventions unchanged across 0.4→0.7); fixed two stale manifest .yaml references to canonical .md; v1.0 adapter-maturity criterion now met with notes (WP-101)
 - docs(release): Foundation 0.7 release readiness review: GO WITH NOTES — no blockers; notes are deliberate non-blockers (full v1.x promise only at v1.0, convention stability with notes, PSV-001 v1.0-tracked, WP-102/103 optional and not activated) (WP-104)
+- docs(release): prepared Foundation 0.7 release — release notes with known limitations and operational notes, 26-item go/no-go checklist, tagging guide (presumably `v0.7.0-foundation`, tag pending); one future-candidate hint noted (NDF Agent Enablement & Context Economy incl. a small public-neutral Claude Skills Pack) — not scope, not blocking (WP-105)
 
 ## [0.6.0-foundation] - 2026-07-07
 

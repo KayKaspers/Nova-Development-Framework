@@ -10,7 +10,9 @@
 
 **Update (WP-101): Convention Stability Review — Stable with notes** (`docs/validation/project-adapter/PROJECT_ADAPTER_CONVENTION_STABILITY_REVIEW.md`): Adapter-Konventionen seit WP-059 über 4 Releases unverändert; ein low-Drift (`.yaml`→`.md`) korrigiert; v1.0-Kriterium + Adapter-Maturity `met with notes`. Alle inhaltlichen blocking WPs erledigt; WP-102/103 nicht aktiviert (bleiben optional).
 
-**Update (WP-104): Foundation 0.7 Release Readiness Review — GO WITH NOTES** (`docs/release/FOUNDATION_0_7_RELEASE_READINESS_REVIEW.md`): Alle release-blocking Kriterien außer WP-104/105 erfüllt und nachgewiesen; Gate strict/self-test grün (0/0/3 notices), Kontroll-Greps sauber, Link-Check über 9 Kern-Dateien 0 broken. Notes ausschließlich non-blocking: volle v1.x-Zusage erst mit v1.0, Convention Stability „stable with notes" ≠ frozen, PSV-001 v1.0-tracked, WP-102/103 nicht aktiviert. **Nächster Schritt: NDF-WP-105 – Foundation 0.7 Release Prep** (Release Notes inkl. Known Limitations, Kriterien-Abschluss, Go/No-Go, Tagging-Guide für voraussichtlich `v0.7.0-foundation`). Nächste freie ADR-Nummer 0032. Kein Release, kein v1.0.
+**Update (WP-104): Foundation 0.7 Release Readiness Review — GO WITH NOTES** (`docs/release/FOUNDATION_0_7_RELEASE_READINESS_REVIEW.md`): Alle release-blocking Kriterien außer WP-104/105 erfüllt und nachgewiesen; Gate strict/self-test grün, Kontroll-Greps sauber, Link-Check über 9 Kern-Dateien 0 broken. Notes ausschließlich non-blocking.
+
+**Update (WP-105): Foundation 0.7 Release Prep — vorbereitet** (`docs/release/FOUNDATION_0_7_RELEASE_NOTES.md`, `..._GO_NO_GO_CHECKLIST.md`, `..._TAGGING_AND_GITHUB_RELEASE_GUIDE.md`): Release Notes (DE/EN, inkl. aller Known Limitations), 26-Punkte-Go/No-Go und Tagging-Guide erstellt; Criteria/CHANGELOG/README/Queue/Plan auf „prepared / tag pending" gehoben. Ein Future-Candidate-Hinweis aufgenommen: **NDF Agent Enablement & Context Economy** inkl. kleinem public-neutralen Claude Skills Pack — **kein Scope, kein blocking WP, in diesem WP nicht erstellt**. **Nächster Schritt: manuelles Go/No-Go + Tagging `v0.7.0-foundation` durch den Human Maintainer**, danach Post-Release-Status-Cleanup als eigenes WP. Nächste freie ADR-Nummer 0032. Noch nicht released, kein v1.0, keine aktive volle v1.x-Zusage.
 
 ## Current baseline
 
@@ -44,4 +46,4 @@ Arbeitstitel **Foundation 0.7 – v1.0 Path Consolidation & Compatibility Govern
 
 ## Next recommended WP
 
-**NDF-WP-105 – Foundation 0.7 Release Prep.** WP-104 Readiness Review abgeschlossen (GO WITH NOTES). Kein v1.0.
+**Manuelles Go/No-Go + Tagging `v0.7.0-foundation` durch den Human Maintainer** (WP-105 Release Prep vorbereitet, GO WITH NOTES). Danach Post-Release-Status-Cleanup als eigenes WP. Kein v1.0, keine aktive volle v1.x-Zusage.
