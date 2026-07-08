@@ -1,6 +1,6 @@
 # Foundation 0.8 – Work Package Queue
 
-> Status: **Scope locked** (NDF-WP-108, 2026-07-08). Verbindliche Einstufung siehe Spalte „Scope Lock" und [FOUNDATION_0_8_SCOPE_LOCK.md](FOUNDATION_0_8_SCOPE_LOCK.md). / Scope locked; binding classification in the "Scope Lock" column.
+> Status: **Released / published** als `v0.8.0-foundation` (2026-07-08, NDF-WP-119). Verbindliche Einstufung siehe Spalte „Scope Lock" und [FOUNDATION_0_8_SCOPE_LOCK.md](FOUNDATION_0_8_SCOPE_LOCK.md); [Post-Release Status](../release/FOUNDATION_0_8_POST_RELEASE_STATUS.md). Nicht v1.0, kein aktives Skill Pack. / Released as `v0.8.0-foundation`; not v1.0, no active skill pack.
 
 ## Queue
 
@@ -14,7 +14,8 @@
 | NDF-WP-112 | NDF Claude Skills Pack MVP Implementation | docs-only oder skills-mvp | Erstes MVP-Skill-Set gemäß Design + Security Policy erstellen | **optional** — Option A; nur per Human-Maintainer-Scope-Change hochstufbar (Regel im Scope Lock); nicht release-blocking |
 | NDF-WP-113 | NDF Context Pack Template and Prompt Modes | docs-only / template | Context-Pack-Template + Prompt-Modi (kompakt/normal/tief) standardisieren | **release-blocking** — **erledigt** ([Prompt Modes](../agent-workflows/NDF_PROMPT_MODES.md) + [Context Pack Template](../../project-brain/CONTEXT_PACK_TEMPLATE.md) + [Foundation-0.8 Context Pack](../../project-brain/CONTEXT_PACK_FOUNDATION_0_8.md)) |
 | NDF-WP-114 | Foundation 0.8 Release Readiness Review | review-only | Ehrliches GO/GO WITH NOTES/REWORK/STOP gegen die 0.8-Kriterien | **release-blocking** — **erledigt: GO WITH NOTES** ([Readiness Review](../release/FOUNDATION_0_8_READINESS_REVIEW.md); keine Blocker, kein aktives Skill Pack) |
-| NDF-WP-115 | Foundation 0.8 Release Prep | docs-only / release-prep | Release Notes, Kriterien-Abschluss, Go/No-Go, Tagging-Guide (voraussichtlich `v0.8.0-foundation`) | **release-blocking** — **erledigt** ([Release Notes](../release/FOUNDATION_0_8_RELEASE_NOTES.md), [Go/No-Go](../release/FOUNDATION_0_8_GO_NO_GO_CHECKLIST.md), [Tagging-Guide](../release/FOUNDATION_0_8_TAGGING_AND_GITHUB_RELEASE_GUIDE.md); release-prepared / tag pending). Tag/Release manuell durch Human Maintainer; danach Post-Release-Cleanup-Kandidat **NDF-WP-119** |
+| NDF-WP-115 | Foundation 0.8 Release Prep | docs-only / release-prep | Release Notes, Kriterien-Abschluss, Go/No-Go, Tagging-Guide (voraussichtlich `v0.8.0-foundation`) | **release-blocking** — **erledigt** ([Release Notes](../release/FOUNDATION_0_8_RELEASE_NOTES.md), Go/No-Go, Tagging-Guide); Release am 2026-07-08 veröffentlicht |
+| NDF-WP-119 | Foundation 0.8 Post-Release Status Cleanup | docs-only / post-release-cleanup | Tag + GitHub Release read-only verifizieren, Status auf released/published heben | **erledigt** in WP-119 (2026-07-08: `v0.8.0-foundation` veröffentlicht und verifiziert; [Post-Release Status](../release/FOUNDATION_0_8_POST_RELEASE_STATUS.md)) |
 
 ## Optionale Work Packages (verbindlich / binding)
 

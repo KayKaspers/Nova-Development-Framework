@@ -2,9 +2,9 @@
 
 All notable changes to the Nova Development Framework will be documented in this file.
 
-## [Unreleased] - Foundation 0.8 Scope Locked
+## [0.8.0-foundation] - 2026-07-08
 
-Status: scope-locked. Not released. Not v1.0.
+Agent Enablement & Context Economy Pre-Release. Status: **Published** as Foundation pre-release on 2026-07-08 (tag `v0.8.0-foundation`). Not v1.0. Full v1.x compatibility promise not active. No active Claude Skills Pack. Release notes: `docs/release/FOUNDATION_0_8_RELEASE_NOTES.md`
 
 ### Added
 
@@ -17,6 +17,7 @@ Status: scope-locked. Not released. Not v1.0.
 - docs(agent-workflows): add NDF Prompt Modes and Context Pack templates — Full/Standard/Short prompt modes with selection and forbidden-short-prompt rules, a reusable Context Pack template (incl. Report-to-Nova structure), and a first Foundation 0.8 Context Pack; no chain-of-thought, no active skills; not released, not v1.0 (WP-113)
 - docs(release): Foundation 0.8 release readiness review: GO WITH NOTES — 20-point readiness matrix, no blockers; filesystem check confirms no active skill pack, no .claude/skills, no new skill scripts; WP-112 optional and not activated; not released, not v1.0 (WP-114)
 - docs(release): prepared Foundation 0.8 release notes, Go/No-Go checklist and tagging guide (presumably `v0.8.0-foundation`, release-prepared / tag pending); post-release cleanup candidate NDF-WP-119; no active skill pack, WP-112 optional and not activated; not released, not v1.0 (WP-115)
+- docs(release): marked Foundation 0.8 as published (`v0.8.0-foundation`, 2026-07-08); post-release status cleanup — tag (annotated) and GitHub pre-release verified read-only; no active skill pack; not v1.0 (WP-119)
 
 ## [0.7.0-foundation] - 2026-07-08
 

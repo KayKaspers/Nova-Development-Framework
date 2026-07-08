@@ -16,15 +16,15 @@ Foundation 0.8.
 
 ## Current Phase Status
 
-Scope-locked (NDF-WP-108), **release-prepared / tag pending** (NDF-WP-115). Nicht released, nicht v1.0, kein v1.0 Release Candidate. Kein aktives Skill Pack.
+**Released / published** als `v0.8.0-foundation` (2026-07-08, NDF-WP-119). Nicht v1.0, kein v1.0 Release Candidate, keine aktive volle v1.x-Zusage. Kein aktives Skill Pack.
 
 ## Last Completed Work Package
 
-`NDF-WP-115 – Foundation 0.8 Release Prep` — Release Notes + Go/No-Go-Checkliste + Tagging-Guide erstellt; **release-prepared / tag pending**. Kein aktives Skill Pack.
+`NDF-WP-119 – Foundation 0.8 Post-Release Status Cleanup` — Tag + GitHub Pre-Release read-only verifiziert; Statusdokumente auf released/published gehoben.
 
 ## Next Work Package
 
-Manueller Human-Maintainer-Release (Go/No-Go → Tag `v0.8.0-foundation` → GitHub Pre-Release), danach Post-Release-Status-Cleanup-Kandidat `NDF-WP-119`.
+Foundation 0.8 abgeschlossen. Nächster Kandidat (nicht scope-locked): `Foundation 0.9 – Adoption, Validation & Optional Enablement`.
 
 ## Release-Blocking Work Packages
 
@@ -34,7 +34,8 @@ Manueller Human-Maintainer-Release (Go/No-Go → Tag `v0.8.0-foundation` → Git
 - NDF-WP-111 Skills Pack MVP Design — done
 - NDF-WP-113 Context Pack Template and Prompt Modes — done
 - NDF-WP-114 Release Readiness Review — done (GO WITH NOTES)
-- NDF-WP-115 Release Prep — done (release-prepared / tag pending)
+- NDF-WP-115 Release Prep — done
+- NDF-WP-119 Post-Release Status Cleanup — done (released / published)
 
 ## Optional Work Packages
 
@@ -76,11 +77,12 @@ Skills bleiben Design (kein aktives Pack); WP-112 optional, nicht aktiviert; Pro
 - WP-111: Skills Pack MVP Design (6 Skills + Review Matrix), nur Design, kein aktives Pack; WP-112 optional.
 - WP-113: Prompt Modes (Full/Standard/Short) + Context Pack Template + dieses Context Pack. Kein Skill Pack.
 - WP-114: Release Readiness Review — GO WITH NOTES, keine Blocker, 20-Punkte-Matrix, Dateisystemprüfung bestätigt kein aktives Skill Pack / keine `.claude/skills`.
-- WP-115: Release Prep — Release Notes + Go/No-Go + Tagging-Guide erstellt; release-prepared / tag pending. Nächster Schritt: manueller Human-Maintainer-Release, dann Post-Release-Cleanup-Kandidat WP-119.
+- WP-115: Release Prep — Release Notes + Go/No-Go + Tagging-Guide erstellt; release-prepared / tag pending.
+- WP-119: Post-Release Status Cleanup — Tag (`v0.8.0-foundation`, annotated) + GitHub Pre-Release read-only verifiziert; Status auf released/published gehoben. Foundation 0.8 abgeschlossen.
 
 ## Next Prompt Recommendation
 
-Manueller Human-Maintainer-Release (Go/No-Go → Tag → GitHub Pre-Release); danach **Full Prompt Mode** für das Post-Release-Cleanup-WP (Kandidat NDF-WP-119).
+**Full Prompt Mode** für Foundation 0.9 Planning (Kandidat „Adoption, Validation & Optional Enablement", noch kein Scope).
 
 ## What Must Not Be Claimed
 

@@ -2,22 +2,22 @@
 
 ## DE – Status
 
-**Scope locked (NDF-WP-108, 2026-07-08).** Foundation 0.8 ist gelockt, **nicht released**, **nicht v1.0**. Verbindliche Einstufung: [FOUNDATION_0_8_SCOPE_LOCK.md](../roadmap/FOUNDATION_0_8_SCOPE_LOCK.md). Boxen werden nur gegen tatsächliche Ergebnisse abgehakt — keine falschen Haken.
+**Released / published als `v0.8.0-foundation` Foundation Pre-Release am 2026-07-08 (NDF-WP-119).** Foundation 0.8 ist released, aber **nicht v1.0**; die volle v1.x-Kompatibilitätszusage ist nicht aktiv. Read-only-Verifikation: [FOUNDATION_0_8_POST_RELEASE_STATUS.md](FOUNDATION_0_8_POST_RELEASE_STATUS.md). Boxen werden nur gegen tatsächliche Ergebnisse abgehakt — keine falschen Haken.
 
 ## EN – Status
 
-**Scope locked (NDF-WP-108, 2026-07-08).** Foundation 0.8 is locked, **not released**, **not v1.0**. Binding classification: the scope lock. Boxes are checked only against actual results — no false checkmarks.
+**Released / published as the `v0.8.0-foundation` foundation pre-release on 2026-07-08 (NDF-WP-119).** Foundation 0.8 is released, but **not v1.0**; the full v1.x compatibility promise is not active. Read-only verification: the post-release status document. Boxes are checked only against actual results — no false checkmarks.
 
 ## DE – Arbeitstitel
 
 ```text
 Foundation 0.8 – Agent Enablement & Context Economy
-(voraussichtlich Pre-Release v0.8.0-foundation — scope-locked, nicht released, nicht v1.0)
+(Pre-Release v0.8.0-foundation — veröffentlicht am 2026-07-08, nicht v1.0)
 ```
 
 ## EN – Working Title
 
-Foundation pre-release, presumably `v0.8.0-foundation` — planned only, not scope-locked, not released. Operationalize agent enablement and context economy without claiming v1.0.
+Foundation pre-release `v0.8.0-foundation` — published on 2026-07-08, not v1.0. Operationalized agent enablement and context economy without claiming v1.0.
 
 ## DE – Release-blocking Kriterien (verbindlich seit WP-108)
 
@@ -34,9 +34,10 @@ Foundation pre-release, presumably `v0.8.0-foundation` — planned only, not sco
 - [ ] Public Quality Gate self-test grün.
 - [x] Release Readiness Review abgeschlossen (NDF-WP-114, 2026-07-08: **GO WITH NOTES** — [`FOUNDATION_0_8_READINESS_REVIEW.md`](FOUNDATION_0_8_READINESS_REVIEW.md); keine Blocker, kein aktives Skill Pack, 20-Punkte-Readiness-Matrix).
 - [x] Release Prep abgeschlossen (NDF-WP-115, 2026-07-08: [`FOUNDATION_0_8_RELEASE_NOTES.md`](FOUNDATION_0_8_RELEASE_NOTES.md), [`FOUNDATION_0_8_GO_NO_GO_CHECKLIST.md`](FOUNDATION_0_8_GO_NO_GO_CHECKLIST.md), [`FOUNDATION_0_8_TAGGING_AND_GITHUB_RELEASE_GUIDE.md`](FOUNDATION_0_8_TAGGING_AND_GITHUB_RELEASE_GUIDE.md); **release-prepared / tag pending**).
-- [ ] Finaler Tag + GitHub Pre-Release (nur Human Maintainer).
+- [x] Finaler Tag + GitHub Pre-Release (Human Maintainer, 2026-07-08): Tag `v0.8.0-foundation` (annotated, → Commit `a39f50b`), GitHub Pre-Release „Nova Development Framework v0.8.0 Foundation" (prerelease, Target `main`); read-only verifiziert in NDF-WP-119.
+- [x] Post-Release-Status-Cleanup (NDF-WP-119, 2026-07-08): Statusdokumente auf released/published gehoben, Tag + GitHub Release read-only verifiziert; keine offenen 0.8-blocking Follow-ups.
 
-**Foundation 0.8 ist release-prepared und tag pending. Sie ist nicht released, bis der Human Maintainer den manuellen Tag und das GitHub Release abschließt.** / Foundation 0.8 is release-prepared and tag pending; not released until the Human Maintainer completes the manual tag and GitHub release.
+**Foundation 0.8 ist released / published als `v0.8.0-foundation` (2026-07-08). Nicht v1.0; die volle v1.x-Kompatibilitätszusage ist nicht aktiv; kein aktives Skill Pack.** / Foundation 0.8 is released/published as `v0.8.0-foundation`; not v1.0; the full v1.x compatibility promise is not active; no active skill pack.
 
 ## EN – Release-Blocking Criteria (binding since WP-108)
 
