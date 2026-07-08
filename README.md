@@ -64,7 +64,7 @@ Details on the Nova role: [NOVA_CHATGPT_ROLE.md](docs/workflow/NOVA_CHATGPT_ROLE
 Klassifizieren -> Planen -> Umsetzen -> Rückmeldung an Nova -> Review -> Commit
 ```
 
-Kein Schritt wird übersprungen. Details: [WORK_PACKAGE_LIFECYCLE.md](framework/standards/WORK_PACKAGE_LIFECYCLE.md) · Kontext-/Token-Sparsamkeit: [NDF Context Economy](docs/agent-workflows/NDF_CONTEXT_ECONOMY.md)
+Kein Schritt wird übersprungen. Details: [WORK_PACKAGE_LIFECYCLE.md](framework/standards/WORK_PACKAGE_LIFECYCLE.md) · Kontext-/Token-Sparsamkeit: [NDF Context Economy](docs/agent-workflows/NDF_CONTEXT_ECONOMY.md) · Skill-Sicherheitsgrenzen: [NDF Skill Security Policy](docs/agent-workflows/NDF_SKILL_SECURITY_POLICY.md)
 
 ## EN – Standard Workflow
 
@@ -72,7 +72,7 @@ Kein Schritt wird übersprungen. Details: [WORK_PACKAGE_LIFECYCLE.md](framework/
 Classify -> Plan -> Execute -> Report to Nova -> Review -> Commit
 ```
 
-No step is skipped. Details: [WORK_PACKAGE_LIFECYCLE.md](framework/standards/WORK_PACKAGE_LIFECYCLE.md) · Context/token economy: [NDF Context Economy](docs/agent-workflows/NDF_CONTEXT_ECONOMY.md)
+No step is skipped. Details: [WORK_PACKAGE_LIFECYCLE.md](framework/standards/WORK_PACKAGE_LIFECYCLE.md) · Context/token economy: [NDF Context Economy](docs/agent-workflows/NDF_CONTEXT_ECONOMY.md) · Skill security boundaries: [NDF Skill Security Policy](docs/agent-workflows/NDF_SKILL_SECURITY_POLICY.md)
 
 ## DE – Work Packages
 
