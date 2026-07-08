@@ -8,7 +8,9 @@
 
 **Update (WP-100): v1.x Compatibility Policy als ADR-0031 angenommen** (`docs/adr/ADR-0031-v1x-compatibility-policy.md`, Status Accepted): Governance-Rahmen; aktive volle v1.x-Zusage erst mit v1.0; v1.0-Kriterium `met with notes`. Nächste freie ADR-Nummer: 0032.
 
-**Update (WP-101): Convention Stability Review — Stable with notes** (`docs/validation/project-adapter/PROJECT_ADAPTER_CONVENTION_STABILITY_REVIEW.md`): Adapter-Konventionen seit WP-059 über 4 Releases unverändert; ein low-Drift (`.yaml`→`.md`) korrigiert; v1.0-Kriterium + Adapter-Maturity `met with notes`. **Alle inhaltlichen blocking WPs sind damit erledigt; WP-102/103 nicht aktiviert (bleiben optional). Nächster Schritt: NDF-WP-104 – Foundation 0.7 Release Readiness Review**, danach WP-105. Known-Limitation-Kandidaten für WP-104/105: PSV-001 (Evidenz-Tiefe), aktive v1.x-Zusage erst mit v1.0. Kein Release, kein v1.0.
+**Update (WP-101): Convention Stability Review — Stable with notes** (`docs/validation/project-adapter/PROJECT_ADAPTER_CONVENTION_STABILITY_REVIEW.md`): Adapter-Konventionen seit WP-059 über 4 Releases unverändert; ein low-Drift (`.yaml`→`.md`) korrigiert; v1.0-Kriterium + Adapter-Maturity `met with notes`. Alle inhaltlichen blocking WPs erledigt; WP-102/103 nicht aktiviert (bleiben optional).
+
+**Update (WP-104): Foundation 0.7 Release Readiness Review — GO WITH NOTES** (`docs/release/FOUNDATION_0_7_RELEASE_READINESS_REVIEW.md`): Alle release-blocking Kriterien außer WP-104/105 erfüllt und nachgewiesen; Gate strict/self-test grün (0/0/3 notices), Kontroll-Greps sauber, Link-Check über 9 Kern-Dateien 0 broken. Notes ausschließlich non-blocking: volle v1.x-Zusage erst mit v1.0, Convention Stability „stable with notes" ≠ frozen, PSV-001 v1.0-tracked, WP-102/103 nicht aktiviert. **Nächster Schritt: NDF-WP-105 – Foundation 0.7 Release Prep** (Release Notes inkl. Known Limitations, Kriterien-Abschluss, Go/No-Go, Tagging-Guide für voraussichtlich `v0.7.0-foundation`). Nächste freie ADR-Nummer 0032. Kein Release, kein v1.0.
 
 ## Current baseline
 
@@ -42,4 +44,4 @@ Arbeitstitel **Foundation 0.7 – v1.0 Path Consolidation & Compatibility Govern
 
 ## Next recommended WP
 
-**NDF-WP-098 – Foundation 0.7 Scope Lock.** Kein inhaltliches WP vorher. Kein v1.0.
+**NDF-WP-105 – Foundation 0.7 Release Prep.** WP-104 Readiness Review abgeschlossen (GO WITH NOTES). Kein v1.0.
