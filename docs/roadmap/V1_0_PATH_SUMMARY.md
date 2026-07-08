@@ -37,6 +37,10 @@ As of today at least: a defined v1.x compatibility promise; confirmation of conv
 
 Foundation 0.5 regulär abschließen (WP-074 → optionale WPs → Readiness → Release Prep). Danach entscheidet ein **eigener v1.0-Zyklus** (Scope Lock → Readiness → Prep) mit finaler Freigabe durch den Human Maintainer. Keine Termine — der Pfad ist definiert, nicht terminiert.
 
+*Update: Foundation 0.6 (released) hat External Validation und die ADR/Decision-Structure auf `met with notes` gehoben. **Foundation 0.7 ist als v1.0-Pfad-Konsolidierung geplant** ([FOUNDATION_0_7_PLAN.md](FOUNDATION_0_7_PLAN.md)) — Kandidaten: v1.x-Kompatibilitätszusage (`not met`, WP-093/WP-100, ADR-0031-Kandidat) und Konventions-Stabilität (`partially met`, WP-101). Beides bleibt Kandidat, nicht erledigt; kein v1.0-Claim.*
+
 ## EN – Next Steps
 
 Complete Foundation 0.5 (WP-074 → optional work → readiness → release prep). A **dedicated v1.0 cycle** (scope lock → readiness → prep) decides afterwards, with final approval by the human maintainer. No dates — the path is defined, not scheduled.
+
+*Update: Foundation 0.6 (released) lifted external validation and the ADR/decision structure to `met with notes`. **Foundation 0.7 is planned as v1.0 path consolidation** — candidates: the v1.x compatibility promise (`not met`, WP-093/WP-100, ADR-0031 candidate) and convention stability (`partially met`, WP-101). Both remain candidates, not done; no v1.0 claim.*
