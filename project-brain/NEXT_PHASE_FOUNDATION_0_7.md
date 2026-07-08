@@ -46,4 +46,4 @@ Arbeitstitel **Foundation 0.7 – v1.0 Path Consolidation & Compatibility Govern
 
 ## Next recommended WP
 
-**Manuelles Go/No-Go + Tagging `v0.7.0-foundation` durch den Human Maintainer** (WP-105 Release Prep vorbereitet, GO WITH NOTES). Danach Post-Release-Status-Cleanup als eigenes WP. Kein v1.0, keine aktive volle v1.x-Zusage.
+**Foundation 0.7 ist veröffentlicht** als `v0.7.0-foundation` (2026-07-08, GitHub Pre-Release; Tag + Release in WP-106 read-only verifiziert). Keine offenen Foundation-0.7-blocking Follow-ups. **Nächster sinnvoller Schritt: Foundation 0.8 Planning** — Kandidatenthema **NDF Agent Enablement & Context Economy** inkl. kleinem public-neutralen Claude Skills Pack (Future Candidate, kein aktiver Scope). Kein v1.0, keine aktive volle v1.x-Zusage. Optional/kosmetisch (kein WP): v0.6-/v0.7-GitHub-Release-Body-Polish; der v0.7-Tag ist lightweight (ältere Tags annotiert) — kein Eingriff nötig.

@@ -2,22 +2,22 @@
 
 ## DE – Status
 
-**Scope locked (NDF-WP-098, 2026-07-08).** Foundation 0.7 ist gelockt, nicht released, nicht v1.0. Die Blocking-Kriterien sind verbindlich gemäß [FOUNDATION_0_7_SCOPE_LOCK.md](../roadmap/FOUNDATION_0_7_SCOPE_LOCK.md); abgehakt wird erst gegen tatsächliche Ergebnisse — keine falschen Haken.
+**Veröffentlicht als `v0.7.0-foundation` Foundation Pre-Release am 2026-07-08 (NDF-WP-106).** Foundation 0.7 ist released/published, aber **nicht v1.0**; die volle v1.x-Kompatibilitätszusage ist vor einem künftigen v1.0-Release **nicht aktiv**. Die Blocking-Kriterien sind verbindlich gemäß [FOUNDATION_0_7_SCOPE_LOCK.md](../roadmap/FOUNDATION_0_7_SCOPE_LOCK.md); abgehakt wird nur gegen tatsächliche Ergebnisse — keine falschen Haken.
 
 ## EN – Status
 
-**Scope locked (NDF-WP-098, 2026-07-08).** Foundation 0.7 is locked, not released, not v1.0. The blocking criteria are binding per the scope lock; boxes are only checked against actual results — no false checkmarks.
+**Published as the `v0.7.0-foundation` foundation pre-release on 2026-07-08 (NDF-WP-106).** Foundation 0.7 is released/published, but **not v1.0**; the full v1.x compatibility promise is not active before a future v1.0 release. The blocking criteria are binding per the scope lock; boxes are only checked against actual results — no false checkmarks.
 
 ## DE – Ziel
 
 ```text
 Foundation v1.0 Path Consolidation & Compatibility Governance Release
-(voraussichtlich Pre-Release v0.7.0-foundation — noch nicht released)
+(Pre-Release v0.7.0-foundation — veröffentlicht am 2026-07-08, nicht v1.0)
 ```
 
 ## EN – Goal
 
-Foundation pre-release, presumably `v0.7.0-foundation` — not released. Consolidate the v1.0 path and decide compatibility governance without claiming v1.0.
+Foundation pre-release `v0.7.0-foundation` — published on 2026-07-08, not v1.0. Consolidated the v1.0 path and decided compatibility governance without claiming v1.0.
 
 ## DE – Release-blocking Kriterien (verbindlich seit WP-098)
 
@@ -28,7 +28,8 @@ Foundation pre-release, presumably `v0.7.0-foundation` — not released. Consoli
 - [x] **Project Adapter Convention Stability bestätigt** (NDF-WP-101, 2026-07-08: **Stable with notes** — Konventionen seit WP-059 über 0.4→0.7 unverändert, [`PROJECT_ADAPTER_CONVENTION_STABILITY_REVIEW.md`](../validation/project-adapter/PROJECT_ADAPTER_CONVENTION_STABILITY_REVIEW.md); ein low-Drift korrigiert; v1.0-Kriterium `met with notes`).
 - [x] Release Readiness Review durchgeführt (NDF-WP-104, 2026-07-08: **GO WITH NOTES** — keine Blocker, Notes ausschließlich non-blocking, [`FOUNDATION_0_7_RELEASE_READINESS_REVIEW.md`](FOUNDATION_0_7_RELEASE_READINESS_REVIEW.md)).
 - [x] Release Notes, Go/No-Go-Checkliste und Tagging-Guide vorbereitet (NDF-WP-105, 2026-07-08: [`FOUNDATION_0_7_RELEASE_NOTES.md`](FOUNDATION_0_7_RELEASE_NOTES.md), [`FOUNDATION_0_7_GO_NO_GO_CHECKLIST.md`](FOUNDATION_0_7_GO_NO_GO_CHECKLIST.md), [`FOUNDATION_0_7_TAGGING_AND_GITHUB_RELEASE_GUIDE.md`](FOUNDATION_0_7_TAGGING_AND_GITHUB_RELEASE_GUIDE.md); Status „tag pending", kein v1.0-Claim).
-- [ ] Finaler Tag + GitHub Pre-Release (nur Human Maintainer).
+- [x] Finaler Tag + GitHub Pre-Release (Human Maintainer, 2026-07-08): finales Go/No-Go abgeschlossen, Tag `v0.7.0-foundation` erstellt, GitHub Pre-Release „Nova Development Framework v0.7.0 Foundation" veröffentlicht (Pre-release, Target `main`), Release-Titel verifiziert.
+- [x] Post-Release-Status-Cleanup (NDF-WP-106, 2026-07-08): Tag + GitHub Release read-only verifiziert, Statusdokumente auf released/published gehoben; keine offenen 0.7-blocking Follow-ups.
 
 ## EN – Release-Blocking Criteria (binding since WP-098)
 

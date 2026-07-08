@@ -2,7 +2,7 @@
 
 Anleitung für den **Human Maintainer**. Der Implementation Agent führt diese Schritte nicht aus — Tag und Release sind ausschließlich menschliche Aktionen. / Guide for the human maintainer; tag and release are human-only actions.
 
-> **Status: vorbereitet (Release Prep, NDF-WP-105).** `v0.7.0-foundation` ist **noch nicht** getaggt oder veröffentlicht. / Prepared; `v0.7.0-foundation` not yet tagged or released.
+> **Post-release note (historical document):** `v0.7.0-foundation` wurde am 2026-07-08 veröffentlicht (GitHub Pre-Release, Titel „Nova Development Framework v0.7.0 Foundation", per `gh` read-only verifiziert); Tag nicht neu erstellen oder verschieben. Diese Anleitung bleibt als Referenz für künftige Releases erhalten. / Foundation 0.7 was released as `v0.7.0-foundation`; retained for audit/history — do not recreate or move the tag.
 
 ## 1. Voraussetzungen / Prerequisites
 

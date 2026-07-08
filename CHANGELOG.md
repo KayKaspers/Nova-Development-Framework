@@ -4,7 +4,7 @@ All notable changes to the Nova Development Framework will be documented in this
 
 ## [0.7.0-foundation] - 2026-07-08
 
-Status: Prepared for Foundation pre-release — tag pending.
+v1.0 Path Consolidation & Compatibility Governance Pre-Release. Status: **Published** as Foundation pre-release on 2026-07-08 (tag `v0.7.0-foundation`).
 Not v1.0. Not a v1.0 release candidate.
 Full v1.x compatibility promise activates only with a future v1.0 release.
 Release notes: `docs/release/FOUNDATION_0_7_RELEASE_NOTES.md`

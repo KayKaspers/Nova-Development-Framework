@@ -2,7 +2,7 @@
 
 > DE: Finale Prüfung vor Tag und GitHub Release `v0.7.0-foundation`. Durchführung durch den Human Maintainer; der Implementation Agent erstellt weder Tag noch Release. / EN: Final check before tag and GitHub release `v0.7.0-foundation`. Performed by the human maintainer; the Implementation Agent creates neither tag nor release.
 
-> **Status: vorbereitet (Release Prep, NDF-WP-105).** Foundation 0.7 ist **noch nicht released**; der Tag `v0.7.0-foundation` ist noch nicht gesetzt. / Prepared (release prep); not yet released, tag not yet set.
+> **Status: abgeschlossen / archived (post-release historical document).** Der Release `v0.7.0-foundation` wurde am 2026-07-08 veröffentlicht. Diese Checkliste bleibt als historischer Nachweis und Vorlage für künftige Releases erhalten — keine neuen Aktionen daraus ableiten. / Foundation 0.7 was released as `v0.7.0-foundation`; retained for audit/history.
 
 ## 1. Working Tree
 

@@ -1,6 +1,6 @@
 # Foundation 0.7 Release Notes
 
-Vorbereitet für das geplante Foundation Pre-Release `v0.7.0-foundation` — **v1.0 Path Consolidation & Compatibility Governance**. Tag noch ausstehend. NDF ist bewusst **kein v1.0** und kein v1.0 Release Candidate. / Prepared for the planned `v0.7.0-foundation` foundation pre-release — tag pending. Not v1.0, no v1.0 release candidate.
+Release: `v0.7.0-foundation` — **v1.0 Path Consolidation & Compatibility Governance** Foundation **Pre-Release**, veröffentlicht am / published on 2026-07-08 (GitHub Pre-Release „Nova Development Framework v0.7.0 Foundation", Target `main`). NDF ist bewusst **kein v1.0** und kein v1.0 Release Candidate; die volle v1.x-Kompatibilitätszusage ist vor einem künftigen v1.0-Release **nicht aktiv**. / Published as the `v0.7.0-foundation` foundation pre-release on 2026-07-08. Not v1.0, no v1.0 release candidate; the full v1.x compatibility promise is not active before a future v1.0 release.
 
 ## DE – Überblick
 
