@@ -27,7 +27,7 @@ Foundation pre-release, presumably `v0.8.0-foundation` — planned only, not sco
 - [x] NDF Context Economy Concept angenommen (NDF-WP-109, 2026-07-08: [`NDF_CONTEXT_ECONOMY.md`](../agent-workflows/NDF_CONTEXT_ECONOMY.md); 5 Kontext-Schichten, Compact Context Summary verbindlich, Context Packs + Prompt Modes konzeptionell — Templates in WP-113).
 - [x] NDF Skill Security Policy angenommen / **ADR-0032 erstellt** (NDF-WP-110, 2026-07-08: [ADR-0032](../adr/ADR-0032-skill-security-policy.md) Accepted + [`NDF_SKILL_SECURITY_POLICY.md`](../agent-workflows/NDF_SKILL_SECURITY_POLICY.md); fail closed, keine autonomen Git-/Release-/Netz-/Secret-Aktionen; nächste freie ADR-Nummer 0033).
 - [x] Skills-MVP-Design definiert (NDF-WP-111, 2026-07-08: [`NDF_CLAUDE_SKILLS_PACK_MVP_DESIGN.md`](../agent-workflows/NDF_CLAUDE_SKILLS_PACK_MVP_DESIGN.md); 6 Skills + Review Matrix, nur Design, kein aktives Skill Pack).
-- [ ] NDF Context Pack Template + Prompt-Modi standardisiert (NDF-WP-113).
+- [x] NDF Context Pack Template + Prompt-Modi standardisiert (NDF-WP-113, 2026-07-08: [`NDF_PROMPT_MODES.md`](../agent-workflows/NDF_PROMPT_MODES.md), [`CONTEXT_PACK_TEMPLATE.md`](../../project-brain/CONTEXT_PACK_TEMPLATE.md), [`CONTEXT_PACK_FOUNDATION_0_8.md`](../../project-brain/CONTEXT_PACK_FOUNDATION_0_8.md); Short Prompt nie für kritische Arbeit).
 - [ ] Skill Pack bleibt public-neutral (keine privaten Projektdaten, keine externen Skill-Inhalte).
 - [ ] Keine autonome Git-/Release-/Tag-Aktion durch Skills.
 - [ ] Public Quality Gate strict grün.

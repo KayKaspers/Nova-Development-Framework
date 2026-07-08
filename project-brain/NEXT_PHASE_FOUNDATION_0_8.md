@@ -2,7 +2,7 @@
 
 ## Current status
 
-**Scope locked** (NDF-WP-108, 2026-07-08). Foundation 0.8 ist gelockt, **nicht released**, **nicht v1.0**. Kein Skill Pack erstellt. Verbindliche Einstufung: `docs/roadmap/FOUNDATION_0_8_SCOPE_LOCK.md`. Release-blocking: 108 (done) · 109 (Context Economy Concept — **done**) · 110 (Skill Security Policy / ADR-0032 — **done**) · 111 (Skills MVP Design — **done**, `docs/agent-workflows/NDF_CLAUDE_SKILLS_PACK_MVP_DESIGN.md`, 6 Skills, kein aktives Pack) · 113 (Context Pack Template & Prompt Modes — **nächster Schritt**) · 114 · 115. **WP-112 (Skills MVP Implementation) optional (Option A)**, nur per Human-Maintainer-Scope-Change hochstufbar. Optional: 112/116/117/118.
+**Scope locked** (NDF-WP-108, 2026-07-08). Foundation 0.8 ist gelockt, **nicht released**, **nicht v1.0**. Kein Skill Pack erstellt. Verbindliche Einstufung: `docs/roadmap/FOUNDATION_0_8_SCOPE_LOCK.md`. Release-blocking: 108 (done) · 109 (Context Economy Concept — **done**) · 110 (Skill Security Policy / ADR-0032 — **done**) · 111 (Skills MVP Design — **done**) · 113 (Context Pack Template & Prompt Modes — **done**: `docs/agent-workflows/NDF_PROMPT_MODES.md`, `project-brain/CONTEXT_PACK_TEMPLATE.md`, `project-brain/CONTEXT_PACK_FOUNDATION_0_8.md`) · 114 (Release Readiness — **nächster Schritt**) · 115. **WP-112 (Skills MVP Implementation) optional (Option A)**, nur per Human-Maintainer-Scope-Change hochstufbar. Optional: 112/116/117/118.
 
 ## Working title
 
@@ -22,7 +22,7 @@ Context Economy als offizielles Workflow-Prinzip; Context Packs + Compact Contex
 
 ## Known constraints
 
-Public Quality Gate v0.2 Pflicht; Skills docs-only zuerst; keine Scripts im MVP ohne ausdrücklichen Scope-Lock; keine Netzwerkzugriffe/Secrets/privaten Projektinfos; keine Git-Schreibaktionen; Human-Maintainer-Gates verbindlich; jeder WP-bezogene Skill unterstützt Rückmeldung an Nova + Compact Context Summary. Kein v1.0-Claim, keine aktive volle v1.x-Zusage; keine Drittanbieter-Skill-Inhalte. Nächste freie ADR-Nummer: 0032.
+Public Quality Gate v0.2 Pflicht; Skills docs-only zuerst; keine Scripts im MVP ohne ausdrücklichen Scope-Lock; keine Netzwerkzugriffe/Secrets/privaten Projektinfos; keine Git-Schreibaktionen; Human-Maintainer-Gates verbindlich; jeder WP-bezogene Skill unterstützt Rückmeldung an Nova + Compact Context Summary. Kein v1.0-Claim, keine aktive volle v1.x-Zusage; keine Drittanbieter-Skill-Inhalte. Nächste freie ADR-Nummer: 0033 (ADR-0032 in WP-110 angenommen).
 
 ## Baseline
 
@@ -30,4 +30,4 @@ Foundation 0.7 released as `v0.7.0-foundation` (2026-07-08); vollständig abgesc
 
 ## Next WP
 
-**NDF-WP-111 – NDF Claude Skills Pack MVP Design.** WP-109 und WP-110 (ADR-0032 Accepted) erledigt; WP-113 (Context Pack Template & Prompt Modes) folgt im gesperrten Kern. Nächste freie ADR-Nummer: 0033. Kein v1.0, keine aktiven Skills.
+**NDF-WP-114 – Foundation 0.8 Release Readiness Review.** WP-109/110/111/113 erledigt (alle inhaltlichen release-blocking WPs); WP-112 optional, nicht aktiviert. Danach WP-115 (Release Prep). Empfohlener Prompt Mode für WP-114: Full. Nächste freie ADR-Nummer: 0033. Kein v1.0, keine aktiven Skills.
