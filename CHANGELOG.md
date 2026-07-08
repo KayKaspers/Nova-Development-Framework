@@ -10,6 +10,7 @@ Status: scope-locked. Not released. Not v1.0.
 
 - docs(roadmap): started Foundation 0.8 planning for Agent Enablement & Context Economy — plan, candidate work packages (107–115, optional 116–118), release criteria draft, MVP skill set design (planned only, no skills created); not scope-locked, not released, not v1.0 (WP-107)
 - docs(roadmap): scope-locked Foundation 0.8 for Agent Enablement & Context Economy — blocking core 108/109/110/111/113/114/115, WP-112 skills MVP implementation kept optional (Option A) with an upgrade rule, ADR-0032 (skill security policy) to be created in WP-110; no skills/scripts created; not released, not v1.0 (WP-108)
+- docs(agent-workflows): define NDF Context Economy concept — five context layers, Compact Context Summary as a binding handover, Context Packs and Full/Standard/Short prompt modes (concept only; templates in WP-113); safety boundaries (no chain-of-thought, no raw chat history, no autonomous git/release, gate mandatory); no skills created (WP-109)
 
 ## [0.7.0-foundation] - 2026-07-08
 

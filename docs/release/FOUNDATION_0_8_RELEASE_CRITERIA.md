@@ -24,7 +24,7 @@ Foundation pre-release, presumably `v0.8.0-foundation` — planned only, not sco
 - [x] Foundation 0.7 released und abgeschlossen (`v0.7.0-foundation`, 2026-07-08; WP-106).
 - [x] Foundation 0.8 Planning erstellt (NDF-WP-107).
 - [x] Foundation 0.8 Scope Lock abgeschlossen (NDF-WP-108, 2026-07-08: [`FOUNDATION_0_8_SCOPE_LOCK.md`](../roadmap/FOUNDATION_0_8_SCOPE_LOCK.md); WP-112 optional (Option A), ADR-0032 in WP-110).
-- [ ] NDF Context Economy Concept angenommen (NDF-WP-109).
+- [x] NDF Context Economy Concept angenommen (NDF-WP-109, 2026-07-08: [`NDF_CONTEXT_ECONOMY.md`](../agent-workflows/NDF_CONTEXT_ECONOMY.md); 5 Kontext-Schichten, Compact Context Summary verbindlich, Context Packs + Prompt Modes konzeptionell — Templates in WP-113).
 - [ ] NDF Skill Security Policy angenommen / **ADR-0032 erstellt** (NDF-WP-110).
 - [ ] Skills-MVP-Design definiert (NDF-WP-111) — nur Design, keine Implementierung.
 - [ ] NDF Context Pack Template + Prompt-Modi standardisiert (NDF-WP-113).

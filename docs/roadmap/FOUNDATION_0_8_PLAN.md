@@ -2,7 +2,7 @@
 
 ## DE – Zweck
 
-Dieser Plan sammelt die Kandidaten für Foundation 0.8 (Ergebnis von NDF-WP-107). **Status-Update: Scope locked** (NDF-WP-108, 2026-07-08) — verbindliche Einstufung: [FOUNDATION_0_8_SCOPE_LOCK.md](FOUNDATION_0_8_SCOPE_LOCK.md). Release-blocking sind nur 108, 109 (Context Economy Concept — **nächster Schritt**), 110 (Skill Security Policy — **ADR-0032 wird hier erstellt**), 111 (Skills MVP **Design**, keine Implementierung), 113 (Context Pack Template & Prompt Modes), 114, 115. **WP-112 (Skills MVP Implementation) bleibt optional (Option A)** — nur per Human-Maintainer-Scope-Change hochstufbar. Foundation 0.8 ist gelockt, **nicht released** und **nicht v1.0**. Es wird in diesem WP **kein Skill Pack erstellt**.
+Dieser Plan sammelt die Kandidaten für Foundation 0.8 (Ergebnis von NDF-WP-107). **Status-Update: Scope locked** (NDF-WP-108, 2026-07-08) — verbindliche Einstufung: [FOUNDATION_0_8_SCOPE_LOCK.md](FOUNDATION_0_8_SCOPE_LOCK.md). Release-blocking sind nur 108, 109 (Context Economy Concept — **erledigt**, [NDF_CONTEXT_ECONOMY.md](../agent-workflows/NDF_CONTEXT_ECONOMY.md)), 110 (Skill Security Policy — **ADR-0032 wird hier erstellt, nächster Schritt**), 111 (Skills MVP **Design**, keine Implementierung), 113 (Context Pack Template & Prompt Modes), 114, 115. **WP-112 (Skills MVP Implementation) bleibt optional (Option A)** — nur per Human-Maintainer-Scope-Change hochstufbar. Foundation 0.8 ist gelockt, **nicht released** und **nicht v1.0**. Es wird in diesem WP **kein Skill Pack erstellt**.
 
 ## EN – Purpose
 
@@ -103,7 +103,7 @@ WP-108 must settle: (a) final blocking/optional/deferred classification; (b) whe
 
 ## DE – Nächster Schritt
 
-**NDF-WP-109 – NDF Context Economy Concept.** Scope Lock (WP-108) abgeschlossen; WP-110 (Skill Security Policy / ADR-0032) und WP-111 (MVP Design) folgen im gesperrten Kern.
+**NDF-WP-110 – NDF Skill Security Policy / ADR-0032.** WP-109 (Context Economy Concept) erledigt ([NDF_CONTEXT_ECONOMY.md](../agent-workflows/NDF_CONTEXT_ECONOMY.md)); WP-111 (MVP Design) und WP-113 (Context Pack Template & Prompt Modes) folgen im gesperrten Kern.
 
 ## EN – Next Step
 
