@@ -32,7 +32,7 @@ Foundation pre-release, presumably `v0.8.0-foundation` — planned only, not sco
 - [ ] Keine autonome Git-/Release-/Tag-Aktion durch Skills.
 - [ ] Public Quality Gate strict grün.
 - [ ] Public Quality Gate self-test grün.
-- [ ] Release Readiness Review abgeschlossen (NDF-WP-114).
+- [x] Release Readiness Review abgeschlossen (NDF-WP-114, 2026-07-08: **GO WITH NOTES** — [`FOUNDATION_0_8_READINESS_REVIEW.md`](FOUNDATION_0_8_READINESS_REVIEW.md); keine Blocker, kein aktives Skill Pack, 20-Punkte-Readiness-Matrix).
 - [ ] Release Prep abgeschlossen (NDF-WP-115).
 - [ ] Finaler Tag + GitHub Pre-Release (nur Human Maintainer).
 

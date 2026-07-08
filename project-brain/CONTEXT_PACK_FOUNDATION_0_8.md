@@ -20,11 +20,11 @@ Scope-locked (NDF-WP-108). Nicht released, nicht v1.0, kein v1.0 Release Candida
 
 ## Last Completed Work Package
 
-`NDF-WP-113 – NDF Context Pack Template and Prompt Modes` — Prompt Modes + Context Pack Template + dieses Context Pack (dieses WP).
+`NDF-WP-114 – Foundation 0.8 Release Readiness Review` — **GO WITH NOTES**, keine Blocker, 20-Punkte-Readiness-Matrix, kein aktives Skill Pack.
 
 ## Next Work Package
 
-`NDF-WP-114 – Foundation 0.8 Release Readiness Review`.
+`NDF-WP-115 – Foundation 0.8 Release Prep`.
 
 ## Release-Blocking Work Packages
 
@@ -32,9 +32,9 @@ Scope-locked (NDF-WP-108). Nicht released, nicht v1.0, kein v1.0 Release Candida
 - NDF-WP-109 Context Economy Concept — done
 - NDF-WP-110 Skill Security Policy / ADR-0032 — done
 - NDF-WP-111 Skills Pack MVP Design — done
-- NDF-WP-113 Context Pack Template and Prompt Modes — done (dieses WP)
-- NDF-WP-114 Release Readiness Review — open
-- NDF-WP-115 Release Prep — open
+- NDF-WP-113 Context Pack Template and Prompt Modes — done
+- NDF-WP-114 Release Readiness Review — done (GO WITH NOTES)
+- NDF-WP-115 Release Prep — open (nächster Schritt)
 
 ## Optional Work Packages
 
@@ -74,11 +74,12 @@ Skills bleiben Design (kein aktives Pack); WP-112 optional, nicht aktiviert; Pro
 - WP-109: Context Economy als NDF-Prinzip definiert (5 Kontext-Schichten, Compact Context Summary verbindlich, Context Packs/Prompt Modes konzeptionell). Kein Skill Pack.
 - WP-110: Skill Security Policy als ADR-0032 (Accepted) + operatives Regelwerk; fail closed; keine autonomen Git-/Release-/Netz-/Secret-Aktionen. Nächste ADR-Nummer 0033.
 - WP-111: Skills Pack MVP Design (6 Skills + Review Matrix), nur Design, kein aktives Pack; WP-112 optional.
-- WP-113: Prompt Modes (Full/Standard/Short) + Context Pack Template + dieses Context Pack. Kein Skill Pack. Nächster Schritt WP-114.
+- WP-113: Prompt Modes (Full/Standard/Short) + Context Pack Template + dieses Context Pack. Kein Skill Pack.
+- WP-114: Release Readiness Review — GO WITH NOTES, keine Blocker, 20-Punkte-Matrix, Dateisystemprüfung bestätigt kein aktives Skill Pack / keine `.claude/skills`. Nächster Schritt WP-115.
 
 ## Next Prompt Recommendation
 
-**Full Prompt Mode** für WP-114 (Release Readiness Review — release-kritisch/governance-relevant).
+**Full Prompt Mode** für WP-115 (Release Prep — release-kritisch/governance-relevant).
 
 ## What Must Not Be Claimed
 

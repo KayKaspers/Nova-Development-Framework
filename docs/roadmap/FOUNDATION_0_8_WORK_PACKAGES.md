@@ -13,8 +13,8 @@
 | NDF-WP-111 | NDF Claude Skills Pack MVP Design | docs-only / design | Design des kleinen public-neutralen MVP-Skill-Sets (Struktur, Grenzen, Human-Gates, Rückmeldung an Nova) — **nur Design** | **release-blocking** — **erledigt** ([MVP Design](../agent-workflows/NDF_CLAUDE_SKILLS_PACK_MVP_DESIGN.md); 6 Skills spezifiziert + Review Matrix; kein aktives Skill Pack) |
 | NDF-WP-112 | NDF Claude Skills Pack MVP Implementation | docs-only oder skills-mvp | Erstes MVP-Skill-Set gemäß Design + Security Policy erstellen | **optional** — Option A; nur per Human-Maintainer-Scope-Change hochstufbar (Regel im Scope Lock); nicht release-blocking |
 | NDF-WP-113 | NDF Context Pack Template and Prompt Modes | docs-only / template | Context-Pack-Template + Prompt-Modi (kompakt/normal/tief) standardisieren | **release-blocking** — **erledigt** ([Prompt Modes](../agent-workflows/NDF_PROMPT_MODES.md) + [Context Pack Template](../../project-brain/CONTEXT_PACK_TEMPLATE.md) + [Foundation-0.8 Context Pack](../../project-brain/CONTEXT_PACK_FOUNDATION_0_8.md)) |
-| NDF-WP-114 | Foundation 0.8 Release Readiness Review | review-only | Ehrliches GO/GO WITH NOTES/REWORK/STOP gegen die 0.8-Kriterien | **release-blocking** — **nächster Schritt** |
-| NDF-WP-115 | Foundation 0.8 Release Prep | docs-only / release-prep | Release Notes, Kriterien-Abschluss, Go/No-Go, Tagging-Guide (voraussichtlich `v0.8.0-foundation`) | **release-blocking** |
+| NDF-WP-114 | Foundation 0.8 Release Readiness Review | review-only | Ehrliches GO/GO WITH NOTES/REWORK/STOP gegen die 0.8-Kriterien | **release-blocking** — **erledigt: GO WITH NOTES** ([Readiness Review](../release/FOUNDATION_0_8_READINESS_REVIEW.md); keine Blocker, kein aktives Skill Pack) |
+| NDF-WP-115 | Foundation 0.8 Release Prep | docs-only / release-prep | Release Notes, Kriterien-Abschluss, Go/No-Go, Tagging-Guide (voraussichtlich `v0.8.0-foundation`) | **release-blocking** — **nächster Schritt** |
 
 ## Optionale Work Packages (verbindlich / binding)
 
