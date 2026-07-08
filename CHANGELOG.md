@@ -2,6 +2,14 @@
 
 All notable changes to the Nova Development Framework will be documented in this file.
 
+## [Unreleased] - Foundation 0.8 Planning
+
+Status: planning candidate. Not scope-locked. Not released. Not v1.0.
+
+### Added
+
+- docs(roadmap): started Foundation 0.8 planning for Agent Enablement & Context Economy — plan, candidate work packages (107–115, optional 116–118), release criteria draft, MVP skill set design (planned only, no skills created); not scope-locked, not released, not v1.0 (WP-107)
+
 ## [0.7.0-foundation] - 2026-07-08
 
 v1.0 Path Consolidation & Compatibility Governance Pre-Release. Status: **Published** as Foundation pre-release on 2026-07-08 (tag `v0.7.0-foundation`).
