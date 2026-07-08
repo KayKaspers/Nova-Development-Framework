@@ -32,7 +32,7 @@ Nur diese WPs blockieren den Release:
 |---|---|---|
 | NDF-WP-098 | Scope Lock | Gate — abgeschlossen mit diesem Dokument |
 | NDF-WP-099 | Checklist DE/EN Decision | Entscheidungs-WP; die seit 0.4 mehrfach offene Frage wird verbindlich entschieden (Korridor unten) — **entschieden am 2026-07-08: Option B (optional mit finaler Begründung)**, `FOUNDATION_0_7_CHECKLIST_DE_EN_DECISION.md` |
-| NDF-WP-100 | v1.x Compatibility Policy Decision / ADR-0031 Preparation | Kern Compatibility Governance; schließt das letzte klar `not met` v1.0-Kriterium (Entscheidungspfad unten) |
+| NDF-WP-100 | v1.x Compatibility Policy Decision / ADR-0031 Preparation | Kern Compatibility Governance; schließt das letzte klar `not met` v1.0-Kriterium (Entscheidungspfad unten) — **entschieden am 2026-07-08: ADR-0031 angenommen** (`docs/adr/ADR-0031-v1x-compatibility-policy.md`), volle Zusage erst mit v1.0 |
 | NDF-WP-101 | Project Adapter Convention Stability Review | Kern v1.0 Path Consolidation; hebt das Stabilitäts-Kriterium Richtung `met with notes` |
 | NDF-WP-104 | Release Readiness Review | Gate; entscheidet zugleich über ein etwaiges WP-102-Ventil |
 | NDF-WP-105 | Release Prep | Gate |

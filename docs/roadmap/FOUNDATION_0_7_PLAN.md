@@ -2,7 +2,7 @@
 
 ## DE – Zweck
 
-Dieser Plan definiert den Umfang für Foundation 0.7 (Ergebnis von NDF-WP-097). **Status-Update: Scope locked** (NDF-WP-098, 2026-07-08) — verbindliche Einstufung: [FOUNDATION_0_7_SCOPE_LOCK.md](FOUNDATION_0_7_SCOPE_LOCK.md). Release-blocking sind nur 098, 099 (Checklist-Entscheidung — **erledigt: Option B, optional mit finaler Begründung**, [FOUNDATION_0_7_CHECKLIST_DE_EN_DECISION.md](FOUNDATION_0_7_CHECKLIST_DE_EN_DECISION.md)), 100 (v1.x Compatibility Policy / ADR-0031), 101 (Convention Stability), 104, 105. Foundation 0.7 ist nicht released und **nicht v1.0**.
+Dieser Plan definiert den Umfang für Foundation 0.7 (Ergebnis von NDF-WP-097). **Status-Update: Scope locked** (NDF-WP-098, 2026-07-08) — verbindliche Einstufung: [FOUNDATION_0_7_SCOPE_LOCK.md](FOUNDATION_0_7_SCOPE_LOCK.md). Release-blocking sind nur 098, 099 (Checklist-Entscheidung — **erledigt: Option B, optional mit finaler Begründung**, [FOUNDATION_0_7_CHECKLIST_DE_EN_DECISION.md](FOUNDATION_0_7_CHECKLIST_DE_EN_DECISION.md)), 100 (v1.x Compatibility Policy — **erledigt: [ADR-0031](../adr/ADR-0031-v1x-compatibility-policy.md) angenommen**, volle Zusage erst mit v1.0), 101 (Convention Stability), 104, 105. Foundation 0.7 ist nicht released und **nicht v1.0**.
 
 ## EN – Purpose
 

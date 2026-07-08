@@ -24,7 +24,7 @@ Foundation pre-release, presumably `v0.7.0-foundation` — not released. Consoli
 - [x] Foundation 0.6 released und abgeschlossen (`v0.6.0-foundation`, 2026-07-07; WP-096).
 - [x] Foundation 0.7 Scope locked (NDF-WP-098, 2026-07-08: [`FOUNDATION_0_7_SCOPE_LOCK.md`](../roadmap/FOUNDATION_0_7_SCOPE_LOCK.md)).
 - [x] **Checklist DE/EN entschieden** (NDF-WP-099, 2026-07-08: **Option B — optional mit finaler Begründung**, [`FOUNDATION_0_7_CHECKLIST_DE_EN_DECISION.md`](../roadmap/FOUNDATION_0_7_CHECKLIST_DE_EN_DECISION.md); nicht release-blocking, kein Auto-Carry, kein Folge-WP).
-- [ ] **v1.x Compatibility Policy entworfen** (NDF-WP-100): Kompatibilitätszusage als Draft (ggf. ADR-0031) — kein v1.0-Claim, kein Versprechen.
+- [x] **v1.x Compatibility Policy entschieden** (NDF-WP-100, 2026-07-08: **ADR-0031 angenommen** — [`ADR-0031-v1x-compatibility-policy.md`](../adr/ADR-0031-v1x-compatibility-policy.md); Governance-Rahmen, aktive volle v1.x-Zusage erst mit v1.0; v1.0-Kriterium `met with notes`, kein v1.0-Claim).
 - [ ] **Project Adapter Convention Stability bestätigt** (NDF-WP-101): Konventionen über 0.4→0.6 stabil/additiv dokumentiert.
 - [ ] Release Readiness Review durchgeführt (NDF-WP-104).
 - [ ] Release Notes, Go/No-Go-Checkliste und Tagging-Guide vorbereitet (NDF-WP-105).

@@ -4,12 +4,16 @@ Dieser Ordner enthält dokumentationsnahe und thematische ADRs des Nova Developm
 
 **Einstieg / start here:** [`ADR_POLICY.md`](ADR_POLICY.md) (verbindliche Minimal-Policy seit NDF-WP-086) · [`ADR_TEMPLATE.md`](ADR_TEMPLATE.md)
 
+## Angenommene thematische ADRs (Auswahl) / Accepted thematic ADRs (selection)
+
+- [`ADR-0031-v1x-compatibility-policy.md`](ADR-0031-v1x-compatibility-policy.md) — v1.x Compatibility Policy (Accepted, NDF-WP-100): Governance-Rahmen für v1.x-Kompatibilität; volle Zusage aktiviert erst mit v1.0. Kein v1.0-Claim.
+
 ## Abgrenzung
 
 - `adr/` – Foundation-/Framework-Kernentscheidungen (0.1-Ära, eingefroren)
 - `docs/adr/` – spätere dokumentationsnahe und thematische ADRs (dieser Ordner)
 
-Neue ADRs entstehen hier. Die nächste freie Nummer ergibt sich aus der höchsten vorhandenen ADR-Nummer über beide Ordner hinweg (aktuell: ADR-0031 wäre die nächste).
+Neue ADRs entstehen hier. Die nächste freie Nummer ergibt sich aus der höchsten vorhandenen ADR-Nummer über beide Ordner hinweg (aktuell: **ADR-0032** wäre die nächste, nachdem ADR-0031 in NDF-WP-100 angenommen wurde).
 
 ## Bekannte Nummerierungs-Überschneidung
 

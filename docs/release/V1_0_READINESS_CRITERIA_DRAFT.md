@@ -53,7 +53,7 @@ No v1.0 approval, no release candidate, no v1.0 scope lock, no schedule, no prom
 | 5 | Prompt & Checklist Readiness | partially met |
 | 6 | Security & Destructive Action Safety | met (framework-seitig) |
 | 7 | Public Quality Gate & Neutrality | met |
-| 8 | Release Process & Versioning | met |
+| 8 | Release Process & Versioning | met (v1.x-Kompatibilität: Governance-Rahmen `met with notes`, ADR-0031) |
 | 9 | Governance & Human Maintainer Control | met |
 | 10 | ADR / Decision Structure | met with notes (Policy adopted, WP-086) |
 | 11 | Maintenance & Backlog Discipline | met |
@@ -128,7 +128,7 @@ No v1.0 approval, no release candidate, no v1.0 scope lock, no schedule, no prom
 | Release-Muster dokumentiert und über ≥ 3 Releases praktiziert (Planning → Scope Lock → Readiness → Prep → manueller Tag → Cleanup) | blocking | met | 0.2/0.3/0.4 vollständig durchlaufen | 0.5 wird vierter Durchlauf |
 | Tags unveränderlich; ältere Foundations frozen | blocking | met | v0.1–v0.4-Tags nie verschoben | Invariante |
 | Changelog vollständig pro Release, ehrlicher Status | blocking | met | `CHANGELOG.md` | |
-| v1.0-Versionierungs-/Kompatibilitätszusage definiert (was bedeutet v1.x für Nutzer?) | blocking | **not met** | eigenes Dokument im v1.0-Zyklus | **bewusste Lücke** — gehört in den v1.0 Scope Lock |
+| v1.0-Versionierungs-/Kompatibilitätszusage definiert (was bedeutet v1.x für Nutzer?) | blocking | **met with notes** | `docs/adr/ADR-0031-v1x-compatibility-policy.md` (Accepted, NDF-WP-100) | Governance-Rahmen angenommen (Kompatibilitätskategorien, Breaking-/Deprecation-Regeln, Aktivierungsschwelle); die **aktive** volle v1.x-Zusage tritt erst mit v1.0 in Kraft — bleibt v1.0-tracked |
 
 ## DE – Governance und Human-Maintainer-Kontrolle / EN – Governance and Human Maintainer Control
 
