@@ -33,8 +33,10 @@ Foundation pre-release, presumably `v0.8.0-foundation` — planned only, not sco
 - [ ] Public Quality Gate strict grün.
 - [ ] Public Quality Gate self-test grün.
 - [x] Release Readiness Review abgeschlossen (NDF-WP-114, 2026-07-08: **GO WITH NOTES** — [`FOUNDATION_0_8_READINESS_REVIEW.md`](FOUNDATION_0_8_READINESS_REVIEW.md); keine Blocker, kein aktives Skill Pack, 20-Punkte-Readiness-Matrix).
-- [ ] Release Prep abgeschlossen (NDF-WP-115).
+- [x] Release Prep abgeschlossen (NDF-WP-115, 2026-07-08: [`FOUNDATION_0_8_RELEASE_NOTES.md`](FOUNDATION_0_8_RELEASE_NOTES.md), [`FOUNDATION_0_8_GO_NO_GO_CHECKLIST.md`](FOUNDATION_0_8_GO_NO_GO_CHECKLIST.md), [`FOUNDATION_0_8_TAGGING_AND_GITHUB_RELEASE_GUIDE.md`](FOUNDATION_0_8_TAGGING_AND_GITHUB_RELEASE_GUIDE.md); **release-prepared / tag pending**).
 - [ ] Finaler Tag + GitHub Pre-Release (nur Human Maintainer).
+
+**Foundation 0.8 ist release-prepared und tag pending. Sie ist nicht released, bis der Human Maintainer den manuellen Tag und das GitHub Release abschließt.** / Foundation 0.8 is release-prepared and tag pending; not released until the Human Maintainer completes the manual tag and GitHub release.
 
 ## EN – Release-Blocking Criteria (binding since WP-108)
 
