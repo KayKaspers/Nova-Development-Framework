@@ -2,13 +2,14 @@
 
 All notable changes to the Nova Development Framework will be documented in this file.
 
-## [Unreleased] - Foundation 0.7 Planning
+## [Unreleased] - Foundation 0.7 Scope Locked
 
-Status: planning only. Not a scope lock. Not v1.0.
+Status: scope-locked. Not released. Not v1.0.
 
 ### Added
 
 - docs(roadmap): Foundation 0.7 planning candidate — v1.0 path consolidation & compatibility governance: plan, work package candidates (097–105), release criteria draft (WP-097)
+- docs(roadmap): locked Foundation 0.7 scope — blocking core 098/099/100/101/104/105, WP-099 checklist decision corridor (prioritize/keep-optional/drop, no fourth deferral), WP-100 ADR-0031 preferred path, WP-102 optional with upgrade valve (WP-098)
 
 ## [0.6.0-foundation] - 2026-07-07
 

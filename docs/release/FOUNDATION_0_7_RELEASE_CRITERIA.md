@@ -2,11 +2,11 @@
 
 ## DE – Status
 
-**Draft aus NDF-WP-097 — not scope-locked.** Foundation 0.7 ist in Planung, nicht released, nicht v1.0. Alle Blocking-Kriterien sind Vorschläge, bis der Scope Lock (NDF-WP-098) sie verbindlich macht. Abgehakt wird erst gegen tatsächliche Ergebnisse — keine falschen Haken.
+**Scope locked (NDF-WP-098, 2026-07-08).** Foundation 0.7 ist gelockt, nicht released, nicht v1.0. Die Blocking-Kriterien sind verbindlich gemäß [FOUNDATION_0_7_SCOPE_LOCK.md](../roadmap/FOUNDATION_0_7_SCOPE_LOCK.md); abgehakt wird erst gegen tatsächliche Ergebnisse — keine falschen Haken.
 
 ## EN – Status
 
-**Draft from NDF-WP-097 — not scope-locked.** Foundation 0.7 is in planning, not released, not v1.0. All blocking criteria are proposals until the scope lock (NDF-WP-098) makes them binding. Boxes are only checked against actual results — no false checkmarks.
+**Scope locked (NDF-WP-098, 2026-07-08).** Foundation 0.7 is locked, not released, not v1.0. The blocking criteria are binding per the scope lock; boxes are only checked against actual results — no false checkmarks.
 
 ## DE – Ziel
 
@@ -19,10 +19,10 @@ Foundation v1.0 Path Consolidation & Compatibility Governance Release
 
 Foundation pre-release, presumably `v0.7.0-foundation` — not released. Consolidate the v1.0 path and decide compatibility governance without claiming v1.0.
 
-## DE – Release-blocking Kandidaten (Vorschläge für WP-098)
+## DE – Release-blocking Kriterien (verbindlich seit WP-098)
 
-- [ ] Foundation 0.6 released und abgeschlossen (bereits erfüllt — wird beim Scope Lock abgehakt).
-- [ ] Foundation 0.7 Scope locked (NDF-WP-098).
+- [x] Foundation 0.6 released und abgeschlossen (`v0.6.0-foundation`, 2026-07-07; WP-096).
+- [x] Foundation 0.7 Scope locked (NDF-WP-098, 2026-07-08: [`FOUNDATION_0_7_SCOPE_LOCK.md`](../roadmap/FOUNDATION_0_7_SCOPE_LOCK.md)).
 - [ ] **Checklist DE/EN entschieden** (NDF-WP-099): priorisiert / optional-mit-Begründung / gestrichen — kein viertes stilles Verschieben.
 - [ ] **v1.x Compatibility Policy entworfen** (NDF-WP-100): Kompatibilitätszusage als Draft (ggf. ADR-0031) — kein v1.0-Claim, kein Versprechen.
 - [ ] **Project Adapter Convention Stability bestätigt** (NDF-WP-101): Konventionen über 0.4→0.6 stabil/additiv dokumentiert.
@@ -30,13 +30,13 @@ Foundation pre-release, presumably `v0.7.0-foundation` — not released. Consoli
 - [ ] Release Notes, Go/No-Go-Checkliste und Tagging-Guide vorbereitet (NDF-WP-105).
 - [ ] Finaler Tag + GitHub Pre-Release (nur Human Maintainer).
 
-## EN – Release-Blocking Candidates (proposals for WP-098)
+## EN – Release-Blocking Criteria (binding since WP-098)
 
 0.6 released (done, checked at scope lock); scope locked; **checklist DE/EN decided** (prioritized / kept-optional-with-rationale / dropped — no fourth silent deferral); **v1.x compatibility policy drafted** (as a draft, possibly ADR-0031 — no v1.0 claim); **adapter convention stability confirmed** (stable/additive across 0.4→0.6); readiness review; release prep artifacts; final tag + GitHub pre-release by the human maintainer only.
 
 ## DE – Optionale Kandidaten
 
-- [ ] External Validation Evidence Depth Pass (NDF-WP-102) — von WP-098 auf blocking hochstufbar; adressiert PSV-001.
+- [ ] External Validation Evidence Depth Pass (NDF-WP-102) — optional mit Upgrade-Ventil (nur per Human-Maintainer-Scope-Change hochstufbar, Bedingungen im Scope Lock); adressiert PSV-001, bleibt sonst non-blocking.
 - [ ] Academy Entry Decision (NDF-WP-103).
 - [ ] Kleine Doku-/i18n-Konsolidierung.
 
