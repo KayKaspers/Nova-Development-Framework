@@ -1,30 +1,30 @@
-# Foundation 0.9 – Work Package Queue (Candidates)
+# Foundation 0.9 – Work Package Queue
 
-> Status: **Planning candidate** (NDF-WP-120). **Nicht scope-locked.** Die verbindliche blocking/optional/deferred-Einstufung entsteht erst in NDF-WP-121 (Scope Lock). / Planning candidate; not scope-locked — the binding classification is created only in NDF-WP-121.
+> Status: **Scope locked** (NDF-WP-121, 2026-07-08). Verbindliche Einstufung siehe Spalte „Scope Lock" und [FOUNDATION_0_9_SCOPE_LOCK.md](FOUNDATION_0_9_SCOPE_LOCK.md). / Scope locked; binding classification in the "Scope Lock" column.
 
-## Vorgeschlagene Queue / Proposed Queue
+## Queue
 
-| ID | Titel | Typ | Ziel |
+| ID | Titel | Typ | Scope Lock |
 |---|---|---|---|
-| NDF-WP-120 | Foundation 0.9 Planning | docs-only / planning | Plan, WP-Kandidaten, Criteria-Draft, Brain-Notes |
-| NDF-WP-121 | Foundation 0.9 Scope Lock | docs-only / planning-gate | Umfang einfrieren; blocking/optional/deferred; WP-124-Entscheidungskorridor; Änderungsregeln |
-| NDF-WP-122 | Context Economy Adoption Review | review-only | Prüfen, ob Context Economy in echten WPs hilft; Adoption-Beobachtungen dokumentieren |
-| NDF-WP-123 | Prompt Modes and Context Pack Validation | review-only | Prompt Modes (Full/Standard/Short) + Context Pack Template auf Verständlichkeit/Sicherheit validieren |
-| NDF-WP-124 | Optional Skills MVP Implementation Decision | docs-only / decision | Entscheiden, ob eine docs-only Skills-MVP-Implementierung sinnvoll ist (priorisieren / optional / verwerfen) |
-| NDF-WP-125 | Skills MVP Implementation Blueprint | docs-only / design | Falls gescopt: Implementation Blueprint gemäß ADR-0032 (docs-only, keine Scripts/Netz/Secrets) |
-| NDF-WP-126 | Adoption Evidence and v1.0 Path Review | review-only | Adoption-/Validation-Evidence sammeln; v1.0-Kriterien-Draft ehrlich fortschreiben |
-| NDF-WP-127 | Foundation 0.9 Release Readiness Review | review-only | Ehrliches GO/GO WITH NOTES/REWORK/STOP gegen die 0.9-Kriterien |
-| NDF-WP-128 | Foundation 0.9 Release Prep | docs-only / release-prep | Release Notes, Kriterien-Abschluss, Go/No-Go, Tagging-Guide (voraussichtlich `v0.9.0-foundation`) |
+| NDF-WP-120 | Foundation 0.9 Planning | docs-only / planning | **erledigt** (Planung, 2026-07-08) |
+| NDF-WP-121 | Foundation 0.9 Scope Lock | docs-only / planning-gate | **release-blocking** (Gate — abgeschlossen mit dem Scope-Lock-Dokument) |
+| NDF-WP-122 | Context Economy Adoption Review | review-only | **release-blocking** — **nächster Schritt** |
+| NDF-WP-123 | Prompt Modes and Context Pack Validation | review-only | **release-blocking** |
+| NDF-WP-124 | Optional Skills MVP Implementation Decision | docs-only / decision | **release-blocking** — nur **Entscheidung** (keine Implementierung) |
+| NDF-WP-125 | Skills MVP Implementation Blueprint | docs-only / design | **optional / conditional** — nur wenn WP-124 eine spätere Implementierung empfiehlt; höchstens Blueprint |
+| NDF-WP-126 | Adoption Evidence and v1.0 Path Review | review-only | **release-blocking** |
+| NDF-WP-127 | Foundation 0.9 Release Readiness Review | review-only | **release-blocking** |
+| NDF-WP-128 | Foundation 0.9 Release Prep | docs-only / release-prep | **release-blocking** |
 
-## Optionale Kandidaten / Optional Candidates (candidate only)
+## Optionale / bedingte Work Packages (verbindlich / binding)
 
-| ID | Titel | Ziel |
+| ID | Titel | Scope Lock |
 |---|---|---|
-| NDF-WP-129 | Docs-only Skills MVP Implementation | Erste docs-only Skill-Umsetzung — **nur** wenn WP-124 es befürwortet und WP-121 es scoped; strikt ADR-0032-konform |
-| NDF-WP-130 | Skill-to-Cursor Rules Export Assessment | Prüfen, ob/wie NDF-Skills nach Cursor-Rules exportierbar wären — **nur Assessment** |
-| NDF-WP-131 | Workflow Builder Evaluation | Bewerten, ob ein Workflow-Konzept sinnvoll ist — **nur Evaluation** |
-| NDF-WP-132 | Docs Polish Skill Evaluation | Bewerten eines Docs-Polish-Skills — **nur Evaluation** |
-| NDF-WP-133 | Foundation 0.9 Post-Release Status Cleanup | Nach manuellem Release: Tag + GitHub Release read-only verifizieren, Status auf released/published heben |
+| NDF-WP-129 | Docs-only Skills MVP Implementation | **optional — nicht durch WP-121 aktiviert**; nur per ausdrücklichem Human-Maintainer-Scope-Change nach WP-124/WP-125; strikt ADR-0032-konform |
+| NDF-WP-130 | Skill-to-Cursor Rules Export Assessment | **optional** — nur Assessment |
+| NDF-WP-131 | Workflow Builder Evaluation | **optional** — nur Evaluation |
+| NDF-WP-132 | Docs Polish Skill Evaluation | **optional** — nur Evaluation |
+| NDF-WP-133 | Foundation 0.9 Post-Release Status Cleanup | **post-release candidate** — nach manuellem Release: Tag + GitHub Release read-only verifizieren, Status auf released/published heben |
 
 ## Beziehung zu den Foundation-0.8-Optional-WPs
 
@@ -41,9 +41,10 @@ Die 0.8-Optional-WPs bleiben unangetastet und können durch 0.9-Kandidaten **neu
 
 ## Regeln / Rules
 
-- Die endgültige blocking/optional/deferred-Trennung passiert **erst in WP-121 Scope Lock**. In WP-120 werden nur Kandidaten vorgeschlagen.
-- **Optional Enablement heißt: zuerst Bewertung oder Entscheidung. Implementierung ist nie automatisch.** WP-129/130/131/132 werden nicht still aktiviert.
-- Kein inhaltliches WP startet vor abgeschlossenem Scope Lock; kein neues release-blocking WP wird in WP-120 final festgelegt; kein Scope Creep.
+- Die Einstufung ist mit NDF-WP-121 **verbindlich gelockt**. Änderungen (inkl. WP-129-Aktivierung) nur gemäß den Change-Control-Regeln in [FOUNDATION_0_9_SCOPE_LOCK.md](FOUNDATION_0_9_SCOPE_LOCK.md).
+- Blocking Kern: Gates (121/127/128) + Adoption Review (122) + Prompt/Context Validation (123) + Skills-**Entscheidung** (124) + Adoption Evidence & v1.0 Path Review (126). **WP-125 optional/conditional; WP-129 optional, nicht aktiviert; WP-130/131/132 optionale Assessments; WP-133 Post-Release-Kandidat.**
+- **Optional Enablement heißt: zuerst Bewertung oder Entscheidung. Implementierung ist nie automatisch.** WP-129/130/131/132 werden nicht still aktiviert; keine Skills-Implementierung ohne ausdrückliche Human-Maintainer-Entscheidung.
+- Kein inhaltliches WP startet vor abgeschlossenem Scope Lock; kein neues release-blocking WP ohne expliziten Scope-Change; kein Scope Creep.
 - Jede spätere Skill-Umsetzung muss ADR-0032 einhalten (keine Scripts/Netz/Secrets/privaten Daten/autonomen Git-Release-Aktionen; Human-Maintainer-Kontrolle).
 - Jedes WP behält genau einen primären Typ und endet mit Rückmeldung an Nova (ChatGPT).
 - Neutralität bleibt Invariante: Public Quality Gate v0.2 grün, keine privaten Bezüge/Suchmuster, new-file neutrality check aktiv; kein v1.0-Claim; kein aktives Skill Pack behaupten.

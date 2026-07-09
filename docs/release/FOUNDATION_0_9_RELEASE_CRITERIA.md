@@ -2,32 +2,31 @@
 
 ## DE – Status
 
-**Planning-Draft (NDF-WP-120).** Foundation 0.9 ist **nicht scope-locked**, **nicht released**, **nicht v1.0**. Die folgenden Kriterien sind **Kandidaten** für die spätere Scope-Lock-Entscheidung (WP-121) — sie werden erst gegen tatsächliche Ergebnisse abgehakt, keine falschen Haken. Nur WP-120 (Planning) ist erledigt.
+**Scope locked (NDF-WP-121, 2026-07-08).** Foundation 0.9 ist gelockt, **nicht released**, **nicht v1.0**. Verbindliche Einstufung: [FOUNDATION_0_9_SCOPE_LOCK.md](../roadmap/FOUNDATION_0_9_SCOPE_LOCK.md). Boxen werden nur gegen tatsächliche Ergebnisse abgehakt — keine falschen Haken.
 
 ## EN – Status
 
-**Planning draft (NDF-WP-120).** Foundation 0.9 is **not scope-locked**, **not released**, **not v1.0**. The criteria below are **candidates** for the later scope-lock decision (WP-121) — checked only against actual results, no false checkmarks. Only WP-120 (planning) is done.
+**Scope locked (NDF-WP-121, 2026-07-08).** Foundation 0.9 is locked, **not released**, **not v1.0**. Binding classification: the scope lock. Boxes are checked only against actual results — no false checkmarks.
 
 ## DE – Arbeitstitel
 
 ```text
 Foundation 0.9 – Adoption, Validation & Optional Enablement
-(voraussichtlich Pre-Release v0.9.0-foundation — nur geplant, nicht scope-locked, nicht released)
+(voraussichtlich Pre-Release v0.9.0-foundation — scope-locked, nicht released, nicht v1.0)
 ```
 
 ## EN – Working Title
 
 Foundation pre-release, presumably `v0.9.0-foundation` — planned only, not scope-locked, not released. Validate adoption and decide optional enablement without claiming v1.0.
 
-## DE – Kandidaten-Kriterien (verbindlich erst mit WP-121)
+## DE – Release-blocking Kriterien (verbindlich seit WP-121)
 
 - [x] Foundation 0.8 released und abgeschlossen (`v0.8.0-foundation`, 2026-07-08; WP-119).
 - [x] Foundation 0.9 Planning erstellt (NDF-WP-120).
-- [ ] Foundation 0.9 Scope Lock abgeschlossen (NDF-WP-121).
+- [x] Foundation 0.9 Scope Lock abgeschlossen (NDF-WP-121, 2026-07-08: [`FOUNDATION_0_9_SCOPE_LOCK.md`](../roadmap/FOUNDATION_0_9_SCOPE_LOCK.md); validation-first, WP-124 blocking-Entscheidung, WP-125 optional/conditional, WP-129 optional/nicht aktiviert).
 - [ ] Context Economy Adoption Review abgeschlossen (NDF-WP-122).
 - [ ] Prompt Modes and Context Pack Validation abgeschlossen (NDF-WP-123).
-- [ ] Optional Skills MVP Implementation Decision abgeschlossen (NDF-WP-124).
-- [ ] Skills MVP Implementation Blueprint abgeschlossen, **falls gescopt** (NDF-WP-125).
+- [ ] Optional Skills MVP Implementation Decision abgeschlossen (NDF-WP-124) — nur Entscheidung.
 - [ ] Adoption Evidence and v1.0 Path Review abgeschlossen (NDF-WP-126).
 - [ ] Kein aktives Skill Pack ohne ausdrücklichen Scope + ADR-0032-Konformität.
 - [ ] Keine autonome Git-/Release-/Tag-Aktion durch Skills.
@@ -38,9 +37,20 @@ Foundation pre-release, presumably `v0.9.0-foundation` — planned only, not sco
 - [ ] Release Prep abgeschlossen (NDF-WP-128).
 - [ ] Finaler Tag + GitHub Pre-Release (nur Human Maintainer).
 
-## EN – Candidate Criteria (binding only with WP-121)
+## EN – Release-Blocking Criteria (binding since WP-121)
 
-0.8 released (done); 0.9 planning done; scope lock; context economy adoption review; prompt modes and context pack validation; optional skills MVP implementation decision; skills MVP implementation blueprint (if scoped); adoption evidence and v1.0 path review; no active skill pack without explicit scope + ADR-0032 compliance; no autonomous git/release/tag action by skills; public quality gate strict + self-test green; public neutrality clean; readiness review; release prep; final tag + GitHub pre-release by the human maintainer only.
+0.8 released (done); 0.9 planning done; scope lock done (validation-first; WP-124 blocking decision, WP-125 optional/conditional, WP-129 optional/not activated); context economy adoption review; prompt modes and context pack validation; optional skills MVP implementation decision (decision only); adoption evidence and v1.0 path review; no active skill pack without explicit scope + ADR-0032 compliance; no autonomous git/release/tag action by skills; public quality gate strict + self-test green; public neutrality clean; readiness review; release prep; final tag + GitHub pre-release by the human maintainer only.
+
+## DE – Optionale / bedingte Kandidaten
+
+- [ ] Skills MVP Implementation Blueprint (NDF-WP-125) — **optional / conditional**, nur wenn WP-124 eine spätere Implementierung empfiehlt.
+- [ ] Docs-only Skills MVP Implementation (NDF-WP-129) — **optional, nicht aktiviert**; nur per Human-Maintainer-Scope-Change, strikt ADR-0032-konform.
+- [ ] Skill-to-Cursor Rules Export Assessment (NDF-WP-130) / Workflow Builder Evaluation (NDF-WP-131) / Docs Polish Skill Evaluation (NDF-WP-132) — optionale Assessments.
+- [ ] Foundation 0.9 Post-Release Status Cleanup (NDF-WP-133) — Post-Release-Kandidat.
+
+## EN – Optional / Conditional Candidates
+
+WP-125 blueprint (optional/conditional on WP-124), WP-129 docs-only implementation (optional, not activated — only via human-maintainer scope change, ADR-0032-compliant), WP-130/131/132 assessments/evaluations, WP-133 post-release candidate — none blocks.
 
 ## DE – Sicherheits- und Neutralitätsinvarianten
 

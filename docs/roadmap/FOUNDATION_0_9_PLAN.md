@@ -2,7 +2,7 @@
 
 ## DE – Zweck
 
-Dieser Plan sammelt die Kandidaten für Foundation 0.9 (Ergebnis von NDF-WP-120). Er ist **kein Scope Lock** — der Umfang wird erst mit NDF-WP-121 verbindlich. Foundation 0.9 ist **nicht scope-locked**, **nicht released** und **nicht v1.0**. Es werden in diesem WP **keine Skills, keine `.claude/skills`, keine Cursor Rules, keine Workflows und keine Scripts** erstellt.
+Dieser Plan sammelt die Kandidaten für Foundation 0.9 (Ergebnis von NDF-WP-120). **Status-Update: Scope locked** (NDF-WP-121, 2026-07-08) — verbindliche Einstufung: [FOUNDATION_0_9_SCOPE_LOCK.md](FOUNDATION_0_9_SCOPE_LOCK.md). Release-blocking sind nur 121, 122 (Context Economy Adoption Review — **nächster Schritt**), 123 (Prompt Modes & Context Pack Validation), 124 (Optional Skills MVP Implementation **Decision** — keine Implementierung), 126 (Adoption Evidence & v1.0 Path Review), 127, 128. **WP-125 optional/conditional; WP-129 (docs-only Skills MVP Implementation) optional, nicht aktiviert; WP-130/131/132 optionale Assessments; WP-133 Post-Release-Kandidat.** Foundation 0.9 ist gelockt, **nicht released**, **nicht v1.0**; validation-first. Es werden in diesem WP **keine Skills/`.claude/skills`/Cursor Rules/Workflows/Scripts** erstellt.
 
 ## EN – Purpose
 
@@ -117,7 +117,7 @@ WP-121 must settle: (a) final blocking/optional/deferred classification; (b) whe
 
 ## DE – Nächster Schritt
 
-**NDF-WP-121 – Foundation 0.9 Scope Lock.** Kein inhaltliches WP (Adoption Review, Validation, Skills-Entscheidung) startet vor abgeschlossenem Scope Lock.
+**NDF-WP-122 – Context Economy Adoption Review.** Scope Lock (WP-121) abgeschlossen; WP-123 (Validation) und WP-124 (Skills-Entscheidung) folgen im gesperrten Kern.
 
 ## EN – Next Step
 

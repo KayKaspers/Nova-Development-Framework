@@ -2,7 +2,7 @@
 
 ## Current status
 
-**Planning candidate** (NDF-WP-120, 2026-07-08). Foundation 0.9 ist **nicht scope-locked**, **nicht released**, **nicht v1.0**. Keine Skills erstellt. Verbindliche Einstufung entsteht erst mit NDF-WP-121. Plan: `docs/roadmap/FOUNDATION_0_9_PLAN.md`.
+**Scope locked** (NDF-WP-121, 2026-07-08). Foundation 0.9 ist gelockt, **nicht released**, **nicht v1.0**, validation-first. Keine Skills erstellt. Verbindliche Einstufung: `docs/roadmap/FOUNDATION_0_9_SCOPE_LOCK.md`. Release-blocking: 121 (done) · 122 (Context Economy Adoption Review — nächster Schritt) · 123 (Prompt Modes & Context Pack Validation) · 124 (Optional Skills MVP Implementation **Decision** — keine Implementierung) · 126 (Adoption Evidence & v1.0 Path Review) · 127 · 128. **WP-125 optional/conditional; WP-129 optional/nicht aktiviert; WP-130/131/132 optionale Assessments; WP-133 Post-Release-Kandidat.**
 
 ## Working title
 
@@ -30,4 +30,4 @@ Public Quality Gate v0.2 Pflicht; ADR-0032 bindend (fail closed, docs-only zuers
 
 ## Next WP
 
-**NDF-WP-121 – Foundation 0.9 Scope Lock.** Kein inhaltliches WP (Adoption Review, Validation, Skills-Entscheidung) startet vorher. Kein v1.0.
+**NDF-WP-122 – Context Economy Adoption Review.** Scope Lock (WP-121) abgeschlossen; WP-123 (Validation) und WP-124 (Skills-Entscheidung) folgen im gesperrten Kern. WP-129 optional, nicht aktiviert. Nächste freie ADR-Nummer: 0033. Kein v1.0, keine aktiven Skills.

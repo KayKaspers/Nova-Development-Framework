@@ -2,13 +2,14 @@
 
 All notable changes to the Nova Development Framework will be documented in this file.
 
-## [Unreleased] - Foundation 0.9 Planning
+## [Unreleased] - Foundation 0.9 Scope Locked
 
-Status: planning candidate. Not scope-locked. Not released. Not v1.0.
+Status: scope-locked. Not released. Not v1.0.
 
 ### Added
 
 - docs(roadmap): started Foundation 0.9 planning for Adoption, Validation & Optional Enablement — plan, candidate work packages (120–128, optional 129–133), release criteria draft; optional enablement means evaluation/decision first, implementation never automatic; not scope-locked, not released, not v1.0, no skills created (WP-120)
+- docs(roadmap): scope-locked Foundation 0.9 for Adoption, Validation & Optional Enablement — validation-first; blocking core 121/122/123/124/126/127/128, WP-124 a release-blocking decision (no implementation), WP-125 optional/conditional, WP-129 docs-only skills implementation optional and not activated, WP-130/131/132 optional assessments, WP-133 post-release candidate; Foundation 0.8 optional WPs 112/116/117/118 re-evaluated not overwritten; no skills/scripts created; not released, not v1.0 (WP-121)
 
 ## [0.8.0-foundation] - 2026-07-08
 
