@@ -2,6 +2,14 @@
 
 All notable changes to the Nova Development Framework will be documented in this file.
 
+## [Unreleased] - Foundation 0.9 Planning
+
+Status: planning candidate. Not scope-locked. Not released. Not v1.0.
+
+### Added
+
+- docs(roadmap): started Foundation 0.9 planning for Adoption, Validation & Optional Enablement — plan, candidate work packages (120–128, optional 129–133), release criteria draft; optional enablement means evaluation/decision first, implementation never automatic; not scope-locked, not released, not v1.0, no skills created (WP-120)
+
 ## [0.8.0-foundation] - 2026-07-08
 
 Agent Enablement & Context Economy Pre-Release. Status: **Published** as Foundation pre-release on 2026-07-08 (tag `v0.8.0-foundation`). Not v1.0. Full v1.x compatibility promise not active. No active Claude Skills Pack. Release notes: `docs/release/FOUNDATION_0_8_RELEASE_NOTES.md`
