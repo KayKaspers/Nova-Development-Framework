@@ -20,11 +20,11 @@ Scope-locked (NDF-WP-121). Nicht released, nicht v1.0, kein v1.0 Release Candida
 
 ## Last Completed Work Package
 
-`NDF-WP-124 – Optional Skills MVP Implementation Decision` — **Option B: Blueprint-first, implementation-not-activated**; WP-125 empfohlen aber optional, WP-129 nicht aktiviert, kein aktives Skill Pack.
+`NDF-WP-126 – Adoption Evidence and v1.0 Path Review` — **GO WITH NOTES**; WP-122/123/124-Evidence zusammengeführt (28-Punkte-Matrix), v1.0-Pfad gestärkt aber nicht geschlossen, volle v1.x-Zusage nicht aktiv, kein aktives Skill Pack.
 
 ## Next Work Package
 
-`NDF-WP-126 – Adoption Evidence and v1.0 Path Review` (nächster release-blocking Schritt). Optionaler Zwischenschritt nur auf ausdrücklichen Human-Maintainer-Wunsch: `NDF-WP-125 – Skills MVP Implementation Blueprint`.
+`NDF-WP-127 – Foundation 0.9 Release Readiness Review` (Full Prompt Mode, empf. Modell Claude Opus 4.8). Optionaler Zwischenschritt nur auf ausdrücklichen Human-Maintainer-Wunsch: `NDF-WP-125 – Skills MVP Implementation Blueprint`.
 
 ## Release-Blocking Work Packages
 
@@ -32,8 +32,8 @@ Scope-locked (NDF-WP-121). Nicht released, nicht v1.0, kein v1.0 Release Candida
 - NDF-WP-122 Context Economy Adoption Review — done (GO WITH NOTES)
 - NDF-WP-123 Prompt Modes and Context Pack Validation — done (GO WITH NOTES)
 - NDF-WP-124 Optional Skills MVP Implementation Decision — done (Option B: Blueprint-first, implementation-not-activated)
-- NDF-WP-126 Adoption Evidence and v1.0 Path Review — open (nächster Schritt)
-- NDF-WP-127 Release Readiness Review — open
+- NDF-WP-126 Adoption Evidence and v1.0 Path Review — done (GO WITH NOTES)
+- NDF-WP-127 Release Readiness Review — open (nächster Schritt)
 - NDF-WP-128 Release Prep — open
 
 ## Optional Work Packages
@@ -77,11 +77,12 @@ Validation-first; Skills-Implementierung optional/nicht aktiviert (WP-129); WP-1
 - WP-121: Scope Lock — validation-first; blocking 121/122/123/124/126/127/128; WP-124 blocking-Entscheidung, WP-125 optional/conditional, WP-129 optional/nicht aktiviert; 0.8-Optional-WPs neu bewertbar.
 - WP-122: Context Economy Adoption Review — GO WITH NOTES; Adoption belegt (16-Punkte-Matrix), Compact Context Summary/Context Packs/Prompt Modes praktisch genutzt; kein aktives Skill Pack.
 - WP-123: Prompt Modes and Context Pack Validation — GO WITH NOTES; 28-Punkte-Matrix; Short Prompt sicher begrenzt, Template vollständig; Note PMV-003: erster realer Short-Prompt-Einsatz bleibt Beobachtungspunkt.
-- WP-124: Optional Skills MVP Implementation Decision — **Option B: Blueprint-first, implementation-not-activated** (24-Punkte-Matrix); WP-125 als optionaler Blueprint empfohlen (nicht aktiviert, Human-Maintainer-Wunsch nötig), WP-129 nicht aktiviert; ADR-0032 unverändert bindend. Nächster release-blocking Schritt WP-126.
+- WP-124: Optional Skills MVP Implementation Decision — **Option B: Blueprint-first, implementation-not-activated** (24-Punkte-Matrix); WP-125 empfohlen/nicht aktiviert, WP-129 nicht aktiviert; ADR-0032 bindend.
+- WP-126: Adoption Evidence and v1.0 Path Review — GO WITH NOTES; WP-122/123/124-Evidence zusammengeführt (28-Punkte-Matrix); v1.0-Pfad gestärkt (Arbeitsweise/Effizienz), aber kein offenes v1.0-Kriterium direkt adressiert; externe-Validierungs-Evidenz-Tiefe bleibt v1.0-tracked; volle v1.x-Zusage nicht aktiv. Nächster Schritt WP-127.
 
 ## Next Prompt Recommendation
 
-**Standard Prompt Mode** für WP-126 (Adoption Evidence and v1.0 Path Review — normales Review). Falls der Human Maintainer vorher WP-125 wählt: **Full Prompt Mode** (Skills-Bezug).
+**Full Prompt Mode** für WP-127 (Foundation 0.9 Release Readiness Review — release-kritisch; empfohlenes Modell Claude Opus 4.8). Falls der Human Maintainer vorher WP-125 wählt: ebenfalls Full Prompt Mode (Skills-Bezug).
 
 ## What Must Not Be Claimed
 

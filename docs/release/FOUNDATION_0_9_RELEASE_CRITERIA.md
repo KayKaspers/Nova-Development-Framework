@@ -27,7 +27,7 @@ Foundation pre-release, presumably `v0.9.0-foundation` — planned only, not sco
 - [x] Context Economy Adoption Review abgeschlossen (NDF-WP-122, 2026-07-08: **GO WITH NOTES** — [`CONTEXT_ECONOMY_ADOPTION_REVIEW.md`](../validation/context-economy/CONTEXT_ECONOMY_ADOPTION_REVIEW.md); Adoption belegt, 16-Punkte-Matrix, Detailvalidierung folgt in WP-123).
 - [x] Prompt Modes and Context Pack Validation abgeschlossen (NDF-WP-123, 2026-07-08: **GO WITH NOTES** — [`PROMPT_MODES_CONTEXT_PACK_VALIDATION.md`](../validation/context-economy/PROMPT_MODES_CONTEXT_PACK_VALIDATION.md); 28-Punkte-Matrix, Short Prompt sicher begrenzt, keine Blocker).
 - [x] Optional Skills MVP Implementation Decision abgeschlossen (NDF-WP-124, 2026-07-08: **Option B — Blueprint-first, implementation-not-activated** — [`NDF_SKILLS_MVP_IMPLEMENTATION_DECISION.md`](../agent-workflows/NDF_SKILLS_MVP_IMPLEMENTATION_DECISION.md); 24-Punkte-Matrix, WP-125 empfohlen/optional, WP-129 nicht aktiviert).
-- [ ] Adoption Evidence and v1.0 Path Review abgeschlossen (NDF-WP-126).
+- [x] Adoption Evidence and v1.0 Path Review abgeschlossen (NDF-WP-126, 2026-07-08: **GO WITH NOTES** — [`ADOPTION_EVIDENCE_AND_V1_0_PATH_REVIEW.md`](../validation/foundation-0-9/ADOPTION_EVIDENCE_AND_V1_0_PATH_REVIEW.md); WP-122/123/124-Evidence zusammengeführt, v1.0-Pfad gestärkt aber nicht geschlossen, volle v1.x-Zusage nicht aktiv).
 - [ ] Kein aktives Skill Pack ohne ausdrücklichen Scope + ADR-0032-Konformität.
 - [ ] Keine autonome Git-/Release-/Tag-Aktion durch Skills.
 - [ ] Public Quality Gate strict grün.
