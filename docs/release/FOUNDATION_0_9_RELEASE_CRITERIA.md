@@ -25,7 +25,7 @@ Foundation pre-release, presumably `v0.9.0-foundation` — planned only, not sco
 - [x] Foundation 0.9 Planning erstellt (NDF-WP-120).
 - [x] Foundation 0.9 Scope Lock abgeschlossen (NDF-WP-121, 2026-07-08: [`FOUNDATION_0_9_SCOPE_LOCK.md`](../roadmap/FOUNDATION_0_9_SCOPE_LOCK.md); validation-first, WP-124 blocking-Entscheidung, WP-125 optional/conditional, WP-129 optional/nicht aktiviert).
 - [x] Context Economy Adoption Review abgeschlossen (NDF-WP-122, 2026-07-08: **GO WITH NOTES** — [`CONTEXT_ECONOMY_ADOPTION_REVIEW.md`](../validation/context-economy/CONTEXT_ECONOMY_ADOPTION_REVIEW.md); Adoption belegt, 16-Punkte-Matrix, Detailvalidierung folgt in WP-123).
-- [ ] Prompt Modes and Context Pack Validation abgeschlossen (NDF-WP-123).
+- [x] Prompt Modes and Context Pack Validation abgeschlossen (NDF-WP-123, 2026-07-08: **GO WITH NOTES** — [`PROMPT_MODES_CONTEXT_PACK_VALIDATION.md`](../validation/context-economy/PROMPT_MODES_CONTEXT_PACK_VALIDATION.md); 28-Punkte-Matrix, Short Prompt sicher begrenzt, keine Blocker).
 - [ ] Optional Skills MVP Implementation Decision abgeschlossen (NDF-WP-124) — nur Entscheidung.
 - [ ] Adoption Evidence and v1.0 Path Review abgeschlossen (NDF-WP-126).
 - [ ] Kein aktives Skill Pack ohne ausdrücklichen Scope + ADR-0032-Konformität.

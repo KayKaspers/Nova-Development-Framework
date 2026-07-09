@@ -9,8 +9,8 @@
 | NDF-WP-120 | Foundation 0.9 Planning | docs-only / planning | **erledigt** (Planung, 2026-07-08) |
 | NDF-WP-121 | Foundation 0.9 Scope Lock | docs-only / planning-gate | **release-blocking** (Gate — abgeschlossen mit dem Scope-Lock-Dokument) |
 | NDF-WP-122 | Context Economy Adoption Review | review-only | **release-blocking** — **erledigt: GO WITH NOTES** ([Adoption Review](../validation/context-economy/CONTEXT_ECONOMY_ADOPTION_REVIEW.md); Adoption belegt, 16-Punkte-Matrix, kein aktives Skill Pack) |
-| NDF-WP-123 | Prompt Modes and Context Pack Validation | review-only | **release-blocking** — **nächster Schritt** |
-| NDF-WP-124 | Optional Skills MVP Implementation Decision | docs-only / decision | **release-blocking** — nur **Entscheidung** (keine Implementierung) |
+| NDF-WP-123 | Prompt Modes and Context Pack Validation | review-only | **release-blocking** — **erledigt: GO WITH NOTES** ([Validation](../validation/context-economy/PROMPT_MODES_CONTEXT_PACK_VALIDATION.md); 28-Punkte-Matrix, Short Prompt sicher begrenzt, Template vollständig) |
+| NDF-WP-124 | Optional Skills MVP Implementation Decision | docs-only / decision | **release-blocking** — nur **Entscheidung** (keine Implementierung) — **nächster Schritt** |
 | NDF-WP-125 | Skills MVP Implementation Blueprint | docs-only / design | **optional / conditional** — nur wenn WP-124 eine spätere Implementierung empfiehlt; höchstens Blueprint |
 | NDF-WP-126 | Adoption Evidence and v1.0 Path Review | review-only | **release-blocking** |
 | NDF-WP-127 | Foundation 0.9 Release Readiness Review | review-only | **release-blocking** |

@@ -2,7 +2,7 @@
 
 ## Current status
 
-**Scope locked** (NDF-WP-121, 2026-07-08). Foundation 0.9 ist gelockt, **nicht released**, **nicht v1.0**, validation-first. Keine Skills erstellt. Verbindliche Einstufung: `docs/roadmap/FOUNDATION_0_9_SCOPE_LOCK.md`. Release-blocking: 121 (done) · 122 (Context Economy Adoption Review — **done: GO WITH NOTES**, `docs/validation/context-economy/CONTEXT_ECONOMY_ADOPTION_REVIEW.md`) · 123 (Prompt Modes & Context Pack Validation — nächster Schritt) · 124 (Optional Skills MVP Implementation **Decision** — keine Implementierung) · 126 (Adoption Evidence & v1.0 Path Review) · 127 · 128. **WP-125 optional/conditional; WP-129 optional/nicht aktiviert; WP-130/131/132 optionale Assessments; WP-133 Post-Release-Kandidat.**
+**Scope locked** (NDF-WP-121, 2026-07-08). Foundation 0.9 ist gelockt, **nicht released**, **nicht v1.0**, validation-first. Keine Skills erstellt. Verbindliche Einstufung: `docs/roadmap/FOUNDATION_0_9_SCOPE_LOCK.md`. Release-blocking: 121 (done) · 122 (Context Economy Adoption Review — **done: GO WITH NOTES**) · 123 (Prompt Modes & Context Pack Validation — **done: GO WITH NOTES**, `docs/validation/context-economy/PROMPT_MODES_CONTEXT_PACK_VALIDATION.md`) · 124 (Optional Skills MVP Implementation **Decision** — keine Implementierung — **nächster Schritt**) · 126 (Adoption Evidence & v1.0 Path Review) · 127 · 128. **WP-125 optional/conditional; WP-129 optional/nicht aktiviert; WP-130/131/132 optionale Assessments; WP-133 Post-Release-Kandidat.**
 
 ## Working title
 
@@ -30,4 +30,4 @@ Public Quality Gate v0.2 Pflicht; ADR-0032 bindend (fail closed, docs-only zuers
 
 ## Next WP
 
-**NDF-WP-123 – Prompt Modes and Context Pack Validation.** WP-122 (Adoption Review) erledigt (GO WITH NOTES, Adoption belegt); WP-124 (Skills-Entscheidung) und WP-126 (Adoption Evidence & v1.0 Path Review) folgen im gesperrten Kern. WP-129 optional, nicht aktiviert. Nächste freie ADR-Nummer: 0033. Kein v1.0, keine aktiven Skills.
+**NDF-WP-124 – Optional Skills MVP Implementation Decision** (Full Prompt Mode empfohlen — governance-relevante Entscheidung). WP-122/123 erledigt (beide GO WITH NOTES); WP-126 (Adoption Evidence & v1.0 Path Review) folgt im gesperrten Kern. WP-125 optional/conditional; WP-129 optional, nicht aktiviert — WP-124 ist nur die Entscheidung, keine Implementierung. Nächste freie ADR-Nummer: 0033. Kein v1.0, keine aktiven Skills.
