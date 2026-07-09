@@ -20,17 +20,17 @@ Scope-locked (NDF-WP-121). Nicht released, nicht v1.0, kein v1.0 Release Candida
 
 ## Last Completed Work Package
 
-`NDF-WP-121 – Foundation 0.9 Scope Lock` — validation-first; WP-124 blocking-Entscheidung, WP-125 optional/conditional, WP-129 optional/nicht aktiviert.
+`NDF-WP-122 – Context Economy Adoption Review` — **GO WITH NOTES**; Adoption belegt (16-Punkte-Matrix), kein aktives Skill Pack; Detailvalidierung folgt in WP-123.
 
 ## Next Work Package
 
-`NDF-WP-122 – Context Economy Adoption Review`.
+`NDF-WP-123 – Prompt Modes and Context Pack Validation`.
 
 ## Release-Blocking Work Packages
 
 - NDF-WP-121 Scope Lock — done
-- NDF-WP-122 Context Economy Adoption Review — open (nächster Schritt)
-- NDF-WP-123 Prompt Modes and Context Pack Validation — open
+- NDF-WP-122 Context Economy Adoption Review — done (GO WITH NOTES)
+- NDF-WP-123 Prompt Modes and Context Pack Validation — open (nächster Schritt)
 - NDF-WP-124 Optional Skills MVP Implementation Decision — open (nur Entscheidung)
 - NDF-WP-126 Adoption Evidence and v1.0 Path Review — open
 - NDF-WP-127 Release Readiness Review — open
@@ -74,11 +74,12 @@ Validation-first; Skills-Implementierung optional/nicht aktiviert (WP-129); WP-1
 ## Compact Context History
 
 - WP-120: Foundation 0.9 Planning — Arbeitstitel „Adoption, Validation & Optional Enablement"; Kandidaten-WPs 120–128 (+optional 129–133). Kein Scope Lock, keine Skills.
-- WP-121: Scope Lock — validation-first; blocking 121/122/123/124/126/127/128; WP-124 blocking-Entscheidung, WP-125 optional/conditional, WP-129 optional/nicht aktiviert; 0.8-Optional-WPs neu bewertbar. Nächster Schritt WP-122.
+- WP-121: Scope Lock — validation-first; blocking 121/122/123/124/126/127/128; WP-124 blocking-Entscheidung, WP-125 optional/conditional, WP-129 optional/nicht aktiviert; 0.8-Optional-WPs neu bewertbar.
+- WP-122: Context Economy Adoption Review — GO WITH NOTES; Adoption belegt (16-Punkte-Matrix, alle Met bzw. Met with notes), Compact Context Summary/Context Packs/Prompt Modes praktisch genutzt; kein aktives Skill Pack; Detailvalidierung folgt WP-123. Nächster Schritt WP-123.
 
 ## Next Prompt Recommendation
 
-**Standard Prompt Mode** für WP-122 (Context Economy Adoption Review — review-only, kein Governance-/Release-Gate).
+**Standard Prompt Mode** für WP-123 (Prompt Modes and Context Pack Validation — review-only, kein Governance-/Release-Gate).
 
 ## What Must Not Be Claimed
 
