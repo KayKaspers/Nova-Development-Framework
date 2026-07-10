@@ -16,15 +16,15 @@ Foundation 0.9.
 
 ## Current Phase Status
 
-**Released / published — reconciliation documented** als `v0.9.0-foundation` (2026-07-10, NDF-WP-133). Nicht v1.0, kein v1.0 Release Candidate, keine aktive volle v1.x-Zusage. Ein **docs-only Skills MVP** (vier Markdown-Skills unter `.claude/skills/`) ist seit WP-129 vorhanden — additiv, ADR-0032-konform, ohne Scripts/Automation; keine autonom ausführenden Skills.
+**Released / published — reconciliation documented** als `v0.9.0-foundation` (2026-07-10, NDF-WP-133). Nicht v1.0, kein v1.0 Release Candidate, keine aktive volle v1.x-Zusage. Ein **docs-only Skills MVP** (vier Markdown-Skills unter `.claude/skills/`) ist seit WP-129 vorhanden — additiv, ADR-0032-konform, ohne Scripts/Automation; keine autonom ausführenden Skills. Seit WP-134 gilt der **Skills-first Operating Mode**: Standard Prompt Mode als Default, Full nur für kritische Fälle (Security/Release/ADR/v1.0/neue Skills); DSK-001 Partially closed.
 
 ## Last Completed Work Package
 
-`NDF-WP-129 – Docs-only Skills MVP Implementation` — GO WITH NOTES; genau vier docs-only MVP-Skills unter `.claude/skills/` implementiert (`ndf-work-package-runner`, `ndf-compact-context-summary-runner`, `ndf-public-neutrality-guard`, `ndf-context-pack-maintainer`) + `README.md`-Index; keine Extended Skills, keine Scripts; ADR-0032 unverändert bindend. Validation: `docs/validation/foundation-0-9/DOCS_ONLY_SKILLS_MVP_VALIDATION.md`.
+`NDF-WP-134 – Skills-first Operating Mode & Prompt Compression Validation` — GO WITH NOTES; Skills-first Operating Mode dokumentiert (Standard Prompt Mode als Default, Full für kritische Fälle), Prompt-Kompression validiert (strukturell hoch–sehr hoch), **DSK-001 Partially closed**; keine neuen/Extended Skills; ADR-0032 unverändert. Docs: `docs/validation/foundation-0-9/SKILLS_FIRST_OPERATING_MODE.md`, `SKILLS_PROMPT_COMPRESSION_VALIDATION.md`.
 
 ## Next Work Package
 
-**Skill-/Prompt-Compression-Validation** (realer Vorher/Nachher-Prompt-Overhead an einem echten WP) — oder alternativ **v1.0 Gap Review**, falls die Repo-Konvention das nahelegt. WP-130/131/132 bleiben optional/nicht aktiviert.
+**NDF-WP-135 – External Skills Landscape & Project Skill Prioritization** (Kandidat, docs-only, nicht aktiviert). Skill-first-Roadmap: WP-135 → 136 → 137 → 138 → 139 (Real-use-Validierung, schließt DSK-001) → v1.0 Gap Review & Scope Lock. WP-130/131/132 bleiben optional/nicht aktiviert.
 
 ## Release-Blocking Work Packages
 
@@ -85,10 +85,11 @@ Validation-first; Skills-Implementierung optional/nicht aktiviert (WP-129); WP-1
 - WP-133: Post-Release Reconciliation Cleanup — Tag `v0.9.0-foundation` (annotated, → `e735041`/WP-126) + GitHub Pre-Release (published 2026-07-10) read-only verifiziert; Status auf **released / published — reconciliation documented** gehoben. Tag-Cut lag bei WP-126; WP-127/128 nach dem Tag committet (`b268503`), kein Tag-Move / History-Rewrite / Korrektur-Release. Nächster Schritt WP-125 (Blueprint).
 - WP-125: Skills MVP Implementation Blueprint — **GO WITH NOTES**; zehn Kandidaten bewertet, 4-Skill-MVP empfohlen (WP-Runner, Compact-Context-Summary-Runner, Public-Neutrality-Guard, Context-Pack-Maintainer), Extended-Set + Nicht-Empfohlene definiert; Token-Economy hoch–sehr hoch, Skill/PK/Prompt-Matrix, Security-Model, 13-Punkte-Validierungsplan; WP-129 bedingt mit engem docs-only Scope empfohlen; **keine Implementierung**, kein aktives Skill Pack, keine `.claude/skills`/`SKILL.md`/Scripts.
 - WP-129: Docs-only Skills MVP Implementation — **GO WITH NOTES**; genau vier docs-only MVP-Skills unter `.claude/skills/` implementiert + `README.md`-Index + [Validation](../docs/validation/foundation-0-9/DOCS_ONLY_SKILLS_MVP_VALIDATION.md) (18-Punkte-Matrix); keine Extended Skills, keine Scripts, kein Netz, keine Secrets (nur Name), keine Git-/Release-Aktionen; ADR-0032 unverändert bindend; Scope-Change (`.claude/skills`/`SKILL.md` nun erlaubt) ausschließlich für diese vier Skills. Known Note DSK-001: Prompt-Ersparnis noch nicht empirisch gemessen.
+- WP-134: Skills-first Operating Mode & Prompt Compression Validation — **GO WITH NOTES**; Skills-first Operating Mode dokumentiert ([Operating Mode](../docs/validation/foundation-0-9/SKILLS_FIRST_OPERATING_MODE.md), [Compression Validation](../docs/validation/foundation-0-9/SKILLS_PROMPT_COMPRESSION_VALIDATION.md)); drei Vorher/Nachher-Prompt-Typen verglichen (normal hoch ~40–60 %, release mittel ~25–40 %, governance ~30–45 %); Standard Prompt Mode neuer Default, Full für kritische Fälle; **DSK-001 Partially closed** (strukturelle Baseline; Real-use-Messung offen → WP-139); keine neuen/Extended Skills; Governance stabil; ADR-0032 unverändert. Skill-first-Roadmap-Kandidaten WP-135–139 dokumentiert (nicht aktiviert).
 
 ## Next Prompt Recommendation
 
-**Standard oder Full Prompt Mode** für die nächste Phase: **Skill-/Prompt-Compression-Validation** (realer Vorher/Nachher-Prompt-Overhead an einem echten WP; misst DSK-001) — alternativ **v1.0 Gap Review** (Full Prompt Mode, empfohlenes Modell Claude Opus 4.8). WP-130/131/132 bleiben optional/nicht aktiviert.
+**Skill-assisted Standard/Full Prompt Mode** für **NDF-WP-135 – External Skills Landscape & Project Skill Prioritization** (docs-only, Kandidat, empfohlenes Modell Claude Opus 4.8) — alternativ direkt **WP-139** (Real-use-Validierung, schließt DSK-001), falls priorisiert. WP-130/131/132 bleiben optional/nicht aktiviert.
 
 ## What Must Not Be Claimed
 
