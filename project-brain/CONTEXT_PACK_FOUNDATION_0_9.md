@@ -20,11 +20,11 @@ Foundation 0.9.
 
 ## Last Completed Work Package
 
-`NDF-WP-133 – Foundation 0.9 Post-Release Reconciliation Cleanup` — Tag + GitHub Pre-Release read-only verifiziert; Status auf released/published gehoben; Tag-Cut bei WP-126 transparent dokumentiert (kein Tag-Move). Kein aktives Skill Pack.
+`NDF-WP-125 – Skills MVP Implementation Blueprint` — GO WITH NOTES; 4-Skill-MVP empfohlen (`ndf-work-package-runner`, `ndf-compact-context-summary-runner`, `ndf-public-neutrality-guard`, `ndf-context-pack-maintainer`); WP-129 bedingt mit engem docs-only Scope empfohlen; **keine Implementierung**, kein aktives Skill Pack. Blueprint: `docs/validation/foundation-0-9/SKILLS_MVP_IMPLEMENTATION_BLUEPRINT.md`.
 
 ## Next Work Package
 
-`NDF-WP-125 – Skills MVP Implementation Blueprint` (Blueprint-only, Full Prompt Mode; vom Human Maintainer priorisiert). WP-129 bleibt danach entscheidbar, nicht aktiviert.
+`NDF-WP-129 – Docs-only Skills MVP Implementation` — **optional, nicht aktiviert**; nur bei ausdrücklichem Human-Maintainer-Scope-Change, engem docs-only Scope (die vier MVP-Skills), ADR-0032-konform.
 
 ## Release-Blocking Work Packages
 
@@ -39,8 +39,8 @@ Foundation 0.9.
 
 ## Optional Work Packages
 
-- NDF-WP-125 Skills MVP Implementation Blueprint — optional/conditional (von WP-124 empfohlen, **nicht aktiviert**; Start nur auf Human-Maintainer-Wunsch)
-- NDF-WP-129 Docs-only Skills MVP Implementation — optional, **not activated**
+- NDF-WP-125 Skills MVP Implementation Blueprint — **erledigt: GO WITH NOTES** (4-Skill-MVP empfohlen; keine Implementierung, kein aktives Skill Pack)
+- NDF-WP-129 Docs-only Skills MVP Implementation — optional, **not activated** (nach WP-125 bedingt mit engem docs-only Scope empfohlen)
 - NDF-WP-130 Skill-to-Cursor Rules Export Assessment — optional (Assessment)
 - NDF-WP-131 Workflow Builder Evaluation — optional (Evaluation)
 - NDF-WP-132 Docs Polish Skill Evaluation — optional (Evaluation)
@@ -83,10 +83,11 @@ Validation-first; Skills-Implementierung optional/nicht aktiviert (WP-129); WP-1
 - WP-127: Release Readiness Review — **GO WITH NOTES**; 18-Punkte-Criteria-Check (16 Met, 2 Met with notes), alle blocking WPs vor WP-127 erfüllt, keine Blocker; Known Notes für WP-128-Release-Notes fixiert.
 - WP-128: Release Prep — Release Notes + Go/No-Go + Tagging-Guide erstellt; alle Known Notes übernommen.
 - WP-133: Post-Release Reconciliation Cleanup — Tag `v0.9.0-foundation` (annotated, → `e735041`/WP-126) + GitHub Pre-Release (published 2026-07-10) read-only verifiziert; Status auf **released / published — reconciliation documented** gehoben. Tag-Cut lag bei WP-126; WP-127/128 nach dem Tag committet (`b268503`), kein Tag-Move / History-Rewrite / Korrektur-Release. Nächster Schritt WP-125 (Blueprint).
+- WP-125: Skills MVP Implementation Blueprint — **GO WITH NOTES**; zehn Kandidaten bewertet, 4-Skill-MVP empfohlen (WP-Runner, Compact-Context-Summary-Runner, Public-Neutrality-Guard, Context-Pack-Maintainer), Extended-Set + Nicht-Empfohlene definiert; Token-Economy hoch–sehr hoch, Skill/PK/Prompt-Matrix, Security-Model, 13-Punkte-Validierungsplan; WP-129 bedingt mit engem docs-only Scope empfohlen; **keine Implementierung**, kein aktives Skill Pack, keine `.claude/skills`/`SKILL.md`/Scripts.
 
 ## Next Prompt Recommendation
 
-**Full Prompt Mode** für WP-125 (Skills MVP Implementation Blueprint — Skills-/Governance-Bezug; empfohlenes Modell Claude Opus 4.8; Blueprint-only, vom Human Maintainer priorisiert).
+**Full Prompt Mode** für WP-129 (Docs-only Skills MVP Implementation — Skills-/Security-/Governance-Bezug; empfohlenes Modell Claude Opus 4.8) — **nur** bei ausdrücklichem Human-Maintainer-Scope-Change und engem docs-only Scope (die vier MVP-Skills); sonst bleibt WP-129 nicht aktiviert.
 
 ## What Must Not Be Claimed
 
