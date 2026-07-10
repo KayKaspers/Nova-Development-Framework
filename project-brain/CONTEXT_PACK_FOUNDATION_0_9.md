@@ -20,11 +20,11 @@ Foundation 0.9.
 
 ## Last Completed Work Package
 
-`NDF-WP-141 – v1.0 Release Criteria Finalization` — GO WITH NOTES; RC-Kriterien (RC-01…13) und Final-Kriterien (F-01…07) klar getrennt, Allowed RC Notes + Final Blockers definiert; **G-13-Schwelle festgelegt** (RC can proceed with notes / G-13 tracked; v1.0 final Weg A tieferer öffentlicher Lauf → `met` **oder** Weg B dokumentierte akzeptierte Grenze); achtteiliges Skill-Pack reicht für v1.0-Core; ADR-0031/0032 unverändert; **keine v1.0-Aktivierung/RC**. Doc: `docs/release/V1_0_RELEASE_CRITERIA.md`.
+`NDF-WP-142 – v1.0 RC Readiness Review` — GO WITH NOTES – ready for v1.0 RC Release Prep; RC-Kriterien RC-01…13 geprüft (9 Met, 4 Met with notes [RC-07 ADR-Massenmigration deferred, RC-08 G-13 tracked, RC-10 RC-Notes in WP-143 sichtbar, RC-11 Prompt-Randbestand → F-04], 0 Gaps, 0 Blocker); Allowed RC Notes accepted; keine RC-blockierenden Final Blocker (F-03 volle v1.x-Zusage und G-13-Weg-A/B final-only); Skill-Pack RC-tauglich; **keine v1.0-Aktivierung/RC**. Doc: `docs/validation/v1-0/V1_0_RC_READINESS_REVIEW.md`.
 
 ## Next Work Package
 
-**NDF-WP-142 – v1.0 RC Readiness Review** (ehrlicher Check gegen die RC-Kriterien aus `V1_0_RELEASE_CRITERIA.md`; Full/Skill-assisted Full Prompt Mode, Opus 4.8). v1.0-RC-Pfad: WP-142 → WP-143 (v1.0 RC Release Prep) → manueller RC-Release (Human Maintainer) → RC-Feedback → v1.0 Final Readiness (G-13-Weg A/B) → v1.0 Final Prep. Optionale Governance-/Project-Enablement-Skills bleiben Kandidaten (nicht blockierend). WP-130/131/132 bleiben optional/nicht aktiviert.
+**NDF-WP-143 – v1.0 RC Release Prep** (**nur Doku**, kein RC; Full/Skill-assisted Full Prompt Mode, Opus 4.8): RC Release Notes, RC Go/No-Go, RC Tagging Guide (möglicher Tag `v1.0.0-rc.1`, annotated, Pre-Release), GitHub-Pre-Release/RC-Body, RC Known Notes (G-13 tracked, ECS-001, „nicht final"), Human-Maintainer-only-Schritte. Danach: manueller RC-Release (Human Maintainer) → RC-Feedback → v1.0 Final Readiness (G-13-Weg A/B) → v1.0 Final Prep. WP-130/131/132 bleiben optional/nicht aktiviert.
 
 ## Release-Blocking Work Packages
 
@@ -92,11 +92,12 @@ Validation-first; Skills-Implementierung optional/nicht aktiviert (WP-129); WP-1
 - WP-138: Skill Prompt Compression Real-use Validation — **GO WITH NOTES**; acht-teiliges Skill-Pack real-use-validiert; DSK-001 Closed with notes, ECS-001 Partially closed; Skills-first Standard-Default bestätigt; keine neuen/geänderten Skills; ADR-0032 unverändert.
 - WP-139: v1.0 Gap Review & Scope Lock — **GO WITH NOTES – v1.0 scope lock candidate**; 18 Bereiche (9 Met, 8 Met with notes, 1 tracked Gap G-13, keine Blocker); Scope Lock als Kandidat empfohlen; achtteiliges Skill-Pack reicht für v1.0-Core; ADR-0031/0032 stabil; keine v1.0-Aktivierung/RC.
 - WP-140: External Validation Evidence Review — **GO WITH NOTES**; G-13 **Partially closed / tracked for RC**; Evidence-Matrix (9 Quellen: 2 strong, 5 moderate, 1 limited); zwei unabhängige Läufe (WP-074/WP-088, PASS WITH NOTES); RC can proceed with notes; keine erfundene Evidenz; ADR-0031/0032 unverändert.
-- WP-141: v1.0 Release Criteria Finalization — **GO WITH NOTES** ([Release Criteria](../docs/release/V1_0_RELEASE_CRITERIA.md)); RC-Kriterien RC-01…13 und Final-Kriterien F-01…07 getrennt; Allowed RC Notes (G-13 tracked, ECS-001 partially closed, keine volle v1.x-Zusage vor final, RC ≠ final, Project-Enablement optional/post-v1.0) + Final Blockers (Gate/Secret/ADR-Bruch/autonome Git-Release/G-13 weder vertieft noch als Grenze dokumentiert/…); **G-13-Schwelle:** RC mit Notes; v1.0 final Weg A (tieferer öffentlicher Lauf → `met`) oder Weg B (dokumentierte akzeptierte Grenze); achtteiliges Skill-Pack reicht für v1.0-Core; keine v1.0-Aktivierung/RC.
+- WP-141: v1.0 Release Criteria Finalization — **GO WITH NOTES**; RC-Kriterien RC-01…13 und Final-Kriterien F-01…07 getrennt; Allowed RC Notes + Final Blockers definiert; G-13-Schwelle (RC mit Notes; v1.0 final Weg A/B); achtteiliges Skill-Pack reicht für v1.0-Core; keine v1.0-Aktivierung/RC.
+- WP-142: v1.0 RC Readiness Review — **GO WITH NOTES – ready for v1.0 RC Release Prep** ([RC Readiness](../docs/validation/v1-0/V1_0_RC_READINESS_REVIEW.md)); RC-Kriterien RC-01…13 geprüft (9 Met, 4 Met with notes, 0 Gaps, 0 Blocker); Allowed RC Notes accepted; Final Blockers gegen RC geprüft — keine RC-blockierend (F-03 volle v1.x-Zusage und G-13-Weg-A/B final-only; keine v1.0-Claims, volle v1.x-Zusage nicht aktiv); Skill-Pack RC-tauglich; RC-01/RC-10 auf dem RC-Commit (WP-143) erneut zu bestätigen. ADR-0031/0032 unverändert; keine v1.0-Aktivierung/RC.
 
 ## Next Prompt Recommendation
 
-**Full oder Skill-assisted Full Prompt Mode** für **NDF-WP-142 – v1.0 RC Readiness Review** (ehrlicher Check gegen die RC-Kriterien; empfohlenes Modell Claude Opus 4.8). Danach WP-143 (v1.0 RC Release Prep) → manueller RC-Release (Human Maintainer). WP-130/131/132 bleiben optional/nicht aktiviert.
+**Full oder Skill-assisted Full Prompt Mode** für **NDF-WP-143 – v1.0 RC Release Prep** (nur Doku, kein RC; RC Release Notes/Go-No-Go/Tagging-Guide/RC-Body/Known Notes; möglicher Tag `v1.0.0-rc.1` als spätere Human-Maintainer-Aktion; empfohlenes Modell Claude Opus 4.8). WP-130/131/132 bleiben optional/nicht aktiviert.
 
 ## What Must Not Be Claimed
 
