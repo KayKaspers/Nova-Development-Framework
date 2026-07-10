@@ -1,6 +1,6 @@
 # Foundation 0.9 – Work Package Queue
 
-> Status: **Scope locked** (NDF-WP-121, 2026-07-08). Verbindliche Einstufung siehe Spalte „Scope Lock" und [FOUNDATION_0_9_SCOPE_LOCK.md](FOUNDATION_0_9_SCOPE_LOCK.md). / Scope locked; binding classification in the "Scope Lock" column.
+> Status: **Released / published — reconciliation documented** als `v0.9.0-foundation` (2026-07-10, NDF-WP-133). Verbindliche Einstufung siehe Spalte „Scope Lock" und [FOUNDATION_0_9_SCOPE_LOCK.md](FOUNDATION_0_9_SCOPE_LOCK.md). Nicht v1.0, kein aktives Skill Pack. / Released as `v0.9.0-foundation`; not v1.0, no active skill pack.
 
 ## Queue
 
@@ -14,7 +14,8 @@
 | NDF-WP-125 | Skills MVP Implementation Blueprint | docs-only / design | **optional / conditional** — von WP-124 empfohlen, aber **nicht aktiviert**; Start nur auf ausdrücklichen Human-Maintainer-Wunsch; höchstens Blueprint, keine Implementierung |
 | NDF-WP-126 | Adoption Evidence and v1.0 Path Review | review-only | **release-blocking** — **erledigt: GO WITH NOTES** ([Review](../validation/foundation-0-9/ADOPTION_EVIDENCE_AND_V1_0_PATH_REVIEW.md); 28-Punkte-Evidence-Matrix, v1.0-Pfad gestärkt aber nicht geschlossen) |
 | NDF-WP-127 | Foundation 0.9 Release Readiness Review | review-only | **release-blocking** — **erledigt: GO WITH NOTES** ([Readiness Review](../release/FOUNDATION_0_9_READINESS_REVIEW.md); 18-Punkte-Criteria-Check, keine Blocker, kein aktives Skill Pack) |
-| NDF-WP-128 | Foundation 0.9 Release Prep | docs-only / release-prep | **release-blocking** — **erledigt** ([Release Notes](../release/FOUNDATION_0_9_RELEASE_NOTES.md), [Go/No-Go](../release/FOUNDATION_0_9_GO_NO_GO_CHECKLIST.md), [Tagging-Guide](../release/FOUNDATION_0_9_TAGGING_AND_GITHUB_RELEASE_GUIDE.md); **release-prepared / pending manual release**). Tag/Release manuell durch Human Maintainer; danach **NDF-WP-133** Post-Release Cleanup |
+| NDF-WP-128 | Foundation 0.9 Release Prep | docs-only / release-prep | **release-blocking** — **erledigt** ([Release Notes](../release/FOUNDATION_0_9_RELEASE_NOTES.md), [Go/No-Go](../release/FOUNDATION_0_9_GO_NO_GO_CHECKLIST.md), [Tagging-Guide](../release/FOUNDATION_0_9_TAGGING_AND_GITHUB_RELEASE_GUIDE.md)); Release am 2026-07-10 veröffentlicht |
+| NDF-WP-133 | Foundation 0.9 Post-Release Reconciliation Cleanup | docs-only / post-release-cleanup | **erledigt** in WP-133 (2026-07-10: `v0.9.0-foundation` veröffentlicht und read-only verifiziert; Status auf released/published gehoben; Tag-Cut bei WP-126 transparent dokumentiert, kein Tag-Move; [Reconciliation Notes](../../project-brain/WP_133_FOUNDATION_0_9_POST_RELEASE_RECONCILIATION_CLEANUP_NOTES.md)) |
 
 ## Optionale / bedingte Work Packages (verbindlich / binding)
 

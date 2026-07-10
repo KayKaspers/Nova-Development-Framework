@@ -2,11 +2,11 @@
 
 ## DE – Status
 
-**Release-prepared / pending manual release.** Foundation 0.9 ist vorbereitet, aber **nicht released**, bis der Human Maintainer den manuellen Release (annotated Tag + GitHub Pre-Release) abschließt. Geplanter Tag: `v0.9.0-foundation`. Nicht v1.0, kein v1.0 Release Candidate; die volle v1.x-Kompatibilitätszusage ist nicht aktiv.
+**Released / published — reconciliation documented.** Foundation 0.9 ist als `v0.9.0-foundation` Foundation Pre-Release veröffentlicht (annotated Tag → Commit `e735041`/WP-126; GitHub Pre-Release „Nova Development Framework v0.9.0 Foundation" published am 2026-07-10). Reconciliation-Hinweis: Der Tag-Cut lag bei WP-126; WP-127/WP-128 wurden **nach** dem Tag committet (`b268503`) und in NDF-WP-133 dokumentiert; der Tag wurde nicht verschoben. Nicht v1.0, kein v1.0 Release Candidate; die volle v1.x-Kompatibilitätszusage ist nicht aktiv.
 
 ## EN – Status
 
-**Release-prepared / pending manual release.** Foundation 0.9 is prepared but **not released** until the Human Maintainer completes the manual release (annotated tag + GitHub pre-release). Planned tag: `v0.9.0-foundation`. Not v1.0, no v1.0 release candidate; the full v1.x compatibility promise is not active.
+**Released / published — reconciliation documented.** Foundation 0.9 is published as the `v0.9.0-foundation` foundation pre-release (annotated tag → commit `e735041`/WP-126; GitHub pre-release published 2026-07-10). Reconciliation note: the tag cut was at WP-126; WP-127/WP-128 were committed after the tag (`b268503`) and documented in NDF-WP-133; the tag was not moved. Not v1.0, no v1.0 release candidate; the full v1.x compatibility promise is not active.
 
 ## DE – Release-Typ
 

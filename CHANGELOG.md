@@ -2,9 +2,11 @@
 
 All notable changes to the Nova Development Framework will be documented in this file.
 
-## [Unreleased] - Foundation 0.9 Scope Locked
+## [0.9.0-foundation] - 2026-07-10
 
-Status: scope-locked. Not released. Not v1.0.
+Adoption, Validation & Optional Enablement Pre-Release. Status: **Published** as Foundation pre-release on 2026-07-10 (annotated tag `v0.9.0-foundation` → commit `e735041`, GitHub Pre-Release "Nova Development Framework v0.9.0 Foundation", Target `main`). Not v1.0. Not a v1.0 release candidate. Full v1.x compatibility promise not active. No active Claude Skills Pack. Release notes: `docs/release/FOUNDATION_0_9_RELEASE_NOTES.md`
+
+**Reconciliation note:** the tag cut was at WP-126 (`e735041`); WP-127 (readiness review) and WP-128 (release prep) were committed after the tag (`b268503`) and documented post-release in NDF-WP-133. The tag was not moved — no history rewrite, no correction release.
 
 ### Added
 
@@ -14,7 +16,8 @@ Status: scope-locked. Not released. Not v1.0.
 - docs(validation): validate prompt modes and context packs — GO WITH NOTES; 28-point validation matrix confirms Full/Standard/Short prompt modes are clearly bounded (Short with explicit forbidden cases, no gate or human-review bypass), the Context Pack template is complete and the Foundation 0.9 pack current; no active skill pack, skills decision stays with WP-124 (WP-123)
 - docs(agent-workflows): decide Skills MVP implementation path — Option B (blueprint-first, implementation-not-activated); 24-point decision matrix against ADR-0032; WP-125 blueprint recommended but optional and human-maintainer-gated, WP-129 stays optional and not activated; no active skill pack, no .claude/skills, no skill scripts created; next release-blocking step WP-126 (WP-124)
 - docs(release): Foundation 0.9 release readiness review: GO WITH NOTES — 18-point release criteria check, all blocking WPs before WP-127 complete with no blockers; known notes carried for release prep (not v1.0, no RC, full v1.x promise not active, no active skill pack, WP-125/129 optional, Short Prompt first use pending, external validation evidence depth v1.0-tracked); not released, not v1.0 (WP-127)
-- docs(release): prepared Foundation 0.9 release notes, Go/No-Go checklist and tagging guide (presumably `v0.9.0-foundation`, annotated tag, release-prepared / pending manual release); all known notes carried; post-release cleanup follows as NDF-WP-133; WP-125/129 stay optional and not activated; not released, not v1.0 (WP-128)
+- docs(release): prepared Foundation 0.9 release notes, Go/No-Go checklist and tagging guide (`v0.9.0-foundation`, annotated tag); all known notes carried; WP-125/129 stay optional and not activated; not v1.0 (WP-128)
+- docs(release): reconciled Foundation 0.9 post-release status — marked released/published as `v0.9.0-foundation` (published 2026-07-10); tag + GitHub pre-release verified read-only; tag cut at WP-126 documented transparently, tag not moved, no history rewrite, no correction release; go/no-go and tagging guide marked historical; no active skill pack; not v1.0 (WP-133)
 - docs(validation): review adoption evidence and v1.0 path — GO WITH NOTES; consolidates WP-122/123/124 evidence (28-point matrix); Foundation 0.9 strengthens the way-of-working side of the v1.0 path but addresses no open v1.0 criterion directly and does not complete it; full v1.x compatibility promise stays inactive, external-validation evidence depth stays v1.0-tracked; no active skill pack, WP-125/129 optional/not activated (WP-126)
 
 ## [0.8.0-foundation] - 2026-07-08

@@ -10,11 +10,11 @@ Manual guide for the **Human Maintainer** to tag and publish Foundation 0.9. The
 
 ## DE – Status
 
-**Vorbereitet (Release Prep, NDF-WP-128).** `v0.9.0-foundation` ist **noch nicht** getaggt oder veröffentlicht. Foundation 0.9 ist nicht v1.0 und kein v1.0 Release Candidate.
+**Historischer Referenz-Guide (post-release).** `v0.9.0-foundation` wurde am 2026-07-10 getaggt (annotated, → Commit `e735041`) und als GitHub Pre-Release veröffentlicht; per `gh` read-only verifiziert. Tag **nicht** neu erstellen oder verschieben. Diese Anleitung bleibt als Referenz für künftige Releases erhalten. Foundation 0.9 ist nicht v1.0 und kein v1.0 Release Candidate.
 
 ## EN – Status
 
-**Prepared (release prep, NDF-WP-128).** `v0.9.0-foundation` is **not yet** tagged or released. Foundation 0.9 is not v1.0 and no v1.0 release candidate.
+**Historical reference guide (post-release).** `v0.9.0-foundation` was tagged (annotated, → commit `e735041`) and published as a GitHub pre-release on 2026-07-10; verified read-only via `gh`. Do **not** recreate or move the tag. Retained for reference for future releases. Foundation 0.9 is not v1.0 and no v1.0 release candidate.
 
 ## DE – Geplanter Tag / EN – Planned Tag
 

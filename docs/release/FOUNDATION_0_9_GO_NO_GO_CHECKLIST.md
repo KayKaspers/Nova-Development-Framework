@@ -10,11 +10,11 @@ Final check before tag and GitHub release `v0.9.0-foundation`. Performed by the 
 
 ## DE – Status
 
-**Vorbereitet (Release Prep, NDF-WP-128).** Foundation 0.9 ist **noch nicht released**; der Tag `v0.9.0-foundation` ist noch nicht gesetzt. Erwartetes Ergebnis bei sauberem Durchlauf: `GO WITH NOTES – ready for manual release by Human Maintainer`.
+**Historischer Prep-/Governance-Check (post-release).** Foundation 0.9 wurde am 2026-07-10 als `v0.9.0-foundation` veröffentlicht; diese Checkliste bleibt als historischer Nachweis und Vorlage für künftige Releases erhalten — keine neuen Aktionen daraus ableiten, keine Tag-Verschiebung. Ergebnis des Prep-Laufs: `GO WITH NOTES`.
 
 ## EN – Status
 
-**Prepared (release prep, NDF-WP-128).** Foundation 0.9 is **not yet released**; the tag `v0.9.0-foundation` is not yet set. Expected result on a clean pass: `GO WITH NOTES – ready for manual release by Human Maintainer`.
+**Historical prep/governance check (post-release).** Foundation 0.9 was published as `v0.9.0-foundation` on 2026-07-10; this checklist is retained for audit/history — derive no new actions from it, do not move the tag. Prep-run result: `GO WITH NOTES`.
 
 ## DE – Vor dem Release / EN – Before Release
 

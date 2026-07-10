@@ -16,15 +16,15 @@ Foundation 0.9.
 
 ## Current Phase Status
 
-Scope-locked (NDF-WP-121), **release-prepared / pending manual release** (NDF-WP-128). Nicht released, nicht v1.0, kein v1.0 Release Candidate. Kein aktives Skill Pack.
+**Released / published — reconciliation documented** als `v0.9.0-foundation` (2026-07-10, NDF-WP-133). Nicht v1.0, kein v1.0 Release Candidate, keine aktive volle v1.x-Zusage. Kein aktives Skill Pack.
 
 ## Last Completed Work Package
 
-`NDF-WP-128 – Foundation 0.9 Release Prep` — Release Notes + Go/No-Go-Checkliste + Tagging-Guide erstellt; **release-prepared / pending manual release**. Kein aktives Skill Pack.
+`NDF-WP-133 – Foundation 0.9 Post-Release Reconciliation Cleanup` — Tag + GitHub Pre-Release read-only verifiziert; Status auf released/published gehoben; Tag-Cut bei WP-126 transparent dokumentiert (kein Tag-Move). Kein aktives Skill Pack.
 
 ## Next Work Package
 
-Manueller Human-Maintainer-Release (Go/No-Go → annotated Tag `v0.9.0-foundation` → GitHub Pre-Release), danach `NDF-WP-133 – Foundation 0.9 Post-Release Status Cleanup`. Optionaler Zwischenschritt weiterhin nur auf ausdrücklichen Human-Maintainer-Wunsch: `NDF-WP-125 – Skills MVP Implementation Blueprint`.
+`NDF-WP-125 – Skills MVP Implementation Blueprint` (Blueprint-only, Full Prompt Mode; vom Human Maintainer priorisiert). WP-129 bleibt danach entscheidbar, nicht aktiviert.
 
 ## Release-Blocking Work Packages
 
@@ -34,7 +34,8 @@ Manueller Human-Maintainer-Release (Go/No-Go → annotated Tag `v0.9.0-foundatio
 - NDF-WP-124 Optional Skills MVP Implementation Decision — done (Option B: Blueprint-first, implementation-not-activated)
 - NDF-WP-126 Adoption Evidence and v1.0 Path Review — done (GO WITH NOTES)
 - NDF-WP-127 Release Readiness Review — done (GO WITH NOTES)
-- NDF-WP-128 Release Prep — done (release-prepared / pending manual release)
+- NDF-WP-128 Release Prep — done
+- NDF-WP-133 Post-Release Reconciliation Cleanup — done (released / published — reconciliation documented)
 
 ## Optional Work Packages
 
@@ -80,11 +81,12 @@ Validation-first; Skills-Implementierung optional/nicht aktiviert (WP-129); WP-1
 - WP-124: Optional Skills MVP Implementation Decision — **Option B: Blueprint-first, implementation-not-activated** (24-Punkte-Matrix); WP-125 empfohlen/nicht aktiviert, WP-129 nicht aktiviert; ADR-0032 bindend.
 - WP-126: Adoption Evidence and v1.0 Path Review — GO WITH NOTES; WP-122/123/124-Evidence zusammengeführt (28-Punkte-Matrix); v1.0-Pfad gestärkt (Arbeitsweise/Effizienz), aber kein offenes v1.0-Kriterium direkt adressiert; externe-Validierungs-Evidenz-Tiefe bleibt v1.0-tracked; volle v1.x-Zusage nicht aktiv.
 - WP-127: Release Readiness Review — **GO WITH NOTES**; 18-Punkte-Criteria-Check (16 Met, 2 Met with notes), alle blocking WPs vor WP-127 erfüllt, keine Blocker; Known Notes für WP-128-Release-Notes fixiert.
-- WP-128: Release Prep — Release Notes + Go/No-Go + Tagging-Guide erstellt; **release-prepared / pending manual release**; alle Known Notes übernommen; annotated Tag `v0.9.0-foundation` + GitHub Pre-Release als manuelle Human-Maintainer-Schritte dokumentiert. Nächster Schritt: manueller Release, dann WP-133.
+- WP-128: Release Prep — Release Notes + Go/No-Go + Tagging-Guide erstellt; alle Known Notes übernommen.
+- WP-133: Post-Release Reconciliation Cleanup — Tag `v0.9.0-foundation` (annotated, → `e735041`/WP-126) + GitHub Pre-Release (published 2026-07-10) read-only verifiziert; Status auf **released / published — reconciliation documented** gehoben. Tag-Cut lag bei WP-126; WP-127/128 nach dem Tag committet (`b268503`), kein Tag-Move / History-Rewrite / Korrektur-Release. Nächster Schritt WP-125 (Blueprint).
 
 ## Next Prompt Recommendation
 
-Manueller Human-Maintainer-Release (Go/No-Go → annotated Tag → GitHub Pre-Release); danach **Full Prompt Mode** für WP-133 (Post-Release Status Cleanup — read-only Verifikation + Status auf released/published). Falls der Human Maintainer vorher WP-125 wählt: ebenfalls Full Prompt Mode (Skills-Bezug).
+**Full Prompt Mode** für WP-125 (Skills MVP Implementation Blueprint — Skills-/Governance-Bezug; empfohlenes Modell Claude Opus 4.8; Blueprint-only, vom Human Maintainer priorisiert).
 
 ## What Must Not Be Claimed
 

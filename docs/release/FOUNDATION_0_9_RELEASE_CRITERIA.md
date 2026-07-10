@@ -2,17 +2,17 @@
 
 ## DE – Status
 
-**Scope locked (NDF-WP-121, 2026-07-08).** Foundation 0.9 ist gelockt, **nicht released**, **nicht v1.0**. Verbindliche Einstufung: [FOUNDATION_0_9_SCOPE_LOCK.md](../roadmap/FOUNDATION_0_9_SCOPE_LOCK.md). Boxen werden nur gegen tatsächliche Ergebnisse abgehakt — keine falschen Haken.
+**Released / published — reconciliation documented (NDF-WP-133, 2026-07-10).** Foundation 0.9 ist als `v0.9.0-foundation` Foundation Pre-Release veröffentlicht (annotated Tag → Commit `e735041`/WP-126; GitHub Pre-Release published 2026-07-10). Der Tag-Cut lag bei WP-126; WP-127/WP-128 wurden **nach** dem Tag committet (`b268503`) und sind hier als nachträgliche Readiness-/Prep-Governance-Artefakte dokumentiert. Der Tag wurde **nicht verschoben**, kein History-Rewrite, kein Korrektur-Release. Foundation 0.9 ist **nicht v1.0**, **kein v1.0 RC**; die volle v1.x-Zusage ist nicht aktiv. Boxen werden nur gegen tatsächliche Ergebnisse abgehakt.
 
 ## EN – Status
 
-**Scope locked (NDF-WP-121, 2026-07-08).** Foundation 0.9 is locked, **not released**, **not v1.0**. Binding classification: the scope lock. Boxes are checked only against actual results — no false checkmarks.
+**Released / published — reconciliation documented (NDF-WP-133, 2026-07-10).** Foundation 0.9 is published as the `v0.9.0-foundation` foundation pre-release (annotated tag → commit `e735041`/WP-126; GitHub pre-release published 2026-07-10). The tag cut was at WP-126; WP-127/WP-128 were committed after the tag (`b268503`) and are documented here as post-tag readiness/prep governance artifacts. The tag was **not moved**, no history rewrite, no correction release. Foundation 0.9 is **not v1.0**, **no v1.0 RC**; the full v1.x promise is not active.
 
 ## DE – Arbeitstitel
 
 ```text
 Foundation 0.9 – Adoption, Validation & Optional Enablement
-(voraussichtlich Pre-Release v0.9.0-foundation — scope-locked, nicht released, nicht v1.0)
+(Pre-Release v0.9.0-foundation — veröffentlicht am 2026-07-10, nicht v1.0)
 ```
 
 ## EN – Working Title
@@ -34,10 +34,12 @@ Foundation pre-release, presumably `v0.9.0-foundation` — planned only, not sco
 - [ ] Public Quality Gate self-test grün.
 - [ ] Public Neutrality sauber.
 - [x] Release Readiness Review abgeschlossen (NDF-WP-127, 2026-07-08: **GO WITH NOTES** — [`FOUNDATION_0_9_READINESS_REVIEW.md`](FOUNDATION_0_9_READINESS_REVIEW.md); 18-Punkte-Criteria-Check, keine Blocker, Notes non-blocking).
-- [x] Release Prep abgeschlossen (NDF-WP-128, 2026-07-10: [`FOUNDATION_0_9_RELEASE_NOTES.md`](FOUNDATION_0_9_RELEASE_NOTES.md), [`FOUNDATION_0_9_GO_NO_GO_CHECKLIST.md`](FOUNDATION_0_9_GO_NO_GO_CHECKLIST.md), [`FOUNDATION_0_9_TAGGING_AND_GITHUB_RELEASE_GUIDE.md`](FOUNDATION_0_9_TAGGING_AND_GITHUB_RELEASE_GUIDE.md); **release-prepared / pending manual release**).
+- [x] Release Prep abgeschlossen (NDF-WP-128, 2026-07-10: [`FOUNDATION_0_9_RELEASE_NOTES.md`](FOUNDATION_0_9_RELEASE_NOTES.md), [`FOUNDATION_0_9_GO_NO_GO_CHECKLIST.md`](FOUNDATION_0_9_GO_NO_GO_CHECKLIST.md), [`FOUNDATION_0_9_TAGGING_AND_GITHUB_RELEASE_GUIDE.md`](FOUNDATION_0_9_TAGGING_AND_GITHUB_RELEASE_GUIDE.md)).
+- [x] Finaler annotated Tag + GitHub Pre-Release (Human Maintainer, 2026-07-10): Tag `v0.9.0-foundation` → Commit `e735041`; GitHub Pre-Release „Nova Development Framework v0.9.0 Foundation" (prerelease, Target `main`, published 2026-07-10).
+- [x] Post-Release-Reconciliation-Cleanup (NDF-WP-133, 2026-07-10): Tag + GitHub Release read-only verifiziert, Statusdokumente auf released/published gehoben, Tag-Cut-Abweichung (WP-126) transparent dokumentiert; kein Tag-Move, kein History-Rewrite, kein Korrektur-Release.
 - [ ] Finaler Tag + GitHub Pre-Release (nur Human Maintainer).
 
-**Foundation 0.9 ist release-prepared / pending manual release. Sie ist nicht released, bis der Human Maintainer den manuellen annotated Tag und das GitHub Pre-Release abschließt; die zwei bekannten Notes (Short-Prompt-Ersteinsatz offen, externe Validierungs-Evidenz-Tiefe v1.0-tracked) bleiben non-blocking.** / Foundation 0.9 is release-prepared / pending manual release; not released until the Human Maintainer completes the manual annotated tag and GitHub pre-release; the two known notes stay non-blocking.
+**Foundation 0.9 ist released / published als `v0.9.0-foundation` (2026-07-10). Nicht v1.0, kein v1.0 RC; volle v1.x-Zusage nicht aktiv; kein aktives Skill Pack. Die zwei bekannten Notes (Short-Prompt-Ersteinsatz offen, externe Validierungs-Evidenz-Tiefe v1.0-tracked) bleiben non-blocking und sichtbar.** / Foundation 0.9 is released/published as `v0.9.0-foundation` (2026-07-10); not v1.0, no v1.0 RC; full v1.x promise not active; no active skill pack; the two known notes stay non-blocking and visible.
 
 ## EN – Release-Blocking Criteria (binding since WP-121)
 
