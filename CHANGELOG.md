@@ -4,9 +4,9 @@ All notable changes to the Nova Development Framework will be documented in this
 
 ## [0.9.0-foundation] - 2026-07-10
 
-Adoption, Validation & Optional Enablement Pre-Release. Status: **Published** as Foundation pre-release on 2026-07-10 (annotated tag `v0.9.0-foundation` → commit `e735041`, GitHub Pre-Release "Nova Development Framework v0.9.0 Foundation", Target `main`). Not v1.0. Not a v1.0 release candidate. Full v1.x compatibility promise not active. No active Claude Skills Pack. Release notes: `docs/release/FOUNDATION_0_9_RELEASE_NOTES.md`
+Adoption, Validation & Optional Enablement Pre-Release. Status: **Published** as Foundation pre-release on 2026-07-10 (annotated tag `v0.9.0-foundation` → commit `e735041`, GitHub Pre-Release "Nova Development Framework v0.9.0 Foundation", Target `main`). Not v1.0. Not a v1.0 release candidate. Full v1.x compatibility promise not active. The release itself shipped no skill pack; a **docs-only skills MVP** was added post-release under WP-129 (additive, markdown-only, no scripts/automation, no autonomous git/release actions). Release notes: `docs/release/FOUNDATION_0_9_RELEASE_NOTES.md`
 
-**Reconciliation note:** the tag cut was at WP-126 (`e735041`); WP-127 (readiness review) and WP-128 (release prep) were committed after the tag (`b268503`) and documented post-release in NDF-WP-133. The tag was not moved — no history rewrite, no correction release.
+**Reconciliation note:** the tag cut was at WP-126 (`e735041`); WP-127 (readiness review), WP-128 (release prep), the WP-125 skills blueprint, and the WP-129 docs-only skills MVP were committed after the tag and documented post-release (WP-133 documented the reconciliation). The tag was not moved — no history rewrite, no correction release.
 
 ### Added
 
@@ -19,6 +19,8 @@ Adoption, Validation & Optional Enablement Pre-Release. Status: **Published** as
 - docs(release): prepared Foundation 0.9 release notes, Go/No-Go checklist and tagging guide (`v0.9.0-foundation`, annotated tag); all known notes carried; WP-125/129 stay optional and not activated; not v1.0 (WP-128)
 - docs(release): reconciled Foundation 0.9 post-release status — marked released/published as `v0.9.0-foundation` (published 2026-07-10); tag + GitHub pre-release verified read-only; tag cut at WP-126 documented transparently, tag not moved, no history rewrite, no correction release; go/no-go and tagging guide marked historical; no active skill pack; not v1.0 (WP-133)
 - docs(validation): review adoption evidence and v1.0 path — GO WITH NOTES; consolidates WP-122/123/124 evidence (28-point matrix); Foundation 0.9 strengthens the way-of-working side of the v1.0 path but addresses no open v1.0 criterion directly and does not complete it; full v1.x compatibility promise stays inactive, external-validation evidence depth stays v1.0-tracked; no active skill pack, WP-125/129 optional/not activated (WP-126)
+- docs(skills): add skills MVP blueprint — GO WITH NOTES; ten skill candidates evaluated, a 4-skill docs-only MVP recommended (ndf-work-package-runner, ndf-compact-context-summary-runner, ndf-public-neutrality-guard, ndf-context-pack-maintainer), extended/not-recommended sets, token-economy assessment, Skill/Project-Knowledge/Prompt matrix, security model and 13-point validation plan; WP-129 recommended with a constrained docs-only scope; no implementation, no active skill pack, no .claude/skills/SKILL.md/scripts; not v1.0 (WP-125)
+- docs(skills): add docs-only skills MVP — GO WITH NOTES; implemented exactly the four recommended MVP skills as markdown-only `.claude/skills/*/SKILL.md` plus a README index and an 18-point validation; scope change (`.claude/skills`/`SKILL.md` now allowed) applies exclusively to these four docs-only skills; no extended skills, no scripts, no network, no secrets (name only), no private data, no git/release actions; ADR-0032 unchanged and binding; skills are additive, do not replace gates/human review, and activate no optional WPs; not v1.0 (WP-129)
 
 ## [0.8.0-foundation] - 2026-07-08
 

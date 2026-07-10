@@ -16,15 +16,15 @@ Foundation 0.9.
 
 ## Current Phase Status
 
-**Released / published — reconciliation documented** als `v0.9.0-foundation` (2026-07-10, NDF-WP-133). Nicht v1.0, kein v1.0 Release Candidate, keine aktive volle v1.x-Zusage. Kein aktives Skill Pack.
+**Released / published — reconciliation documented** als `v0.9.0-foundation` (2026-07-10, NDF-WP-133). Nicht v1.0, kein v1.0 Release Candidate, keine aktive volle v1.x-Zusage. Ein **docs-only Skills MVP** (vier Markdown-Skills unter `.claude/skills/`) ist seit WP-129 vorhanden — additiv, ADR-0032-konform, ohne Scripts/Automation; keine autonom ausführenden Skills.
 
 ## Last Completed Work Package
 
-`NDF-WP-125 – Skills MVP Implementation Blueprint` — GO WITH NOTES; 4-Skill-MVP empfohlen (`ndf-work-package-runner`, `ndf-compact-context-summary-runner`, `ndf-public-neutrality-guard`, `ndf-context-pack-maintainer`); WP-129 bedingt mit engem docs-only Scope empfohlen; **keine Implementierung**, kein aktives Skill Pack. Blueprint: `docs/validation/foundation-0-9/SKILLS_MVP_IMPLEMENTATION_BLUEPRINT.md`.
+`NDF-WP-129 – Docs-only Skills MVP Implementation` — GO WITH NOTES; genau vier docs-only MVP-Skills unter `.claude/skills/` implementiert (`ndf-work-package-runner`, `ndf-compact-context-summary-runner`, `ndf-public-neutrality-guard`, `ndf-context-pack-maintainer`) + `README.md`-Index; keine Extended Skills, keine Scripts; ADR-0032 unverändert bindend. Validation: `docs/validation/foundation-0-9/DOCS_ONLY_SKILLS_MVP_VALIDATION.md`.
 
 ## Next Work Package
 
-`NDF-WP-129 – Docs-only Skills MVP Implementation` — **optional, nicht aktiviert**; nur bei ausdrücklichem Human-Maintainer-Scope-Change, engem docs-only Scope (die vier MVP-Skills), ADR-0032-konform.
+**Skill-/Prompt-Compression-Validation** (realer Vorher/Nachher-Prompt-Overhead an einem echten WP) — oder alternativ **v1.0 Gap Review**, falls die Repo-Konvention das nahelegt. WP-130/131/132 bleiben optional/nicht aktiviert.
 
 ## Release-Blocking Work Packages
 
@@ -39,8 +39,8 @@ Foundation 0.9.
 
 ## Optional Work Packages
 
-- NDF-WP-125 Skills MVP Implementation Blueprint — **erledigt: GO WITH NOTES** (4-Skill-MVP empfohlen; keine Implementierung, kein aktives Skill Pack)
-- NDF-WP-129 Docs-only Skills MVP Implementation — optional, **not activated** (nach WP-125 bedingt mit engem docs-only Scope empfohlen)
+- NDF-WP-125 Skills MVP Implementation Blueprint — **erledigt: GO WITH NOTES** (4-Skill-MVP empfohlen)
+- NDF-WP-129 Docs-only Skills MVP Implementation — **erledigt: GO WITH NOTES** (vier docs-only MVP-Skills implementiert, ADR-0032-konform, keine Extended Skills)
 - NDF-WP-130 Skill-to-Cursor Rules Export Assessment — optional (Assessment)
 - NDF-WP-131 Workflow Builder Evaluation — optional (Evaluation)
 - NDF-WP-132 Docs Polish Skill Evaluation — optional (Evaluation)
@@ -84,10 +84,11 @@ Validation-first; Skills-Implementierung optional/nicht aktiviert (WP-129); WP-1
 - WP-128: Release Prep — Release Notes + Go/No-Go + Tagging-Guide erstellt; alle Known Notes übernommen.
 - WP-133: Post-Release Reconciliation Cleanup — Tag `v0.9.0-foundation` (annotated, → `e735041`/WP-126) + GitHub Pre-Release (published 2026-07-10) read-only verifiziert; Status auf **released / published — reconciliation documented** gehoben. Tag-Cut lag bei WP-126; WP-127/128 nach dem Tag committet (`b268503`), kein Tag-Move / History-Rewrite / Korrektur-Release. Nächster Schritt WP-125 (Blueprint).
 - WP-125: Skills MVP Implementation Blueprint — **GO WITH NOTES**; zehn Kandidaten bewertet, 4-Skill-MVP empfohlen (WP-Runner, Compact-Context-Summary-Runner, Public-Neutrality-Guard, Context-Pack-Maintainer), Extended-Set + Nicht-Empfohlene definiert; Token-Economy hoch–sehr hoch, Skill/PK/Prompt-Matrix, Security-Model, 13-Punkte-Validierungsplan; WP-129 bedingt mit engem docs-only Scope empfohlen; **keine Implementierung**, kein aktives Skill Pack, keine `.claude/skills`/`SKILL.md`/Scripts.
+- WP-129: Docs-only Skills MVP Implementation — **GO WITH NOTES**; genau vier docs-only MVP-Skills unter `.claude/skills/` implementiert + `README.md`-Index + [Validation](../docs/validation/foundation-0-9/DOCS_ONLY_SKILLS_MVP_VALIDATION.md) (18-Punkte-Matrix); keine Extended Skills, keine Scripts, kein Netz, keine Secrets (nur Name), keine Git-/Release-Aktionen; ADR-0032 unverändert bindend; Scope-Change (`.claude/skills`/`SKILL.md` nun erlaubt) ausschließlich für diese vier Skills. Known Note DSK-001: Prompt-Ersparnis noch nicht empirisch gemessen.
 
 ## Next Prompt Recommendation
 
-**Full Prompt Mode** für WP-129 (Docs-only Skills MVP Implementation — Skills-/Security-/Governance-Bezug; empfohlenes Modell Claude Opus 4.8) — **nur** bei ausdrücklichem Human-Maintainer-Scope-Change und engem docs-only Scope (die vier MVP-Skills); sonst bleibt WP-129 nicht aktiviert.
+**Standard oder Full Prompt Mode** für die nächste Phase: **Skill-/Prompt-Compression-Validation** (realer Vorher/Nachher-Prompt-Overhead an einem echten WP; misst DSK-001) — alternativ **v1.0 Gap Review** (Full Prompt Mode, empfohlenes Modell Claude Opus 4.8). WP-130/131/132 bleiben optional/nicht aktiviert.
 
 ## What Must Not Be Claimed
 

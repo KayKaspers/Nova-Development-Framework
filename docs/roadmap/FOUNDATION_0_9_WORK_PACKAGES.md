@@ -21,7 +21,7 @@
 
 | ID | Titel | Scope Lock |
 |---|---|---|
-| NDF-WP-129 | Docs-only Skills MVP Implementation | **optional — nicht durch WP-121 aktiviert**; nur per ausdrücklichem Human-Maintainer-Scope-Change nach WP-124/WP-125; strikt ADR-0032-konform |
+| NDF-WP-129 | Docs-only Skills MVP Implementation | **erledigt: GO WITH NOTES** — per ausdrücklichem Human-Maintainer-Scope-Change nach WP-125 aktiviert; genau vier docs-only MVP-Skills implementiert (`.claude/skills/`), keine Extended Skills, keine Scripts, strikt ADR-0032-konform ([Validation](../validation/foundation-0-9/DOCS_ONLY_SKILLS_MVP_VALIDATION.md), [Notes](../../project-brain/WP_129_DOCS_ONLY_SKILLS_MVP_IMPLEMENTATION_NOTES.md)) |
 | NDF-WP-130 | Skill-to-Cursor Rules Export Assessment | **optional** — nur Assessment |
 | NDF-WP-131 | Workflow Builder Evaluation | **optional** — nur Evaluation |
 | NDF-WP-132 | Docs Polish Skill Evaluation | **optional** — nur Evaluation |
