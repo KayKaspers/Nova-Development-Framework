@@ -16,15 +16,15 @@ Foundation 0.9.
 
 ## Current Phase Status
 
-Scope-locked (NDF-WP-121). Nicht released, nicht v1.0, kein v1.0 Release Candidate. Kein aktives Skill Pack.
+Scope-locked (NDF-WP-121), **release-prepared / pending manual release** (NDF-WP-128). Nicht released, nicht v1.0, kein v1.0 Release Candidate. Kein aktives Skill Pack.
 
 ## Last Completed Work Package
 
-`NDF-WP-126 – Adoption Evidence and v1.0 Path Review` — **GO WITH NOTES**; WP-122/123/124-Evidence zusammengeführt (28-Punkte-Matrix), v1.0-Pfad gestärkt aber nicht geschlossen, volle v1.x-Zusage nicht aktiv, kein aktives Skill Pack.
+`NDF-WP-128 – Foundation 0.9 Release Prep` — Release Notes + Go/No-Go-Checkliste + Tagging-Guide erstellt; **release-prepared / pending manual release**. Kein aktives Skill Pack.
 
 ## Next Work Package
 
-`NDF-WP-127 – Foundation 0.9 Release Readiness Review` (Full Prompt Mode, empf. Modell Claude Opus 4.8). Optionaler Zwischenschritt nur auf ausdrücklichen Human-Maintainer-Wunsch: `NDF-WP-125 – Skills MVP Implementation Blueprint`.
+Manueller Human-Maintainer-Release (Go/No-Go → annotated Tag `v0.9.0-foundation` → GitHub Pre-Release), danach `NDF-WP-133 – Foundation 0.9 Post-Release Status Cleanup`. Optionaler Zwischenschritt weiterhin nur auf ausdrücklichen Human-Maintainer-Wunsch: `NDF-WP-125 – Skills MVP Implementation Blueprint`.
 
 ## Release-Blocking Work Packages
 
@@ -33,8 +33,8 @@ Scope-locked (NDF-WP-121). Nicht released, nicht v1.0, kein v1.0 Release Candida
 - NDF-WP-123 Prompt Modes and Context Pack Validation — done (GO WITH NOTES)
 - NDF-WP-124 Optional Skills MVP Implementation Decision — done (Option B: Blueprint-first, implementation-not-activated)
 - NDF-WP-126 Adoption Evidence and v1.0 Path Review — done (GO WITH NOTES)
-- NDF-WP-127 Release Readiness Review — open (nächster Schritt)
-- NDF-WP-128 Release Prep — open
+- NDF-WP-127 Release Readiness Review — done (GO WITH NOTES)
+- NDF-WP-128 Release Prep — done (release-prepared / pending manual release)
 
 ## Optional Work Packages
 
@@ -78,11 +78,13 @@ Validation-first; Skills-Implementierung optional/nicht aktiviert (WP-129); WP-1
 - WP-122: Context Economy Adoption Review — GO WITH NOTES; Adoption belegt (16-Punkte-Matrix), Compact Context Summary/Context Packs/Prompt Modes praktisch genutzt; kein aktives Skill Pack.
 - WP-123: Prompt Modes and Context Pack Validation — GO WITH NOTES; 28-Punkte-Matrix; Short Prompt sicher begrenzt, Template vollständig; Note PMV-003: erster realer Short-Prompt-Einsatz bleibt Beobachtungspunkt.
 - WP-124: Optional Skills MVP Implementation Decision — **Option B: Blueprint-first, implementation-not-activated** (24-Punkte-Matrix); WP-125 empfohlen/nicht aktiviert, WP-129 nicht aktiviert; ADR-0032 bindend.
-- WP-126: Adoption Evidence and v1.0 Path Review — GO WITH NOTES; WP-122/123/124-Evidence zusammengeführt (28-Punkte-Matrix); v1.0-Pfad gestärkt (Arbeitsweise/Effizienz), aber kein offenes v1.0-Kriterium direkt adressiert; externe-Validierungs-Evidenz-Tiefe bleibt v1.0-tracked; volle v1.x-Zusage nicht aktiv. Nächster Schritt WP-127.
+- WP-126: Adoption Evidence and v1.0 Path Review — GO WITH NOTES; WP-122/123/124-Evidence zusammengeführt (28-Punkte-Matrix); v1.0-Pfad gestärkt (Arbeitsweise/Effizienz), aber kein offenes v1.0-Kriterium direkt adressiert; externe-Validierungs-Evidenz-Tiefe bleibt v1.0-tracked; volle v1.x-Zusage nicht aktiv.
+- WP-127: Release Readiness Review — **GO WITH NOTES**; 18-Punkte-Criteria-Check (16 Met, 2 Met with notes), alle blocking WPs vor WP-127 erfüllt, keine Blocker; Known Notes für WP-128-Release-Notes fixiert.
+- WP-128: Release Prep — Release Notes + Go/No-Go + Tagging-Guide erstellt; **release-prepared / pending manual release**; alle Known Notes übernommen; annotated Tag `v0.9.0-foundation` + GitHub Pre-Release als manuelle Human-Maintainer-Schritte dokumentiert. Nächster Schritt: manueller Release, dann WP-133.
 
 ## Next Prompt Recommendation
 
-**Full Prompt Mode** für WP-127 (Foundation 0.9 Release Readiness Review — release-kritisch; empfohlenes Modell Claude Opus 4.8). Falls der Human Maintainer vorher WP-125 wählt: ebenfalls Full Prompt Mode (Skills-Bezug).
+Manueller Human-Maintainer-Release (Go/No-Go → annotated Tag → GitHub Pre-Release); danach **Full Prompt Mode** für WP-133 (Post-Release Status Cleanup — read-only Verifikation + Status auf released/published). Falls der Human Maintainer vorher WP-125 wählt: ebenfalls Full Prompt Mode (Skills-Bezug).
 
 ## What Must Not Be Claimed
 

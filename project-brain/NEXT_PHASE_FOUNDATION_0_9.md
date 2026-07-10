@@ -2,7 +2,7 @@
 
 ## Current status
 
-**Scope locked** (NDF-WP-121, 2026-07-08). Foundation 0.9 ist gelockt, **nicht released**, **nicht v1.0**, validation-first. Keine Skills erstellt. Verbindliche Einstufung: `docs/roadmap/FOUNDATION_0_9_SCOPE_LOCK.md`. Release-blocking: 121 (done) · 122 (Context Economy Adoption Review — **done: GO WITH NOTES**) · 123 (Prompt Modes & Context Pack Validation — **done: GO WITH NOTES**) · 124 (Optional Skills MVP Implementation Decision — **done: Option B**) · 126 (Adoption Evidence & v1.0 Path Review — **done: GO WITH NOTES**, `docs/validation/foundation-0-9/ADOPTION_EVIDENCE_AND_V1_0_PATH_REVIEW.md`) · 127 (Release Readiness Review — **nächster Schritt**) · 128. **WP-125 optional/conditional; WP-129 optional/nicht aktiviert; WP-130/131/132 optionale Assessments; WP-133 Post-Release-Kandidat.**
+**Scope locked** (NDF-WP-121, 2026-07-08). Foundation 0.9 ist gelockt, **nicht released**, **nicht v1.0**, validation-first. Keine Skills erstellt. Verbindliche Einstufung: `docs/roadmap/FOUNDATION_0_9_SCOPE_LOCK.md`. Release-blocking: 121 (done) · 122 (Context Economy Adoption Review — **done: GO WITH NOTES**) · 123 (Prompt Modes & Context Pack Validation — **done: GO WITH NOTES**) · 124 (Optional Skills MVP Implementation Decision — **done: Option B**) · 126 (Adoption Evidence & v1.0 Path Review — **done: GO WITH NOTES**) · 127 (Release Readiness Review — **done: GO WITH NOTES**) · 128 (Release Prep — **done: release-prepared / pending manual release**, `docs/release/FOUNDATION_0_9_RELEASE_NOTES.md` + Go/No-Go + Tagging-Guide). Alle release-blocking WPs erledigt; offen nur der manuelle Tag/Release, danach WP-133. **WP-125 optional/conditional; WP-129 optional/nicht aktiviert; WP-130/131/132 optionale Assessments; WP-133 Post-Release-Kandidat.**
 
 ## Working title
 
@@ -30,4 +30,4 @@ Public Quality Gate v0.2 Pflicht; ADR-0032 bindend (fail closed, docs-only zuers
 
 ## Next WP
 
-**NDF-WP-127 – Foundation 0.9 Release Readiness Review** (Full Prompt Mode, empfohlenes Modell Claude Opus 4.8). WP-122/123/124/126 erledigt (alle inhaltlichen release-blocking WPs); WP-126 hat die Evidence zusammengeführt (v1.0-Pfad gestärkt, nicht geschlossen; volle v1.x-Zusage nicht aktiv). Danach WP-128 (Release Prep). Optionaler Zwischenschritt nur auf Human-Maintainer-Wunsch: WP-125 (Blueprint). WP-129 optional, nicht aktiviert. Nächste freie ADR-Nummer: 0033. Kein v1.0, keine aktiven Skills.
+**Manuelles Go/No-Go + annotated Tag `v0.9.0-foundation` + GitHub Pre-Release durch den Human Maintainer** (WP-128 Release Prep abgeschlossen, release-prepared / pending manual release). Danach **NDF-WP-133 – Foundation 0.9 Post-Release Status Cleanup**. WP-125 optional (nur auf Human-Maintainer-Wunsch); WP-129 optional, nicht aktiviert; WP-130/131/132 optional. Nächste freie ADR-Nummer: 0033. Kein v1.0, keine aktive volle v1.x-Zusage, keine aktiven Skills.

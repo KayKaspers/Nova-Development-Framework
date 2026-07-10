@@ -13,8 +13,8 @@
 | NDF-WP-124 | Optional Skills MVP Implementation Decision | docs-only / decision | **release-blocking** — **erledigt: Option B (Blueprint-first, implementation-not-activated)** ([Decision](../agent-workflows/NDF_SKILLS_MVP_IMPLEMENTATION_DECISION.md); WP-125 empfohlen aber optional, WP-129 nicht aktiviert) |
 | NDF-WP-125 | Skills MVP Implementation Blueprint | docs-only / design | **optional / conditional** — von WP-124 empfohlen, aber **nicht aktiviert**; Start nur auf ausdrücklichen Human-Maintainer-Wunsch; höchstens Blueprint, keine Implementierung |
 | NDF-WP-126 | Adoption Evidence and v1.0 Path Review | review-only | **release-blocking** — **erledigt: GO WITH NOTES** ([Review](../validation/foundation-0-9/ADOPTION_EVIDENCE_AND_V1_0_PATH_REVIEW.md); 28-Punkte-Evidence-Matrix, v1.0-Pfad gestärkt aber nicht geschlossen) |
-| NDF-WP-127 | Foundation 0.9 Release Readiness Review | review-only | **release-blocking** — **nächster Schritt** (Full Prompt Mode, empf. Modell Claude Opus 4.8) |
-| NDF-WP-128 | Foundation 0.9 Release Prep | docs-only / release-prep | **release-blocking** |
+| NDF-WP-127 | Foundation 0.9 Release Readiness Review | review-only | **release-blocking** — **erledigt: GO WITH NOTES** ([Readiness Review](../release/FOUNDATION_0_9_READINESS_REVIEW.md); 18-Punkte-Criteria-Check, keine Blocker, kein aktives Skill Pack) |
+| NDF-WP-128 | Foundation 0.9 Release Prep | docs-only / release-prep | **release-blocking** — **erledigt** ([Release Notes](../release/FOUNDATION_0_9_RELEASE_NOTES.md), [Go/No-Go](../release/FOUNDATION_0_9_GO_NO_GO_CHECKLIST.md), [Tagging-Guide](../release/FOUNDATION_0_9_TAGGING_AND_GITHUB_RELEASE_GUIDE.md); **release-prepared / pending manual release**). Tag/Release manuell durch Human Maintainer; danach **NDF-WP-133** Post-Release Cleanup |
 
 ## Optionale / bedingte Work Packages (verbindlich / binding)
 

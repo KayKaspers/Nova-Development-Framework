@@ -33,9 +33,11 @@ Foundation pre-release, presumably `v0.9.0-foundation` — planned only, not sco
 - [ ] Public Quality Gate strict grün.
 - [ ] Public Quality Gate self-test grün.
 - [ ] Public Neutrality sauber.
-- [ ] Release Readiness Review abgeschlossen (NDF-WP-127).
-- [ ] Release Prep abgeschlossen (NDF-WP-128).
+- [x] Release Readiness Review abgeschlossen (NDF-WP-127, 2026-07-08: **GO WITH NOTES** — [`FOUNDATION_0_9_READINESS_REVIEW.md`](FOUNDATION_0_9_READINESS_REVIEW.md); 18-Punkte-Criteria-Check, keine Blocker, Notes non-blocking).
+- [x] Release Prep abgeschlossen (NDF-WP-128, 2026-07-10: [`FOUNDATION_0_9_RELEASE_NOTES.md`](FOUNDATION_0_9_RELEASE_NOTES.md), [`FOUNDATION_0_9_GO_NO_GO_CHECKLIST.md`](FOUNDATION_0_9_GO_NO_GO_CHECKLIST.md), [`FOUNDATION_0_9_TAGGING_AND_GITHUB_RELEASE_GUIDE.md`](FOUNDATION_0_9_TAGGING_AND_GITHUB_RELEASE_GUIDE.md); **release-prepared / pending manual release**).
 - [ ] Finaler Tag + GitHub Pre-Release (nur Human Maintainer).
+
+**Foundation 0.9 ist release-prepared / pending manual release. Sie ist nicht released, bis der Human Maintainer den manuellen annotated Tag und das GitHub Pre-Release abschließt; die zwei bekannten Notes (Short-Prompt-Ersteinsatz offen, externe Validierungs-Evidenz-Tiefe v1.0-tracked) bleiben non-blocking.** / Foundation 0.9 is release-prepared / pending manual release; not released until the Human Maintainer completes the manual annotated tag and GitHub pre-release; the two known notes stay non-blocking.
 
 ## EN – Release-Blocking Criteria (binding since WP-121)
 
