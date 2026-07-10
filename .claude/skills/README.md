@@ -4,7 +4,7 @@
 
 This directory holds the **NDF Docs-only Skills Pack** — a minimal, documentation-only skill pack that helps shorten Claude prompts for repeating NDF work without weakening NDF governance. Each skill encapsulates a stable, public-neutral block of NDF behavior (role, guardrails, closing formats, neutrality, context-pack upkeep) so that a work-package prompt can carry only the WP-specific parts.
 
-The **core MVP** was implemented under NDF-WP-129 (based on the [Skills MVP Implementation Blueprint](../../docs/validation/foundation-0-9/SKILLS_MVP_IMPLEMENTATION_BLUEPRINT.md), WP-125); the **extended core skills** were implemented under NDF-WP-137 (based on the [Extended Skills Pack Blueprint](../../docs/validation/foundation-0-9/EXTENDED_SKILLS_PACK_BLUEPRINT.md), WP-136). All skills follow the [Skill Security Policy](../../docs/agent-workflows/NDF_SKILL_SECURITY_POLICY.md) / [ADR-0032](../../docs/adr/ADR-0032-skill-security-policy.md).
+The **core MVP** was implemented under NDF-WP-129 (based on the [Skills MVP Implementation Blueprint](../../docs/validation/foundation-0-9/SKILLS_MVP_IMPLEMENTATION_BLUEPRINT.md), WP-125); the **extended core skills** under NDF-WP-137 (based on the [Extended Skills Pack Blueprint](../../docs/validation/foundation-0-9/EXTENDED_SKILLS_PACK_BLUEPRINT.md), WP-136); the **remaining docs-only advisory skills** under NDF-WP-145 (based on the [External Skills Landscape & Prioritization](../../docs/validation/foundation-0-9/EXTERNAL_SKILLS_LANDSCAPE_AND_PRIORITIZATION.md), WP-135). The pack now holds **30 docs-only skills**. All skills follow the [Skill Security Policy](../../docs/agent-workflows/NDF_SKILL_SECURITY_POLICY.md) / [ADR-0032](../../docs/adr/ADR-0032-skill-security-policy.md).
 
 ## Included Skills
 
@@ -22,10 +22,48 @@ The **core MVP** was implemented under NDF-WP-129 (based on the [Skills MVP Impl
 7. [`ndf-docs-polish-runner`](ndf-docs-polish-runner/SKILL.md) — improves documentation clarity, structure, and consistency (advisory, no substance change).
 8. [`ndf-changelog-writer`](ndf-changelog-writer/SKILL.md) — helps write consistent, neutral, WP-referenced changelog entries (never triggers a release).
 
+### Remaining advisory skills — Core / Governance / Release (WP-145)
+
+9. [`ndf-release-safety`](ndf-release-safety/SKILL.md) — checks release-adjacent WPs for safety boundaries; never performs tag/release actions.
+10. [`ndf-adr-governance-review`](ndf-adr-governance-review/SKILL.md) — reviews ADR-relevant changes for governance consistency; never silently changes/finalizes an ADR.
+11. [`ndf-v1-readiness-review`](ndf-v1-readiness-review/SKILL.md) — supports v1.0/RC/final readiness reviews; activates the v1.x promise only at final.
+12. [`ndf-release-notes-runner`](ndf-release-notes-runner/SKILL.md) — creates/reviews release notes; never asserts publication or triggers a release.
+
+### Remaining advisory skills — Docs / Communication (WP-145)
+
+13. [`ndf-readme-quality-reviewer`](ndf-readme-quality-reviewer/SKILL.md) — reviews a README for entry point, clarity, honest status, and neutrality.
+14. [`ndf-project-brief-runner`](ndf-project-brief-runner/SKILL.md) — produces neutral project briefs; no private project names in public NDF.
+
+### Remaining advisory skills — Engineering / Architecture (WP-145)
+
+15. [`ndf-architecture-blueprint-runner`](ndf-architecture-blueprint-runner/SKILL.md) — architecture blueprints (design-only, no implementation).
+16. [`ndf-feature-scope-runner`](ndf-feature-scope-runner/SKILL.md) — sharpens feature scope; write actions only after human approval.
+17. [`ndf-implementation-review-runner`](ndf-implementation-review-runner/SKILL.md) — documentary implementation review; no automatic code changes.
+18. [`ndf-test-strategy-runner`](ndf-test-strategy-runner/SKILL.md) — plans a test strategy; no obligation to execute tests.
+19. [`ndf-debugging-root-cause-reviewer`](ndf-debugging-root-cause-reviewer/SKILL.md) — structures debugging/root-cause analysis; no risky actions.
+
+### Remaining advisory skills — Product / UX / Adoption (WP-145)
+
+20. [`ndf-product-discovery-runner`](ndf-product-discovery-runner/SKILL.md) — product/project discovery; no manipulative-growth focus.
+21. [`ndf-ux-flow-reviewer`](ndf-ux-flow-reviewer/SKILL.md) — reviews user flows; no dark patterns.
+22. [`ndf-onboarding-friction-reviewer`](ndf-onboarding-friction-reviewer/SKILL.md) — assesses onboarding friction; no pressure onboarding.
+23. [`ndf-behavioral-adoption-reviewer`](ndf-behavioral-adoption-reviewer/SKILL.md) — ethical adoption/behavioral-design review; no manipulation/dark patterns.
+24. [`ndf-ethical-growth-reviewer`](ndf-ethical-growth-reviewer/SKILL.md) — ethical growth/support/donation review; voluntary support only.
+
+### Remaining advisory skills — Creative / Branding / Content (WP-145)
+
+25. [`ndf-branding-kit-runner`](ndf-branding-kit-runner/SKILL.md) — branding kits; copies no third-party brands.
+26. [`ndf-creative-direction-runner`](ndf-creative-direction-runner/SKILL.md) — creative direction; no imitation/IP issues.
+27. [`ndf-naming-runner`](ndf-naming-runner/SKILL.md) — project/feature naming; no trademark claim without a proper check.
+28. [`ndf-ui-style-system-runner`](ndf-ui-style-system-runner/SKILL.md) — UI style principles; does not force a concrete implementation.
+29. [`ndf-landing-page-concept-runner`](ndf-landing-page-concept-runner/SKILL.md) — landing-page concepts; CTAs without pressure mechanics.
+30. [`ndf-content-tone-reviewer`](ndf-content-tone-reviewer/SKILL.md) — language/tone/consistency review; no misleading claims.
+
 ## Non-Goals
 
 - No active automation, tool orchestration, or autonomous execution.
-- No optional/extended skills beyond those listed above (`ndf-release-safety`, `ndf-adr-governance-review`, `ndf-v1-readiness-review`, `ndf-prompt-mode-selector`) — deferred, not implemented here.
+- No standalone `ndf-prompt-mode-selector` (prompt-mode selection stays integrated in `ndf-work-package-runner`).
+- No git/release/tag automation, no OAuth/API/MCP/network skills, no secret-processing skills, no payment/crypto automation, no social autoposting, no offensive security tool runners, no autonomous multi-agent orchestration, no private project logic in public NDF.
 - No scripts, no executable files, no network access, no secret access, no private data.
 - No git/release/tag actions and no autonomous commit/push/tag/release.
 - No activation of optional WPs (WP-130/131/132) and no v1.0 / v1.0-RC / full v1.x promise activation.
