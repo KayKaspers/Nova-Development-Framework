@@ -4,7 +4,7 @@
 
 This directory holds the **NDF Docs-only Skills Pack** — a minimal, documentation-only skill pack that helps shorten Claude prompts for repeating NDF work without weakening NDF governance. Each skill encapsulates a stable, public-neutral block of NDF behavior (role, guardrails, closing formats, neutrality, context-pack upkeep) so that a work-package prompt can carry only the WP-specific parts.
 
-The **core MVP** was implemented under NDF-WP-129 (based on the [Skills MVP Implementation Blueprint](../../docs/validation/foundation-0-9/SKILLS_MVP_IMPLEMENTATION_BLUEPRINT.md), WP-125); the **extended core skills** under NDF-WP-137 (based on the [Extended Skills Pack Blueprint](../../docs/validation/foundation-0-9/EXTENDED_SKILLS_PACK_BLUEPRINT.md), WP-136); the **remaining docs-only advisory skills** under NDF-WP-145 (based on the [External Skills Landscape & Prioritization](../../docs/validation/foundation-0-9/EXTERNAL_SKILLS_LANDSCAPE_AND_PRIORITIZATION.md), WP-135). The pack now holds **30 docs-only skills**. All skills follow the [Skill Security Policy](../../docs/agent-workflows/NDF_SKILL_SECURITY_POLICY.md) / [ADR-0032](../../docs/adr/ADR-0032-skill-security-policy.md).
+The **core MVP** was implemented under NDF-WP-129 (based on the [Skills MVP Implementation Blueprint](../../docs/validation/foundation-0-9/SKILLS_MVP_IMPLEMENTATION_BLUEPRINT.md), WP-125); the **extended core skills** under NDF-WP-137 (based on the [Extended Skills Pack Blueprint](../../docs/validation/foundation-0-9/EXTENDED_SKILLS_PACK_BLUEPRINT.md), WP-136); the **remaining docs-only advisory skills** under NDF-WP-145 (based on the [External Skills Landscape & Prioritization](../../docs/validation/foundation-0-9/EXTERNAL_SKILLS_LANDSCAPE_AND_PRIORITIZATION.md), WP-135); and **eight additional advisory skills** under NDF-WP-146. The pack now holds **38 docs-only skills**. All skills follow the [Skill Security Policy](../../docs/agent-workflows/NDF_SKILL_SECURITY_POLICY.md) / [ADR-0032](../../docs/adr/ADR-0032-skill-security-policy.md).
 
 ## Included Skills
 
@@ -58,6 +58,17 @@ The **core MVP** was implemented under NDF-WP-129 (based on the [Skills MVP Impl
 28. [`ndf-ui-style-system-runner`](ndf-ui-style-system-runner/SKILL.md) — UI style principles; does not force a concrete implementation.
 29. [`ndf-landing-page-concept-runner`](ndf-landing-page-concept-runner/SKILL.md) — landing-page concepts; CTAs without pressure mechanics.
 30. [`ndf-content-tone-reviewer`](ndf-content-tone-reviewer/SKILL.md) — language/tone/consistency review; no misleading claims.
+
+### Additional advisory skills — Evidence / Quality / Privacy / Adapter (WP-146)
+
+31. [`ndf-validation-evidence-reviewer`](ndf-validation-evidence-reviewer/SKILL.md) — reviews validation/evidence artifacts (source class, strength, limits); invents no evidence/identities.
+32. [`ndf-skill-trigger-quality-reviewer`](ndf-skill-trigger-quality-reviewer/SKILL.md) — reviews skill names/descriptions/when-to-use to avoid over/under-triggering and sprawl.
+33. [`ndf-skill-supply-chain-risk-reviewer`](ndf-skill-supply-chain-risk-reviewer/SKILL.md) — reviews external-skill supply-chain risk; no network/install/copy of third-party code.
+34. [`ndf-public-release-body-reviewer`](ndf-public-release-body-reviewer/SKILL.md) — reviews release bodies for status/claim correctness; performs no GitHub action.
+35. [`ndf-feedback-triage-runner`](ndf-feedback-triage-runner/SKILL.md) — triages feedback neutrally (source/severity/action); invents no feedback/identities.
+36. [`ndf-accessibility-reviewer`](ndf-accessibility-reviewer/SKILL.md) — reviews docs/UI/flows for accessibility; claims no certification.
+37. [`ndf-privacy-data-minimization-reviewer`](ndf-privacy-data-minimization-reviewer/SKILL.md) — reviews for data minimization/private data; forbids secrets; no binding legal advice.
+38. [`ndf-project-adapter-quality-reviewer`](ndf-project-adapter-quality-reviewer/SKILL.md) — reviews project adapters for quality/neutrality; no private info in public NDF, no auto-migration.
 
 ## Non-Goals
 
