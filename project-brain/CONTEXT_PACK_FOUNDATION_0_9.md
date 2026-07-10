@@ -20,11 +20,11 @@ Foundation 0.9.
 
 ## Last Completed Work Package
 
-`NDF-WP-134 – Skills-first Operating Mode & Prompt Compression Validation` — GO WITH NOTES; Skills-first Operating Mode dokumentiert (Standard Prompt Mode als Default, Full für kritische Fälle), Prompt-Kompression validiert (strukturell hoch–sehr hoch), **DSK-001 Partially closed**; keine neuen/Extended Skills; ADR-0032 unverändert. Docs: `docs/validation/foundation-0-9/SKILLS_FIRST_OPERATING_MODE.md`, `SKILLS_PROMPT_COMPRESSION_VALIDATION.md`.
+`NDF-WP-135 – External Skills Landscape & Project Skill Prioritization` — GO WITH NOTES; externe Skill-Quellen als Kategoriemodell bewertet (keine Übernahme, kein Netzwerk), sieben Skill-Families priorisiert, NDF-Core/Project-Enablement getrennt, Allow/Watch/Reject + Skill-Roadmap (136→v1.0); Project-local-Skills nur als neutrale Archetypen (keine privaten Namen); keine neuen/Extended Skills. Doc: `docs/validation/foundation-0-9/EXTERNAL_SKILLS_LANDSCAPE_AND_PRIORITIZATION.md`.
 
 ## Next Work Package
 
-**NDF-WP-135 – External Skills Landscape & Project Skill Prioritization** (Kandidat, docs-only, nicht aktiviert). Skill-first-Roadmap: WP-135 → 136 → 137 → 138 → 139 (Real-use-Validierung, schließt DSK-001) → v1.0 Gap Review & Scope Lock. WP-130/131/132 bleiben optional/nicht aktiviert.
+**NDF-WP-136 – NDF Extended Skills Pack Blueprint** (Core/Governance/Docs, P0/P1-Allowlist; Kandidat, docs-only, nicht aktiviert; Skill-assisted Full Prompt Mode, Opus 4.8). Skill-first-Roadmap: WP-136 → 137 → 138 → 139 (Real-use-Validierung, schließt DSK-001) → v1.0 Gap Review & Scope Lock. WP-130/131/132 bleiben optional/nicht aktiviert.
 
 ## Release-Blocking Work Packages
 
@@ -86,10 +86,11 @@ Validation-first; Skills-Implementierung optional/nicht aktiviert (WP-129); WP-1
 - WP-125: Skills MVP Implementation Blueprint — **GO WITH NOTES**; zehn Kandidaten bewertet, 4-Skill-MVP empfohlen (WP-Runner, Compact-Context-Summary-Runner, Public-Neutrality-Guard, Context-Pack-Maintainer), Extended-Set + Nicht-Empfohlene definiert; Token-Economy hoch–sehr hoch, Skill/PK/Prompt-Matrix, Security-Model, 13-Punkte-Validierungsplan; WP-129 bedingt mit engem docs-only Scope empfohlen; **keine Implementierung**, kein aktives Skill Pack, keine `.claude/skills`/`SKILL.md`/Scripts.
 - WP-129: Docs-only Skills MVP Implementation — **GO WITH NOTES**; genau vier docs-only MVP-Skills unter `.claude/skills/` implementiert + `README.md`-Index + [Validation](../docs/validation/foundation-0-9/DOCS_ONLY_SKILLS_MVP_VALIDATION.md) (18-Punkte-Matrix); keine Extended Skills, keine Scripts, kein Netz, keine Secrets (nur Name), keine Git-/Release-Aktionen; ADR-0032 unverändert bindend; Scope-Change (`.claude/skills`/`SKILL.md` nun erlaubt) ausschließlich für diese vier Skills. Known Note DSK-001: Prompt-Ersparnis noch nicht empirisch gemessen.
 - WP-134: Skills-first Operating Mode & Prompt Compression Validation — **GO WITH NOTES**; Skills-first Operating Mode dokumentiert ([Operating Mode](../docs/validation/foundation-0-9/SKILLS_FIRST_OPERATING_MODE.md), [Compression Validation](../docs/validation/foundation-0-9/SKILLS_PROMPT_COMPRESSION_VALIDATION.md)); drei Vorher/Nachher-Prompt-Typen verglichen (normal hoch ~40–60 %, release mittel ~25–40 %, governance ~30–45 %); Standard Prompt Mode neuer Default, Full für kritische Fälle; **DSK-001 Partially closed** (strukturelle Baseline; Real-use-Messung offen → WP-139); keine neuen/Extended Skills; Governance stabil; ADR-0032 unverändert. Skill-first-Roadmap-Kandidaten WP-135–139 dokumentiert (nicht aktiviert).
+- WP-135: External Skills Landscape & Project Skill Prioritization — **GO WITH NOTES**; vier externe Quellen als Kategoriemodell bewertet (kein Netzwerk, keine 1:1-Übernahme, Lizenzprüfung vor Adaption nötig); sieben Skill-Families priorisiert; Kandidaten P0–P3 (P0: skill-quality-reviewer, existing-project-analysis-runner, docs-polish-runner, changelog-writer); Allow/Watch/Reject (Rejectlist: Git-/Release-/Netz-/Secret-/Payment-/Social-/Offensive-Security-/Multi-Agent-Automation, unklare Lizenz, private Projektlogik); Public-NDF vs Project-local getrennt (Archetypen, keine privaten Namen); Roadmap WP-136→v1.0. Keine neuen/Extended Skills; ADR-0032 unverändert.
 
 ## Next Prompt Recommendation
 
-**Skill-assisted Standard/Full Prompt Mode** für **NDF-WP-135 – External Skills Landscape & Project Skill Prioritization** (docs-only, Kandidat, empfohlenes Modell Claude Opus 4.8) — alternativ direkt **WP-139** (Real-use-Validierung, schließt DSK-001), falls priorisiert. WP-130/131/132 bleiben optional/nicht aktiviert.
+**Skill-assisted Full Prompt Mode** für **NDF-WP-136 – NDF Extended Skills Pack Blueprint** (Core/Governance/Docs, P0/P1-Allowlist; docs-only Blueprint, keine Implementierung; empfohlenes Modell Claude Opus 4.8). WP-137 (Project Enablement) danach/parallel. WP-130/131/132 bleiben optional/nicht aktiviert.
 
 ## What Must Not Be Claimed
 
