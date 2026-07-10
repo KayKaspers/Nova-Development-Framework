@@ -20,11 +20,11 @@ Foundation 0.9.
 
 ## Last Completed Work Package
 
-`NDF-WP-138 – Skill Prompt Compression Real-use Validation` — GO WITH NOTES; acht-teiliges Skill-Pack real-use-validiert (vier Fälle, reale Prompt-Reduktion ~40–65 %); **DSK-001 Closed with notes**, **ECS-001 Partially closed**; Skills-first Standard-Default bestätigt mit Notes; keine neuen/geänderten Skills; Governance stabil/verbessert; ADR-0032 unverändert. Validation: `docs/validation/foundation-0-9/SKILL_PROMPT_COMPRESSION_REAL_USE_VALIDATION.md`.
+`NDF-WP-139 – v1.0 Gap Review & Scope Lock` — GO WITH NOTES – v1.0 scope lock candidate; 18 Bereiche geprüft (9 Met, 8 Met with notes, 1 tracked Gap G-13 External Validation Evidence Depth, keine Blocker); Scope Lock als Kandidat empfohlen (verbindliche Fixierung im v1.0-Zyklus); achtteiliges Skill-Pack reicht für v1.0-Core; ADR-0031/0032 stabil/unverändert; **keine v1.0-Aktivierung, kein RC, keine volle v1.x-Zusage**. Doc: `docs/validation/v1-0/V1_0_GAP_REVIEW_AND_SCOPE_LOCK.md`.
 
 ## Next Work Package
 
-**NDF-WP-139 – v1.0 Gap Review & Scope Lock** (Full Prompt Mode, empfohlenes Modell Claude Opus 4.8). Optionale Governance-Skills (`ndf-release-safety`, `ndf-adr-governance-review`, `ndf-v1-readiness-review`) und ein Project-Enablement-Blueprint bleiben Kandidaten, innerhalb/nach dem Gap Review priorisierbar. WP-130/131/132 bleiben optional/nicht aktiviert.
+**NDF-WP-140 – External Validation Evidence Review** (schließt/bestätigt G-13 vor RC; Full/Skill-assisted Full Prompt Mode, Opus 4.8). v1.0-RC-Pfad: WP-140 → WP-141 (v1.0 Release Criteria Finalization) → WP-142 (v1.0 RC Readiness Review) → WP-143 (v1.0 RC Release Prep). Optionale Governance-/Project-Enablement-Skills bleiben Kandidaten (nicht blockierend). WP-130/131/132 bleiben optional/nicht aktiviert.
 
 ## Release-Blocking Work Packages
 
@@ -89,11 +89,12 @@ Validation-first; Skills-Implementierung optional/nicht aktiviert (WP-129); WP-1
 - WP-135: External Skills Landscape & Project Skill Prioritization — **GO WITH NOTES**; vier externe Quellen als Kategoriemodell bewertet (kein Netzwerk, keine 1:1-Übernahme, Lizenzprüfung vor Adaption nötig); sieben Skill-Families priorisiert; Kandidaten P0–P3 (P0: skill-quality-reviewer, existing-project-analysis-runner, docs-polish-runner, changelog-writer); Allow/Watch/Reject (Rejectlist: Git-/Release-/Netz-/Secret-/Payment-/Social-/Offensive-Security-/Multi-Agent-Automation, unklare Lizenz, private Projektlogik); Public-NDF vs Project-local getrennt (Archetypen, keine privaten Namen); Roadmap WP-136→v1.0. Keine neuen/Extended Skills; ADR-0032 unverändert.
 - WP-136: NDF Extended Skills Pack Blueprint — **GO WITH NOTES**; Extended Core Skills Pack empfohlen (4 Kern + bis 2 optional, max. 6); konzeptionelle 13-Feld-Skill-Designs, Overlap-Analyse, WP-137-Implementierungsplan; Reconciliation: WP-137 = Docs-only Extended Core Skills MVP Implementation. Keine Implementierung; `.claude/skills` unverändert; ADR-0032 unverändert.
 - WP-137: Docs-only Extended Core Skills MVP Implementation — **GO WITH NOTES**; genau vier docs-only Extended-Core-Skills unter `.claude/skills/` implementiert (skill-quality-reviewer, existing-project-analysis-runner, docs-polish-runner, changelog-writer) + README-Update; keine optionalen +2; bestehende MVP-Skills unverändert; Skill-Pack nun **acht** Skills; ADR-0032 unverändert.
-- WP-138: Skill Prompt Compression Real-use Validation — **GO WITH NOTES**; acht-teiliges Skill-Pack real-use-validiert ([Validation](../docs/validation/foundation-0-9/SKILL_PROMPT_COMPRESSION_REAL_USE_VALIDATION.md)); vier Fälle (normal ~45–60 %, governance ~30–45 %, existing-project-analysis ~40–55 %, changelog/docs-polish ~50–65 %); **DSK-001 Closed with notes**, **ECS-001 Partially closed**; Skills-first Standard-Default bestätigt mit Notes; Governance stabil/verbessert; keine neuen/geänderten Skills; ADR-0032 unverändert. Empfiehlt WP-139 v1.0 Gap Review & Scope Lock.
+- WP-138: Skill Prompt Compression Real-use Validation — **GO WITH NOTES**; acht-teiliges Skill-Pack real-use-validiert; DSK-001 Closed with notes, ECS-001 Partially closed; Skills-first Standard-Default bestätigt; keine neuen/geänderten Skills; ADR-0032 unverändert.
+- WP-139: v1.0 Gap Review & Scope Lock — **GO WITH NOTES – v1.0 scope lock candidate** ([Gap Review](../docs/validation/v1-0/V1_0_GAP_REVIEW_AND_SCOPE_LOCK.md)); 18 Bereiche (9 Met, 8 Met with notes, 1 tracked Gap G-13 External Validation Evidence Depth, keine Blocker); Scope Lock als Kandidat empfohlen; achtteiliges Skill-Pack reicht für v1.0-Core, weitere Skills optional/post-v1.0; External Validation vor RC zu vertiefen; volle v1.x-Zusage erst im v1.0 Scope Lock; ADR-0031/0032 stabil; **keine v1.0-Aktivierung/RC**. Nächste WPs 140→143 Richtung v1.0 RC.
 
 ## Next Prompt Recommendation
 
-**Full Prompt Mode** für **NDF-WP-139 – v1.0 Gap Review & Scope Lock** (empfohlenes Modell Claude Opus 4.8). Optionale Governance-Skills (release-safety, adr-governance-review, v1-readiness-review) und Project-Enablement bleiben Kandidaten, innerhalb/nach dem Gap Review priorisierbar. WP-130/131/132 bleiben optional/nicht aktiviert.
+**Full oder Skill-assisted Full Prompt Mode** für **NDF-WP-140 – External Validation Evidence Review** (G-13 schließen/bestätigen; empfohlenes Modell Claude Opus 4.8). Danach WP-141 (v1.0 Release Criteria Finalization) → WP-142 (v1.0 RC Readiness Review) → WP-143 (v1.0 RC Release Prep). WP-130/131/132 bleiben optional/nicht aktiviert.
 
 ## What Must Not Be Claimed
 
