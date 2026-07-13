@@ -20,11 +20,11 @@ Foundation 0.9.
 
 ## Last Completed Work Package
 
-`NDF-WP-149 – v1.0 Final Post-Release Review / Reconciliation` — GO WITH NOTES – v1.0 final released and reconciled; der Human Maintainer hat annotated Tag `v1.0.0` (→ finaler Commit `9dcadc1`) als **Final release** veröffentlicht (kein AI-Git-/Release-Vorgang); read-only verifiziert (annotated, Final/nicht Pre-release, Gate grün auf `9dcadc1`); **volle v1.x-Kompatibilitätszusage ab `v1.0.0` aktiv gemäß ADR-0031** (nicht rückwirkend für Foundation `v0.x`/RC); G-13 via **Weg C** reconciled (B akzeptierte Grenze bestätigt, A future/WP-153); Known Final Notes triagiert; RC-Tag `v1.0.0-rc.1` historisch unverändert; kein Tag-Move/History-Rewrite. **NDF ist v1.0.0 released — reconciled.** Doc: `docs/validation/v1-0/V1_0_FINAL_POST_RELEASE_REVIEW.md`.
+`NDF-WP-150 – v1.1 Planning / Post-v1.0 Roadmap` — GO WITH NOTES – v1.1 planning started; v1.1 = **Validation, Enablement & Operational Maturity** (nur geplant, nicht released); Ausgangslage nach v1.0.0 dokumentiert (v1.x-Zusage aktiv, ADR-0031/0032 unverändert, 38 Skills, keine offenen v1.0-Blocker); Known Final Notes in Roadmap-Items überführt (RDS-001/ADS-001/38-Skill-Real-use → WP-151; G-13-Weg A → WP-152; „kein RC-Feedback" teilweise adressiert durch ersten Projekt-Feedback-Intake → WP-152/153); v1.x-Kompatibilitätsgrenzen dokumentiert; erster realer Projekt-Feedback-Intake (Human Maintainer, project-local) neutral einbezogen; keine Breaking Changes/neue Skills/Releases. Doc: `docs/roadmap/V1_1_PLAN.md`.
 
 ## Next Work Package
 
-**NDF-WP-150 – v1.1 Planning / Post-v1.0 Roadmap** (Full/Skill-assisted Full Prompt Mode, Opus 4.8). Post-v1.0-Roadmap: WP-150 → WP-152 (Skills Real-use Review; RDS-001/ADS-001) → WP-153 (External Validation Improvement; G-13-Weg A) → WP-151 (Project Enablement Validation) → WP-154 (Public Documentation Polish). WP-130/131/132 bleiben optional/nicht aktiviert.
+**NDF-WP-151 – Skills Real-use Review** (RDS-001/ADS-001 + 38-Skill-Real-use auswerten: Nutzen/Trigger-Qualität/Overlap/Sprawl; Skill-assisted Standard/Full Prompt Mode, Opus 4.8). v1.1-Roadmap: WP-151 → WP-152 (External Validation Improvement, G-13-Weg A) → WP-153 (Project Enablement Validation) → WP-154 (Public Documentation Polish) → WP-155 (v1.1 Readiness Review) → WP-156 (v1.1 Release Prep). WP-130/131/132 bleiben optional/nicht aktiviert.
 
 ## Release-Blocking Work Packages
 
@@ -100,11 +100,12 @@ Validation-first; Skills-Implementierung optional/nicht aktiviert (WP-129); WP-1
 - WP-146: Additional Docs-only Skills Pack Implementation — **GO WITH NOTES**; 8 neue docs-only Advisory-Skills; Skill-Pack **38 Skills**; bestehende 30 unverändert; RC unverändert; kein v1.0 final. Final Readiness → WP-147.
 - WP-147: v1.0 Final Readiness Review — **GO WITH NOTES – ready for v1.0 Final Release Prep**; F-01…F-07 (6 Met with notes, F-03 N/A bis final, 0 Gaps, 0 Blocker); G-13-Weg C bestätigt; 38-Skill-Pack final-tauglich mit Notes; keine v1.0-Final-Aktivierung; RC unverändert.
 - WP-148: v1.0 Final Release Prep — **GO WITH NOTES – v1.0 final prepared, pending Human Maintainer release**; `v1.0.0` als Doku vorbereitet (Final Release Notes/Go-No-Go/Tagging-Guide, kopierbarer Release Body); G-13-Weg C final; kein Tag/Release durch Claude; v1.x-Zusage prepared/pending; RC unverändert.
-- WP-149: v1.0 Final Post-Release Review / Reconciliation — **GO WITH NOTES – v1.0 final released and reconciled** ([Post-Release Review](../docs/validation/v1-0/V1_0_FINAL_POST_RELEASE_REVIEW.md)); Human Maintainer hat annotated Tag `v1.0.0` (→ `9dcadc1`) als **Final release** veröffentlicht (kein AI-Git-/Release-Vorgang); read-only verifiziert (annotated, Final/nicht Pre-release, Gate grün); **volle v1.x-Zusage ab `v1.0.0` aktiv gemäß ADR-0031** (nicht rückwirkend); G-13 via Weg C reconciled (B akzeptiert, A future); Known Final Notes triagiert; RC-Tag `v1.0.0-rc.1` unverändert; kein Tag-Move/History-Rewrite; ADR-0031/0032 unverändert. **NDF ist v1.0.0 released.**
+- WP-149: v1.0 Final Post-Release Review / Reconciliation — **GO WITH NOTES – v1.0 final released and reconciled**; annotated Tag `v1.0.0` (→ `9dcadc1`) als Final release durch Human Maintainer; volle v1.x-Zusage ab `v1.0.0` aktiv (ADR-0031); G-13 via Weg C reconciled; RC-Tag unverändert. **NDF ist v1.0.0 released.**
+- WP-150: v1.1 Planning / Post-v1.0 Roadmap — **GO WITH NOTES – v1.1 planning started** ([v1.1 Plan](../docs/roadmap/V1_1_PLAN.md)); v1.1 = Validation, Enablement & Operational Maturity (nur geplant); Known Final Notes → Roadmap-Items (RDS-001/ADS-001 → WP-151; G-13-Weg A → WP-152; „kein RC-Feedback" teilweise adressiert durch ersten Projekt-Feedback-Intake → WP-152/153); v1.x-Kompatibilitätsgrenzen (non-breaking/needs-ADR/breaking/human-maintainer-only) dokumentiert; WP-Reihenfolge WP-151…156 (ersetzt vorläufige WP-149-Nummerierung); erster realer Projekt-Feedback-Intake neutral einbezogen; keine Breaking Changes/neue Skills/Releases; ADR-0031/0032 unverändert.
 
 ## Next Prompt Recommendation
 
-**Full oder Skill-assisted Full Prompt Mode** für **NDF-WP-150 – v1.1 Planning / Post-v1.0 Roadmap** (empfohlenes Modell Claude Opus 4.8). Post-v1.0-Roadmap: WP-150 → WP-152 (Skills Real-use Review) → WP-153 (External Validation Improvement, G-13-Weg A) → WP-151 (Project Enablement Validation) → WP-154 (Public Documentation Polish). WP-130/131/132 bleiben optional/nicht aktiviert.
+**Skill-assisted Standard oder Full Prompt Mode** für **NDF-WP-151 – Skills Real-use Review** (RDS-001/ADS-001 + 38-Skill-Real-use: Nutzen/Trigger-Qualität/Overlap/Sprawl; empfohlenes Modell Claude Opus 4.8). v1.1-Roadmap: WP-151 → WP-152 → WP-153 → WP-154 → WP-155 → WP-156. WP-130/131/132 bleiben optional/nicht aktiviert.
 
 ## What Must Not Be Claimed
 

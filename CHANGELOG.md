@@ -2,6 +2,14 @@
 
 All notable changes to the Nova Development Framework will be documented in this file.
 
+## [Unreleased] - v1.1 Planning
+
+v1.1 planning under the active v1.x compatibility promise (ADR-0031). Status: **planning only — not released, not scope-locked.** v1.0.0 stays final; no breaking changes, no new skills, no releases.
+
+### Added
+
+- docs(v1): add v1.1 planning roadmap — GO WITH NOTES – v1.1 planning started; planned the first post-v1.0 cycle as v1.1 = "Validation, Enablement & Operational Maturity" (planning only, not released); documented the post-v1.0.0 baseline (v1.x promise active per ADR-0031, ADR-0032 unchanged, 38 docs-only skills, no open v1.0 blockers); mapped the WP-149 known final notes into roadmap items (RDS-001/ADS-001 and the 38-skill real-use history → WP-151 skills real-use review; G-13 path A → WP-152 external validation improvement; the "no external RC feedback" limitation is now partially addressed by a first real project feedback intake added post-v1.0 by the Human Maintainer, referenced neutrally → WP-152/153); documented the v1.x compatibility boundaries (non-breaking / needs-ADR / breaking / human-maintainer-only); defined the ascending WP sequence WP-151 (skills real-use review) → WP-152 (external validation improvement) → WP-153 (project enablement validation) → WP-154 (public documentation polish) → WP-155 (v1.1 readiness review) → WP-156 (v1.1 release prep), superseding the tentative WP-149 numbering; no new/changed skills, no scripts/network/secrets/private data, no private project names/domains, no releases/tags, no breaking changes; ADR-0031/0032 unchanged (WP-150)
+
 ## [1.0.0] - 2026-07-10
 
 Nova Development Framework v1.0.0 — final release. Status: **Published** as a **final release** on 2026-07-10 (annotated tag `v1.0.0` → commit `9dcadc1`, "Nova Development Framework v1.0.0", Target `main`, not a pre-release). The **full v1.x compatibility promise is active** from this release per [ADR-0031](docs/adr/ADR-0031-v1x-compatibility-policy.md) (not retroactive for Foundation `v0.x` releases or the RC `v1.0.0-rc.1`). Includes the work-package process, prompt modes, the skills-first operating mode, context packs, the Compact Context Summary, **38 docs-only fail-closed skills** (ADR-0032), public neutrality (Public Quality Gate v0.2), ADR/release governance, and the human-maintainer-only rule. Release notes: `docs/release/V1_0_FINAL_RELEASE_NOTES.md`
