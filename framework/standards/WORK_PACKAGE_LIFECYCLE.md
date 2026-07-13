@@ -53,3 +53,62 @@ After push, CI is checked and failures are classified.
 ## 9. Follow-up
 
 If project posture changes, update Health Score, Project Brain, risks or create next WP.
+
+## 10. Source-Handoff Preflight (before Execution)
+
+Work packages that rely on chat-provided documents, uploaded files, local external files, documents from another repository, exported reports, handed-over specifications or source packs must run a source-handoff preflight **before any change**:
+
+```text
+Source available in execution environment
+Source identity verified
+Expected document or artifact confirmed
+Completeness checked
+Truncation or partial-content risk checked
+Version/date/revision recorded when relevant
+Provenance recorded when relevant
+Scope-relevant sections readable
+```
+
+A present source is **not** an automatic trust grant: deeper provenance, hash, public-neutrality, security or license/usage checks belong to the work package designated for them.
+
+## 11. Fail-closed Transition to `blocked`
+
+If a required source is missing, not uniquely identifiable, only partially available, visibly truncated, mismatched against the expected version, or not fully readable, the work package transitions fail-closed to `blocked`:
+
+1. change no repository file;
+2. invent no content; treat no indirect memory as a replacement source;
+3. report status `blocked`;
+4. name the exact missing source and the unblock condition.
+
+The same fail-closed transition applies to any unmet preflight prerequisite (e.g., an unclean working tree).
+
+## 12. Blocked Report (structured, no-change)
+
+A fail-closed stop **before any change** is itself a complete, review-ready result. The blocked report must contain at least:
+
+```text
+Work Package ID
+Status: blocked
+Blocker
+Preflight results
+Reason for fail-closed stop
+Files changed: none
+Git write performed: no
+Tests run
+Tests not run and why
+Exact unblock condition
+Recommended next step
+Compact Context Summary
+```
+
+### No-Change Rule
+
+A blocked work package with no repository changes does **not** require an artificial intermediate commit. The implementation agent must not create an empty/unnecessary file, perform a status-only mutation without authorization, demand an artificial intermediate commit, or report the blocker as `completed`.
+
+### Human-Maintainer Gate
+
+The human maintainer may make a separate documentation/correction commit only when actually authorized repository changes exist. The commit itself is not an automatic status mutation: the intended status must already be correct in the repository documents before staging and commit.
+
+## 13. Resume / New Work Package after Unblock
+
+Once the unblock condition is met, the work package is resumed (or a new work package is started) from the documented resume point. A resume does not widen the original scope or allowed files.
