@@ -128,6 +128,14 @@ Jeder WP-bezogene Skill unterstützt die Rückmeldung an Nova (ChatGPT) und die 
 
 Every work-package-related skill supports the Report to Nova (ChatGPT) and the Compact Context Summary and must not bypass or shorten them where they are required.
 
+## DE – Skill-Provenance und Integritäts-Lock
+
+Für importierte oder lokal bereitgestellte Skills gilt zusätzlich die [Skill Provenance and Integrity Lock Governance](NDF_SKILL_PROVENANCE_AND_INTEGRITY_LOCK.md): **lokale Verfügbarkeit ist kein Vertrauen**; unbekannte, veränderte oder provenance-unverifizierte Skill-Dateien werden für normative/sicherheitsrelevante Nutzung **fail-closed** behandelt; Skill-Import und -Update stehen unter einem Human-Maintainer-Gate; die technische Ausführung bleibt weiterhin separat und (docs-only) ausgeschlossen. Zusätzlich: der Status `verified` kann zunächst durch eine **dokumentierte manuelle Prüfung** belegt werden; automatische Verifikation oder Durchsetzung wird **noch nicht** behauptet; bestehende Projekte ohne historischen Lock benötigen einen **kontrollierten Migrationsstatus** (nicht automatisch als verifiziert behandeln); neue oder veränderte normative bzw. sicherheitsrelevante Skills bleiben ohne Verifikation fail-closed. Dieses Dokument dupliziert die Provenance-/Lock-Governance nicht — es verweist darauf.
+
+## EN – Skill Provenance and Integrity Lock
+
+For imported or locally provided skills, the [Skill Provenance and Integrity Lock Governance](NDF_SKILL_PROVENANCE_AND_INTEGRITY_LOCK.md) additionally applies: **local availability is not trust**; unknown, modified, or provenance-unverified skill files **fail closed** for normative/security-sensitive use; skill import and update stay under a Human-Maintainer gate; technical execution remains separate and (docs-only) excluded. Additionally: the status `verified` may initially be established through a **documented manual check**; automated verification or enforcement is **not yet** claimed; existing projects without a historical lock require a **controlled migration state** (not treated as verified automatically); new or changed normative/security-sensitive skills stay fail-closed without verification. This document does not duplicate the provenance/lock governance — it references it.
+
 ## DE – Change Control
 
 Erweiterungen des erlaubten Scopes (z. B. begrenzte Scripts) erfordern eine neue ausdrückliche ADR-/Scope-Entscheidung mit Human-Maintainer-Freigabe. Keine stille Ausweitung. Diese Policy ist über [ADR-0032](../adr/ADR-0032-skill-security-policy.md) governed.
