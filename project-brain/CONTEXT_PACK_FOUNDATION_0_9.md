@@ -24,7 +24,7 @@ Foundation 0.9.
 
 ## Next Work Package
 
-**NDF-WP-151 – Skills Real-use Review** (RDS-001/ADS-001 + 38-Skill-Real-use auswerten: Nutzen/Trigger-Qualität/Overlap/Sprawl; Skill-assisted Standard/Full Prompt Mode, Opus 4.8). v1.1-Roadmap: WP-151 → WP-152 (External Validation Improvement, G-13-Weg A) → WP-153 (Project Enablement Validation) → WP-154 (Public Documentation Polish) → WP-155 (v1.1 Readiness Review) → WP-156 (v1.1 Release Prep). WP-130/131/132 bleiben optional/nicht aktiviert.
+**NDF-WP-151 – Skills Real-use and Context Efficiency Review** *(Titel präzisiert; Review umgesetzt, pending Nova review — [Review](../docs/validation/v1-1/SKILLS_REAL_USE_AND_CONTEXT_EFFICIENCY_REVIEW.md))*: RDS-001/ADS-001 + 38-Skill-Real-use (4 häufig / 9 gelegentlich / 25 selten; Merge-/Adapter-Kandidaten benannt) **plus** Context-Efficiency-Analyse (Kontextklassen, Context Budgets B0–B4, Lean-/Handoff-/Review-only-/Fix-Profile additiv, Lean-WP-Prompt-Architektur, SESSION_HANDOFF-/CURRENT_STATE-Empfehlung) und WP-152-Entscheidungsvorlage (Empfehlung: GO additiv-schlank + project-local Pilot; Roadmap-Renumbering durch Nova/Maintainer). v1.1-Roadmap danach: External Validation Improvement (G-13-Weg A) → Project Enablement Validation → Public Documentation Polish → v1.1 Readiness → v1.1 Release Prep. WP-130/131/132 bleiben optional/nicht aktiviert.
 
 ## Release-Blocking Work Packages
 
@@ -105,7 +105,7 @@ Validation-first; Skills-Implementierung optional/nicht aktiviert (WP-129); WP-1
 
 ## Next Prompt Recommendation
 
-**Skill-assisted Standard oder Full Prompt Mode** für **NDF-WP-151 – Skills Real-use Review** (RDS-001/ADS-001 + 38-Skill-Real-use: Nutzen/Trigger-Qualität/Overlap/Sprawl; empfohlenes Modell Claude Opus 4.8). v1.1-Roadmap: WP-151 → WP-152 → WP-153 → WP-154 → WP-155 → WP-156. WP-130/131/132 bleiben optional/nicht aktiviert.
+**Human-Maintainer-Entscheidung** über die WP-152-Vorlage aus WP-151 (GO additiv-schlank + Pilot / REDUCE / PILOT / NO-GO); danach Roadmap-Renumbering durch Nova und Full/Skill-assisted Prompt für das gewählte nächste WP. WP-130/131/132 bleiben optional/nicht aktiviert.
 
 ## What Must Not Be Claimed
 

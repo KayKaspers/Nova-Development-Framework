@@ -64,7 +64,7 @@ Details on the Nova role: [NOVA_CHATGPT_ROLE.md](docs/workflow/NOVA_CHATGPT_ROLE
 Klassifizieren -> Planen -> Umsetzen -> Rückmeldung an Nova -> Review -> Commit
 ```
 
-Kein Schritt wird übersprungen. Details: [WORK_PACKAGE_LIFECYCLE.md](framework/standards/WORK_PACKAGE_LIFECYCLE.md) · Kontext-/Token-Sparsamkeit: [NDF Context Economy](docs/agent-workflows/NDF_CONTEXT_ECONOMY.md) · [Prompt Modes](docs/agent-workflows/NDF_PROMPT_MODES.md) · Skill-Sicherheitsgrenzen: [NDF Skill Security Policy](docs/agent-workflows/NDF_SKILL_SECURITY_POLICY.md) · geplantes Skills-MVP (Design): [Claude Skills Pack MVP Design](docs/agent-workflows/NDF_CLAUDE_SKILLS_PACK_MVP_DESIGN.md)
+Kein Schritt wird übersprungen. Details: [WORK_PACKAGE_LIFECYCLE.md](framework/standards/WORK_PACKAGE_LIFECYCLE.md) · Kontext-/Token-Sparsamkeit: [NDF Context Economy](docs/agent-workflows/NDF_CONTEXT_ECONOMY.md) · [Prompt Modes](docs/agent-workflows/NDF_PROMPT_MODES.md) · Skill-Sicherheitsgrenzen: [NDF Skill Security Policy](docs/agent-workflows/NDF_SKILL_SECURITY_POLICY.md) · Skills-Pack (38 docs-only Skills): [.claude/skills/README.md](.claude/skills/README.md) · Skills-first-Arbeitsmodus: [Skills-first Operating Mode](docs/validation/foundation-0-9/SKILLS_FIRST_OPERATING_MODE.md)
 
 ## EN – Standard Workflow
 
@@ -72,7 +72,7 @@ Kein Schritt wird übersprungen. Details: [WORK_PACKAGE_LIFECYCLE.md](framework/
 Classify -> Plan -> Execute -> Report to Nova -> Review -> Commit
 ```
 
-No step is skipped. Details: [WORK_PACKAGE_LIFECYCLE.md](framework/standards/WORK_PACKAGE_LIFECYCLE.md) · Context/token economy: [NDF Context Economy](docs/agent-workflows/NDF_CONTEXT_ECONOMY.md) · [Prompt Modes](docs/agent-workflows/NDF_PROMPT_MODES.md) · Skill security boundaries: [NDF Skill Security Policy](docs/agent-workflows/NDF_SKILL_SECURITY_POLICY.md) · planned skills MVP (design): [Claude Skills Pack MVP Design](docs/agent-workflows/NDF_CLAUDE_SKILLS_PACK_MVP_DESIGN.md)
+No step is skipped. Details: [WORK_PACKAGE_LIFECYCLE.md](framework/standards/WORK_PACKAGE_LIFECYCLE.md) · Context/token economy: [NDF Context Economy](docs/agent-workflows/NDF_CONTEXT_ECONOMY.md) · [Prompt Modes](docs/agent-workflows/NDF_PROMPT_MODES.md) · Skill security boundaries: [NDF Skill Security Policy](docs/agent-workflows/NDF_SKILL_SECURITY_POLICY.md) · skills pack (38 docs-only skills): [.claude/skills/README.md](.claude/skills/README.md) · skills-first operating mode: [Skills-first Operating Mode](docs/validation/foundation-0-9/SKILLS_FIRST_OPERATING_MODE.md)
 
 ## DE – Work Packages
 
@@ -116,10 +116,12 @@ An automated quality gate protects this repository's public neutrality: denylist
 - **Foundation 0.6:** ist als `v0.6.0-foundation` Foundation Pre-Release veröffentlicht (Adoptionsvertrauen & Governance-Härtung; [ADR Policy](docs/adr/ADR_POLICY.md) angenommen, kein v1.0) — [Release Notes](docs/release/FOUNDATION_0_6_RELEASE_NOTES.md) · [Plan](docs/roadmap/FOUNDATION_0_6_PLAN.md) · [v1.0-Pfad](docs/roadmap/V1_0_PATH_SUMMARY.md)
 - **Foundation 0.7:** ist als `v0.7.0-foundation` Foundation Pre-Release veröffentlicht (v1.0-Pfad-Konsolidierung & Kompatibilitäts-Governance; [v1.x Compatibility Policy](docs/adr/ADR-0031-v1x-compatibility-policy.md) angenommen — volle Zusage erst mit v1.0; kein v1.0) — [Release Notes](docs/release/FOUNDATION_0_7_RELEASE_NOTES.md) · [Plan](docs/roadmap/FOUNDATION_0_7_PLAN.md) · [Scope Lock](docs/roadmap/FOUNDATION_0_7_SCOPE_LOCK.md) · [v1.0-Pfad](docs/roadmap/V1_0_PATH_SUMMARY.md)
 - **Foundation 0.8:** ist als `v0.8.0-foundation` Foundation Pre-Release veröffentlicht (Agent Enablement & Context Economy; [ADR-0032](docs/adr/ADR-0032-skill-security-policy.md) angenommen; kein v1.0, kein aktives Skill Pack, WP-112 optional) — [Release Notes](docs/release/FOUNDATION_0_8_RELEASE_NOTES.md) · [Post-Release Status](docs/release/FOUNDATION_0_8_POST_RELEASE_STATUS.md) · [Plan](docs/roadmap/FOUNDATION_0_8_PLAN.md) · [Scope Lock](docs/roadmap/FOUNDATION_0_8_SCOPE_LOCK.md)
-- **Foundation 0.9:** scope-locked als Adoption, Validation & Optional Enablement (validation-first; Skills-Implementierung optional/nicht aktiviert; nicht released, kein v1.0, kein aktives Skill Pack) — [Plan](docs/roadmap/FOUNDATION_0_9_PLAN.md) · [Scope Lock](docs/roadmap/FOUNDATION_0_9_SCOPE_LOCK.md) · [WP-Queue](docs/roadmap/FOUNDATION_0_9_WORK_PACKAGES.md)
+- **Foundation 0.9:** ist als `v0.9.0-foundation` Foundation Pre-Release veröffentlicht (Adoption, Validation & Optional Enablement; Reconciliation dokumentiert) — [Release Notes](docs/release/FOUNDATION_0_9_RELEASE_NOTES.md) · [Plan](docs/roadmap/FOUNDATION_0_9_PLAN.md) · [WP-Queue](docs/roadmap/FOUNDATION_0_9_WORK_PACKAGES.md)
+- **v1.0.0:** **final released** (`v1.0.0`; die volle [v1.x Compatibility Policy](docs/adr/ADR-0031-v1x-compatibility-policy.md) ist ab v1.0.0 aktiv) — [Final Release Notes](docs/release/V1_0_FINAL_RELEASE_NOTES.md) · [Post-Release Review](docs/validation/v1-0/V1_0_FINAL_POST_RELEASE_REVIEW.md) · [v1.0-Pfad](docs/roadmap/V1_0_PATH_SUMMARY.md) · **38 docs-only Skills:** [.claude/skills/](.claude/skills/README.md)
+- **v1.1:** Planung gestartet (Validation, Enablement & Operational Maturity; nicht released, kein Scope Lock) — [v1.1 Plan](docs/roadmap/V1_1_PLAN.md) · aktueller WP: **WP-151 – Skills Real-use and Context Efficiency Review**
 - Public Framework Cleanup: erledigt · Project Adapter v0.2: verfügbar · DE/EN-Angleichung: laufend
 
-Struktur-Review: [REPOSITORY_STRUCTURE_REVIEW.md](docs/repository/REPOSITORY_STRUCTURE_REVIEW.md) — NDF ist bewusst noch kein v1.0.
+Struktur-Review: [REPOSITORY_STRUCTURE_REVIEW.md](docs/repository/REPOSITORY_STRUCTURE_REVIEW.md)
 
 ## EN – Current Status
 
@@ -131,10 +133,12 @@ Struktur-Review: [REPOSITORY_STRUCTURE_REVIEW.md](docs/repository/REPOSITORY_STR
 - **Foundation 0.6:** published as the `v0.6.0-foundation` foundation pre-release (adoption confidence & governance hardening; [ADR policy](docs/adr/ADR_POLICY.md) adopted, not v1.0) — [Release Notes](docs/release/FOUNDATION_0_6_RELEASE_NOTES.md) · [Plan](docs/roadmap/FOUNDATION_0_6_PLAN.md) · [v1.0 path](docs/roadmap/V1_0_PATH_SUMMARY.md)
 - **Foundation 0.7:** published as the `v0.7.0-foundation` foundation pre-release (v1.0 path consolidation & compatibility governance; [v1.x compatibility policy](docs/adr/ADR-0031-v1x-compatibility-policy.md) accepted — full promise activates only at v1.0; not v1.0) — [Release Notes](docs/release/FOUNDATION_0_7_RELEASE_NOTES.md) · [Plan](docs/roadmap/FOUNDATION_0_7_PLAN.md) · [Scope Lock](docs/roadmap/FOUNDATION_0_7_SCOPE_LOCK.md) · [v1.0 path](docs/roadmap/V1_0_PATH_SUMMARY.md)
 - **Foundation 0.8:** published as the `v0.8.0-foundation` foundation pre-release (Agent Enablement & Context Economy; [ADR-0032](docs/adr/ADR-0032-skill-security-policy.md) accepted; not v1.0, no active skill pack, WP-112 optional) — [Release Notes](docs/release/FOUNDATION_0_8_RELEASE_NOTES.md) · [Post-Release Status](docs/release/FOUNDATION_0_8_POST_RELEASE_STATUS.md) · [Plan](docs/roadmap/FOUNDATION_0_8_PLAN.md) · [Scope Lock](docs/roadmap/FOUNDATION_0_8_SCOPE_LOCK.md)
-- **Foundation 0.9:** scope-locked as Adoption, Validation & Optional Enablement (validation-first; skills implementation optional/not activated; not released, not v1.0, no active skill pack) — [Plan](docs/roadmap/FOUNDATION_0_9_PLAN.md) · [Scope Lock](docs/roadmap/FOUNDATION_0_9_SCOPE_LOCK.md) · [WP queue](docs/roadmap/FOUNDATION_0_9_WORK_PACKAGES.md)
+- **Foundation 0.9:** published as the `v0.9.0-foundation` foundation pre-release (Adoption, Validation & Optional Enablement; reconciliation documented) — [Release Notes](docs/release/FOUNDATION_0_9_RELEASE_NOTES.md) · [Plan](docs/roadmap/FOUNDATION_0_9_PLAN.md) · [WP queue](docs/roadmap/FOUNDATION_0_9_WORK_PACKAGES.md)
+- **v1.0.0:** **final released** (`v1.0.0`; the full [v1.x compatibility policy](docs/adr/ADR-0031-v1x-compatibility-policy.md) is active from v1.0.0) — [Final Release Notes](docs/release/V1_0_FINAL_RELEASE_NOTES.md) · [Post-Release Review](docs/validation/v1-0/V1_0_FINAL_POST_RELEASE_REVIEW.md) · [v1.0 path](docs/roadmap/V1_0_PATH_SUMMARY.md) · **38 docs-only skills:** [.claude/skills/](.claude/skills/README.md)
+- **v1.1:** planning started (Validation, Enablement & Operational Maturity; not released, no scope lock) — [v1.1 plan](docs/roadmap/V1_1_PLAN.md) · current WP: **WP-151 – Skills Real-use and Context Efficiency Review**
 - Public framework cleanup: done · Project Adapter v0.2: available · DE/EN alignment: in progress
 
-Structure review: [REPOSITORY_STRUCTURE_REVIEW.md](docs/repository/REPOSITORY_STRUCTURE_REVIEW.md) — NDF is deliberately not v1.0 yet.
+Structure review: [REPOSITORY_STRUCTURE_REVIEW.md](docs/repository/REPOSITORY_STRUCTURE_REVIEW.md)
 
 ## DE – Einstieg
 

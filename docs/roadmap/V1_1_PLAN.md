@@ -105,7 +105,7 @@ The table separates non-breaking (additive docs-only skills/docs/roadmap updates
 
 | WP | Ziel | Scope | Nicht-Ziele | Erwartete Artefakte | Prompt Mode | Modell | v1.x-Risiko | Erwartete Entscheidung |
 |---|---|---|---|---|---|---|---|---|
-| **WP-151 – Skills Real-use Review** | RDS-001/ADS-001 + 38-Skill-Real-use auswerten | Nutzen/Trigger-Qualität/Overlap/Sprawl; Empfehlungen | neue Skills, Skill-Umbau | Validation-Doc + Notes | Skill-assisted Standard/Full | Opus 4.8 | gering | GO WITH NOTES |
+| **WP-151 – Skills Real-use and Context Efficiency Review** *(präzisiert aus „Skills Real-use Review")* | RDS-001/ADS-001 + 38-Skill-Real-use auswerten **und** das reale Token-/Kontextproblem analysieren (Kontextklassen, Context Budgets, Lean-Prompt-Architektur, Session-Handoff, WP-152-Entscheidungsvorlage) | Nutzen/Trigger-Qualität/Overlap/Sprawl; Context-Efficiency-Modelle; Empfehlungen | neue Skills, Skill-Umbau, Token-System-Implementierung | Review-Doc + Notes ([Review](../validation/v1-1/SKILLS_REAL_USE_AND_CONTEXT_EFFICIENCY_REVIEW.md)) | Skill-assisted Extended Review | Fable 5 / Opus 4.8 | gering | GO WITH NOTES |
 | **WP-152 – External Validation Improvement** | G-13-Weg A angehen | tieferer öffentlicher schrittbelegter Neutral-Lauf; ggf. zweiter Fixture-Typ; Feedback-Intake einordnen | erfundene Evidenz, private Daten | Validation-Doc + Notes | Skill-assisted Full | Opus 4.8 | gering (additiv) | GO WITH NOTES |
 | **WP-153 – Project Enablement Validation** | Adapter/Enablement praktisch validieren | Adapter-Qualität/Neutralität; ersten Projekt-Feedback-Intake neutral einbeziehen | private Projektlogik im Public NDF, Auto-Migration | Validation-Doc + Notes | Skill-assisted Full | Opus 4.8 | gering | GO WITH NOTES |
 | **WP-154 – Public Documentation Polish** | Doku-Feinschliff | README/Guides/i18n-Matrix; Klarheit/Konsistenz | Substanz-/Governance-Änderung | Doku-Updates + Notes | Skill-assisted Standard | Opus 4.8 | gering | GO WITH NOTES |
@@ -132,8 +132,8 @@ Skill-sprawl (38 skills) to be reviewed in WP-151 (possible additive consolidati
 
 ## DE – Decision
 
-**GO WITH NOTES – v1.1 planning started.** v1.0.0 bleibt final veröffentlicht; v1.x-Zusage aktiv; v1.1 = Validation, Enablement & Operational Maturity, nur geplant (nicht released); Known Final Notes in WP-151…156 überführt; keine Breaking Changes, keine neuen Skills, keine Releases. ADR-0031/0032 unverändert. **Nächster empfohlener WP: WP-151 – Skills Real-use Review.**
+**GO WITH NOTES – v1.1 planning started.** v1.0.0 bleibt final veröffentlicht; v1.x-Zusage aktiv; v1.1 = Validation, Enablement & Operational Maturity, nur geplant (nicht released); Known Final Notes in WP-151…156 überführt; keine Breaking Changes, keine neuen Skills, keine Releases. ADR-0031/0032 unverändert. **Nächster empfohlener WP: WP-151 – Skills Real-use and Context Efficiency Review** *(Titel nach der Planung präzisiert: zusätzlich Context-Efficiency-Analyse und WP-152-Entscheidungsvorlage).*
 
 ## EN – Decision
 
-**GO WITH NOTES – v1.1 planning started.** v1.0.0 stays final; the v1.x promise is active; v1.1 = Validation, Enablement & Operational Maturity, planned only (not released); known final notes mapped into WP-151…156; no breaking changes, new skills, or releases. ADR-0031/0032 unchanged. Next recommended WP: WP-151 – Skills Real-use Review.
+**GO WITH NOTES – v1.1 planning started.** v1.0.0 stays final; the v1.x promise is active; v1.1 = Validation, Enablement & Operational Maturity, planned only (not released); known final notes mapped into WP-151…156; no breaking changes, new skills, or releases. ADR-0031/0032 unchanged. Next recommended WP: WP-151 – Skills Real-use and Context Efficiency Review (title precisified post-planning).
