@@ -124,6 +124,23 @@ Keine Chain-of-Thought-Anforderung; keine aktiven Skills; keine `.claude/skills`
 
 No chain-of-thought requirement; no active skills; no `.claude/skills`; no scripts; no mode that bypasses safety/gate/human-gate checks; no v1.0 claim; no active full v1.x compatibility promise; no Foundation 0.8 release claim.
 
+## DE – Additive Prompt-Profile (NDF-WP-152)
+
+Zusätzlich zu **Full / Standard / Short** definiert die [Token Efficiency & Context Budget Baseline](../guides/TOKEN_EFFICIENCY_AND_CONTEXT_BUDGET_BASELINE.md) (NDF-WP-152) **additive Prompt-Profile** und **Context Budgets B0–B4**. Diese ändern die bestehenden drei Modi **nicht** und lockern keine Sicherheits-/Gate-/Human-Gate-Regel; sie verfeinern nur, wie viel Kontext ein normales Work Package lädt.
+
+| Profil | Zweck | Budget | Nie starten für |
+|---|---|---|---|
+| **Lean** | bevorzugter Normalfall für normale WPs; 8-Element-WP-Kern, Standardregeln referenziert statt wiederholt | B1 | Release, ADR, Security, v1.x-Kompatibilität, Breaking-Change, Migration, Datenschutz, unklarer Scope (→ Standard/Full) |
+| **Handoff** | Session-Wiederaufnahme über `SESSION_HANDOFF` (kein Implementierungsmodus) | B0–B1 | eigenständige Umsetzung |
+| **Review-only** | Nova-/Maintainer-Review über Evidence Pack (startet keine neue Umsetzung) | B1–B2 | neue Implementierung |
+| **Fix** | eine punktuelle Korrektur (weitet Scope nicht aus) | B0–B1 | Scope-Ausweitung, kritische Fälle |
+
+**Leitentscheidung:** Lean ist der bevorzugte Normalfall, sofern keine erhöhte Komplexität oder Kritikalität vorliegt. **Full darf nicht allein deshalb gewählt werden, weil er mehr Sicherheit vermittelt** — Sicherheit entsteht aus den Fail-Closed-Regeln, nicht aus Promptlänge. Full bleibt Pflicht für Release, ADR, Security Policy, v1.x-Kompatibilität und komplexe Reviews. Details, Budgets, Templates und Fail-Closed-Regeln: siehe den Baseline-Guide.
+
+## EN – Additive Prompt Profiles (NDF-WP-152)
+
+In addition to **Full / Standard / Short**, the [Token Efficiency & Context Budget Baseline](../guides/TOKEN_EFFICIENCY_AND_CONTEXT_BUDGET_BASELINE.md) (NDF-WP-152) defines **additive prompt profiles** (Lean, Handoff, Review-only, Fix) and **Context Budgets B0–B4**. They do **not** change the existing three modes and relax no safety/gate/human-gate rule; they only refine how much context a normal work package loads. Lean is the preferred normal case unless elevated complexity/criticality applies; Full must not be chosen merely because it feels safer and stays mandatory for release, ADR, security policy, v1.x-compatibility, and complex reviews. Handoff is not an implementation mode; Review-only starts no new implementation; Fix must not widen scope. See the baseline guide for budgets, templates, and fail-closed rules.
+
 ## DE – Nächste Schritte
 
 **NDF-WP-114 – Foundation 0.8 Release Readiness Review.** Danach WP-115 (Release Prep). Optional WP-112 (Skills MVP Implementation, nur per Human-Maintainer-Scope-Change).
