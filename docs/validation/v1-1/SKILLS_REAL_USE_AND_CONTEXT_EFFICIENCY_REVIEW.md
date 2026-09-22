@@ -17,13 +17,13 @@
 | Dokument | Befund | Maßnahme |
 |---|---|---|
 | `README.md` | **veraltet:** Status endete bei „Foundation 0.9 scope-locked … nicht released, kein v1.0"; zweimal „NDF ist bewusst noch kein v1.0"; Workflow-Zeile verwies auf „geplantes Skills-MVP (Design)" | **minimal korrigiert** (0.9 released, v1.0.0 final, v1.x aktiv, 38 Skills, v1.1 planning, WP-151 neuer Titel) |
-| `CHANGELOG.md` | `[Unreleased]` vorhanden (WP-150), aber die drei committeten CoreOps-Adoptionen (A/B/C) fehlten (waren dort Forbidden Files) | **minimal ergänzt** (eine kompakte Adoptions-Zeile + WP-151-Zeile) |
+| `CHANGELOG.md` | `[Unreleased]` vorhanden (WP-150), aber die drei committeten Cross-Project-Feedback-Adoptionen (A/B/C) fehlten (waren dort Forbidden Files) | **minimal ergänzt** (eine kompakte Adoptions-Zeile + WP-151-Zeile) |
 | `V1_1_PLAN.md` | WP-151 unter altem Titel „Skills Real-use Review" | **minimal präzisiert** (neuer Titel + Context-Efficiency-Scope) |
 | Context Pack / Next Phase | Next Step unter altem WP-151-Titel | **minimal reconciled** |
 | `V1_0_PATH_SUMMARY.md` | konsistent bis WP-149/150; kein WP-151-Fehler | keine Änderung nötig |
 | Skills README / ADR-0031 / ADR-0032 | konsistent (38 Skills; ADRs unverändert) | keine Änderung |
 
-Zusätzlich konsistent, aber erwähnenswert: die drei CoreOps-Adoptions-Commits (`1ebffa6`, `e894c6f`, `ebf716c`) liegen nach WP-150 und sind additive docs-only Governance (Prompt-Safety-Baseline, Skill-Provenance/Integrity-Lock, Decision/Status- + Framework-Tailoring-Guidance).
+Zusätzlich konsistent, aber erwähnenswert: die drei Cross-Project-Feedback-Adoptions-Commits (`1ebffa6`, `e894c6f`, `ebf716c`) liegen nach WP-150 und sind additive docs-only Governance (Prompt-Safety-Baseline, Skill-Provenance/Integrity-Lock, Decision/Status- + Framework-Tailoring-Guidance).
 
 ## 3. B – Aktuelles Token-/Kontextproblem
 

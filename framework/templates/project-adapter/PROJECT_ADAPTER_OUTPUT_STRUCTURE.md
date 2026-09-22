@@ -10,9 +10,11 @@ project-system/COMPLIANCE_CHECK.md
 project-system/HEALTH_SCORE.md
 project-system/WORK_PACKAGE_QUEUE.md
 project-brain/PROJECT_BRAIN.md
-docs/ndf/README.md
-docs/ndf/ADOPTION_NOTES.md
+docs/ndf/README.md          # siehe Hinweis unten / see note below
+docs/ndf/ADOPTION_NOTES.md  # siehe Hinweis unten / see note below
 ```
+
+`docs/ndf/README.md` und `docs/ndf/ADOPTION_NOTES.md` sind keinem einzelnen Phasen-Ergebnis in `PROJECT_ADAPTER_V0_2.md` §5 zugeordnet; sie entstehen als Teil der gebündelten Phasen-2–8-Ausführung (`framework/prompts/project-adapter/PROJECT_SYSTEM_BASELINE_PROMPT.md`, „erlaubte Dateien"). / `docs/ndf/README.md` and `docs/ndf/ADOPTION_NOTES.md` are not attributed to any single phase result in `PROJECT_ADAPTER_V0_2.md` §5; they are produced as part of the bundled Phase 2–8 execution (`framework/prompts/project-adapter/PROJECT_SYSTEM_BASELINE_PROMPT.md`, "allowed files").
 
 ## Minimale Variante / Minimal variant
 
@@ -20,8 +22,9 @@ docs/ndf/ADOPTION_NOTES.md
 project-system/PROJECT_PROFILE.md
 project-system/PROJECT_MANIFEST.md
 project-system/WORK_PACKAGE_QUEUE.md
-project-brain/PROJECT_BRAIN.md
 ```
+
+Die minimale Variante deckt nur Phase 0 → 1 → 2 → 3 → 8 → 10 ab (`PROJECT_ADAPTER_V0_2.md` §9); Phase 4 (Project Brain) läuft dort nicht mit, daher ist `project-brain/PROJECT_BRAIN.md` hier kein minimaler Output. / The minimal variant covers only Phase 0 → 1 → 2 → 3 → 8 → 10 (`PROJECT_ADAPTER_V0_2.md` §9); Phase 4 (Project Brain) does not run there, so `project-brain/PROJECT_BRAIN.md` is not a minimal-variant output.
 
 ## Output-Pfad-Konvention / Output path convention
 

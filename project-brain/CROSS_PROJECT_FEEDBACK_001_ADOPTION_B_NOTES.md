@@ -1,8 +1,8 @@
-# CoreOps Transfer Package 001 – Adoption B (Notes)
+# Cross-Project Feedback Transfer Package 001 – Adoption B (Notes)
 
 ## Kandidat
 
-`NDF-FC-COREOPS-002` — Full local skills availability with selective activation, provenance and integrity lock. Intake-Klassifikation `partially-covered` → `merge-with-existing-work`. Adoption B (`NDF-ADOPT-COREOPS-001B`, docs-only / security-governance).
+`NDF-FC-CPF-002` — Full local skills availability with selective activation, provenance and integrity lock. Intake-Klassifikation `partially-covered` → `merge-with-existing-work`. Adoption B (`NDF-ADOPT-CPF-001B`, docs-only / security-governance).
 
 ## Bereits bestehende Skills-first-Abdeckung
 
@@ -33,7 +33,7 @@ Governance only — kein Lock-Generator, keine Manifestdatei, keine Skill-Verifi
 - NDF-Version noch nicht zugeordnet.
 - Nova Review pending.
 - Human-Maintainer-Commit pending.
-- CoreOps-Backlink pending.
+- Source-Backlink pending.
 - Adoption C noch offen (nicht begonnen).
 
 ## Kompatibilität / Sicherheit

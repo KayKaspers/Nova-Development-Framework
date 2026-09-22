@@ -1,8 +1,8 @@
-# CoreOps Transfer Package 001 – Adoption C (Notes)
+# Cross-Project Feedback Transfer Package 001 – Adoption C (Notes)
 
 ## Kandidaten
 
-`NDF-FC-COREOPS-005` (Accepted Product Direction without technical fixation), `NDF-FC-COREOPS-006` (Multi-dimensional status models), `NDF-FC-COREOPS-007` (Framework tailoring before adoption). Adoption C (`NDF-ADOPT-COREOPS-001C`, docs-only / governance-guidance). Alle drei als **optionale, projektneutrale Guidance** übernommen.
+`NDF-FC-CPF-005` (Accepted Product Direction without technical fixation), `NDF-FC-CPF-006` (Multi-dimensional status models), `NDF-FC-CPF-007` (Framework tailoring before adoption). Adoption C (`NDF-ADOPT-CPF-001C`, docs-only / governance-guidance). Alle drei als **optionale, projektneutrale Guidance** übernommen.
 
 ## Accepted-Product-Direction-Muster (005)
 
@@ -10,7 +10,7 @@ Neue Guidance trennt Decision Class / Lifecycle Status / Binding Level; eine akz
 
 ## Optionales mehrdimensionales Statusmodell (006)
 
-Additiv in `docs/project-system/CAPABILITY_MATRIX_SPEC.md`: Roadmap/Implementation/Support/optional Evidence getrennt; Einzelstatus bleibt zulässig/Default; Support benötigt Evidenz; **keine universelle NDF-Core-Pflicht**, keine CoreOps-Werte als globale Pflicht, keine Ableitung von Support aus Roadmap/Implementierung.
+Additiv in `docs/project-system/CAPABILITY_MATRIX_SPEC.md`: Roadmap/Implementation/Support/optional Evidence getrennt; Einzelstatus bleibt zulässig/Default; Support benötigt Evidenz; **keine universelle NDF-Core-Pflicht**, keine quellprojektspezifischen Werte als globale Pflicht, keine Ableitung von Support aus Roadmap/Implementierung.
 
 ## Framework-Tailoring-Guidance (007)
 
@@ -29,7 +29,7 @@ Capability Matrix Spec am tatsächlichen Pfad `docs/project-system/CAPABILITY_MA
 - NDF-Version noch nicht zugeordnet.
 - Nova Review pending.
 - Human-Maintainer-Commit pending.
-- CoreOps-Rückverlinkung noch ausstehend (separates Traceability-WP).
+- Source-Rückverlinkung noch ausstehend (separates Traceability-WP).
 
 ## Alle sieben Kandidaten fachlich behandelt
 
@@ -41,4 +41,4 @@ Additiv, guidance-orientiert, rückwärtskompatibel; keine technische Ableitung 
 
 ## Nächster NDF-Schritt nach Review
 
-Nach Nova-Review + Human-Maintainer-Entscheidung/-Commit: separates **CoreOps-Traceability-WP** zur Rückverlinkung aller tatsächlich adoptierten Kandidaten. Kein weiteres Adoption-WP in diesem Lauf begonnen.
+Nach Nova-Review + Human-Maintainer-Entscheidung/-Commit: separates **Source-Traceability-WP** zur Rückverlinkung aller tatsächlich adoptierten Kandidaten. Kein weiteres Adoption-WP in diesem Lauf begonnen.

@@ -1,8 +1,8 @@
-# CoreOps Transfer Package 001 – Adoption A (Notes)
+# Cross-Project Feedback Transfer Package 001 – Adoption A (Notes)
 
 ## Quellpaket
 
-Cross-Project Transfer Package 001 (externes Quellprojekt), Intake abgeschlossen als `NDF-INTAKE-COREOPS-001` (Intake-Commit `d08e35e`). Adoption A = Work-Package Prompt Safety Baseline Update (`NDF-ADOPT-COREOPS-001A`, docs-only / standards-adoption). Nur generalisierte Safety-Muster übernommen; kein Quellinhalt, keine privaten Pfade/Details in öffentliche NDF-Regeln.
+Cross-Project Transfer Package 001 (externes Quellprojekt), Intake abgeschlossen als `NDF-INTAKE-CPF-001` (Intake-Commit `d08e35e`). Adoption A = Work-Package Prompt Safety Baseline Update (`NDF-ADOPT-CPF-001A`, docs-only / standards-adoption). Nur generalisierte Safety-Muster übernommen; kein Quellinhalt, keine privaten Pfade/Details in öffentliche NDF-Regeln.
 
 ## Drei adoptierte Kandidaten
 
@@ -26,7 +26,7 @@ Kandidaten `002` (Adoption B), `005`/`006`/`007` (Adoption C) — nicht behandel
 - NDF-Version noch nicht zugeordnet.
 - Nova Review pending.
 - Human-Maintainer-Commit pending.
-- CoreOps-Backlink pending.
+- Source-Backlink pending.
 
 ## Kompatibilität / Sicherheit
 

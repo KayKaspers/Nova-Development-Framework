@@ -1,27 +1,27 @@
-# CoreOps Transfer Package 001 – Adoption C
+# Cross-Project Feedback Transfer Package 001 – Adoption C
 
-> Work Package: `NDF-ADOPT-COREOPS-001C` — Governance Status Modeling and Framework Tailoring Patterns
+> Work Package: `NDF-ADOPT-CPF-001C` — Governance Status Modeling and Framework Tailoring Patterns
 > Type: docs-only / governance-guidance adoption
 
 ## 1. Status
 
 ```text
 Adoption Status: Implemented, pending Nova review
-Candidates: NDF-FC-COREOPS-005, 006, 007
+Candidates: NDF-FC-CPF-005, 006, 007
 NDF Version: not yet assigned
 Human-Maintainer Commit: pending
-CoreOps Backlink: pending
+Source Backlink: pending
 ```
 
 ## 2. Source Intake
 
-Based on the completed intake review `NDF-INTAKE-COREOPS-001` (intake commit `d08e35e`). Adoption A (`1ebffa6`) and Adoption B (`e894c6f`) are committed and untouched here. Only generalized, project-neutral governance patterns are adopted; no source content, no private paths, no CoreOps-specific mandatory values are copied into NDF rules.
+Based on the completed intake review `NDF-INTAKE-CPF-001` (intake commit `d08e35e`). Adoption A (`1ebffa6`) and Adoption B (`e894c6f`) are committed and untouched here. Only generalized, project-neutral governance patterns are adopted; no source content, no private paths, no source-project-specific mandatory values are copied into NDF rules.
 
 ## 3. Adopted Candidates
 
-- **NDF-FC-COREOPS-005** — Accepted product direction without technical fixation (`new` → `guidance-only`).
-- **NDF-FC-COREOPS-006** — Multi-dimensional status models instead of an overloaded single status (`partially-covered` → `guidance-only`, optional).
-- **NDF-FC-COREOPS-007** — Framework tailoring before framework adoption (`new` → `guidance-only`).
+- **NDF-FC-CPF-005** — Accepted product direction without technical fixation (`new` → `guidance-only`).
+- **NDF-FC-CPF-006** — Multi-dimensional status models instead of an overloaded single status (`partially-covered` → `guidance-only`, optional).
+- **NDF-FC-CPF-007** — Framework tailoring before framework adoption (`new` → `guidance-only`).
 
 Not addressed here: 001/003/004 (Adoption A), 002 (Adoption B).
 
@@ -53,15 +53,15 @@ New guidance `docs/governance/NDF_EXTERNAL_FRAMEWORK_TAILORING_GUIDANCE.md`: an 
 
 ## 10. Optionality Boundary
 
-All three patterns are optional guidance, not universal NDF-core requirements. Simple projects are not burdened with multiple status dimensions or external frameworks; no existing matrix/decision model is retroactively invalidated; no CoreOps-specific value becomes mandatory.
+All three patterns are optional guidance, not universal NDF-core requirements. Simple projects are not burdened with multiple status dimensions or external frameworks; no existing matrix/decision model is retroactively invalidated; no source-project-specific value becomes mandatory.
 
 ## 11. Files Changed
 
 - `docs/governance/NDF_DECISION_AND_STATUS_MODELING_GUIDANCE.md` (new — candidates 005 + 006 status guidance)
 - `docs/governance/NDF_EXTERNAL_FRAMEWORK_TAILORING_GUIDANCE.md` (new — candidate 007)
 - `docs/project-system/CAPABILITY_MATRIX_SPEC.md` (additive — optional multi-dimensional status; single-status remains valid)
-- `docs/validation/cross-project-feedback/COREOPS_TRANSFER_PACKAGE_001_ADOPTION_C.md` (new — this document)
-- `project-brain/COREOPS_TRANSFER_PACKAGE_001_ADOPTION_C_NOTES.md` (new)
+- `docs/validation/cross-project-feedback/CROSS_PROJECT_FEEDBACK_001_ADOPTION_C.md` (new — this document)
+- `project-brain/CROSS_PROJECT_FEEDBACK_001_ADOPTION_C_NOTES.md` (new)
 
 **Path note:** the capability matrix spec was updated at its actual path `docs/project-system/CAPABILITY_MATRIX_SPEC.md`; no file was created at `framework/standards/CAPABILITY_MATRIX_SPEC.md`; no file was moved or renamed.
 
@@ -75,11 +75,11 @@ Governance-positive. The direction-vs-technical separation prevents implicit tec
 
 ## 14. Validation
 
-See the WP test matrix (preflight, candidate 005/006/007, cross-document consistency, scope, language/neutrality, formatting). All changes additive; only the corrected Allowed Files changed; no forbidden file, ADR, skill, Adoption-A/B, or CoreOps file touched; no file moved/renamed; no network; no git write. Public Quality Gate not run (script execution not permitted by this WP).
+See the WP test matrix (preflight, candidate 005/006/007, cross-document consistency, scope, language/neutrality, formatting). All changes additive; only the corrected Allowed Files changed; no forbidden file, ADR, skill, Adoption-A/B, or source-project file touched; no file moved/renamed; no network; no git write. Public Quality Gate not run (script execution not permitted by this WP).
 
 ## 15. Remaining Candidates
 
-All seven CoreOps Transfer Package 001 candidates are now functionally handled across the three adoption WPs: 001/003/004 (Adoption A), 002 (Adoption B), 005/006/007 (Adoption C). Remaining: the CoreOps backlink (separate traceability WP) after the Human-Maintainer commit.
+All seven Cross-Project Feedback Transfer Package 001 candidates are now functionally handled across the three adoption WPs: 001/003/004 (Adoption A), 002 (Adoption B), 005/006/007 (Adoption C). Remaining: the source backlink (separate traceability WP) after the Human-Maintainer commit.
 
 ## 16. Lessons Learned
 
@@ -94,4 +94,4 @@ Project-local Follow-ups: none (project-local details stay in the source project
 
 ## 17. Next Decision
 
-Nova review of `NDF-ADOPT-COREOPS-001C`; then a Human-Maintainer decision and a separate maintainer commit; afterwards a separate CoreOps-traceability WP to backlink all actually adopted candidates. The NDF version for this adoption is not yet assigned; the CoreOps backlink stays pending until the maintainer commit.
+Nova review of `NDF-ADOPT-CPF-001C`; then a Human-Maintainer decision and a separate maintainer commit; afterwards a separate source-project-traceability WP to backlink all actually adopted candidates. The NDF version for this adoption is not yet assigned; the source backlink stays pending until the maintainer commit.

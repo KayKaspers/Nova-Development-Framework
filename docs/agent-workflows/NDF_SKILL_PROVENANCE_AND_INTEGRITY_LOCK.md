@@ -9,7 +9,7 @@ Tooling Status: Not implemented
 Normative Release: Not yet assigned
 ```
 
-Adopted via `NDF-ADOPT-COREOPS-001B` (docs-only / security-governance) from cross-project feedback candidate `NDF-FC-COREOPS-002`. Governance definition only — **no lock generator, no manifest file, no tool is implemented or executed here.**
+Adopted via `NDF-ADOPT-CPF-001B` (docs-only / security-governance) from cross-project feedback candidate `NDF-FC-CPF-002`. Governance definition only — **no lock generator, no manifest file, no tool is implemented or executed here.**
 
 ## 2. Purpose
 
@@ -17,7 +17,7 @@ Define a technology-independent NDF governance for **imported or locally provide
 
 ## 3. Scope
 
-Covers provenance, an integrity-lock reference model, verification statuses, fail-closed behavior for unverified skills, and update/refresh governance. **Out of scope:** the selective-activation and context-economy rules (already covered — see §4/§5); any executable tooling; any change to skill files, templates, ADRs, or CoreOps sources. This document adds governance only.
+Covers provenance, an integrity-lock reference model, verification statuses, fail-closed behavior for unverified skills, and update/refresh governance. **Out of scope:** the selective-activation and context-economy rules (already covered — see §4/§5); any executable tooling; any change to skill files, templates, ADRs, or source-project material. This document adds governance only.
 
 ## 4. Relationship to Skills-first
 

@@ -1,26 +1,26 @@
-# CoreOps Transfer Package 001 – Adoption B
+# Cross-Project Feedback Transfer Package 001 – Adoption B
 
-> Work Package: `NDF-ADOPT-COREOPS-001B` — Skill Provenance and Integrity Lock Guidance
+> Work Package: `NDF-ADOPT-CPF-001B` — Skill Provenance and Integrity Lock Guidance
 > Type: docs-only / security-governance adoption
 
 ## 1. Status
 
 ```text
 Adoption Status: Implemented, pending Nova review
-Candidate: NDF-FC-COREOPS-002
+Candidate: NDF-FC-CPF-002
 NDF Version: not yet assigned
 Tooling: not implemented
 Human-Maintainer Commit: pending
-CoreOps Backlink: pending
+Source Backlink: pending
 ```
 
 ## 2. Source Intake
 
-Based on the completed intake review `NDF-INTAKE-COREOPS-001` (intake commit `d08e35e`) and its two intake artifacts. Adoption A (`1ebffa6`) is committed and untouched here. Only the generalized provenance/integrity-lock governance is adopted; no source content, no private paths, no project-internal details are copied into NDF governance.
+Based on the completed intake review `NDF-INTAKE-CPF-001` (intake commit `d08e35e`) and its two intake artifacts. Adoption A (`1ebffa6`) is committed and untouched here. Only the generalized provenance/integrity-lock governance is adopted; no source content, no private paths, no project-internal details are copied into NDF governance.
 
 ## 3. Candidate
 
-`NDF-FC-COREOPS-002` — Full local skills availability with selective activation, provenance and integrity lock (`partially-covered` → `merge-with-existing-work`).
+`NDF-FC-CPF-002` — Full local skills availability with selective activation, provenance and integrity lock (`partially-covered` → `merge-with-existing-work`).
 
 ## 4. Existing Coverage
 
@@ -62,8 +62,8 @@ The Human Maintainer controls skill import, update, replacement, and lock refres
 
 - `docs/agent-workflows/NDF_SKILL_PROVENANCE_AND_INTEGRITY_LOCK.md` (new — governance, 20 sections)
 - `docs/agent-workflows/NDF_SKILL_SECURITY_POLICY.md` (additive — reference to the provenance/lock governance; no duplication)
-- `docs/validation/cross-project-feedback/COREOPS_TRANSFER_PACKAGE_001_ADOPTION_B.md` (new — this document)
-- `project-brain/COREOPS_TRANSFER_PACKAGE_001_ADOPTION_B_NOTES.md` (new)
+- `docs/validation/cross-project-feedback/CROSS_PROJECT_FEEDBACK_001_ADOPTION_B.md` (new — this document)
+- `project-brain/CROSS_PROJECT_FEEDBACK_001_ADOPTION_B_NOTES.md` (new)
 
 ## 12. Compatibility Assessment
 
@@ -81,7 +81,7 @@ Security-positive. Provenance + integrity lock make silent skill manipulation de
 
 ## 15. Validation
 
-See the WP test matrix (preflight, existing coverage, provenance model, integrity lock, security, scope, public neutrality, formatting). All changes additive; only the four Allowed Files changed; no forbidden file, skill, template, lock/manifest, or CoreOps file touched; no network; no git write. Public Quality Gate not run (script execution not permitted by this WP).
+See the WP test matrix (preflight, existing coverage, provenance model, integrity lock, security, scope, public neutrality, formatting). All changes additive; only the four Allowed Files changed; no forbidden file, skill, template, lock/manifest, or source-project file touched; no network; no git write. Public Quality Gate not run (script execution not permitted by this WP).
 
 ## 16. Remaining Candidates
 
@@ -101,4 +101,4 @@ Project-local Follow-ups: none (project-local details stay in the source project
 
 ## 18. Next Decision
 
-Nova review of `NDF-ADOPT-COREOPS-001B`; then a Human-Maintainer decision and a separate maintainer commit; only afterwards NDF Adoption C. The NDF version for this adoption is not yet assigned; tooling is not implemented; the CoreOps backlink stays pending until the maintainer commit.
+Nova review of `NDF-ADOPT-CPF-001B`; then a Human-Maintainer decision and a separate maintainer commit; only afterwards NDF Adoption C. The NDF version for this adoption is not yet assigned; tooling is not implemented; the source backlink stays pending until the maintainer commit.

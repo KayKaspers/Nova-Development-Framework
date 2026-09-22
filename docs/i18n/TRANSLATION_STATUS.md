@@ -21,13 +21,14 @@ Grobe Übersicht, welche Bereiche des NDF bereits DE/EN-tauglich sind und wo Fol
 |---|---|---|
 | `README.md` | bilingual | seit WP-036 vollständig DE/EN gespiegelt / fully DE/EN mirrored since WP-036 |
 | `CHANGELOG.md` | en-only | Format beibehalten / keep format |
-| `docs/project-starter/` | mixed | v0.2-Guide DE, ältere Flows DE; EN-Fassungen offen |
+| `docs/project-starter/` | mixed | v0.2-Guide seit WP-157 bilingual (DE/EN); PROJECT_ADAPTER_CONVENTIONS.md bereits bilingual; ältere Flows noch DE / v0.2 guide bilingual (DE/EN) since WP-157; PROJECT_ADAPTER_CONVENTIONS.md already bilingual; older flows still German |
+| `docs/project-system/` | mixed | PROJECT_MANIFEST_SPEC.md seit WP-157 bilingual (DE/EN); übrige Spec-Dateien in diesem Bereich noch DE / PROJECT_MANIFEST_SPEC.md bilingual (DE/EN) since WP-157; remaining spec files in this area still German |
 | `docs/toolkit/` | mixed | Toolkit-Kern EN (Destructive Action Toolkit), Helper DE |
 | `docs/workflow/` | bilingual | seit WP-038: 6 Kern-Dokumente voll DE/EN, TYPE_INTEGRATION mit DE-Kurzfassung; nur GITHUB_DESKTOP_WORKFLOW noch de-only / 6 core docs fully DE/EN since WP-038, TYPE_INTEGRATION with German summary; only GITHUB_DESKTOP_WORKFLOW still German |
 | `docs/repository/` | mixed | Quality-Gate-Doku DE, Policies DE/EN gemischt |
 | `docs/roadmap/` | mixed | Progress-Dateien DE/EN gemischt; niedrige Priorität / low priority |
 | `framework/prompts/` | mixed | WP-039: 12 Kern-Prompts DE/EN-Kern. WP-060 (Foundation 0.4): 5 Adoptions-Erstkontakt-Prompts (Adapter Intake/Baseline/Create, WP Classification, Boundary Review) **vollständig bilingual (priority pass complete)**; 7 priorisierte Security-/Gate-Prompts DE/EN-Kern bestätigt. Übrige Prompts DE (Restarbeit non-blocking). Siehe `docs/prompts/PROMPT_LIBRARY_DE_EN_PRIORITY_PASS.md`. / 5 adoption prompts fully bilingual since WP-060; remaining prompts German (non-blocking). |
-| `framework/templates/` | mixed | Feldnamen EN, Anleitungen DE; für öffentliche Nutzung EN ergänzen |
+| `framework/templates/` | mixed | Feldnamen EN, Anleitungen DE; PROJECT_ADAPTER_INTAKE_TEMPLATE.md seit WP-157 bilingual (DE/EN); übrige Templates für öffentliche Nutzung EN ergänzen / field names EN, instructions German; PROJECT_ADAPTER_INTAKE_TEMPLATE.md bilingual (DE/EN) since WP-157; remaining templates still need EN for public use |
 | `framework/checklists/` | mixed | seit WP-039: 7 zentrale Checklisten mit bilingualem Zweck-Block; Punktlisten überwiegend EN. **Entscheidung NDF-WP-099 (Foundation 0.7): optional mit finaler Begründung — kein Foundation-Release-Blocker, kein Auto-Carry mehr; volle Punktlisten-DE/EN nur über bewussten neuen Scope** (`docs/roadmap/FOUNDATION_0_7_CHECKLIST_DE_EN_DECISION.md`). / Decision NDF-WP-099: optional with final rationale — not a release blocker, no more auto-carry; full item-list DE/EN only via a deliberate new scope. |
 | `docs/academy/` | de-only | Lernmaterial; Übersetzung als eigenes WP / translation as its own WP |
 | `docs/adr/` | mixed | 0027–0030 EN, frühe thematische DE/EN gemischt |
@@ -48,5 +49,5 @@ Grobe Übersicht, welche Bereiche des NDF bereits DE/EN-tauglich sind und wo Fol
 1. ~~`README.md` DE-Spiegelung~~ — erledigt in WP-036 / done in WP-036
 2. ~~Workflow docs full DE/EN alignment~~ — erledigt in WP-038 / done in WP-038 (Rest: GITHUB_DESKTOP_WORKFLOW, Detailteile der Standards)
 3. Prompt library full DE/EN alignment + Checklist library full DE/EN alignment + Security prompt full DE/EN pass (Kern erledigt in WP-039 / core done in WP-039)
-4. `docs/project-starter/` EN (Adapter/Onboarding)
+4. ~~`docs/project-starter/` EN (Adapter/Onboarding)~~ — v0.2-Guide + Intake-Template erledigt in WP-157; übrige Flows offen / v0.2 guide + intake template done in WP-157; remaining flows open
 5. `docs/academy/` EN (eigenes größeres WP)

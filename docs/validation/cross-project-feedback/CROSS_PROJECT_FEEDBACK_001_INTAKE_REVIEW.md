@@ -1,6 +1,6 @@
-# CoreOps Transfer Package 001 – NDF Intake Review
+# Cross-Project Feedback Transfer Package 001 – NDF Intake Review
 
-> Work Package: `NDF-INTAKE-COREOPS-001`
+> Work Package: `NDF-INTAKE-CPF-001`
 > Type: cross-project feedback intake review (docs-only, read-only analysis)
 > NDF base: development HEAD `eeb2124` (normative release tag `v1.0.0` on `9dcadc1`)
 > Status: **implemented – pending Nova review**
@@ -8,15 +8,15 @@
 
 ## 1. Purpose
 
-Review the seven cross-project feedback candidates bundled in CoreOps Transfer Package 001 against the current NDF development state, classify each candidate, document concrete existing NDF coverage, identify gaps, and recommend possible later adoption work packages. No adoption is performed here.
+Review the seven cross-project feedback candidates bundled in Cross-Project Feedback Transfer Package 001 against the current NDF development state, classify each candidate, document concrete existing NDF coverage, identify gaps, and recommend possible later adoption work packages. No adoption is performed here.
 
 ## 2. Source and Authorization
 
-- **Source project:** CoreOps (an independent, self-hosted operations control plane; source repository external to NDF).
+- **Source project:** an independent, self-hosted operations control plane (external consumer project; project identity withheld per public-neutrality).
 - **Transfer Package Status (source):** Approved for NDF Intake.
 - **Source Human-Maintainer gates:** all seven candidates carry `Human-Maintainer Gate: approved` and `Status: approved-for-transfer`.
 - **Adoption status (source):** Not transferred; no candidate is `transferred-to-ndf` or `adopted-in-ndf`.
-- **Previous CoreOps source blocker:** resolved (finalize-intake-approval-gates commit present in the source repository).
+- **Previous source-project blocker:** resolved (finalize-intake-approval-gates commit present in the source repository).
 
 ## 3. NDF Preflight
 
@@ -41,10 +41,10 @@ Each candidate receives exactly one intake classification (`new`, `partially-cov
 
 ## 5. Candidate Assessments
 
-### NDF-FC-COREOPS-001 – Git Read versus Git Write in Work-Package-Prompts
+### NDF-FC-CPF-001 – Git Read versus Git Write in Work-Package-Prompts
 
 - **Source Lesson:** LL-001
-- **CoreOps Bundle:** Bundle 1 (Work-Package Safety and Source Handling)
+- **Source Bundle:** Bundle 1 (Work-Package Safety and Source Handling)
 - **Intake Classification:** `partially-covered`
 - **Recommendation:** `adopt-with-changes`
 - **Existing NDF Coverage:** The forbidden write side already exists, and the read-only concept exists but only in a non-prompt-block location.
@@ -65,10 +65,10 @@ Each candidate receives exactly one intake classification (`new`, `partially-cov
 - **Dependencies:** None.
 - **Notes:** Aligns the prompt block with the already-documented Context Economy Layer 4 permission.
 
-### NDF-FC-COREOPS-002 – Full Local Skills Availability with Selective Activation (+ Provenance/Lock)
+### NDF-FC-CPF-002 – Full Local Skills Availability with Selective Activation (+ Provenance/Lock)
 
 - **Source Lesson:** LL-002, LL-003
-- **CoreOps Bundle:** Bundle 2 (Skills Availability and Context Economy)
+- **Source Bundle:** Bundle 2 (Skills Availability and Context Economy)
 - **Intake Classification:** `partially-covered`
 - **Recommendation:** `merge-with-existing-work`
 - **Existing NDF Coverage:** The availability + selective-activation half is already well covered.
@@ -90,10 +90,10 @@ Each candidate receives exactly one intake classification (`new`, `partially-cov
 - **Dependencies:** ADR-0032.
 - **Notes:** Only the provenance/lock component is novel; the availability/selective-activation component should be marked merged into existing skills-first/context-economy work.
 
-### NDF-FC-COREOPS-003 – Source-Handoff for Chat/External Documents
+### NDF-FC-CPF-003 – Source-Handoff for Chat/External Documents
 
 - **Source Lesson:** LL-004
-- **CoreOps Bundle:** Bundle 1
+- **Source Bundle:** Bundle 1
 - **Intake Classification:** `new`
 - **Recommendation:** `adopt-with-changes`
 - **Existing NDF Coverage:** Registration/analysis flows exist, but no source-verification preflight.
@@ -111,10 +111,10 @@ Each candidate receives exactly one intake classification (`new`, `partially-cov
 - **Dependencies:** None.
 - **Notes:** The candidate generalizes only the procedure; no source content is transferred.
 
-### NDF-FC-COREOPS-004 – Blocked Report without Artificial Intermediate Commit
+### NDF-FC-CPF-004 – Blocked Report without Artificial Intermediate Commit
 
 - **Source Lesson:** LL-005
-- **CoreOps Bundle:** Bundle 1
+- **Source Bundle:** Bundle 1
 - **Intake Classification:** `partially-covered`
 - **Recommendation:** `adopt-with-changes`
 - **Existing NDF Coverage:** The `STOP` outcome and human-only commit are covered; the structured no-change report format is not.
@@ -134,10 +134,10 @@ Each candidate receives exactly one intake classification (`new`, `partially-cov
 - **Dependencies:** None.
 - **Notes:** This intake run is itself a live example (blocked, then resumed without an intermediate commit).
 
-### NDF-FC-COREOPS-005 – Accepted Product Direction without Technical Commitment
+### NDF-FC-CPF-005 – Accepted Product Direction without Technical Commitment
 
 - **Source Lesson:** LL-011
-- **CoreOps Bundle:** Bundle 3 (Governance and Status Modeling)
+- **Source Bundle:** Bundle 3 (Governance and Status Modeling)
 - **Intake Classification:** `new`
 - **Recommendation:** `guidance-only`
 - **Existing NDF Coverage:** NDF has ADR/decision records for technical decisions but no direction-vs-technical status distinction.
@@ -155,10 +155,10 @@ Each candidate receives exactly one intake classification (`new`, `partially-cov
 - **Dependencies:** ADR governance boundaries (ADR-0031/0032 unaffected).
 - **Notes:** Must remain optional to avoid over-constraining projects that only use ADRs.
 
-### NDF-FC-COREOPS-006 – Multi-Dimensional Status Models
+### NDF-FC-CPF-006 – Multi-Dimensional Status Models
 
 - **Source Lesson:** LL-008
-- **CoreOps Bundle:** Bundle 3
+- **Source Bundle:** Bundle 3
 - **Intake Classification:** `partially-covered` (tension with current single-status spec)
 - **Recommendation:** `guidance-only`
 - **Existing NDF Coverage:** NDF has a capability matrix, but with a single overloaded status dimension.
@@ -176,10 +176,10 @@ Each candidate receives exactly one intake classification (`new`, `partially-cov
 - **Dependencies:** None.
 - **Notes:** Keep the existing single-status matrix valid; add the multi-dimensional model as an optional pattern for projects that need trust/support separation.
 
-### NDF-FC-COREOPS-007 – Framework Tailoring before Framework Adoption
+### NDF-FC-CPF-007 – Framework Tailoring before Framework Adoption
 
 - **Source Lesson:** LL-013
-- **CoreOps Bundle:** Bundle 3
+- **Source Bundle:** Bundle 3
 - **Intake Classification:** `new`
 - **Recommendation:** `guidance-only`
 - **Existing NDF Coverage:** NDF has a project adapter, but it adapts NDF to a project — not external-framework adoption.
@@ -250,11 +250,11 @@ None deferred, duplicated, or rejected. All seven candidates are recommended for
 ## 10. Validation
 
 - NDF preflight verified read-only; HEAD `eeb2124`; working tree clean at preflight.
-- CoreOps source blocker verified resolved (approved package status + seven approved human-maintainer gates; no candidate transferred/adopted).
+- Source-project blocker verified resolved (approved package status + seven approved human-maintainer gates; no candidate transferred/adopted).
 - Each `already-covered`/`partially-covered` classification cites concrete NDF file evidence.
 - Each `new`/`partially-covered` classification states a concrete gap.
 - No numeric NDF work-package IDs invented.
-- No candidate adopted; no CoreOps status set to `transferred-to-ndf`.
+- No candidate adopted; no source-project status set to `transferred-to-ndf`.
 - Only the two Allowed Files created; no NDF rule, skill, or template modified.
 
 ## 11. Skills-first Usage
@@ -268,7 +268,7 @@ This intake review followed skills-first discipline conceptually (targeted conte
 - No template changed.
 - No candidate adopted.
 - No adoption work package implemented.
-- No CoreOps file changed.
+- No source-project file changed.
 - No network access.
 - No Git write, commit, push, tag, or release.
 - Only the two Allowed Files created.

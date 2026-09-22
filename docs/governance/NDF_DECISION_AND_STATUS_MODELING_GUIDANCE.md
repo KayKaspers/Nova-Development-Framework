@@ -12,7 +12,7 @@ Guidance Type: Optional project-governance guidance
 Normative Release: Not yet assigned
 ```
 
-Adopted via `NDF-ADOPT-COREOPS-001C` from cross-project feedback candidates `NDF-FC-COREOPS-005` (accepted product direction) and the status-model half of `NDF-FC-COREOPS-006` (multi-dimensional status). Optional guidance — not a mandatory requirement for every NDF project.
+Adopted via `NDF-ADOPT-CPF-001C` from cross-project feedback candidates `NDF-FC-CPF-005` (accepted product direction) and the status-model half of `NDF-FC-CPF-006` (multi-dimensional status). Optional guidance — not a mandatory requirement for every NDF project.
 
 ## 2. Purpose
 
@@ -20,7 +20,7 @@ Help projects separate **what** a decision is (class), **where it stands** (life
 
 ## 3. Scope
 
-Optional governance guidance only. **Out of scope:** any mandatory change to the single-status capability matrix (which remains valid; see `../project-system/CAPABILITY_MATRIX_SPEC.md`), any change to accepted ADRs, security invariants, skills, or CoreOps sources. No new NDF version.
+Optional governance guidance only. **Out of scope:** any mandatory change to the single-status capability matrix (which remains valid; see `../project-system/CAPABILITY_MATRIX_SPEC.md`), any change to accepted ADRs, security invariants, skills, or source-project material. No new NDF version.
 
 ## 4. Decision Class
 
@@ -126,7 +126,7 @@ Decision acceptance, status changes, and any move from direction to technical co
 
 ## 15. Compatibility
 
-Additive and optional. Existing single-status matrices and decision records remain valid; no retroactive migration is forced; no CoreOps-specific values become mandatory NDF values; no new NDF version is claimed. ADR-0031/0032 unaffected. Breaking-change potential: low.
+Additive and optional. Existing single-status matrices and decision records remain valid; no retroactive migration is forced; no source-project-specific values become mandatory NDF values; no new NDF version is claimed. ADR-0031/0032 unaffected. Breaking-change potential: low.
 
 ## 16. Examples
 

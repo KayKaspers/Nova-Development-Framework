@@ -11,7 +11,7 @@ Post-v1.0 Review-/Mess-/Entscheidungs-WP: öffentlichen v1.0/v1.1-Status reconci
 ## Reconciliation
 
 - **README** war veraltet (Status endete bei „0.9 scope-locked, kein v1.0"; „bewusst noch kein v1.0" 2×; „geplantes Skills-MVP") → minimal korrigiert: 0.9 released, **v1.0.0 final released**, v1.x aktiv, 38 Skills, v1.1 planning, WP-151 neuer Titel.
-- **CHANGELOG `[Unreleased]`** um die drei committeten CoreOps-Adoptionen (A/B/C: `1ebffa6`/`e894c6f`/`ebf716c`) und die WP-151-Zeile ergänzt.
+- **CHANGELOG `[Unreleased]`** um die drei committeten Cross-Project-Feedback-Adoptionen (A/B/C: `1ebffa6`/`e894c6f`/`ebf716c`) und die WP-151-Zeile ergänzt.
 - **V1_1_PLAN / Context Pack / Next Phase**: WP-151-Titel präzisiert zu „Skills Real-use **and Context Efficiency** Review".
 - **V1_0_PATH_SUMMARY**: konsistent, keine Änderung. **ADR-0031/0032, Skills README**: unverändert.
 

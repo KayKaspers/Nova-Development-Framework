@@ -64,6 +64,12 @@ Regelmäßiger B4-Bedarf bedeutet: WP splitten oder Scope reduzieren.
 
 No pseudo-precise token targets without measured data (baseline / target corridor / minimum improvement / abort criteria live in the WP-151 measurement model).
 
+### 7.1 Terminology Namespacing for Consumer Projects
+
+Innerhalb des NDF-Kerns behalten `B0`…`B4` und `Lean` ihre hier definierte Bedeutung — unpräfigiert. Kollidiert ein Consumer-Projekt bereits mit denselben Begriffen (eigenes `B1`, eigenes `Lean` o. Ä.), werden im Integrations-/Enablement-Kontext die namespaced Formen `NDF-B0`…`NDF-B4` / `NDF-Lean` verwendet, um die NDF-Bedeutung von der projekteigenen zu unterscheiden. Unpräfigierte projekt-lokale Begriffe behalten dabei ihre eigene, projekt-lokale Bedeutung. Dies ist eine reine Namensraum-Klärung, kein neues Budget-Modell — die native NDF-Terminologie `B0`–`B4`/`Lean` wird nicht umbenannt.
+
+Within NDF core, `B0`–`B4` and `Lean` keep their meaning as defined here — unprefixed. Where a consumer project already has a naming collision with these same terms (its own `B1`, its own `Lean`, etc.), the namespaced forms `NDF-B0`…`NDF-B4` / `NDF-Lean` are used in the integration/enablement context to distinguish the NDF meaning from the project's own. Unprefixed project-local terms keep their own, project-local meaning. This is a pure namespacing clarification, not a new budget model — NDF's native `B0`–`B4`/`Lean` terminology is not renamed.
+
 ## 8. Prompt Profiles
 
 The profiles are **additive refinements** of the existing [Prompt Modes](../agent-workflows/NDF_PROMPT_MODES.md) — Full/Standard/Short semantics are unchanged.

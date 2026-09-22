@@ -1,17 +1,17 @@
-# CoreOps Transfer Package 001 – Intake Notes
+# Cross-Project Feedback Transfer Package 001 – Intake Notes
 
-> Compact project-brain notes for `NDF-INTAKE-COREOPS-001`.
+> Compact project-brain notes for `NDF-INTAKE-CPF-001`.
 > NDF base: development HEAD `eeb2124` (normative `v1.0.0` = `9dcadc1`).
 > Status: implemented – pending Nova review. No adoption performed.
 
 ## Summary
 
-Reviewed seven CoreOps cross-project feedback candidates against the current NDF state. No candidate adopted; no NDF rule/skill/template changed; only the intake review doc and these notes created.
+Reviewed seven source-project cross-project feedback candidates against the current NDF state. No candidate adopted; no NDF rule/skill/template changed; only the intake review doc and these notes created.
 
 ## Preflight
 
 - NDF: HEAD `eeb2124`, branch `main`, working tree clean at preflight, `v1.0.0` one commit behind HEAD.
-- CoreOps source blocker: **resolved** — transfer package `Approved for NDF Intake`; all seven `Human-Maintainer Gate: approved`; none `transferred-to-ndf`/`adopted-in-ndf`.
+- Source-project blocker: **resolved** — transfer package `Approved for NDF Intake`; all seven `Human-Maintainer Gate: approved`; none `transferred-to-ndf`/`adopted-in-ndf`.
 
 ## Candidate outcomes (one line each)
 
@@ -43,7 +43,7 @@ None rejected or deferred. Closest overlap: 006 vs single-status capability spec
 
 ## Boundaries honored
 
-Read-only git only; no commit/push/tag/release; no network; no CoreOps files touched; no NDF rule/skill/template modified; only the two allowed files created.
+Read-only git only; no commit/push/tag/release; no network; no source-project files touched; no NDF rule/skill/template modified; only the two allowed files created.
 
 ## Next step
 

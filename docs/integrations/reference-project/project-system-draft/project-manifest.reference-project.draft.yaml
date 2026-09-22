@@ -1,3 +1,6 @@
+# Not the canonical manifest artifact. Per PROJECT_ADAPTER_CONVENTIONS.md (NDF-WP-059)
+# and docs/project-system/PROJECT_MANIFEST_SPEC.md, PROJECT_MANIFEST.md (Markdown) is
+# canonical; this YAML is the recommended content of that file's embedded data block.
 name: "Reference Project B"
 slug: "reference-project"
 owner: "<project-owner>"

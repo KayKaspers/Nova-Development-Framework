@@ -1,6 +1,6 @@
-# CoreOps Transfer Package 001 – Adoption A
+# Cross-Project Feedback Transfer Package 001 – Adoption A
 
-> Work Package: `NDF-ADOPT-COREOPS-001A` — Work-Package Prompt Safety Baseline Update
+> Work Package: `NDF-ADOPT-CPF-001A` — Work-Package Prompt Safety Baseline Update
 > Type: docs-only / standards-adoption
 
 ## 1. Status
@@ -10,24 +10,24 @@ Adoption Status: Implemented, pending Nova review
 Candidates: 001, 003, 004
 NDF Version: not yet assigned
 Human-Maintainer Commit: pending
-CoreOps Backlink: pending
+Source Backlink: pending
 ```
 
 ## 2. Source Intake
 
-Adoption is based on the completed intake review `NDF-INTAKE-COREOPS-001` (intake commit `d08e35e`) and its two intake artifacts under `docs/validation/cross-project-feedback/` and `project-brain/`. The source is an external, independent project (Transfer Package 001, approved for NDF intake); no source content is transferred — only the generalized safety patterns of the three adopted candidates. No private paths or project-internal details are copied into public NDF rules.
+Adoption is based on the completed intake review `NDF-INTAKE-CPF-001` (intake commit `d08e35e`) and its two intake artifacts under `docs/validation/cross-project-feedback/` and `project-brain/`. The source is an external, independent project (Transfer Package 001, approved for NDF intake); no source content is transferred — only the generalized safety patterns of the three adopted candidates. No private paths or project-internal details are copied into public NDF rules.
 
 ## 3. Adopted Candidates
 
-- **NDF-FC-COREOPS-001** – Git Read versus Git Write in work-package prompts (`partially-covered` → `adopt-with-changes`).
-- **NDF-FC-COREOPS-003** – Source-Handoff for chat/external documents (`new` → `adopt-with-changes`).
-- **NDF-FC-COREOPS-004** – Blocked Report without artificial intermediate commit (`partially-covered` → `adopt-with-changes`).
+- **NDF-FC-CPF-001** – Git Read versus Git Write in work-package prompts (`partially-covered` → `adopt-with-changes`).
+- **NDF-FC-CPF-003** – Source-Handoff for chat/external documents (`new` → `adopt-with-changes`).
+- **NDF-FC-CPF-004** – Blocked Report without artificial intermediate commit (`partially-covered` → `adopt-with-changes`).
 
 Not addressed here (deferred to later adoption WPs): 002 (Adoption B), 005/006/007 (Adoption C).
 
 ## 4. Scope
 
-Additive, backward-compatible NDF safety clarifications in four reusable/normative documents plus this adoption evidence and a project-brain note. No new NDF version, no release, no skill/template change, no CoreOps change.
+Additive, backward-compatible NDF safety clarifications in four reusable/normative documents plus this adoption evidence and a project-brain note. No new NDF version, no release, no skill/template change, no source-project change.
 
 ## 5. Existing NDF Coverage
 
@@ -60,8 +60,8 @@ A fail-closed stop before any change is a complete, review-ready result with a s
 - `standards/git-standard.md` (additive: git read/write taxonomy, human-maintainer control)
 - `framework/standards/WORK_PACKAGE_LIFECYCLE.md` (additive: source-handoff, fail-closed, blocked report, no-change/no-artificial-commit, resume)
 - `framework/prompts/blocks/BLOCK_FEEDBACK_TO_NOVA.md` (additive: status/optional fields, blocked/no-change section)
-- `docs/validation/cross-project-feedback/COREOPS_TRANSFER_PACKAGE_001_ADOPTION_A.md` (new, this document)
-- `project-brain/COREOPS_TRANSFER_PACKAGE_001_ADOPTION_A_NOTES.md` (new)
+- `docs/validation/cross-project-feedback/CROSS_PROJECT_FEEDBACK_001_ADOPTION_A.md` (new, this document)
+- `project-brain/CROSS_PROJECT_FEEDBACK_001_ADOPTION_A_NOTES.md` (new)
 
 ## 11. Compatibility Assessment
 
@@ -73,7 +73,7 @@ Security-positive. The read-only allowlist prevents accidental write authorizati
 
 ## 13. Validation
 
-See the WP test matrix (preflight, candidate 001/003/004, cross-document consistency, scope, public neutrality, formatting). All adopted changes are additive; only the six Allowed Files were changed; no forbidden file, skill, template, or CoreOps file was touched; no network; no git write.
+See the WP test matrix (preflight, candidate 001/003/004, cross-document consistency, scope, public neutrality, formatting). All adopted changes are additive; only the six Allowed Files were changed; no forbidden file, skill, template, or source-project file was touched; no network; no git write.
 
 ## 14. Remaining Candidates
 
@@ -93,4 +93,4 @@ Project-local Follow-ups: none (project-local details stay in the source project
 
 ## 16. Next Decision
 
-Nova review of `NDF-ADOPT-COREOPS-001A`; then a human-maintainer decision and a separate maintainer commit; only afterwards NDF Adoption B. The NDF version for this adoption is not yet assigned; the CoreOps backlink stays pending until the maintainer commit.
+Nova review of `NDF-ADOPT-CPF-001A`; then a human-maintainer decision and a separate maintainer commit; only afterwards NDF Adoption B. The NDF version for this adoption is not yet assigned; the source backlink stays pending until the maintainer commit.

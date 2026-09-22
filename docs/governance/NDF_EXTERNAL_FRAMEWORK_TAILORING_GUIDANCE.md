@@ -12,7 +12,7 @@ Guidance Type: Optional framework-tailoring guidance
 Normative Release: Not yet assigned
 ```
 
-Adopted via `NDF-ADOPT-COREOPS-001C` from cross-project feedback candidate `NDF-FC-COREOPS-007` (framework tailoring before framework adoption). Optional guidance — distinct from the NDF-to-project project adapter.
+Adopted via `NDF-ADOPT-CPF-001C` from cross-project feedback candidate `NDF-FC-CPF-007` (framework tailoring before framework adoption). Optional guidance — distinct from the NDF-to-project project adapter.
 
 ## 2. Purpose
 
@@ -20,7 +20,7 @@ Provide a controlled way to evaluate and tailor external frameworks, methodologi
 
 ## 3. Scope
 
-Optional governance guidance only. **Out of scope:** the NDF-to-project project adapter (`../project-starter/PROJECT_ADAPTER_V0_2.md` handles adapting NDF to a project — a different concern), any change to accepted ADRs/security invariants/skills/CoreOps sources, any compliance/certification assessment. No new NDF version.
+Optional governance guidance only. **Out of scope:** the NDF-to-project project adapter (`../project-starter/PROJECT_ADAPTER_V0_2.md` handles adapting NDF to a project — a different concern), any change to accepted ADRs/security invariants/skills/source-project material, any compliance/certification assessment. No new NDF version.
 
 ## 4. External Framework Definition
 
