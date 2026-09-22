@@ -14,6 +14,10 @@ Escalate context budget when scope, safety, release, ADR, privacy or compatibili
 
 ```text
 WP-ID / Titel:
+SESSION:          # SAME_SESSION_ALLOWED | SAME_SESSION_RECOMMENDED | NEW_SESSION_RECOMMENDED | NEW_SESSION_REQUIRED
+SESSION REASON:   # required unless SAME_SESSION_ALLOWED
+STATUS:           # COMPLETE | COMPLETE REPLACEMENT
+SUPERSEDES:       # COMPLETE REPLACEMENT only — do not merge with earlier versions
 Prompt profile: Review-only (B1–B2)   # starts no new implementation
 
 Review-Auftrag:
@@ -34,5 +38,6 @@ Erwartetes Review-Ergebnis: GO / GO WITH NOTES / REWORK / STOP / BLOCKED
 
 - Review-only never edits code or starts implementation; it evaluates the Evidence Pack against the acceptance criteria.
 - If evidence is missing or contradictory → request it or escalate the budget; do not guess.
+- Execution header per the [Execution Contract](../../framework/prompts/blocks/BLOCK_EXECUTION_CONTRACT.md) (NDF-WP-153). A REWORK verdict is followed by a `COMPLETE REPLACEMENT` execution prompt, not a delta; a corrected review prompt is likewise re-issued in full with `SUPERSEDES`.
 - Governance/release/security reviews stay Full where the fail-closed rules require it.
 - No secrets, no private data, no private project names or domains.

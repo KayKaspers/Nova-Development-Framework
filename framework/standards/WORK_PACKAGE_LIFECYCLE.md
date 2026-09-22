@@ -30,6 +30,8 @@ Examples:
 
 Nova writes the Claude prompt with type, scope, allowed files, forbidden files, tests and Rückmeldung.
 
+Execution prompts carry the execution header (`SESSION`, `SESSION REASON`, `STATUS`) and form one complete, self-contained active contract per the [Execution Contract](../prompts/blocks/BLOCK_EXECUTION_CONTRACT.md) — complete, not verbose.
+
 ## 4. Execution
 
 Claude executes only within the scope and does not commit or push.
@@ -40,7 +42,7 @@ Claude reports summary, changed files, tests, risks and recommendation.
 
 ## 6. Nova Review
 
-Nova decides: GO, GO WITH NOTES, REWORK, SPLIT or STOP.
+Nova decides: GO, GO WITH NOTES, REWORK, SPLIT or STOP. This is the review verdict: it does not itself accept governed changes, change scope, accept ADRs, or trigger any Git/release action — normative acceptance and all irreversible actions stay with the Human Maintainer (section 7; `NOVA_REVIEW != HUMAN_ACCEPTANCE`). After REWORK, the corrected prompt is a `COMPLETE REPLACEMENT` (see section 13).
 
 ## 7. Maintainer Commit
 
@@ -112,3 +114,5 @@ The human maintainer may make a separate documentation/correction commit only wh
 ## 13. Resume / New Work Package after Unblock
 
 Once the unblock condition is met, the work package is resumed (or a new work package is started) from the documented resume point. A resume does not widen the original scope or allowed files.
+
+When the executable contract changes — resolution of `blocked`, REWORK, a scope or authority correction, a review-driven correction, or changed commands — the next instruction is a `COMPLETE REPLACEMENT` with `SUPERSEDES`, never a delta. The only exception is a pure Human-Maintainer selection among options already fully defined in the active instruction, and only while scope, authority, files, operations, commands, acceptance criteria and STOP conditions stay unchanged ([Execution Contract](../prompts/blocks/BLOCK_EXECUTION_CONTRACT.md), Rule 3).

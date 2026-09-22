@@ -10,11 +10,11 @@ This document turns the **prompt modes** introduced conceptually in the [Context
 
 ## DE – Status
 
-**Accepted (NDF-WP-113, 2026-07-08).** Foundation 0.8 ist scope-locked, **nicht released**, **nicht v1.0**. Dieses Dokument erstellt **keine aktiven Skills**, keine `.claude/skills`, keine `SKILL.md`, keine Scripts.
+**Accepted (NDF-WP-113, 2026-07-08);** additiv ergänzt durch NDF-WP-152 (Prompt-Profile) und NDF-WP-153 (Execution Header). *Historischer Kontext (Stand WP-113, nicht der aktuelle NDF-Stand):* Foundation 0.8 ist scope-locked, **nicht released**, **nicht v1.0**. Dieses Dokument erstellt **keine aktiven Skills**, keine `.claude/skills`, keine `SKILL.md`, keine Scripts. **Aktueller Stand:** NDF `v1.0.0` ist final released; v1.1 ist nur geplant (kein Scope Lock) — siehe [v1.1 Plan](../roadmap/V1_1_PLAN.md).
 
 ## EN – Status
 
-**Accepted (NDF-WP-113, 2026-07-08).** Foundation 0.8 is scope-locked, **not released**, **not v1.0**. This document creates **no active skills**, no `.claude/skills`, no `SKILL.md`, no scripts.
+**Accepted (NDF-WP-113, 2026-07-08);** additively extended by NDF-WP-152 (prompt profiles) and NDF-WP-153 (execution header). *Historical context (as of WP-113, not the current NDF state):* Foundation 0.8 is scope-locked, **not released**, **not v1.0**. This document creates **no active skills**, no `.claude/skills`, no `SKILL.md`, no scripts. **Current state:** NDF `v1.0.0` is final released; v1.1 is planning only (no scope lock) — see the [v1.1 plan](../roadmap/V1_1_PLAN.md).
 
 ## DE – Grundprinzip
 
@@ -118,11 +118,11 @@ Prompt modes are a documentation rule, **not** a skill. A later `ndf-token-econo
 
 ## DE – Nicht-Ziele
 
-Keine Chain-of-Thought-Anforderung; keine aktiven Skills; keine `.claude/skills`; keine Scripts; kein Modus, der Sicherheits-/Gate-/Human-Gate-Prüfungen umgeht; kein v1.0-Claim; keine aktive volle v1.x-Kompatibilitätszusage; keine Foundation-0.8-Release-Behauptung.
+*(Stand WP-113; die v1.0-, v1.x- und Foundation-0.8-Punkte sind historischer Kontext — aktueller Stand siehe Status.)* Keine Chain-of-Thought-Anforderung; keine aktiven Skills; keine `.claude/skills`; keine Scripts; kein Modus, der Sicherheits-/Gate-/Human-Gate-Prüfungen umgeht; kein v1.0-Claim; keine aktive volle v1.x-Kompatibilitätszusage; keine Foundation-0.8-Release-Behauptung.
 
 ## EN – Non-Goals
 
-No chain-of-thought requirement; no active skills; no `.claude/skills`; no scripts; no mode that bypasses safety/gate/human-gate checks; no v1.0 claim; no active full v1.x compatibility promise; no Foundation 0.8 release claim.
+*(As of WP-113; the v1.0, v1.x, and Foundation 0.8 items are historical context — for the current state see Status.)* No chain-of-thought requirement; no active skills; no `.claude/skills`; no scripts; no mode that bypasses safety/gate/human-gate checks; no v1.0 claim; no active full v1.x compatibility promise; no Foundation 0.8 release claim.
 
 ## DE – Additive Prompt-Profile (NDF-WP-152)
 
@@ -141,10 +141,23 @@ Zusätzlich zu **Full / Standard / Short** definiert die [Token Efficiency & Con
 
 In addition to **Full / Standard / Short**, the [Token Efficiency & Context Budget Baseline](../guides/TOKEN_EFFICIENCY_AND_CONTEXT_BUDGET_BASELINE.md) (NDF-WP-152) defines **additive prompt profiles** (Lean, Handoff, Review-only, Fix) and **Context Budgets B0–B4**. They do **not** change the existing three modes and relax no safety/gate/human-gate rule; they only refine how much context a normal work package loads. Lean is the preferred normal case unless elevated complexity/criticality applies; Full must not be chosen merely because it feels safer and stays mandatory for release, ADR, security policy, v1.x-compatibility, and complex reviews. Handoff is not an implementation mode; Review-only starts no new implementation; Fix must not widen scope. See the baseline guide for budgets, templates, and fail-closed rules.
 
+## DE – Execution Header (NDF-WP-153)
+
+Der Execution Header gilt für **alle** Modi (Full / Standard / Short) und alle additiven Profile (Lean / Handoff / Review-only / Fix): `SESSION` (genau einer von `SAME_SESSION_ALLOWED`, `SAME_SESSION_RECOMMENDED`, `NEW_SESSION_RECOMMENDED`, `NEW_SESSION_REQUIRED`), `SESSION REASON` (außer bei `SAME_SESSION_ALLOWED`) und `STATUS` (`COMPLETE` | `COMPLETE REPLACEMENT`, bei Ersatz mit `SUPERSEDES`). Regeln: [Execution Contract](../../framework/prompts/blocks/BLOCK_EXECUTION_CONTRACT.md).
+
+- Die Semantik von Full / Standard / Short bleibt unverändert; Lean / Handoff / Review-only / Fix bleiben additive WP-152-Profile.
+- Vollständigkeit bedeutet **nicht** mehr Kontext (`COMPLETE != VERBOSE`): Standardregeln werden weiter referenziert, das gewählte Budget bleibt unverändert.
+- Neu erstellte Ausführungsprompts **müssen** die Deklaration tragen; fehlt sie, ist das ein Prompt-Defekt (REWORK + `COMPLETE REPLACEMENT`).
+- Legacy-Prompts vor WP-153 ohne Deklaration werden nicht allein deshalb blockiert: Kompatibilitäts-Fallback `NEW_SESSION_RECOMMENDED` + Meldung `SESSION_DECLARATION_MISSING_LEGACY`.
+
+## EN – Execution Header (NDF-WP-153)
+
+The execution header applies to **all** modes (Full / Standard / Short) and all additive profiles (Lean / Handoff / Review-only / Fix): `SESSION` (exactly one of the four values), `SESSION REASON` (except for `SAME_SESSION_ALLOWED`), and `STATUS` (`COMPLETE` | `COMPLETE REPLACEMENT`, the latter with `SUPERSEDES`); rules in the [Execution Contract](../../framework/prompts/blocks/BLOCK_EXECUTION_CONTRACT.md). Full / Standard / Short semantics stay unchanged; Lean / Handoff / Review-only / Fix remain additive WP-152 profiles. Completeness does not mean more context (`COMPLETE != VERBOSE`): stable rules stay referenced and the chosen budget is unchanged. Newly authored execution prompts must carry the declaration (missing = prompt defect → REWORK + `COMPLETE REPLACEMENT`); legacy prompts predating WP-153 are not blocked for a missing declaration alone — compatibility fallback `NEW_SESSION_RECOMMENDED`, reported as `SESSION_DECLARATION_MISSING_LEGACY`.
+
 ## DE – Nächste Schritte
 
-**NDF-WP-114 – Foundation 0.8 Release Readiness Review.** Danach WP-115 (Release Prep). Optional WP-112 (Skills MVP Implementation, nur per Human-Maintainer-Scope-Change).
+*Historisch (Stand WP-113):* **NDF-WP-114 – Foundation 0.8 Release Readiness Review.** Danach WP-115 (Release Prep). Optional WP-112 (Skills MVP Implementation, nur per Human-Maintainer-Scope-Change). **Aktuell:** nächste Schritte laut [v1.1 Plan](../roadmap/V1_1_PLAN.md) — nach Nova-/Human-Maintainer-Annahme von WP-153 folgt WP-154 (Skills Pack P0 Hardening).
 
 ## EN – Next Steps
 
-**NDF-WP-114 – Foundation 0.8 Release Readiness Review.** Then WP-115 (release prep). Optionally WP-112 (skills MVP implementation, only via human-maintainer scope change).
+*Historical (as of WP-113):* **NDF-WP-114 – Foundation 0.8 Release Readiness Review.** Then WP-115 (release prep). Optionally WP-112 (skills MVP implementation, only via human-maintainer scope change). **Current:** next steps per the [v1.1 plan](../roadmap/V1_1_PLAN.md) — after Nova/Human-Maintainer acceptance of WP-153, WP-154 (Skills Pack P0 Hardening) follows.

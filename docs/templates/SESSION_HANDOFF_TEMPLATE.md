@@ -25,6 +25,7 @@ Blockers:
 Relevant files:
 Do not reload:
 Next action:
+Session for next step:        # one of the four SESSION values + reason (unless SAME_SESSION_ALLOWED)
 Recommended prompt profile:
 Forbidden work:
 Compact Context Summary:
@@ -41,5 +42,6 @@ Compact Context Summary:
 ## Notes
 
 - One screen maximum (~30 lines). It replaces chat history, not the safety/gate/human-review checks.
+- `Session for next step`: `SAME_SESSION_ALLOWED` / `SAME_SESSION_RECOMMENDED` / `NEW_SESSION_RECOMMENDED` / `NEW_SESSION_REQUIRED`; give a concise reason for every value except `SAME_SESSION_ALLOWED` ([Execution Contract](../../framework/prompts/blocks/BLOCK_EXECUTION_CONTRACT.md), NDF-WP-153).
 - `Recommended prompt profile`: Lean / Handoff / Review-only / Fix / Standard / Full — escalate on any fail-closed trigger.
 - No secrets, no private data, no private project names or domains.

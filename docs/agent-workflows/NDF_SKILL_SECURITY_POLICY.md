@@ -42,11 +42,11 @@ Forbidden (unless later narrowly allowed by an explicit ADR/scope decision): aut
 
 ## DE – Human-Maintainer-Gates
 
-Der Human Maintainer bleibt finaler Owner: GO / GO WITH NOTES / REWORK / STOP, Commit, Push, Tag, Release. Skills treffen keine irreversiblen Entscheidungen und lösen keine Git-/Release-Aktionen aus.
+Der Human Maintainer bleibt finaler Owner: GO / GO WITH NOTES / REWORK / STOP, Commit, Push, Tag, Release. Skills treffen keine irreversiblen Entscheidungen und lösen keine Git-/Release-Aktionen aus. Klarstellung (NDF-WP-153): Nova (ChatGPT) gibt als Review-Rolle Review-Verdikte (GO / GO WITH NOTES / REWORK / STOP / BLOCKED) ab — Bewertungen, keine Annahme; die finale normative Entscheidung (Annahme, Scope-Änderung, ADR-Annahme) und alle Git-/Release-Aktionen bleiben beim Human Maintainer (`NOVA_REVIEW != HUMAN_ACCEPTANCE`).
 
 ## EN – Human Maintainer Gates
 
-The human maintainer stays final owner: GO / GO WITH NOTES / REWORK / STOP, commit, push, tag, release. Skills make no irreversible decisions and trigger no git/release actions.
+The human maintainer stays final owner: GO / GO WITH NOTES / REWORK / STOP, commit, push, tag, release. Skills make no irreversible decisions and trigger no git/release actions. Clarification (NDF-WP-153): Nova (ChatGPT), as the review role, issues review verdicts (GO / GO WITH NOTES / REWORK / STOP / BLOCKED) — evaluations, not acceptance; the final normative decision (acceptance, scope change, ADR acceptance) and all git/release actions stay with the human maintainer (`NOVA_REVIEW != HUMAN_ACCEPTANCE`).
 
 ## DE – Public Quality Gate
 
@@ -127,6 +127,14 @@ Jeder WP-bezogene Skill unterstützt die Rückmeldung an Nova (ChatGPT) und die 
 ## EN – Rückmeldung an Nova and Compact Context Summary
 
 Every work-package-related skill supports the Report to Nova (ChatGPT) and the Compact Context Summary and must not bypass or shorten them where they are required.
+
+## DE – Ausgabevorrang: aktiver Prompt vor Skill (NDF-WP-153)
+
+Generische Skill-Ausgabeverträge überschreiben nicht das ausdrücklich vorgegebene Rückgabeformat des aktiven, autorisierten Prompts; bei Konflikt gilt das Prompt-Format. Höherrangige normative Pflichtinhalte (z. B. Rückmeldung an Nova, Compact Context Summary, Human-Maintainer-Gates) bleiben bindend und werden in die Struktur des Prompts eingepasst. Ein Skill ersetzt oder schwächt den aktiven Ausführungsvertrag nie stillschweigend; ein echter normativer Konflikt wird gemeldet und fail-closed behandelt. Siehe [Execution Contract](../../framework/prompts/blocks/BLOCK_EXECUTION_CONTRACT.md). Diese Klarstellung ändert weder den Skill-Scope (öffentlich/privat) noch Netzwerk-, Script- oder Secret-Regeln noch ADR-0032.
+
+## EN – Output Precedence: Active Prompt over Skill (NDF-WP-153)
+
+Generic skill output contracts do not override the explicit return format of the active authorised prompt; on conflict, the prompt's format wins. Higher normative requirements (e.g. the Report to Nova, the Compact Context Summary, human-maintainer gates) stay binding and are fitted into the prompt's structure. A skill never silently replaces or weakens the active execution contract; a real normative conflict is reported and fails closed. See the [Execution Contract](../../framework/prompts/blocks/BLOCK_EXECUTION_CONTRACT.md). This clarification changes neither the skill scope (public/private) nor the network, script, or secret rules, nor ADR-0032.
 
 ## DE – Skill-Provenance und Integritäts-Lock
 

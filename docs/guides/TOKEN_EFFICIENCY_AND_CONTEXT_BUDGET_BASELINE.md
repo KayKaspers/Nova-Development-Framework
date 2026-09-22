@@ -92,6 +92,8 @@ Normal WP prompts reduce to **8 elements**:
 
 Template: [`LEAN_WP_PROMPT_TEMPLATE.md`](../templates/LEAN_WP_PROMPT_TEMPLATE.md).
 
+**Execution contract (NDF-WP-153):** every execution prompt also carries the execution header (`SESSION`, `SESSION REASON`, `STATUS`; `SUPERSEDES` for replacements) per the [Execution Contract](../../framework/prompts/blocks/BLOCK_EXECUTION_CONTRACT.md). A *Complete Execution Instruction* does not mean repeating stable boilerplate: the 8-element core plus the always-visible fields is complete. A full replacement after a correction reuses the compact current contract, not the entire historical conversation.
+
 ## 10. Session Handoff
 
 A minimal resume format so a new chat/session does not need the whole old chat. Template: [`SESSION_HANDOFF_TEMPLATE.md`](../templates/SESSION_HANDOFF_TEMPLATE.md). Handoff types: implementation continuation, review, fix, human-maintainer decision, Nova handoff. It builds on the existing Compact Context Summary and adds the two missing fields *Do not reload* and *Forbidden work*. It is a template + the additive Handoff profile — **not** a new skill.
@@ -149,7 +151,7 @@ Select only the skills required for the current task.
 | B3 | 4–8 |
 | B4 | only with explicit justification |
 
-Frequently useful candidates (WP-151), **not to be forced blindly into every prompt**: `ndf-work-package-runner`, `ndf-compact-context-summary-runner`, `ndf-public-neutrality-guard`, `ndf-changelog-writer`. The 38 skills stay unchanged; this is a usage rule, not a skill change.
+**Core candidate set** — the four core-MVP skills of the authoritative [Skills-first Operating Mode](../validation/foundation-0-9/SKILLS_FIRST_OPERATING_MODE.md): `ndf-work-package-runner`, `ndf-compact-context-summary-runner`, `ndf-public-neutrality-guard`, `ndf-context-pack-maintainer` — selected per task, **not forced blindly into every prompt**. `ndf-changelog-writer` is a **support skill**, selected only when the CHANGELOG is actually in scope. *(Reconciled in NDF-WP-153: the WP-151 real-use classification had listed `ndf-changelog-writer` instead of `ndf-context-pack-maintainer` among the four frequent candidates.)* The 38 skills stay unchanged; this is a usage rule, not a skill change.
 
 ## 15. Optional project-local tools
 
@@ -173,3 +175,5 @@ Pilot archetype: **operations-oriented consumer project** (neutral; no private p
 ## 18. Decision
 
 **GO WITH NOTES – token efficiency and context budget baseline implemented.** Additive and docs-only; no new skills; no skill removal/renaming; no tool requirement; no MCP/API/OAuth/network; Lean is the new preferred normal case but fail-closed; B4 is exceptional, not standard; project-local pilot recommended; v1.1 stays planning only (no scope lock, no release prep). Next: Human-Maintainer commit, then run the project-local pilot before any NDF-core hardening.
+
+*Status update (NDF-WP-153):* WP-152 is committed (`c4c1c34`); real project-local pilot evidence informed the follow-up [Execution Contract](../../framework/prompts/blocks/BLOCK_EXECUTION_CONTRACT.md) (WP-153). Current sequence: [v1.1 plan](../roadmap/V1_1_PLAN.md).

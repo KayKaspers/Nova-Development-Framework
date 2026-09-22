@@ -56,6 +56,10 @@ git config · git submodule · git lfs
 
 Staging, Commit, Push, Tag und Release kontrolliert ausschließlich der Human Maintainer. Ein Implementation Agent führt kein Commit/Push/Tag/Release ohne ausdrückliche, frameworkkonforme Ausnahme aus.
 
+## Befehlsfolgen für den Human Maintainer (NDF-WP-153)
+
+Git-Befehlsfolgen, die dem Human Maintainer zur Ausführung übergeben werden, folgen der Complete Execution Instruction Rule des [Execution Contract](../framework/prompts/blocks/BLOCK_EXECUTION_CONTRACT.md): Ziel-Shell, Arbeitsverzeichnis, erforderliche Baseline/Vorbedingungen, vollständige geordnete Befehlsfolge für das freigegebene Gate, erwartetes Ergebnis, Verifikation, STOP-Bedingung. Korrekturen werden als vollständige Ersatz-Befehlsfolge (`COMPLETE REPLACEMENT`) neu ausgegeben — nie als Delta („vorherigen Block nehmen, aber Befehl 4 ersetzen"). Die Git-Autorität ändert sich dadurch nicht (siehe Human-Maintainer-Kontrolle).
+
 ## Hinweis: Work-Package-spezifische Allowlist
 
 Die konkrete erlaubte Read-only-Git-Liste wird pro Work Package festgelegt (nur die tatsächlich benötigten Befehle). Diese Datei ist ein Standard-Bezug, keine Git-Einsteigeranleitung und keine vollständige Git-Dokumentation.
