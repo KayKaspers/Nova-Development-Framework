@@ -1,7 +1,7 @@
 <p align="center">
   <img
-    src="branding/assets/svg/ndf-banner.svg"
-    alt="Nova Development Framework — Plan. Build. Review. Improve."
+    src="branding/assets/png/ndf-banner.png"
+    alt="Nova Development Framework (NDF) banner: Development Governance Framework. Structure, evidence, progress. Governance, evidence, releases, Work Packages."
     width="100%"
   />
 </p>
